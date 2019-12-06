@@ -14,6 +14,8 @@ buffer equ #a300;...#a320
     include "zx.asm"    
     
 begin_file:
+    ; устанавливаем дно стека
+    ld sp,#6100
     ; разрешаем прерывания
     ei
 

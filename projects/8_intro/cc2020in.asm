@@ -24,7 +24,8 @@ im2_table equ #9E00; 257 байт!
 begin_file:
 main:
     di
-
+    ld sp,#6100
+    
     ; черный бордюр 
     xor a
     out (#fe),a    
@@ -241,13 +242,13 @@ text_font equ 15616 - 256
 text_font_width equ 7
 text_string:
     byte "    3..   2..   1..   0.....................? ... .. . "
-    byte "Hello scener! You are invited to Chaos Constructions 2020 demoparty! At 22-23 August, Saint-Peterburg, Russia.   "
-    byte "This is the largest Russian demoparty. At the party there will be a large screen, many demosceners, "
-    byte "a retro exhibition, beeeeeer, and cool demos!   "
+    byte "Hello scener! You are invited to Chaos Constructions 2020 demoparty! At 22-23 August, Saint-Peterburg, Russia. "
+    byte "This is the largest Russian demoparty. At the party there will be a large screen, a lot of demosceners, "
+    byte "a retro exhibition, beeeeeer, and cool demos! "
     byte "Come to us and do not forget to bring the prod with you!   "
     byte "*** chaosconstructions.ru ***   "
-    byte "This invitro from errorsoft: error(code) & Quiet(music) special to BR4CSP4CE visitors!   "
-    byte "It's open source intro, see github.com/errorcalc/demoscene/          " ,0 
+    byte "This invitro from errorsoft: Error(code) & Quiet(music) special to B4CKSP4CE visitors!   "
+    byte "It's open source, see github.com/errorcalc/zx_starter_pack     " ,0 
 
 text_print:
     ; сдвигаем текст в буффере

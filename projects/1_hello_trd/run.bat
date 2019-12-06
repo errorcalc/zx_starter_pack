@@ -1,7 +1,7 @@
 @echo off
 
 rem mode
-set mode=tap
+set mode=trd
 rem Params
 set name=hello
 set loader_name=hello

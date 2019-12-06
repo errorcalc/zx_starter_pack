@@ -11,6 +11,8 @@ fast_point_table equ #a000; 1k table
     org #6100
     
 begin_file:
+    ; устанавливаем дно стека
+    ld sp,#6100
     ; разрешаем прерывания
     ei
 

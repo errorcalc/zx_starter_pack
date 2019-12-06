@@ -1,7 +1,7 @@
 @echo off
 
 rem mode
-set mode=trd
+set mode=sna
 rem Params
 set name=fire
 set loader_name=fire

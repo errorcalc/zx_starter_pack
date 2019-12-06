@@ -13,6 +13,8 @@ attr equ #5800
     endm
     
 begin_file:
+    ; устанавливаем дно стека
+    ld sp,#6100
     ; разрешаем прерывания
     ei
 
@@ -49,11 +51,13 @@ begin_file:
     ld c,img_w/8
     call draw_img   
 
+/*
     ld_sxy de,(256/2-backspace_w/2)/8,160
     ld hl,backspace_data
     ld b,backspace_h
     ld c,backspace_w/8
     call draw_img  
+*/    
     
     jp .loop
     
