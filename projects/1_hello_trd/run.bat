@@ -32,7 +32,7 @@ rem Copy %loader_name%.$B(hobeta file) to %name%.trd(disk image)
 del %loader_name%.$B
 
 rem Copy boot to %name%.trd
-..\..\utils\trdtool + %name%.trd "..\..\boots\realmasters_boot.$B"
+..\..\utils\trdtool + %name%.trd "..\..\boots\xyz_boot.$B"
 
 rem Copy bin to %name%.trd
 ..\..\utils\trdtool + %name%.trd hello.$C
