@@ -1,0 +1,505 @@
+; ErrorSoft Green Pixel
+; Language pack: Indonesian
+; Created by: Aryo Adhi Wibisono (aryo_adhi@yahoo.com)
+
+; General dictionary
+LABEL_WIDTH=Lebar
+LABEL_HEIGHT=Panjang
+LABEL_SIZE=Ukuran
+LABEL_COLOR=Warna
+LABEL_KIND=Kind
+LABEL_ANTIALIAS=Antialias
+LABEL_POSITION=Posisi
+LABEL_FILE_SIZE=Ukuran File
+UNTITLED=Tanpa Judul
+
+; Buttons
+B_OK=OK
+B_CANCEL=Batalkan
+B_YES=Ya
+B_NO=Tidak
+B_RESET=Ulangi
+B_ADD=Tambah
+B_REMOVE=Hapus
+B_CLEAR=Kosongkan
+B_CLOSE=Tutup
+B_ALL=Semua
+B_NONE=Tidak semuanya
+B_PRINT=Cetak
+B_PRINTER_SETUP=Pengaturan Printer
+B_PREVIEW=Tampilkan
+B_COMPILE=Kompilasi
+
+; Shown messages
+MSG_CONFIRMATION=Konfirmasi
+MSG_NOT_EXIST="%s" tidak ada.
+MSG_OVERWRITE=Anda yakin ingin menimpa "%s"?
+MSG_UNKNOWN_FILE_TYPE=Format file dari "%s" Tidak bisa dibuat.<br>File ini tidak bisa dimuat dan disimpan oleh ErrorSoft Green Pixel atau mempunyai ekstensi salah.
+MSG_INVALID_FILE_FORMAT=File "%s" bukan berformat "%s".<br>File tsb. mungkin korup, berekstensi salah, atau filter yang salah dari dialog Buka.
+MSG_CROPPED=Gambar ini lebih besar dari %dx%d dan sudah dipotong.<br>Menyimpan ini mungkin membuat kehilangan bbrp data.<br>Gunakan Opsi|Pengaturan untuk menambah batas ukuran gambar.
+MSG_SAVE_CHANGES=Apakah Anda ingin menyimpan "%s"?
+MSG_CONFIRM_REVERT=Semua perubahan dari "%s" akan hilang dan TIDAK BISA dibatalkan.<br>Anda yakin ingin melanjutkannya?
+MSG_CONFIRM_REMOVE=Anda yakin ingin menghapus item terpilih?
+MSG_CONFIRM_DESTROY_EXE=Ikon/kursor ini tidak bisa diganti secara mudah di program ini atau kumpulan ikon ini.<br><br>Jika program ini atau DLL ini punya kegunaan lain selain menyimpan ikon, maka kapabilitas lain akan hilang jika disimpan.<br>Jika file ini hanya kumpulan ikon, maka tidak ada hal yang buruk yang terjadi.<br><br>Lanjutkan?
+MSG_DATA_LOSS_INFO=Untuk menghindari kehilangan data, Anda harus menyimpan dokumen ini dengan format yang lain.
+MSG_DL_MULTIPAGE=Format file ini tidak bisa menyimpan beberapa halaman dalam satu file.<br>Hanya halaman pertama saja yang disimpan.
+MSG_DL_LAYERS=Format file ini tidak bisa menyimpan layer. Gambar sudah diratakan.
+MSG_DL_SIZE_256=Format file ini tidak bisa menyimpan gambar dgn ukuran lebih besar dari 256x256.<br>Gambar tersebut sudah dipotong.
+MSG_DL_TRANSPARENCY=Format file ini tidak bisa menyimpan data transparansi.
+MSG_DL_COLOR_DEPTH=Beberapa data warna tidak bisa disimpan.
+MSG_DL_ICNS=Beberapa halaman tidak bisa disimpan karna batasan dari format ICNS.<br>Lihat bantuan di bagian format file untuk informasi lebih lanjut.
+MSG_FT_NO_OPTIONS=Format file yang dipilih tidak bisa dimodifikasi
+MSG_ADD_FILES=Tolong tambah beberapa file ke daftar
+MSG_SELECT_PAGES=Tolong pilih beberapa halaman
+MSG_SELECT_ITEMS=Tolong pilih beberapa item
+MSG_NO_LAYERS=Tidak ada layer yang ada
+MSG_NO_LAYERS_SELECTED=Tidak ada layer yang dipilih
+MSG_RES_EXIST=Resource lain dengan tipe spesifik, nama dan bahasa sudah ada.<br>Tolong pilih nama atau bahasa lain.
+MSG_ERROR_WRITE_RES=Kesalahan terjadi ketika menyimpan resource tertentu.
+MSG_PAGE_SIZE_0=Kesalahan: Ukuran halaman tidak bisa 0 mm.<br>Pilih format halaman yang lain.
+MSG_ERROR_ASSOC=Asosiasi file tidak bisa diatur. Menjalankan GreenPixel dalam mode administrator mungkin menylesaikan masalah.
+MSG_FAIL_SINGLE_OPEN=Tidak bisa membuka file.
+MSG_FAIL_MULTIPLE_OPEN=Beberapa file tidak bisa dibuka.
+
+; Open/Save dialog filters
+FF_ALL=Semua file
+FF_GFIE=Format GreenPixel natif
+FF_ICO=File ikon
+FF_CUR=Format kursor
+FF_ANI=Kursor animasi
+FF_ICNS=Ikon Apple Icon Image
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bitmap
+FF_JPEG=JPEG
+FF_GIF=grafis animasi
+FF_JPEG_2000=JPEG 2000
+FF_PCX=PCX
+FF_EXEC=Semua program dan kumpulan ikon
+FF_ICL=Kumpulan ikon
+FF_RES=File resource Win32
+
+; Tool names
+TOOL_SEL_RECT=Seleksi kotak
+TOOL_SEL_ELLIPSE=Seleksi lingkaran
+TOOL_LASSO=Lasso
+TOOL_WAND=Tongkat
+TOOL_SEL_PENCIL=Seleksi pensil
+TOOL_TRANSFORM=Bentuk ulang
+TOOL_CROP=Potong
+TOOL_HOTSPOT=Hot spot
+TOOL_EYEDROPPER=Pilih Warna
+TOOL_RETOUCH=Sentuhan Ulang
+TOOL_RECT=Bujursangkar
+TOOL_ELLIPSE=Lingkaran
+TOOL_LINE=Garis
+TOOL_TEXT=Teks
+TOOL_PENCIL=Pensil
+TOOL_BRUSH=Kuas
+TOOL_ERASER=Penghapus
+TOOL_RECOLOR=Warna ulang
+TOOL_BUCKET=Ember warna
+TOOL_GRADIENT=Gradasi
+TOOL_NONE=Tidak ada
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=File
+MI_FILE_NEW_GRAPHIC=Gambar baru
+MI_FILE_NEW_LIBRARY=Kumpulan ikon baru
+MI_FILE_OPEN=Buka
+MI_FILE_RECENT_FILES=File terakhir
+MI_FILE_RF_CLEAR=Kosongkan daftar
+MI_FILE_BATCH_CONVERT=Konversi file
+MI_FILE_CLOSE=Tutup
+MI_FILE_CLOSE_ALL=Tutup semua
+MI_FILE_SAVE=Simpan
+MI_FILE_SAVE_AS=Simpan sebagai
+MI_FILE_SAVE_ALL=Simpan semua
+MI_FILE_REVERT=Batalkan perubahan
+MI_FILE_METADATA=Metadata
+MI_FILE_PRINT=Cetak
+MI_FILE_EXIT=Keluar
+
+MI_EDIT=Edit
+MI_EDIT_UNDO=Batalkan
+MI_EDIT_CANT_UNDO=Tidak bisa membatalkan
+MI_EDIT_REDO=Ulangi
+MI_EDIT_CANT_REDO=Tidak bisa mengulang
+MI_EDIT_CUT=Potong
+MI_EDIT_COPY=Salin
+MI_EDIT_PASTE=Tempel
+MI_EDIT_PASTE_PAGE=Tempel sbg halaman baru
+MI_EDIT_PASTE_DOC=Tempel sbg dokumen baru
+MI_EDIT_DELETE=Hapus
+MI_EDIT_SEL_ALL=Pilih semua
+MI_EDIT_SEL_NONE=Batalkan pilihan
+MI_EDIT_SEL_INVERT=Balikkan pilihan
+MI_EDIT_SEL_LOAD=Muat mask pilihan
+MI_EDIT_SEL_SAVE=Simpan mask pilihan
+MI_EDIT_CROP_TRANSPARENCY=Potong warna transparan
+MI_EDIT_TRANSFORM=Bentuk ulang
+MI_EDIT_SEL_TRANSFORM=Bentuk ulang bag. dipilih
+MI_EDIT_FLIP_HORIZ=Balikkan horisontal
+MI_EDIT_FLIP_VERT=Balikkan vertikal
+MI_EDIT_ROTATE_LEFT=Putar 90 derajat kiri
+MI_EDIT_ROTATE_RIGHT=Putar 90 derajat kanan
+MI_EDIT_ROTATE_180=Putar 180 derajat
+
+MI_VIEW=Lihat
+MI_VIEW_ZOOM_IN=Perbesar
+MI_VIEW_ZOOM_OUT=Perkecil
+MI_VIEW_100_PERCENT=Ukuran 100%
+MI_VIEW_FIT_WINDOW=Muat ke jendela
+MI_VIEW_GRID=Petak
+MI_VIEW_CELL_GRID=Sel berpola
+MI_VIEW_CENTER_LINES=Garis tengah
+MI_VIEW_PAGES=Daftar halaman
+MI_VIEW_TOOLBAR=Toolbar
+MI_VIEW_COLOR_PICKER=Daftar warna
+MI_VIEW_TOOL_BEHAVIOR=Sifat alat
+MI_VIEW_LAYERS=Layer
+MI_VIEW_PANEL_LEFT=Panel kiri
+MI_VIEW_PANEL_RIGHT=Panel kanan
+MI_VIEW_STARTUP_SCREEN=Layar Pembuka
+
+MI_FLT=Filter
+MI_FLT_GRAYSCALE=Hitam putih
+MI_FLT_INVERT=Balikkan warna
+MI_FLT_SOLARIZE=Solarisasi
+MI_FLT_RGB=Channel RGB
+MI_FLT_HS=Hue/Saturasi
+MI_FLT_EXPOSURE=Eksposur
+MI_FLT_FORMULAE=Formula RGB
+MI_FLT_AVERAGE=Rata-rata
+MI_FLT_BLUR_SOFT=Blur halus
+MI_FLT_BLUR_MORE=Blur lagi
+MI_FLT_BLUR_CUSTOM=Blur kustom
+MI_FLT_SHARPEN=Pertajam gambar
+MI_FLT_UNSHARP_MASK=Kurangi ketajaman mask
+MI_FLT_REMOVE_MATTE=Hapus matte
+MI_FLT_OPACITY=Ketebalan
+MI_FLT_PAINT_CONTOUR=Kontour
+MI_FLT_DROP_SHADOW=Bayangan
+MI_FLT_GLOW=Sinar
+MI_FLT_BEVEL=Timbul
+
+MI_LAYERS=Layer
+MI_LAYERS_NEW=Layer baru
+MI_LAYERS_DUPLICATE=Gandakan layer
+MI_LAYERS_DELETE=Hapus layer
+MI_LAYERS_PROP=Pengaturan layer
+MI_LAYERS_MERGE_SELECTED=Satukan yg dipilih
+MI_LAYERS_MERGE_VISIBLE=Satukan yg terlihat
+MI_LAYERS_FLATTEN=Ratakan
+MI_LAYERS_FROM_SEL=Buat layer dari pilihan
+
+MI_ICON=Ikon
+MI_ICON_PAGE_NEW=Halaman baru
+MI_ICON_PAGE_DELETE=Hapus halaman
+MI_ICON_PAGE_PROP=Pengaturan halaman
+MI_ICON_PAGE_IMPORT=Impor halaman
+MI_ICON_PAGE_EXPORT=Ekspor Halaman
+MI_ICON_PAGE_EXPORT_ALL=Ekspor semua halaman
+MI_ICON_UNIFORM_RATE=Samakan durasi halaman dgn ini
+MI_ICON_CREATE_WIN=Buat ikon Windows dari gambar
+MI_ICON_CREATE_MAC=Buat ikon Apple Mac dari gambar
+MI_ICON_TEST=Tes
+
+MI_LIB=Kumpulan
+MI_LIB_ADD=Tambah data
+MI_LIB_REMOVE=Hapus data
+MI_LIB_REPLACE=Ganti data
+MI_LIB_PROP=Pengaturan data
+MI_LIB_EXTRACT_EDIT=Ekstrak dan Edit
+MI_LIB_EXTRACT_SAVE=Ekstrak dan Simpan
+
+MI_SET=Opsi
+MI_SET_PREFERENCES=Pengaturan
+MI_SET_LANGUAGE=Bahasa
+
+MI_HELP=Bantuan
+MI_HELP_CONTENTS=Konten
+MI_HELP_HOMEPAGE=Halaman Utama
+MI_HELP_SUPPORT=Bantuan Online
+MI_HELP_DONATE=Donasi
+MI_HELP_ABOUT=Tentang
+
+; Pixel Format to String
+PF_1_BIT=1 bit
+PF_16_COLORS=16 warna
+PF_256_COLORS=256 warna
+PF_24_BIT=24 bit
+PF_32_BIT=32 bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=Buat bagian melayang
+UNDO_MERGE_LAYERS=Menyatukan layer
+UNDO_MOVE_LAYERS=Memindah layer
+UNDO_MOVE_PAGE=Memindah halaman
+UNDO_FLIP_ROTATE=Balikkan/Putar
+
+; Layers glossary
+LY_LAYER=Layer
+LY_BACKGROUND=Latar blkg
+LY_FLOATING_SEL=Bagian melayang
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Halaman baru
+PG_CAPTION_PAGE_PROP=Pengaturan halaman
+
+PG_SIZE_SMALLEST=terkecil
+PG_SIZE_TOOLBAR=seukuran toolbar
+PG_SIZE_SMALL=kecil
+PG_SIZE_MEDIUM=menengah
+PG_SIZE_LARGE=besar
+PG_SIZE_HUGE_VISTA=sangat besar, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Ukuran kustom
+PG_SQUARE=Skala 1:1
+
+PG_CR=Pengurangan warna
+PG_CR_BW=Hitam Putih
+PG_CR_16_WIN=16 warna (palet Windows)
+PG_CR_16_MAC=16 warna (palet Mac)
+PG_CR_256_ADAPT=256 warna (adaptif)
+PG_CR_256_MAC=256 warna (palet Mac)
+PG_CR_24=24-bit RGB
+PG_CR_32=Tidak ada (32-bit)
+
+PG_ANIMATION=Animasi
+PG_FRAME_RATE=Durasi frame (millisekon)
+
+PG_CREATE_FROM_SELECTED=Buat dari halaman terpilih
+PG_WHEN_RESIZING=Jika diukur ulang
+PG_STRETCH=Lebarkan
+PG_CROP=Potong
+PG_IMAGE_ANCHORS=Pusat gambar
+
+; Filter dialogs
+LABEL_RED=Merah
+LABEL_GREEN=Hijau
+LABEL_BLUE=Biru
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Pergeseran Hue
+LABEL_SATURATION=Saturasi
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Kecerahan
+LABEL_TORIC=Modus Torus
+LABEL_GAUSSIAN_BLUR=Gaussian Blur
+LABEL_BOX_BLUR=Box Blur
+LABEL_MATTE_COLOR=Warna Matte
+LABEL_WHITE_MATTE=Matte putih
+LABEL_BLACK_MATTE=Matte hitam
+LABEL_INNER_GLOW=Sinar dalam
+LABEL_OUTER_GLOW=Sinar luar
+
+LABEL_AMOUNT=Banyaknya
+LABEL_ANGLE_DEGREES=Sudut (derajat)
+LABEL_BLUR=Blur
+LABEL_DISTANCE=Jarak
+LABEL_INTENSITY=Intensitas
+LABEL_OPACITY=Ketebalan
+LABEL_RADIUS=Radius
+LABEL_THRESHOLD=Threshold
+
+; Batch conversion dialog
+BC_FILES=File
+BC_SETTINGS=Pengaturan
+BC_FORMAT=Konversi ke
+BC_FOLDER=Folder tujuan
+BC_OPEN=Buka file yang dikonversi ke ErrorSoft Green Pixel
+BC_ICON_FORMATS=Format ikon untuk dibuat
+
+; Cell grid dialog
+CG_ENABLED=Aktif
+CG_SIZE=Ukuran sel
+CG_SPACING=Jarak per garis
+CG_OFFSET=Offset
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Pilih format yang Anda ingin buat
+
+; ICL format dialog
+IF_TITLE=Pilih format ICL
+
+; Language dialog
+LABEL_LANG_PACK=Pak bahasa
+
+; Layer properties dialog
+LP_NAME=Nama
+LP_VISIBLE=Terlihat?
+LP_BLEND_MODE=Mode penggabungan
+
+LP_BM_NORMAL=Normal (Tdk ada)
+LP_BM_MASK=Mask
+LP_BM_BEHIND=Di belakang
+LP_BM_DISSOLVE=Dissolve
+LP_BM_HUE=Hue
+LP_BM_HUE_SHIFT=Geser hue
+LP_BM_SAT=Saturasi
+LP_BM_DARKEN=Pergelap
+LP_BM_MULTIPLY=Gandakan
+LP_BM_COLOR_BURN=Bakar warna
+LP_BM_LINEAR_BURN=Bakar garis linear
+LP_BM_DARKER_COLOR=Pergelap warna
+LP_BM_LIGHTEN=Cerahkan
+LP_BM_SCREEN=Screen
+LP_BM_COLOR_DODGE=Tangkis Warna
+LP_BM_LINEAR_DODGE=Tangkis garis linear (tambah)
+LP_BM_LIGHTER_COLOR=Cerahkan warna
+LP_BM_OVERLAY=Gabungkan
+LP_BM_SOFT_LIGHT=Cahaya kecil
+LP_BM_HARD_LIGHT=Cahaya besar
+LP_BM_VIVID_LIGHT=Cahaya vivid
+LP_BM_LINEAR_LIGHT=Cahaya linear
+LP_BM_PIN_LIGHT=Diamkan kecerahan
+LP_BM_HARD_MIX=Gabungan Keras
+LP_BM_DIFFERENCE=Perbedaan
+LP_BM_EXCLUSION=Pengecualian
+
+; Metadata dialog
+MD_TYPE=Untuk %s file
+MD_TITLE=Judul
+MD_AUTHOR=Pencipta
+MD_COPYRIGHT=Copyright
+MD_COMMENTS=Komentar
+MD_QUALITY=Simpan kualitas
+MD_LOOP_COUNT=Hitungan putaran (0 = tdk terbatas)
+
+; Preferences dialog
+PREF_MISC=Lain-lain
+PREF_ENVIRONMENT=Layar Kerja
+PREF_INSTALL=Instalasi
+PREF_IMAGE_MAX=Ukuran gambar maksimal
+PREF_PNG_ICONS=Gunakan kompresi PNG di format .ico/.cur
+PREF_PNG_LIMIT=Kompres gambar dgn ukuran setidaknya ... px
+PREF_AA_IMAGES=Antialias untuk pembesaran gambar
+PREF_COLORS=Warna
+PREF_TRANSPARENT_HATCH=Bagian transparan
+PREF_GRID2=Petak berpola
+PREF_DVM=Jenis tampilan dalam menu Buka/Simpan
+PREF_DVM_ITEMS=Ikon<br>Daftar<br>Detail<br>Gambar<br>Kotak
+PREF_MWA=Fungsi Mouse Wheel
+PREF_MWA_ITEMS=Tdk ada<br>Scroll<br>Zoom
+PREF_SAVE_TOOL_SETTINGS=Simpan pengaturan alat setiap akhir sesi
+PREF_FILE_ASSOC=Asosiasi file
+PREF_ADMIN=Perlu dicatat jika Anda menggunakan Windows Vista/terbaru, ini tidak bisa diubah <br>kecuali jika Anda menjalankannya dalam mode administrator.
+
+; Print dialog
+PRINT_COPIES=Salinan
+PRINT_ZOOM=Zoom (%)
+PRINT_CAPTION=Judul
+PRINT_PAGES=Cetak
+PRINT_PAGES_BUTTONS=Semua halaman<br>Halaman ini
+
+; Resource properties dialog
+RP_NAME=Nama
+RP_LANGUAGE=Bahasa
+RP_LANG_CUSTOM=ID bahasa kustom
+RP_LANG_NEUTRAL=Bahasa Netral
+
+; Save options dialog
+SO_TITLE=Pengaturan penyimpanan
+SO_QUALITY=Kualitas
+SO_LOSSLESS=Lossless (peningkatan kualitas)
+
+; Startup screen
+ST_WELCOME=Selamat Datang!
+ST_CHOOSE_ACTION=Pilih aksi yang Anda ingin lakukan
+ST_NG=Buat gambar baru
+ST_NG_INFO=Membuat ikon, kursor, atau dokumen baru
+ST_NL=Buat kumpulan ikon
+ST_NL_INFO=Membuat kumpulan ikon (.ICL) atau resource (.RES) kosong
+ST_OPEN=Buka dokumen yang ada
+ST_OPEN_INFO=Membuka file gambar, kumpulan ikon, program atau resource dari komputer
+ST_CONVERT=Konversi file
+ST_CONVERT_INFO=Mengkonversikan beberapa gambar ke ikon atau ke format yang lain
+ST_NONE=Jangan lakukan apa-apa
+ST_NONE_INFO=Menutup menu startup
+ST_RECENT_INFO=Membuka file yang terakhir diedit ErrorSoft Green Pixel
+ST_SHOW=Selalu tampilkan menu ini saat program aktif
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Gerakkan kursor di atas gambar ini
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Masukkan teks
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Antialias
+TB_PATTERN=Pola
+TB_SAMPLE_ALL_LAYERS=Sampel semua layers
+TB_BRUSH_SIZE=Ukuran kuas
+TB_BRUSH_SHAPE=Bentuk kuas
+TB_BRUSH_ITEMS=Bulat<br>Kotak<br>Miring kanan<br>Miring kiri<br>Horisontal<br>Vertikal<br>Semprotan
+TB_LINE_WIDTH=Tebal garis
+TB_TOLERANCE=Toleransi Tongkat/Warna ulang/Ember (%)
+TB_CONTIGUOUS=Terus-menerus
+TB_SHAPE_FRAMED=Bentuk berdinding
+TB_SHAPE_FILLED=Bentuk diisi
+TB_EYEDROPPER_BACK=Pilih warna lalu ganti ke alat sebelumnya
+TB_RETOUCH_MODE=Jenis sentuhan ulang
+TB_RETOUCH_ITEMS=Blur<br>Pertajam<br>Tangkis<br>Bakar<br>Hue<br>Spons
+TB_ERASER_STRENGTH=Kekuatan penghapus (%)
+TB_G_LINEAR=Gradasi linear
+TB_G_RADIAL=Gradasi radial
+TB_G_CONICAL=Gradasi kerucut
+TB_G_SPIRAL=Gradasi spiral
+TB_REP_NONE=Tanpa pengulangan
+TB_REP_SYM=Pengulangan simetris
+TB_REP_ASYM=Pengulangan non-simetris
+TB_MODE_COLOR=Mode warna
+TB_MODE_TRANSPARENCY=Mode transparan
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=pixel<br>%
+
+; Hints
+HINT_COMPACT=Tampilan sederhana
+
+HINT_CP_FORE_COLOR=Warna utama
+HINT_CP_BACK_COLOR=Warna latar
+HINT_CP_SWAP_COLORS=Tukar warna
+HINT_CP_DEFAULT=Kembalikan
+HINT_CP_TRANSPARENT=Transparan
+HINT_CP_INVERTED=Terbalik
+HINT_CP_TOGGLE_CHOOSER=Tombol pemilih warna HSB dan daftar warna
+HINT_CP_SWATCHES=Klik kiri untuk memilih, klik kanan untuk mengubah warna ke warna utama
+HINT_CP_SWATCH_LOAD=Muat daftar warna
+HINT_CP_SWATCH_SAVE=Simpan daftar warna
+HINT_CP_RED=Komponen merah
+HINT_CP_GREEN=Komponen hijau
+HINT_CP_BLUE=Komponen biru
+HINT_CP_ALPHA=Tingkat alpha (ketebalan)
+HINT_CP_HTML=Kode HTML
+HINT_CP_WCP=Pemilih warna Windows
+
+HINT_DOC_LB=Daftar halaman (format ikon/frame)
+HINT_DOC_LB_PAGE=Halaman %d, ukuran: %d x %d pixel
+HINT_DOC_LB_PNG=akan dikompress dgn metode .PNG jika disimpan sebagai .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Zoom
+HINT_DOC_NODES=%d nodes
+HINT_DOC_TOGGLE_PAGES=Tunjukkan/sembunyikan daftar halaman
+
+HINT_RES_FOLDER=Pilih folder untuk file yang diekstrak
+
+HINT_STARTUP_HELP=Bantuan
+HINT_TEST_BGR_LOAD=Muat latar belakang
+HINT_TEST_BGR_DEFAULT=Gunakan latar belakang biasa
+
+HINT_TEXT_FACE=Jenis font
+HINT_TEXT_BOLD=Tebal
+HINT_TEXT_ITALIC=Miring
+HINT_TEXT_UNDERLINE=Garis bawah
+
+; eof

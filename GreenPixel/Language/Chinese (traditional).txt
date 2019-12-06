@@ -1,0 +1,340 @@
+; ErrorSoft Green Pixel
+; Language pack: Chinese Traditional (正體中文)
+; Created by: Shih-Huang Wu (shuang.wu@m2k.com.tw)
+
+; General dictionary
+LABEL_WIDTH=寬
+LABEL_HEIGHT=高
+LABEL_SIZE=大小
+LABEL_COLOR=顏色
+LABEL_KIND=類型
+LABEL_ANTIALIAS=反鋸齒
+LABEL_POSITION=位置
+UNTITLED=未命名
+
+; Buttons
+B_OK=確定
+B_CANCEL=取消
+B_RESET=重設
+B_ADD=加入
+B_CLEAR=清除
+B_CLOSE=關閉
+B_ALL=全選
+B_NONE=全部不選
+B_PRINT=列印
+B_PRINTER_SETUP=印表機設定
+B_PREVIEW=預覽
+
+; Shown messages
+MSG_FILE_NOT_FOUND=指定檔沒有找到
+MSG_UNKNOWN_FILE_TYPE=無法開啟或儲存目前的檔案 "%s"。
+MSG_INVALID_FILE_FORMAT=目前的檔案 "%s" 不是 "%s" 格式. 該檔可能已損壞，或是副檔名有誤。
+MSG_SAVE_CHANGES=是否要儲存變更到：<br>"%s"？
+MSG_CONFIRM_REVERT=對 "%s" <br>所做的修改將全部放棄而且無法還原，請問您仍然要繼續還原到開啟狀態嗎？
+MSG_DATA_LOSS_INFO=為了避免資料遺失，建議把圖示儲存為其他格式。
+MSG_DL_MULTIPAGE=該檔案格式不能支援多個圖示轉換為一個影像檔，只有第一個圖示能被儲存。
+MSG_DL_SIZE_256=圖像大於 256×256 ，該檔案格式無法儲存，圖像將被剪裁。
+MSG_DL_TRANSPARENCY=該檔案格式不支援背景透明。
+MSG_DL_COLOR_DEPTH=有一部分的顏色資訊無法儲存。
+MSG_ADD_FILES=請加入檔案。
+MSG_SELECT_PAGES=請選擇多個頁面
+MSG_PAGE_SIZE_0=錯誤: 紙張實際寬度無法為 0 mm。請選擇其他的紙張格式。
+
+; Open/Save dialog filters
+FF_ALL=所有檔
+FF_ICO=圖示檔
+FF_CUR=游標檔
+FF_ANI=動態游標
+FF_PNG=PNG
+FF_XPM=X-Pixmap
+FF_BMP=BMP
+FF_JPEG=JPEG
+FF_EXEC=可執行檔及圖示庫
+
+; Tool names
+TOOL_SEL_RECT=矩形選取工具
+TOOL_SEL_ELLIPSE=橢圓選取工具
+TOOL_LASSO=多邊形套索工具
+TOOL_WAND=魔術棒工具
+TOOL_SEL_PENCIL=鉛筆選擇工具
+TOOL_TRANSFORM=變形工具
+TOOL_CROP=裁剪工具
+TOOL_HOTSPOT=設定滑鼠指標熱點（hotspot），熱點就是指標用來觸發事件的點，對於箭頭來說，熱點當然就是箭頭的尖端。
+TOOL_EYEDROPPER=滴管工具
+TOOL_RETOUCH=修飾工具，請在“工具設定面板”選擇“模糊、銳化”等詳細功能
+TOOL_RECT=矩形工具
+TOOL_ELLIPSE=橢圓工具
+TOOL_LINE=直線工具
+TOOL_TEXT=文字工具
+TOOL_PENCIL=鉛筆工具
+TOOL_BRUSH=筆刷工具
+TOOL_ERASER=橡皮擦工具
+TOOL_RECOLOR=顏色對換工具，可以把滑鼠指標下和背景色一樣的顏色塗改為前景色
+TOOL_BUCKET=水桶填充工具，會把選中的區域都填充上前景色
+TOOL_GRADIENT=漸變填充工具，要先選擇要填充的區域
+TOOL_NONE=無
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=檔案
+MI_FILE_NEW=建立
+MI_FILE_OPEN=開啟
+MI_FILE_RECENT_FILES=最近開啟文件
+MI_FILE_RF_CLEAR=清除清單
+MI_FILE_EXTRACT=解壓 exe/dll 檔中的圖示
+MI_FILE_BATCH_CONVERT=批次轉換
+MI_FILE_CLOSE=關閉
+MI_FILE_CLOSE_ALL=關閉全部
+MI_FILE_SAVE=儲存
+MI_FILE_SAVE_AS=另存新檔
+MI_FILE_SAVE_ALL=全部儲存
+MI_FILE_REVERT=回復到開啟狀態
+MI_FILE_PRINT=列印
+MI_FILE_EXIT=退出
+MI_EDIT=編輯
+MI_EDIT_UNDO=復原
+MI_EDIT_CANT_UNDO=無法復原
+MI_EDIT_REDO=重做
+MI_EDIT_CANT_REDO=無法重做
+MI_EDIT_CUT=剪下
+MI_EDIT_COPY=複製
+MI_EDIT_PASTE=貼上
+MI_EDIT_PASTE_PAGE=貼上為新的頁面
+MI_EDIT_DELETE=刪除
+MI_EDIT_SEL_ALL=全選
+MI_EDIT_SEL_NONE=取消選擇
+MI_EDIT_SEL_INVERT=反向選取
+MI_EDIT_SEL_LOAD=讀取所選區域
+MI_EDIT_SEL_SAVE=儲存所選區域
+MI_EDIT_CROP_TRANSPARENCY=裁剪透明區域
+MI_EDIT_TRANSFORM=旋轉
+MI_EDIT_SEL_TRANSFORM=旋轉設定
+MI_EDIT_FLIP_HORIZ=水準翻轉
+MI_EDIT_FLIP_VERT=垂直翻轉
+MI_EDIT_ROTATE_LEFT=向左旋轉 90 度
+MI_EDIT_ROTATE_RIGHT=向右旋轉 90 度
+MI_EDIT_ROTATE_180=旋轉 180 度
+MI_VIEW=檢視
+MI_VIEW_ZOOM_IN=放大
+MI_VIEW_ZOOM_OUT=縮小
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=符合視窗大小
+MI_VIEW_GRID=網格
+MI_VIEW_CENTER_LINES=中心十字線
+MI_VIEW_TOOLBAR=工具列
+MI_VIEW_COLOR_PICKER=色板
+MI_VIEW_TOOL_BEHAVIOR=工具設定
+MI_VIEW_STARTUP_SCREEN=歡迎視窗
+MI_FLT=濾鏡
+MI_FLT_GRAYSCALE=灰階
+MI_FLT_INVERT=反相
+MI_FLT_SOLARIZE=曝光過度（Solarize）
+MI_FLT_RGB=RGB 通道
+MI_FLT_HS=色相/飽和度
+MI_FLT_EXPOSURE=曝光（Exposure）
+MI_FLT_AVERAGE=平均顏色（Average）
+MI_FLT_BLUR_SOFT=軟化模糊（Soft Blur）
+MI_FLT_BLUR_MORE=進階模糊
+MI_FLT_BLUR_CUSTOM=自訂模糊
+MI_FLT_SHARPEN=銳化
+MI_FLT_UNSHARP_MASK=USM 銳化
+MI_FLT_REMOVE_MATTE=移除雜邊（Remove matte）
+MI_FLT_OPACITY=透明度（Opacity）
+MI_FLT_PAINT_CONTOUR=描邊（Paint contour）
+MI_FLT_DROP_SHADOW=陰影（Drop shadow）
+MI_FLT_GLOW=發光
+MI_FLT_BEVEL=斜面（Bevel）
+MI_ICON=圖示
+MI_ICON_PAGE_NEW=建立新頁面
+MI_ICON_PAGE_DELETE=刪除選定的頁面
+MI_ICON_PAGE_PROP=頁面屬性
+MI_ICON_UNIFORM_RATE=套用該速率到所有影格速率上
+MI_ICON_CREATE_FROM_IMAGE=從當前的影像建立圖示檔
+MI_ICON_TEST=測試編輯中的圖示 / 游標
+MI_HELP=說明
+MI_HELP_CONTENTS=說明內容
+MI_HELP_GS=入門
+MI_HELP_HOMEPAGE=首頁
+MI_HELP_DONATE=贊助
+MI_HELP_PREFERENCES=設定
+MI_HELP_LANGUAGE=語言
+MI_HELP_ABOUT=關於
+
+; Pixel Format to String
+PF_1_BIT=1 位元
+PF_16_COLORS=16 色
+PF_256_COLORS=256 色
+PF_24_BIT=24 位元
+PF_32_BIT=32 位元
+
+; Undo captions
+UNDO_MOVE_PAGE=移動頁面
+UNDO_FLIP_ROTATE=翻轉/旋轉
+
+; Page properties dialog box
+PG_CAPTION_NEW_PAGE=建立新頁面
+PG_CAPTION_PAGE_PROP=頁面屬性
+PG_SIZE_ITEMS=16 x 16 (最小)<br>20 x 20 (WindowsXP圖示)<br>24 x 24 (工具列)<br>32 x 32 (小)<br>48 x 48 (中)<br>64 x 64 (大)<br>256 x 256 (較大, Vista圖示)<br>自訂大小
+PG_CUSTOM_SIZE=自訂大小
+PG_SQUARE=正方形
+PG_CR=顏色設定
+PG_CR_ITEMS=黑白<br>16 色 <br>256 色<br>24位元 RGB<br>無失真 (32位元)
+PG_ANIMATION=當儲存為動態游標時
+PG_FRAME_RATE=影格速率 (單位: 1/60 秒)
+PG_CREATE_FROM_SELECTED=依所選取的頁面建立新的頁面
+
+; Color Picker
+TAB_HSB_MAP=顏色
+TAB_SWATCHES=調色盤
+
+; Filter configuration dialogs
+LABEL_RED=紅
+LABEL_GREEN=綠
+LABEL_BLUE=藍
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=色相
+LABEL_SATURATION=飽和度
+LABEL_GAMMA=Gamma 值
+LABEL_BRIGHTNESS=亮度
+LABEL_GAUSSIAN_BLUR=高斯模糊
+LABEL_BOX_BLUR=方框模糊
+LABEL_MATTE_COLOR=雜邊顏色
+LABEL_WHITE_MATTE=白色雜邊
+LABEL_BLACK_MATTE=黑色雜邊
+LABEL_INNER_GLOW=內發光
+LABEL_OUTER_GLOW=外發光
+LABEL_AMOUNT=數量
+LABEL_ANGLE_DEGREES=角度 (度)
+LABEL_BLUR=模糊
+LABEL_DISTANCE=距離
+LABEL_INTENSITY=強度
+LABEL_OPACITY=透明度
+LABEL_RADIUS=半徑
+LABEL_THRESHOLD=門檻值
+
+; Create icon from image dialog box
+CI_SELECT_FORMATS=選擇您要建立的格式大小
+
+; Batch conversion dialog
+BC_FILES=檔案：
+BC_SETTINGS=設定
+BC_FORMAT=轉換為
+BC_FOLDER=目的資料夾：
+BC_OPEN=用本程式開啟轉換後的檔案
+BC_ICON_FORMATS=選擇要建立的圖示格式
+
+; Preferences dialog box
+PREF_MISC=一般設定
+PREF_ENVIRONMENT=環境設定
+PREF_INSTALL=路徑設定與檔案關聯
+PREF_IMAGE_MAX=最大圖片大小（注意，有風險）
+PREF_PNG_ICONS=把 PNG 檔轉換為為 .ICO/.CUR 檔時壓縮：
+PREF_PNG_LIMIT=壓縮圖片，當圖片大小超過：
+PREF_COLORS=顏色
+PREF_TRANSPARENT_HATCH=網格顏色設定
+PREF_DVM=開啟儲存對話方塊的檢視設定
+PREF_DVM_ITEMS=圖示<br>列表<br>詳細資訊<br>縮略圖<br>平鋪
+PREF_MWA=滑鼠滾輪動作
+PREF_MWA_ITEMS=無動作<br>滾動<br>縮放
+PREF_SAVE_TOOL_SETTINGS=關閉本程式之後儲存工具面板的設定
+PREF_EXTRACT=從可執行檔中解壓的圖示資源存放路徑：
+PREF_EXTRACT_FOLDER=目的資料夾：
+PREF_FILE_ASSOC=檔案關聯
+
+; Language dialog box
+LABEL_LANG_PACK=選擇語言
+
+; Print dialog box
+PRINT_COPIES=份數
+PRINT_ZOOM=縮放 (%)
+PRINT_CAPTION=標題文字
+PRINT_PAGES=列印
+PRINT_PAGES_BUTTONS=所有頁面<br>目前頁面
+
+; Startup screen
+ST_CHOOSE_ACTION=當程式啟動後
+ST_NEW=建立一個新的圖示
+ST_NEW_INFO=說明：建立一個新的圖示或游標
+ST_OPEN=開啟舊檔
+ST_OPEN_INFO=說明：顯示「開啟舊檔」對話方塊
+ST_EXTRACT=從執行檔(.exe)中解壓縮圖示資源
+ST_EXTRACT_INFO=說明：顯示「開啟舊檔」對話方塊，選擇您要處理的檔案 EXE/DLL。
+ST_CONVERT=批次轉換圖片
+ST_CONVERT_INFO=說明：把各種圖片轉換成圖示或者其他格式的圖片
+ST_NONE=不做任何動作
+ST_NONE_INFO=說明：不顯示歡迎視窗，若要重新顯示請點擊“檢視→歡迎視窗”
+ST_RECENT_INFO=說明：開啟最近一次編輯過的檔案
+ST_SHOW=程式啟動後顯示歡迎視窗
+
+; Test dialog box
+LABEL_MOVE_OVER_IMAGE=請把滑鼠移到下面的區域，按住左鍵拖曳會出現紅色的點。
+
+; Insert Text dialog box
+CAPTION_INSERT_TEXT=插入文字設定
+
+; Tool Behavior dialog box
+TB_ANTIALIAS=反鋸齒
+TB_BRUSH_ITEMS=Rounded<br>Sharp<br>Slash<br>Backslash<br>Horizontal<br>Vertical<br>Spray
+TB_RETOUCH_ITEMS=Blur<br>Sharpen<br>Dodge<br>Burn<br>Hue<br>Sponge
+
+; Transform Selection dialog box
+XF_UNITS_ITEMS=像素<br>%
+
+; Hints
+HINT_ABOUT_HOMEPAGE=官方網站
+HINT_COMPACT=Compact view
+HINT_CP_FORE_COLOR=前景色
+HINT_CP_BACK_COLOR=背景色
+HINT_CP_SWAP_COLORS=交換顏色
+HINT_CP_DEFAULT=預設的前景色和背景色
+HINT_CP_TRANSPARENT=透明的
+HINT_CP_INVERTED=反轉前景色
+HINT_CP_SWATCHES=左鍵：選擇顏色，右鍵：使用前景色替換被點擊的顏色
+HINT_CP_SWATCH_LOAD=開啟色板預設文件
+HINT_CP_SWATCH_SAVE=儲存為色板預設
+HINT_CP_RED=紅
+HINT_CP_GREEN=綠
+HINT_CP_BLUE=藍
+HINT_CP_ALPHA=顏色透明度
+HINT_CP_HTML=色碼
+HINT_CP_WCP=Windows內建的顏色選取器
+HINT_DOC_LB=頁面清單（圖示/影格速率）
+HINT_DOC_LB_PAGE=頁面 %d，大小： %d × %d Pixels
+HINT_DOC_LB_PNG=另存為 .ICO/.CUR 時進行 PNG 壓縮
+HINT_DOC_ZOOM_MENU=縮放
+HINT_STARTUP_HELP=說明
+HINT_TEST_BGR_LOAD=載入背景
+HINT_TEST_BGR_DEFAULT=預設背景
+HINT_TEXT_FACE=字體
+HINT_TEXT_BOLD=粗體
+HINT_TEXT_ITALIC=斜體
+HINT_TEXT_UNDERLINE=底線
+HINT_TB_FRAMED=線框
+HINT_TB_FILLED=填滿
+HINT_TB_LINE_WIDTH=線寬
+HINT_TB_EYEDROPPER_BACK=使用滴管工具後切換回上一個工具
+HINT_TB_BRUSH_SIZE=筆刷大小
+HINT_TB_BRUSH_SHAPE=筆刷形狀
+HINT_TB_TOLERANCE=魔術棒工具/顏色對換工具/水桶填充工具的容忍度 (%)
+HINT_TB_RETOUCH_MODE=修飾工具的模式設定
+HINT_TB_ERASER_STRENGTH=橡皮擦力度 (%)
+HINT_TB_G_LINEAR=線性漸變
+HINT_TB_G_RADIAL=放射狀漸變
+HINT_TB_G_CONICAL=圓錐狀漸變
+HINT_TB_G_SPIRAL=螺旋漸變
+HINT_TB_REP_NONE=不重複漸變
+HINT_TB_REP_SYM=對稱漸變
+HINT_TB_REP_ASYM=不對稱漸變
+HINT_TB_MODE_COLOR=顏色模式
+HINT_TB_MODE_TRANSPARENCY=透明度模式
+
+; eof

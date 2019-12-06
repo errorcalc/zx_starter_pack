@@ -1,0 +1,506 @@
+; ErrorSoft Green Pixel
+; Language pack: Ukrainian
+; Created by: Олександр (6c6c6)
+
+; General dictionary
+LABEL_WIDTH=Ширина
+LABEL_HEIGHT=Висота
+LABEL_SIZE=Розмір
+LABEL_COLOR=Колір
+LABEL_KIND=Вигляд
+LABEL_ANTIALIAS=Згладжування
+LABEL_POSITION=Позиція
+LABEL_FILE_SIZE=Розмір файла
+UNTITLED=Без назви
+
+; Buttons
+B_OK=Гаразд
+B_CANCEL=Скасувати
+B_YES=Так
+B_NO=Ні
+B_RESET=Скинути
+B_ADD=Додати
+B_REMOVE=Вилучити
+B_CLEAR=Очистити
+B_CLOSE=Закрити
+B_ALL=Все
+B_NONE=Немає
+B_PRINT=Друк
+B_PRINTER_SETUP=Установки принтера
+B_PREVIEW=Попередній перегляд
+B_COMPILE=Компілювати
+
+; Shown messages
+MSG_CONFIRMATION=Підтвердження
+MSG_NOT_EXIST=„%s“ не існує
+MSG_OVERWRITE=Чи бажаєте Ви перезаписати „%s“?
+MSG_UNKNOWN_FILE_TYPE=Формат файла „%s“ неможливо було визначити автоматично.<br>ErrorSoft Green Pixel не може запустити чи зберегти цей файл або він має невірне розширення.
+MSG_INVALID_FILE_FORMAT=Файл „%s“ не відповідає формату „%s“.<br>Файл може бути пошкодженим, може мати невірне розширення або було вибрано невірний фільтр у діалоговому вікні „Відкрити“.
+MSG_CROPPED=Зображення було більшим за %dx%d та було обрізане.<br>Збереження зображення потягне за собою втрату даних.<br>Використайте Параметри|Налаштування для збільшення меж розміру зображення.
+MSG_SAVE_CHANGES=Чи бажаєте Ви зберегти зміни до „%s“?
+MSG_CONFIRM_REVERT=Всі зміни до „%s“ буде втрачено і цю операцію неможливо буде скасувати.<br>Ви впевнені, що бажаєте продовжити?
+MSG_CONFIRM_REMOVE=Ви насправді бажаєте вилучити виділений елемент(и)?
+MSG_CONFIRM_DESTROY_EXE=Іконки/курсори важко замінити у виконуваних файлах або бібліотеках іконок.<br><br>Якщо це програма або DLL, що призначена не лише для зберігання іконок, то ці її властивості буде знищено під час збереження.<br>Якщо це лише бібліотека іконок, тоді напевно нічого поганого не трапиться.<br><br>Продовжити у будь-якому разі?
+MSG_DATA_LOSS_INFO=Щоб уникнути втрати даних, Ви ще повинні зберігати документ у різних форматах файлів.
+MSG_DL_MULTIPAGE=Цей формат файла не підтримує кілька сторінок, збережених в одному файлі.<br>Може бути збережена лише перша сторінка.
+MSG_DL_LAYERS=Цей формат файла не підтримує інформацію про шари. Було збережено зведене зображення.
+MSG_DL_SIZE_256=Цей формат файла не підтримує збереження зображень більших за 256x256.<br>Ці зображення буде обрізано.
+MSG_DL_TRANSPARENCY=Цей формат файла не підтримує прозорість.
+MSG_DL_COLOR_DEPTH=Деяка частина колірної інформації не може бути збережена.
+MSG_DL_ICNS=Деякі сторінки неможливо зберегти через обмеження формату ICNS. Ознайомтесь з розділом довідки про формати файлів для з’ясування подробиць.
+MSG_FT_NO_OPTIONS=Вибраний формат файла не має налаштувань
+MSG_ADD_FILES=Будь ласка додайте файли у список
+MSG_SELECT_PAGES=Будь ласка оберіть сторінки
+MSG_SELECT_ITEMS=Будь ласка оберіть елементи
+MSG_NO_LAYERS=Немає шарів
+MSG_NO_LAYERS_SELECTED=Не вибрано шарів
+MSG_RES_EXIST=Вже існує інший ресурс з зазначеними типом, назвою та мовою.<br>Будь ласка оберіть іншу назву або мову.
+MSG_ERROR_WRITE_RES=Виникла помилка при спробі збереження змін до зазначених ресурсів.
+MSG_PAGE_SIZE_0=Помилка: фізична ширина сторінки не може бути 0 мм.<br>Оберіть інший формат аркуша.
+MSG_ERROR_ASSOC=Неможливо встановити асоціації файлів. Запуск GreenPixel з правами адміністратора може вирішити цю проблему.
+MSG_FAIL_SINGLE_OPEN=Неможливо завантажити обраний файл.
+MSG_FAIL_MULTIPLE_OPEN=Деякі файли неможливо відкрити.
+
+; Open/Save dialog filters
+FF_ALL=Всі файли
+FF_GFIE=Власний формат GreenPixel
+FF_ICO=Файли іконок
+FF_CUR=Файли курсорів
+FF_ANI=Анімовані курсори
+FF_ICNS=Іконки Apple
+FF_PNG=Портативна мережева графіка
+FF_XPM=X-Pixmaps
+FF_BMP=Растрові зображення Windows
+FF_JPEG=JPEG-файли
+FF_GIF=Графічний обмінний формат
+FF_JPEG_2000=Файли JPEG 2000
+FF_PCX=PCX-файли
+FF_EXEC=Всі виконувані файли та бібліотеки іконок
+FF_ICL=Бібліотеки іконок
+FF_RES=Файли ресурсів Win32
+
+; Tool names
+TOOL_SEL_RECT=Прямокутне виділення
+TOOL_SEL_ELLIPSE=Еліптичне виділення
+TOOL_LASSO=Ласо
+TOOL_WAND=Чарівна паличка
+TOOL_SEL_PENCIL=Вибір олівцем
+TOOL_TRANSFORM=Трансформувати
+TOOL_CROP=Обрізати
+TOOL_HOTSPOT=Гаряча цятка
+TOOL_EYEDROPPER=Піпетка
+TOOL_RETOUCH=Ретушувати
+TOOL_RECT=Прямокутник
+TOOL_ELLIPSE=Еліпс
+TOOL_LINE=Лінія
+TOOL_TEXT=Текст
+TOOL_PENCIL=Олівець
+TOOL_BRUSH=Пензель
+TOOL_ERASER=Гумка
+TOOL_RECOLOR=Перефарбувати
+TOOL_BUCKET=Заповнення
+TOOL_GRADIENT=Градієнт
+TOOL_NONE=Немає
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=Файл
+MI_FILE_NEW_GRAPHIC=Нова графіка
+MI_FILE_NEW_LIBRARY=Нова бібліотека
+MI_FILE_OPEN=Відкрити
+MI_FILE_RECENT_FILES=Останні файли
+MI_FILE_RF_CLEAR=Очистити список
+MI_FILE_BATCH_CONVERT=Пакетне перетворення файлів
+MI_FILE_CLOSE=Закрити
+MI_FILE_CLOSE_ALL=Закрити все
+MI_FILE_SAVE=Зберегти
+MI_FILE_SAVE_AS=Зберегти як
+MI_FILE_SAVE_ALL=Зберегти все
+MI_FILE_REVERT=Повернути
+MI_FILE_METADATA=Метадані
+MI_FILE_PRINT=Друкувати
+MI_FILE_EXIT=Вийти
+
+MI_EDIT=Редагувати
+MI_EDIT_UNDO=Скасувати
+MI_EDIT_CANT_UNDO=Неможливо скасувати
+MI_EDIT_REDO=Повторити
+MI_EDIT_CANT_REDO=Неможливо повторити
+MI_EDIT_CUT=Вирізати
+MI_EDIT_COPY=Копіювати
+MI_EDIT_PASTE=Вставити
+MI_EDIT_PASTE_PAGE=Вставити як нову сторінку
+MI_EDIT_PASTE_DOC=Вставити як новий документ
+MI_EDIT_DELETE=Видалити
+MI_EDIT_SEL_ALL=Виділити все
+MI_EDIT_SEL_NONE=Прибрати виділення зі всього
+MI_EDIT_SEL_INVERT=Інвертувати виділення
+MI_EDIT_SEL_LOAD=Запустити маску виділення
+MI_EDIT_SEL_SAVE=Зберегти маску виділення
+MI_EDIT_CROP_TRANSPARENCY=Обрізати прозорі частини
+MI_EDIT_TRANSFORM=Трансформувати
+MI_EDIT_SEL_TRANSFORM=Трансформувати виділення
+MI_EDIT_FLIP_HORIZ=Віддзеркалити по горизонталі
+MI_EDIT_FLIP_VERT=Віддзеркалити по вертикалі
+MI_EDIT_ROTATE_LEFT=Повернути на 90° ліворуч
+MI_EDIT_ROTATE_RIGHT=Повернути на 90° праворуч
+MI_EDIT_ROTATE_180=Повернути на 180°
+
+MI_VIEW=Вигляд
+MI_VIEW_ZOOM_IN=Збільшити
+MI_VIEW_ZOOM_OUT=Зменшити
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=За розміром вікна
+MI_VIEW_GRID=Сітка
+MI_VIEW_CELL_GRID=Клітинки сітки
+MI_VIEW_CENTER_LINES=Центральні лінії
+MI_VIEW_PAGES=Список сторінок
+MI_VIEW_TOOLBAR=Панель інструментів
+MI_VIEW_COLOR_PICKER=Вибір кольору
+MI_VIEW_TOOL_BEHAVIOR=Опції інстурменту
+MI_VIEW_LAYERS=Шари
+MI_VIEW_PANEL_LEFT=Ліва панель
+MI_VIEW_PANEL_RIGHT=Права панель
+MI_VIEW_STARTUP_SCREEN=Початковий екран
+
+MI_FLT=Фільтри
+MI_FLT_GRAYSCALE=Відтінки сірого
+MI_FLT_INVERT=Інверсія
+MI_FLT_SOLARIZE=Соляризація
+MI_FLT_RGB=Канали ЧЗС
+MI_FLT_HS=Відтінок/Насиченість
+MI_FLT_EXPOSURE=Витримка
+MI_FLT_FORMULAE=Формула ЧЗС
+MI_FLT_AVERAGE=Усерднення
+MI_FLT_BLUR_SOFT=М’яке затьмарення
+MI_FLT_BLUR_MORE=Сильне затьмарення
+MI_FLT_BLUR_CUSTOM=Затьмарення
+MI_FLT_SHARPEN=Чіткість
+MI_FLT_UNSHARP_MASK=Виразність за маскою
+MI_FLT_REMOVE_MATTE=Видалити за маскою
+MI_FLT_OPACITY=Непрозорість
+MI_FLT_PAINT_CONTOUR=Намалювати контур
+MI_FLT_DROP_SHADOW=Тінь
+MI_FLT_GLOW=Сяйво
+MI_FLT_BEVEL=Скіс
+
+MI_LAYERS=Шари
+MI_LAYERS_NEW=Новий шар
+MI_LAYERS_DUPLICATE=Дублювати шар
+MI_LAYERS_DELETE=Видалити шар
+MI_LAYERS_PROP=Властивості шару
+MI_LAYERS_MERGE_SELECTED=Об’єднати виділені
+MI_LAYERS_MERGE_VISIBLE=Об’єднати видимі
+MI_LAYERS_FLATTEN=Звести зображення
+MI_LAYERS_FROM_SEL=Створити шар з виділеного
+
+MI_ICON=Іконка
+MI_ICON_PAGE_NEW=Нова сторінка
+MI_ICON_PAGE_DELETE=Видалити сторінку
+MI_ICON_PAGE_PROP=Властивості сторінки
+MI_ICON_PAGE_IMPORT=Імпортувати сторінки
+MI_ICON_PAGE_EXPORT=Експортувати сторінку
+MI_ICON_PAGE_EXPORT_ALL=Експортувати всі сторінки
+MI_ICON_UNIFORM_RATE=Застосувати тривалість кадру до всіх кадрів
+MI_ICON_CREATE_WIN=Створити іконку Windows із зображення
+MI_ICON_CREATE_MAC=Створити іконку Mac із зображення
+MI_ICON_TEST=Тест
+
+MI_LIB=Бібліотека
+MI_LIB_ADD=Додати ресурси
+MI_LIB_REMOVE=Вилучити ресурси
+MI_LIB_REPLACE=Замінити ресурси
+MI_LIB_PROP=Властивості ресурсу
+MI_LIB_EXTRACT_EDIT=Видобути та редагувати
+MI_LIB_EXTRACT_SAVE=Видобути та зберегти
+
+MI_SET=Параметри
+MI_SET_PREFERENCES=Налаштування
+MI_SET_LANGUAGE=Мова
+
+MI_HELP=Допомога
+MI_HELP_CONTENTS=Зміст
+MI_HELP_HOMEPAGE=Домашня сторінка
+MI_HELP_SUPPORT=Технічна підтримка
+MI_HELP_DONATE=Пожертви
+MI_HELP_ABOUT=Про
+
+; Pixel Format to String
+PF_1_BIT=1-біт
+PF_16_COLORS=16 кол-ів
+PF_256_COLORS=256 кол-ів
+PF_24_BIT=24-біт
+PF_32_BIT=32-біт
+
+; Undo captions
+UNDO_CREATE_FLOATING=Створити плаваюче виділення
+UNDO_MERGE_LAYERS=Об’єднати шари
+UNDO_MOVE_LAYERS=Перемістити шари
+UNDO_MOVE_PAGE=Перемістити сторінку
+UNDO_FLIP_ROTATE=Віддзеркалити/Повернути
+
+; Layers glossary
+LY_LAYER=Шар
+LY_BACKGROUND=Тло
+LY_FLOATING_SEL=Плаваюче виділення
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Нова сторінка
+PG_CAPTION_PAGE_PROP=Властивості сторінки
+
+PG_SIZE_SMALLEST=найменший
+PG_SIZE_TOOLBAR=панель інструментів
+PG_SIZE_SMALL=малий
+PG_SIZE_MEDIUM=середній
+PG_SIZE_LARGE=великий
+PG_SIZE_HUGE_VISTA=величезний, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Користувацький розмір
+PG_SQUARE=Квадрат
+
+PG_CR=Перетворення кольору
+PG_CR_BW=Чорно-білий
+PG_CR_16_WIN=16 кольорів (палітра Windows)
+PG_CR_16_MAC=16 кольорів (палітра Mac)
+PG_CR_256_ADAPT=256 кольорів (адаптивний)
+PG_CR_256_MAC=256 кольорів (палітра Mac)
+PG_CR_24=24-біт RGB
+PG_CR_32=Без перетворення (32-біт)
+
+PG_ANIMATION=Анімація
+PG_FRAME_RATE=Тривалість кадру (в мілісекундах)
+
+PG_CREATE_FROM_SELECTED=Створити з виділеної сторінки
+PG_WHEN_RESIZING=При зміні розміру
+PG_STRETCH=Розтягнути
+PG_CROP=Обрізати
+PG_IMAGE_ANCHORS=Прив’язки зображення
+
+; Filter dialogs
+LABEL_RED=Черв.
+LABEL_GREEN=Зелений
+LABEL_BLUE=Синій
+LABEL_R=Ч
+LABEL_G=З
+LABEL_B=С
+LABEL_A=А
+LABEL_HUE_SHIFT=Зсув відтінку
+LABEL_SATURATION=Насиченість
+LABEL_GAMMA=Гама
+LABEL_BRIGHTNESS=Яскравість
+LABEL_TORIC=Режим тора
+LABEL_GAUSSIAN_BLUR=Затьмарення за Гаусом
+LABEL_BOX_BLUR=Блочне затьмарення
+LABEL_MATTE_COLOR=Колір маски
+LABEL_WHITE_MATTE=Біла маска
+LABEL_BLACK_MATTE=Чорна маска
+LABEL_INNER_GLOW=Внутрішнє сяйво
+LABEL_OUTER_GLOW=Зовнішнє сяйво
+
+LABEL_AMOUNT=Кількість
+LABEL_ANGLE_DEGREES=Кут (градуси)
+LABEL_BLUR=Пляма
+LABEL_DISTANCE=Відстань
+LABEL_INTENSITY=Інтенсивність
+LABEL_OPACITY=Непрозорість
+LABEL_RADIUS=Радіус
+LABEL_THRESHOLD=Поріг
+
+; Batch conversion dialog
+BC_FILES=Файли
+BC_SETTINGS=Установки
+BC_FORMAT=Конвертувати в
+BC_FOLDER=Цільова тека
+BC_OPEN=Відкрити конвертовані файли в ErrorSoft Green Pixel
+BC_ICON_FORMATS=Створити формат іконки
+
+; Cell grid dialog
+CG_ENABLED=Увімкнуто
+CG_SIZE=Розмір клітинки
+CG_SPACING=Інтервал між клітинками
+CG_OFFSET=Зсув
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Виберіть формати, які Ви бажаєте створити
+
+; ICL format dialog
+IF_TITLE=Вибрати формат ICL
+
+; Language dialog
+LABEL_LANG_PACK=Мовний пакунок
+
+; Layer properties dialog
+LP_NAME=Назва
+LP_VISIBLE=Видимий
+LP_BLEND_MODE=Режим змішування
+
+LP_BM_NORMAL=Звичайний
+LP_BM_MASK=Маска
+LP_BM_BEHIND=Позаду
+LP_BM_DISSOLVE=Розчинення
+LP_BM_HUE=Відтінок
+LP_BM_HUE_SHIFT=Зсув відтінку
+LP_BM_SAT=Насиченість
+LP_BM_DARKEN=Заміна темним
+LP_BM_MULTIPLY=Множення
+LP_BM_COLOR_BURN=Затемнення основи
+LP_BM_LINEAR_BURN=Лінійний затемнювач
+LP_BM_DARKER_COLOR=Темніший колір
+LP_BM_LIGHTEN=Заміна світлим
+LP_BM_SCREEN=Екран
+LP_BM_COLOR_DODGE=Освітлення основи
+LP_BM_LINEAR_DODGE=Лінійне освітлення (додавання)
+LP_BM_LIGHTER_COLOR=Світліший колір
+LP_BM_OVERLAY=Перекриття
+LP_BM_SOFT_LIGHT=Розсіяне світло
+LP_BM_HARD_LIGHT=Жорстке світло
+LP_BM_VIVID_LIGHT=Яскраве світло
+LP_BM_LINEAR_LIGHT=Лінійне світло
+LP_BM_PIN_LIGHT=Точкове світло
+LP_BM_HARD_MIX=Жорстке змішування
+LP_BM_DIFFERENCE=Різниця
+LP_BM_EXCLUSION=Виключення
+
+; Metadata dialog
+MD_TYPE=Для %s файлів
+MD_TITLE=Заголовок
+MD_AUTHOR=Автор
+MD_COPYRIGHT=Авторське право
+MD_COMMENTS=Коментарі
+MD_QUALITY=Зберегти в якості
+MD_LOOP_COUNT=Кількість циклів (0=нескінченність)
+
+; Preferences dialog
+PREF_MISC=Різне
+PREF_ENVIRONMENT=Середовище
+PREF_INSTALL=Встановлення
+PREF_IMAGE_MAX=Максимально допустимий розмір зображення
+PREF_PNG_ICONS=Використання стискання PNG у файлах .ICO/.CUR
+PREF_PNG_LIMIT=Стискати зображення з розміром більшим за
+PREF_AA_IMAGES=Згладжувати всі зображення зі зміненим розміром
+PREF_COLORS=Кольори
+PREF_TRANSPARENT_HATCH=Ґратки прозорості
+PREF_GRID2=Другорядна сітка
+PREF_DVM=Режим у діалогах Відкрити/Зберегти
+PREF_DVM_ITEMS=Іконки<br>Список<br>Деталі<br>Мініатюри<br>Плитка
+PREF_MWA=Дія коліщатка миші
+PREF_MWA_ITEMS=Немає<br>Прокрутка<br>Масштаб
+PREF_SAVE_TOOL_SETTINGS=Зберегти налаштування інструменту в періоді між сесіями
+PREF_FILE_ASSOC=Асоціації файлів
+PREF_ADMIN=Зауважте, якщо Ви використовуєте Windows Vista або новішу ОС, GreenPixel не може змінити ці системні налаштування без запуску в режимі адміністратора.
+
+; Print dialog
+PRINT_COPIES=Копії
+PRINT_ZOOM=Масштаб (%)
+PRINT_CAPTION=Заголовок
+PRINT_PAGES=Друк
+PRINT_PAGES_BUTTONS=Всі сторінки<br>Поточна сторінка
+
+; Resource properties dialog
+RP_NAME=Назва
+RP_LANGUAGE=Мова
+RP_LANG_CUSTOM=Поточний ідентифікатор мови
+RP_LANG_NEUTRAL=Нейтральна мова
+
+; Save options dialog
+SO_TITLE=Зберегти параметри
+SO_QUALITY=Якість
+SO_LOSSLESS=Без втрат якості
+
+; Startup screen
+ST_WELCOME=Вітаємо!
+ST_CHOOSE_ACTION=Будь ласка виберіть дію для виконання
+ST_NG=Створити новий графічний файл
+ST_NG_INFO=Створює нові іконку, курсор або анімований документ
+ST_NL=Створити нову бібліотеку
+ST_NL_INFO=Створює порожнью бібліотеку іконок (.ICL) або файл ресурсів (.RES)
+ST_OPEN=Відкрити існуючий документ
+ST_OPEN_INFO=Відкриває файл зображння, бібліотеку іконок, виконуваний файл або файл ресурсів з носія
+ST_CONVERT=Пакетне перетворення файлів зображень
+ST_CONVERT_INFO=Конвертувати декілька графічних файлів в іконки або в інший формат зображень
+ST_NONE=Не виконувати жодної дії
+ST_NONE_INFO=Закриває цей екран запуску
+ST_RECENT_INFO=Відкриває файл, який нещодавно редагувався у ErrorSoft Green Pixel
+ST_SHOW=Завжди показувати цей екран під час запуску
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Рухайте курсором по зображенню нижче
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Вставити текст
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Згладжування
+TB_PATTERN=Схема
+TB_PATTERN=Заповнення схемі
+TB_SAMPLE_ALL_LAYERS=Зразок всіх шарів
+TB_BRUSH_SIZE=Розмір щітки
+TB_BRUSH_SHAPE=Форма щітки
+TB_BRUSH_ITEMS=Округла<br>Чітка<br>Похила<br>Оберн. похила<br>Горизонтальна<br>Вертикальна<br>Розпилена
+TB_LINE_WIDTH=Ширина лінії
+TB_TOLERANCE=Толерантність Чарівної палички/Перефарбування/Заповнення (%)
+TB_CONTIGUOUS=Суміжний
+TB_SHAPE_FRAMED=Форма рамки
+TB_SHAPE_FILLED=Заповнена форма
+TB_EYEDROPPER_BACK=Піпетка перемкнеться назад до попереднього інструменту
+TB_RETOUCH_MODE=Режим ретуши
+TB_RETOUCH_ITEMS=Затьмарення<br>Чіткість<br>Освітлення<br>Затемнення<br>Відтінок<br>Губка
+TB_ERASER_STRENGTH=Сила гумки (%)
+TB_G_LINEAR=Лінійний градієнт
+TB_G_RADIAL=Радіальний градієнт
+TB_G_CONICAL=Конічний градієнт
+TB_G_SPIRAL=Спіральний градієнт
+TB_REP_NONE=Без повторення
+TB_REP_SYM=Симетричне повторення
+TB_REP_ASYM=Асиметричне повторення
+TB_MODE_COLOR=Кольоровий режим
+TB_MODE_TRANSPARENCY=Режим прозорості
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=пікселі<br>%
+
+; Hints
+HINT_COMPACT=Компактний вигляд
+
+HINT_CP_FORE_COLOR=Пріоритетний колір
+HINT_CP_BACK_COLOR=Другорядний колір
+HINT_CP_SWAP_COLORS=Замінити кольори
+HINT_CP_DEFAULT=Відновити стандартний
+HINT_CP_TRANSPARENT=Прозорий
+HINT_CP_INVERTED=Інвретований
+HINT_CP_TOGGLE_CHOOSER=Мапа ТНЯ (палітра)/Зразки
+HINT_CP_SWATCHES=Лівий клік для вибору кольору, правий клік для заміни зразка поточним кольором
+HINT_CP_SWATCH_LOAD=Завантажити шаблон зразка
+HINT_CP_SWATCH_SAVE=Зберегти шаблон зразка
+HINT_CP_RED=Червоний компонент
+HINT_CP_GREEN=Зелений компонент
+HINT_CP_BLUE=Синій компонент
+HINT_CP_ALPHA=Альфа колір (непрозорість)
+HINT_CP_HTML=HTML-код
+HINT_CP_WCP=Вибір кольору Windows
+
+HINT_DOC_LB=Список сторінок (формати/рамки іконок)
+HINT_DOC_LB_PAGE=Сторінка %d, розмір: %d x %d пікселів
+HINT_DOC_LB_PNG=буде стискання PNG, при збережені документу як .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Масштаб
+HINT_DOC_NODES=%d вершин
+HINT_DOC_TOGGLE_PAGES=Показати/приховати список сторінок
+
+HINT_RES_FOLDER=Будь ласка оберіть теку для видобування файлів
+
+HINT_STARTUP_HELP=Допомога
+HINT_TEST_BGR_LOAD=Завантажити тло
+HINT_TEST_BGR_DEFAULT=Стандартне тло
+
+HINT_TEXT_FACE=Шрифт
+HINT_TEXT_BOLD=Жирний
+HINT_TEXT_ITALIC=Курсив
+HINT_TEXT_UNDERLINE=Підкресення
+
+; eof

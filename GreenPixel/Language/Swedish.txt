@@ -1,0 +1,508 @@
+﻿; ErrorSoft Green Pixel
+; Language pack: Swedish
+; Translator: Åke Engelbrektson
+; Translator Contact: eson57@gmail.com
+; Translator URL: http://svenskasprakfiler.se
+; Last Updated: 13 Jul 2012
+
+; General dictionary
+LABEL_WIDTH=Bredd
+LABEL_HEIGHT=Höjd
+LABEL_SIZE=Storlek
+LABEL_COLOR=Färg
+LABEL_KIND=Sort
+LABEL_ANTIALIAS=Antialias
+LABEL_POSITION=Position
+LABEL_FILE_SIZE=Filstorlek
+UNTITLED=Namnlös
+
+; Buttons
+B_OK=OK
+B_CANCEL=Avbryt
+B_YES=Ja
+B_NO=Nej
+B_RESET=Återställ
+B_ADD=Lägg till
+B_REMOVE=Ta bort
+B_CLEAR=Rensa
+B_CLOSE=Stäng
+B_ALL=Alla
+B_NONE=Ingen
+B_PRINT=Skriv ut
+B_PRINTER_SETUP=Utskriftsinställningar
+B_PREVIEW=Förhandsgranskning
+B_COMPILE=Kompilera
+
+; Shown messages
+MSG_CONFIRMATION=Bekräfta
+MSG_NOT_EXIST="%s" finns inte
+MSG_OVERWRITE=Vill du skriva över "%s"?
+MSG_UNKNOWN_FILE_TYPE=Filformatet på "%s" kan inte avgöras automatiskt.<br>Den här filen kan inte läsas och sparas av ErrorSoft Green Pixel, eller har fel filändelse.
+MSG_INVALID_FILE_FORMAT="%s" stämmer inte med filformatet "%s".<br>Filen kan vara korrupt, ha fel filändelse, eller fel filter kan ha blivit specificerat i öppningsdialogen.
+MSG_CROPPED=Bilden var större än %dx%d och blev beskuren.<br>Att spara bilden innebär dataförluster.<br>Använd Inställningar/Alternativ för att ändra storleksbegränsningen.
+MSG_SAVE_CHANGES=Vill du spara ändringarna för "%s"?
+MSG_CONFIRM_REVERT=Alla ändringar för "%s" kommer att förloras och åtgärden kan inte ångras.<br>Vill du verkligen fortsätta?
+MSG_CONFIRM_REMOVE=Vill du verkligen ta bort valda objekt?
+MSG_CONFIRM_DESTROY_EXE=Ikonerna/pekarna kan inte bytas ut på något enkelt sätt, i den här exekverbara filen eller ikonbiblioteket.<br><br>Om det här är ett program eller en DLL som har något annat syfte än att bara lagra ikoner, kommer dessa resurser att förstöras när du sparar.<br>Om denna fil bara är ett ikonbibliotek, kommer troligtvis inget negativt att hända.<br><br>Vill du fortsätta ändå?
+MSG_DATA_LOSS_INFO=För att undvika dataförlust, spara även filen i ett annat filformat.
+MSG_DL_MULTIPAGE=Det här filformatet stöder inte sammanslagning av flera bilder till en fil.<br>Endast första bilden kunde sparas.
+MSG_DL_LAYERS=Det här filformatet stöder inte sparande av lager-information. Bilden sparades som en enkel bild.
+MSG_DL_SIZE_256=Det här filformatet stöder inte sparande av bilder större än 256x256.<br>dom här bilderna blev beskurna.
+MSG_DL_TRANSPARENCY=Det här filformatet stöder inte transparens.
+MSG_DL_COLOR_DEPTH=Delar av färginformationen kunde inte sparas.
+MSG_DL_ICNS=En del bildsidor kunde inte sparas på grund av begränsningar i ICNS-formatet. Se hjälpsektionen om filformat för fler detaljer.
+MSG_FT_NO_OPTIONS=Det valda filformatet kan inte anpassas
+MSG_ADD_FILES=Lägg till filer till listan
+MSG_SELECT_PAGES=Välj minst en bildsida
+MSG_SELECT_ITEMS=Välj minst ett objekt
+MSG_NO_LAYERS=Inga lager tillgängliga
+MSG_NO_LAYERS_SELECTED=Inga lager valda
+MSG_RES_EXIST=En annan resurs av specificerad typ, namn och språk, finns redan.<br>Välj annat namn eller språk.
+MSG_ERROR_WRITE_RES=Ett fel uppstod vid försök att spara ändringar till den specificerade resursen.
+MSG_PAGE_SIZE_0=Error: Sidbredden kan inte vara 0 mm.<br>Välj en annan pappersstorlek.
+MSG_ERROR_ASSOC=Filassociationerna kan inte konfigureras. Starta GreenPixel som Administratör för att försöka lösa problemet.
+MSG_FAIL_SINGLE_OPEN=Kunde inte läsa in den specificerade filen
+MSG_FAIL_MULTIPLE_OPEN=En del filer kunde inte öppnas.
+
+; Open/Save dialog filters
+FF_ALL=Alla filer
+FF_GFIE=GreenPixel internt format
+FF_ICO=Ikon-filer
+FF_CUR=Pekar-filer
+FF_ANI=Animerade pekare
+FF_ICNS=Apple ikonformat
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bitmaps
+FF_JPEG=JPEG-filer
+FF_GIF=Graphics Interchange Format
+FF_JPEG_2000=JPEG 2000-filer
+FF_PCX=PCX-filer
+FF_EXEC=Alla exekverbara filer och ikonbibliotek
+FF_ICL=Ikonbibliotek
+FF_RES=Win32 resurs-filer
+
+; Tool names
+TOOL_SEL_RECT=Rektangel
+TOOL_SEL_ELLIPSE=Ellips/Cirkel
+TOOL_LASSO=Lasso
+TOOL_WAND=Trollspö
+TOOL_SEL_PENCIL=Penna
+TOOL_TRANSFORM=Omforma
+TOOL_CROP=Beskär
+TOOL_HOTSPOT=Aktiv punkt
+TOOL_EYEDROPPER=Pipett
+TOOL_RETOUCH=Retuschera
+TOOL_RECT=Rektangel
+TOOL_ELLIPSE=Ellips/Cirkel
+TOOL_LINE=Linje
+TOOL_TEXT=Text
+TOOL_PENCIL=Penna
+TOOL_BRUSH=Pensel
+TOOL_ERASER=Radera
+TOOL_RECOLOR=Invertera färger
+TOOL_BUCKET=Fyll
+TOOL_GRADIENT=Tonad fyllning
+TOOL_NONE=Inget
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=Arkiv
+MI_FILE_NEW_GRAPHIC=Ny grafik
+MI_FILE_NEW_LIBRARY=Nytt bibliotek
+MI_FILE_OPEN=Öppna
+MI_FILE_RECENT_FILES=Nyligen använda filer
+MI_FILE_RF_CLEAR=Rensa lista
+MI_FILE_BATCH_CONVERT=Batch-konvertera filer
+MI_FILE_CLOSE=Stäng
+MI_FILE_CLOSE_ALL=Stäng alla
+MI_FILE_SAVE=Spara
+MI_FILE_SAVE_AS=Spara som
+MI_FILE_SAVE_ALL=Spara alla
+MI_FILE_REVERT=Återställ
+MI_FILE_METADATA=Metadata
+MI_FILE_PRINT=Skriv ut
+MI_FILE_EXIT=Avsluta
+
+MI_EDIT=Redigera
+MI_EDIT_UNDO=Ångra
+MI_EDIT_CANT_UNDO=Det går inte att ångra åtgärden
+MI_EDIT_REDO=Upprepa
+MI_EDIT_CANT_REDO=Det går inte att upprepa åtgärden
+MI_EDIT_CUT=Klipp ut
+MI_EDIT_COPY=Kopiera
+MI_EDIT_PASTE=Klistra in
+MI_EDIT_PASTE_PAGE=Klistra in som ny bildsida
+MI_EDIT_PASTE_DOC=Klistra in som nytt document
+MI_EDIT_DELETE=Ta bort
+MI_EDIT_SEL_ALL=Markera alla
+MI_EDIT_SEL_NONE=Avmarkera alla
+MI_EDIT_SEL_INVERT=Invertera markeringar
+MI_EDIT_SEL_LOAD=Läs in urvalsmall
+MI_EDIT_SEL_SAVE=Spara urvalsmall
+MI_EDIT_CROP_TRANSPARENCY=Beskär transparenta områden
+MI_EDIT_TRANSFORM=Invertera
+MI_EDIT_SEL_TRANSFORM=Invertera markerade
+MI_EDIT_FLIP_HORIZ=Vänd horisontellt
+MI_EDIT_FLIP_VERT=Vänd vertikalt
+MI_EDIT_ROTATE_LEFT=Rotera 90 grader åt vänster
+MI_EDIT_ROTATE_RIGHT=Rotera 90 grader åt höger
+MI_EDIT_ROTATE_180=Rotera 180 grader
+
+MI_VIEW=Visa
+MI_VIEW_ZOOM_IN=Zooma in
+MI_VIEW_ZOOM_OUT=Zooma ut
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Anpassa till fönster
+MI_VIEW_GRID=Stödlinjer
+MI_VIEW_CELL_GRID=Rutnät
+MI_VIEW_CENTER_LINES=Mittlinjer
+MI_VIEW_PAGES=Sidlista
+MI_VIEW_TOOLBAR=Verktyg
+MI_VIEW_COLOR_PICKER=Färgväljare
+MI_VIEW_TOOL_BEHAVIOR=Inställningar
+MI_VIEW_LAYERS=Lager
+MI_VIEW_PANEL_LEFT=Vänster panel
+MI_VIEW_PANEL_RIGHT=Höger panel
+MI_VIEW_STARTUP_SCREEN=Startfönster
+
+MI_FLT=Filter
+MI_FLT_GRAYSCALE=Gråskala
+MI_FLT_INVERT=Invertera
+MI_FLT_SOLARIZE=Solarisera
+MI_FLT_RGB=RGB-kanaler
+MI_FLT_HS=Ton/Mättnad
+MI_FLT_EXPOSURE=Exponering
+MI_FLT_FORMULAE=RGB-formler
+MI_FLT_AVERAGE=Medel
+MI_FLT_BLUR_SOFT=Lätt utjämning
+MI_FLT_BLUR_MORE=Stark utjämning
+MI_FLT_BLUR_CUSTOM=Anpassad utjämning
+MI_FLT_SHARPEN=Skärpa
+MI_FLT_UNSHARP_MASK=Oskärpemall
+MI_FLT_REMOVE_MATTE=Ta bort matthet
+MI_FLT_OPACITY=Opacitet
+MI_FLT_PAINT_CONTOUR=Markerad kontur
+MI_FLT_DROP_SHADOW=Konturskugga
+MI_FLT_GLOW=Glödkontur
+MI_FLT_BEVEL=Fasad kontur
+
+MI_LAYERS=Lager
+MI_LAYERS_NEW=Nytt lager
+MI_LAYERS_DUPLICATE=Duplicera lager
+MI_LAYERS_DELETE=Ta bort lager
+MI_LAYERS_PROP=Lageregenskaper
+MI_LAYERS_MERGE_SELECTED=Slå samman markerade
+MI_LAYERS_MERGE_VISIBLE=Slå samman synliga
+MI_LAYERS_FLATTEN=Släta ut bild
+MI_LAYERS_FROM_SEL=Skapa lager av markerat
+
+MI_ICON=Ikon
+MI_ICON_PAGE_NEW=Ny bildsida
+MI_ICON_PAGE_DELETE=Ta bort bildsida
+MI_ICON_PAGE_PROP=Sidegenskaper
+MI_ICON_PAGE_IMPORT=Importera bildsidor
+MI_ICON_PAGE_EXPORT=Exportera bildsida
+MI_ICON_PAGE_EXPORT_ALL=Exportera alla bildsidor
+MI_ICON_UNIFORM_RATE=Tillämpa samma varaktighet för alla rutor
+MI_ICON_CREATE_WIN=Skapa Windows-ikon av bild
+MI_ICON_CREATE_MAC=Skapa Mac-ikon av bild
+MI_ICON_TEST=Test
+
+MI_LIB=Bibliotek
+MI_LIB_ADD=Lägg till resurser
+MI_LIB_REMOVE=Ta bort resurser
+MI_LIB_REPLACE=Byt ut resurser
+MI_LIB_PROP=Resursegenskaper
+MI_LIB_EXTRACT_EDIT=Extrahera och redigera
+MI_LIB_EXTRACT_SAVE=Extrahera och spara
+
+MI_SET=Inställningar
+MI_SET_PREFERENCES=Alternativ
+MI_SET_LANGUAGE=Språk
+
+MI_HELP=Hjälp
+MI_HELP_CONTENTS=Innehåll
+MI_HELP_HOMEPAGE=Hemsida
+MI_HELP_SUPPORT=Online-support
+MI_HELP_DONATE=Donera
+MI_HELP_ABOUT=Om
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 färger
+PF_256_COLORS=256 färger
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=Skapa flytande markering
+UNDO_MERGE_LAYERS=Sammanfoga lager
+UNDO_MOVE_LAYERS=Flytta lager
+UNDO_MOVE_PAGE=Flytta bildsida
+UNDO_FLIP_ROTATE=Vänd/Rotera
+
+; Layers glossary
+LY_LAYER=Lager
+LY_BACKGROUND=Bakgrund
+LY_FLOATING_SEL=Flytande markering
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Ny bildsida
+PG_CAPTION_PAGE_PROP=Sidegenskaper
+
+PG_SIZE_SMALLEST=Minst
+PG_SIZE_TOOLBAR=Verktygsfält
+PG_SIZE_SMALL=Liten
+PG_SIZE_MEDIUM=Medium
+PG_SIZE_LARGE=Stor
+PG_SIZE_HUGE_VISTA=Enorm, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Anpassad storlek
+PG_SQUARE=Rektangel
+
+PG_CR=Färgreducering
+PG_CR_BW=Svartvit
+PG_CR_16_WIN=16 färger (Windows-palett)
+PG_CR_16_MAC=16 färger (Mac-palett)
+PG_CR_256_ADAPT=256 färger (Adaptiv)
+PG_CR_256_MAC=256 färger (Mac-palett)
+PG_CR_24=24-bit RGB
+PG_CR_32=Ingen reduktion (32-bit)
+
+PG_ANIMATION=Vid "Spara som animation"
+PG_FRAME_RATE=Varaktighet (millisekunder)
+
+PG_CREATE_FROM_SELECTED=Skapa från markerad bildsida
+PG_WHEN_RESIZING=Vid storleksändring
+PG_STRETCH=Sträck ut
+PG_CROP=Beskär
+PG_IMAGE_ANCHORS=Bildankare
+
+; Filter dialogs
+LABEL_RED=Röd
+LABEL_GREEN=Grön
+LABEL_BLUE=Blå
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Färgton
+LABEL_SATURATION=Varaktighet
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Ljus
+LABEL_TORIC=Torus-läge
+LABEL_GAUSSIAN_BLUR=Gaussisk oskärpa
+LABEL_BOX_BLUR=Oskärpa
+LABEL_MATTE_COLOR=Matt färg
+LABEL_WHITE_MATTE=Matt vitt
+LABEL_BLACK_MATTE=Black matte
+LABEL_INNER_GLOW=Glöd inåt
+LABEL_OUTER_GLOW=Glöd utåt
+
+LABEL_AMOUNT=Mängd
+LABEL_ANGLE_DEGREES=Vinkel (grader)
+LABEL_BLUR=Oskärpa
+LABEL_DISTANCE=Distans
+LABEL_INTENSITY=Intensitet
+LABEL_OPACITY=Opacitet
+LABEL_RADIUS=Radie
+LABEL_THRESHOLD=Tröskelvärde
+
+; Batch conversion dialog
+BC_FILES=Filer
+BC_SETTINGS=Inställningar
+BC_FORMAT=Konvertera till
+BC_FOLDER=Målmapp
+BC_OPEN=Öppna konverterade filer i ErrorSoft Green Pixel
+BC_ICON_FORMATS=Välj ikonformat
+
+; Cell grid dialog
+CG_ENABLED=Aktiverad
+CG_SIZE=Cellstorlek
+CG_SPACING=Cellavstånd
+CG_OFFSET=Kompensation
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Välj dom format du vill skapa
+
+; ICL format dialog
+IF_TITLE=Välj ICL-format
+
+; Language dialog
+LABEL_LANG_PACK=Språkpaket
+
+; Layer properties dialog
+LP_NAME=Namn
+LP_VISIBLE=Synlig
+LP_BLEND_MODE=Blandläge
+
+LP_BM_NORMAL=Normal
+LP_BM_MASK=Mask
+LP_BM_BEHIND=Bakom
+LP_BM_DISSOLVE=Lös upp
+LP_BM_HUE=Nyans
+LP_BM_HUE_SHIFT=Nyansskiftning
+LP_BM_SAT=Mättnad
+LP_BM_DARKEN=Mörkare
+LP_BM_MULTIPLY=Multiplicera
+LP_BM_COLOR_BURN=Efterbelys
+LP_BM_LINEAR_BURN=Linjär belysning
+LP_BM_DARKER_COLOR=Mörkare färg
+LP_BM_LIGHTEN=Ljusare
+LP_BM_SCREEN=Skärm
+LP_BM_COLOR_DODGE=Färgskugga
+LP_BM_LINEAR_DODGE=Linjär skugga (Lägg till)
+LP_BM_LIGHTER_COLOR=Ljusare färg
+LP_BM_OVERLAY=Övertäckning
+LP_BM_SOFT_LIGHT=Mjukt ljus
+LP_BM_HARD_LIGHT=Hårt ljus
+LP_BM_VIVID_LIGHT=Klart ljus
+LP_BM_LINEAR_LIGHT=Linjärt ljus
+LP_BM_PIN_LIGHT=Nålljus
+LP_BM_HARD_MIX=Hård Mix
+LP_BM_DIFFERENCE=Skillnad
+LP_BM_EXCLUSION=Exkluderande
+
+; Metadata dialog
+MD_TYPE=För %s filer
+MD_TITLE=Namn
+MD_AUTHOR=Utvecklare
+MD_COPYRIGHT=Copyright
+MD_COMMENTS=Kommentarer
+MD_QUALITY=Spara i kvallitet
+MD_LOOP_COUNT=Loop antal (0 = oändligt)
+
+; Preferences dialog
+PREF_MISC=Diverse
+PREF_ENVIRONMENT=Miljö
+PREF_INSTALL=Associera
+PREF_IMAGE_MAX=Max tillåten bildstorlek (pixel)
+PREF_PNG_ICONS=Vid PNG-komprimering i .ICO/.CUR-filer
+PREF_PNG_LIMIT=Komprimera bilder vars vars storlek är minst (pixel)
+PREF_AA_IMAGES=Kantutjämna alla storleksändrade bilder
+PREF_COLORS=Färger
+PREF_TRANSPARENT_HATCH=Transparent lucka
+PREF_GRID2=Sekundärt rutnät
+PREF_DVM=Visa i Öppna/Spara-dialog
+PREF_DVM_ITEMS=Ikoner<br>Lista<br>Detaljerad lista<br>Miniatyrer<br>Sammanfattning
+PREF_MWA=Mushjulsfunktion
+PREF_MWA_ITEMS=Ingen<br>Scrolla<br>Zooma
+PREF_SAVE_TOOL_SETTINGS=Spara verktygsinställningar mellan sessioner
+PREF_FILE_ASSOC=Filassociationer
+PREF_ADMIN=GreenPixel måste köras i administratörsläge för att kunna ändra dessa syteminställningar i Windows Vista eller nyare.
+
+; Print dialog
+PRINT_COPIES=Kopior
+PRINT_ZOOM=Zoom (%)
+PRINT_CAPTION=Rubrik
+PRINT_PAGES=Skriv ut
+PRINT_PAGES_BUTTONS=Alla bildsidor<br>Aktuell bildsida
+
+; Resource properties dialog
+RP_NAME=Namn
+RP_LANGUAGE=Språk
+RP_LANG_CUSTOM=Språk-ID
+RP_LANG_NEUTRAL=Standardspråk
+
+; Save Options dialog
+SO_TITLE=Sparalternativ
+SO_QUALITY=Kvallitet
+SO_LOSSLESS=Förlustfri
+
+; Startup screen
+ST_WELCOME=Välkommen!
+ST_CHOOSE_ACTION=Välj åtgärd
+ST_NG=Skapa ny grafik
+ST_NG_INFO=Skapar en ny ikon, pekare eller animation
+ST_NL=Skapa nytt bibliotek
+ST_NL_INFO=Skapar ett tomt ikonbibliotek (.ICL) eller resursfil (.RES)
+ST_OPEN=Öppna en existerande fil
+ST_OPEN_INFO=Öppnar en bildfil, ikonbibliotek, exekverbar eller resursfil från lagringsmedia
+ST_CONVERT=Batch-konvertera bildfiler
+ST_CONVERT_INFO=Konverterar multipla bildfiler till ikoner eller andra bildformat
+ST_NONE=Gör ingenting
+ST_NONE_INFO=Stänger det här startfönstret
+ST_RECENT_INFO=Öppnar en fil som nyligen har redigerats i ErrorSoft Green Pixel
+ST_SHOW=Visa alltid detta startfönster vid uppstart
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Rör pekaren över bilden nedanför
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Mata in text
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Antialias
+TB_PATTERN=Mönster
+TB_SAMPLE_ALL_LAYERS=Sampla alla lager
+TB_BRUSH_SIZE=Penselstorlek
+TB_BRUSH_SHAPE=Penselskärpa
+TB_BRUSH_ITEMS=Rund<br>Rektangulär<br>Snedstreck höger<br>Snedstreck bakåt<br>Horisontell<br>Vertikal<br>Spray
+TB_LINE_WIDTH=Linjetjocklek
+TB_TOLERANCE=Trollspö/Återfärga/Hinktolerans (%)
+TB_CONTIGUOUS=Sammanhängande
+TB_SHAPE_FRAMED=Inramade figurer
+TB_SHAPE_FILLED=Fyllda figurer
+TB_EYEDROPPER_BACK=Pipett skiftar tillbaka till föregående verktyg
+TB_RETOUCH_MODE=Retuscheringsläge
+TB_RETOUCH_ITEMS=Oskärpa<br>Skärpa<br>Diffust<br>Bränn<br>Tona<br>Sudda
+TB_ERASER_STRENGTH=Suddstyrka (%)
+TB_G_LINEAR=Linjär övertoning
+TB_G_RADIAL=Radiell övertoning
+TB_G_CONICAL=Konisk övertoning
+TB_G_SPIRAL=Spiral övertoning
+TB_REP_NONE=Ingen repetition
+TB_REP_SYM=Symmetrisk repetition
+TB_REP_ASYM=Asymmetrisk repetition
+TB_MODE_COLOR=Färgläge
+TB_MODE_TRANSPARENCY=Transparent läge
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=pixels<br>%
+
+; Hints
+HINT_COMPACT=Kompaktvy
+
+HINT_CP_FORE_COLOR=Förgrundsfärg
+HINT_CP_BACK_COLOR=Bakgrundsfärg
+HINT_CP_SWAP_COLORS=Skifta färger
+HINT_CP_DEFAULT=Återställ standard
+HINT_CP_TRANSPARENT=Transparent
+HINT_CP_INVERTED=Inverterad
+HINT_CP_TOGGLE_CHOOSER=Växla mellan HSB-karta och andra färgkartor
+HINT_CP_SWATCHES=Vänsterklick för att välja färg, högerklick för att skriva över färgprov med aktuell färg
+HINT_CP_SWATCH_LOAD=Läs in sparad färgkarta
+HINT_CP_SWATCH_SAVE=Spara färgkarta
+HINT_CP_RED=Röd
+HINT_CP_GREEN=Grön
+HINT_CP_BLUE=Blå
+HINT_CP_ALPHA=Alfafärg (Opacitet)
+HINT_CP_HTML=HTML-kod
+HINT_CP_WCP=Windows färgväljare
+
+HINT_DOC_LB=Sidlista (ikon format/ramar)
+HINT_DOC_LB_PAGE=Bildsida %d, storlek: %d x %d pixel
+HINT_DOC_LB_PNG=kommer att PNG-komprimeras när dokumentet sparas som .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Zooma
+HINT_DOC_NODES=%d noder
+HINT_DOC_TOGGLE_PAGES=Dölj/Visa sidlista
+
+HINT_RES_FOLDER=Välj en mapp för dom extraherade filerna
+
+HINT_STARTUP_HELP=Hjälp
+HINT_TEST_BGR_LOAD=Läs in bakgrund
+HINT_TEST_BGR_DEFAULT=Standardbakgrund
+
+HINT_TEXT_FACE=Teckensnitt
+HINT_TEXT_BOLD=Fet
+HINT_TEXT_ITALIC=Kursiv
+HINT_TEXT_UNDERLINE=Understruken
+
+; eof

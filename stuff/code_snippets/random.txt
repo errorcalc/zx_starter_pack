@@ -1,0 +1,19 @@
+случайное число 
+
+
+random_elite:
+    ld a,(random_store)
+    ld d,a
+    ld a,(random_store+1)
+    ld (random_store),a
+    add a,d
+    ld d,a
+    ld a,(random_store+2)
+    ld (random_store+1),a
+    add a,d
+    rlca
+    ld (random_store+2),a
+    ret
+
+random_store:
+    db 0,42,109

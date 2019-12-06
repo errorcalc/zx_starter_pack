@@ -1,0 +1,15 @@
+    ; заполняем атрибуты
+    ld a,#07
+    ld hl,#5800
+    ld de,#5800 + 1
+    ld bc,768 - 1
+    ld (hl),a
+    ldir
+    
+    ; очищаем экран
+    xor a
+    ld hl,#4000
+    ld de,#4000 + 1
+    ld bc,6144 - 1
+    ld (hl),a
+    ldir

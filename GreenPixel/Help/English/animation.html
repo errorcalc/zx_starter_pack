@@ -1,0 +1,31 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>How to create an animated cursor or GIF animation</title>
+
+</head><body>
+<span class="n">
+
+How to...
+
+<center><h1>Create an animated cursor or GIF animation</h1></center>
+
+<span class="r">Browse the <em>Samples</em> folder for example animations.</span><p>
+
+When creating an animation, document pages correspond to movie frames, so your only task is to set a frame duration to all the pages.<p>
+
+This can be done by choosing <em>Icon|Page properties</em> or double-clicking the concerned page. The edit box labeled <em>Frame duration</em> contains the duration value for the selected frame, which has an initial value of zero milliseconds (no animation). Choose <em>Icon|Apply frame duration to all frames</em> to set the same duration for all frames - the duration value which is currently set for the selected page.<p>
+
+<span class="r">Please note that you may experience round-off errors when saving and reloading an animation file. Animated cursors use the jiffy as units (1/60 second), while, in GIF files, the duration must be an integral multiple of 1/100 s. Thus a duration value of 143 is loaded back as 150 (ANI) or 140 (GIF).</span><p>
+
+<h2>Designing animated cursors</h2><p>
+
+<span class="r">It is recommended to read <a href="cursor.html">this</a> article about static cursors first.</span><p>
+
+When designing an animated cursor, there is an additional thing you should set. The <em>hot spot</em> must be chosen for each individual page. Different frames may have different hot spots, so it is not enough to set the hot spot only for the first frame.<p>
+
+<h2>Testing your animation</h2><p>
+
+See <a href="test.html">this</a> article.
+
+</span>
+</body></html>

@@ -1,0 +1,390 @@
+; ErrorSoft Green Pixel
+; Language pack: Arabic
+; Created by: chaara ghait
+
+; General dictionary
+LABEL_WIDTH=العرض
+LABEL_HEIGHT=الطول
+LABEL_SIZE=القياس
+LABEL_COLOR=اللون
+LABEL_KIND=النوع
+LABEL_ANTIALIAS=صقل
+LABEL_POSITION=الموقع
+UNTITLED=بدون اسم
+
+; Buttons
+B_OK=موافق
+B_CANCEL=الغاء
+B_RESET=وضع سابق
+B_ADD=اضافة
+B_REMOVE=محو
+B_CLEAR=محو الكل
+B_CLOSE=اغلاق
+B_ALL=الكل
+B_NONE=بلا
+B_PRINT=طباعة
+B_PRINTER_SETUP=اعدادات الطابعة
+B_PREVIEW=معاينة
+B_COMPILE=ترجمة
+
+; Shown messages
+MSG_NOT_EXIST="%s" لا يوجد
+MSG_UNKNOWN_FILE_TYPE=لا يمكن فتح الملف لان بنيته غير معروفة
+MSG_INVALID_FILE_FORMAT=بنية الملف غير صالحة
+MSG_SAVE_CHANGES= هل تريد حفظ  التعديلات على الملف
+MSG_CONFIRM_REVERT=كل التعديلات ستضيع العملية لم تتم هل تريد المتابعة 
+MSG_DATA_LOSS_INFO=لتجنب ضياع المعلومات احفظ الملف ببنية اخرى
+MSG_DL_MULTIPAGE=هذه البنية لا تدعم تعدد الصور في نفس الملف
+MSG_DL_SIZE_256=هذه البنية لا تدعم القياسات الكبيرة جدا الصورة قد عدل قياسها
+MSG_DL_TRANSPARENCY=هذه البنية لا تدعم الشفافية
+MSG_DL_COLOR_DEPTH=بعض المعلومات عن اللون لم يتم حفظها
+MSG_ADD_FILES=اضف بعض الملفات الى اللائحة من فضلك
+MSG_SELECT_PAGES=اختر بعض الصفحات من فضلك
+MSG_PAGE_SIZE_0=خطأ قياس الصورة لا يمكن ان يكون منعدما اختر قيمة أخرى
+
+; Open/Save dialog filters
+FF_ALL=كل الملفات
+FF_ICO=ملفات الايقونات
+FF_CUR=ملفات المؤشرات
+FF_ANI= مؤشرات متحركة 
+FF_PNG=رسم محمول للشبكة
+FF_XPM=اكس PixMaps
+FF_BMP=صور نقطية
+FF_JPEG=ملفات JPEG
+FF_GIF=صور متبادلة
+FF_EXEC=كل الملفات القابلة للتنفيذ و مكتبات الايقونات
+FF_ICO_CUR=ملفات الايقونات و المؤشرات
+FF_ICL=مكتبة الايقونات
+FF_RES=ملفات الموارد Win32
+FF_RC=روتين الموارد
+
+; Tool names
+TOOL_SEL_RECT=تحديد مستطيلي
+TOOL_SEL_ELLIPSE=تحديد اهليليجي
+TOOL_LASSO=وهق
+TOOL_WAND=عصا
+TOOL_SEL_PENCIL=تحديد قلمي
+TOOL_TRANSFORM=تحويل
+TOOL_CROP=قص
+TOOL_HOTSPOT=تعيين نقطة ساخنة
+TOOL_EYEDROPPER=قطارة
+TOOL_RETOUCH=تنقيح
+TOOL_RECT=مستطيل
+
+TOOL_ELLIPSE=اهليليج
+TOOL_LINE=خط
+TOOL_TEXT=نص
+TOOL_PENCIL=قلم
+TOOL_BRUSH=فرشاة
+TOOL_ERASER=ممحاة
+TOOL_RECOLOR=تلوين
+TOOL_BUCKET=ملء 
+TOOL_GRADIENT=ملء متدرج
+TOOL_NONE=بلا
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_ENTER=Enter
+KEY_DEL=Del
+
+; Menu items
+MI_FILE=ملف
+MI_FILE_NEW_GRAPHIC=جديد
+MI_FILE_NEW_LIBRARY=مكتبة جديدة
+MI_FILE_OPEN=فتح
+MI_FILE_RECENT_FILES=ملفات حديثة
+MI_FILE_RF_CLEAR=تحرير اللاحة
+MI_FILE_EXTRACT=استخراج
+MI_FILE_BATCH_CONVERT=تحويل الملفات دفعة واحدة
+MI_FILE_CREATE_RES=إنشاء ملف الدقة
+MI_FILE_CLOSE=إغلاق
+MI_FILE_CLOSE_ALL=إغلاق الجميع
+MI_FILE_SAVE=حفظ
+MI_FILE_SAVE_AS=حفظ ك
+MI_FILE_SAVE_ALL=حفظ الكل
+MI_FILE_REVERT=عودة
+MI_FILE_METADATA=تعريف
+MI_FILE_PRINT=طباعة
+MI_FILE_EXIT=خروج
+
+MI_EDIT=تعديل
+MI_EDIT_UNDO=رجوع
+MI_EDIT_CANT_UNDO=رجوع غير ممكن
+MI_EDIT_REDO=إعادة
+MI_EDIT_CANT_REDO=إعادة غير ممكنة
+MI_EDIT_CUT=قص
+MI_EDIT_COPY=نسخ
+MI_EDIT_PASTE=لصق
+MI_EDIT_PASTE_PAGE=لصق كصفحة جديدة
+MI_EDIT_DELETE=حذف
+MI_EDIT_SEL_ALL=اختيار الكل
+MI_EDIT_SEL_NONE=عدم اختيار الكل
+MI_EDIT_SEL_INVERT=عكس الاختييار
+MI_EDIT_SEL_LOAD=تحميل قناع الاختيار
+MI_EDIT_SEL_SAVE=حفظ قناع الاختيار
+MI_EDIT_CROP_TRANSPARENCY=حذف الاجزاء الشفافة
+MI_EDIT_TRANSFORM=تحويل
+MI_EDIT_SEL_TRANSFORM=تحويل الاختيار
+MI_EDIT_FLIP_HORIZ=قلب افقي
+MI_EDIT_FLIP_VERT=قلب عمودي
+MI_EDIT_ROTATE_LEFT=دوران تسعين درجة لليسار
+MI_EDIT_ROTATE_RIGHT=دوران تسعين درجة لليمين
+MI_EDIT_ROTATE_180=دوران كامل
+
+MI_VIEW=عرض
+MI_VIEW_ZOOM_IN=تكبير
+MI_VIEW_ZOOM_OUT=تصغير
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=تناسب النافذة
+MI_VIEW_GRID= شبكة
+MI_VIEW_CENTER_LINES=الخطوط المركزية
+MI_VIEW_PAGES=قائمة الصفحات
+MI_VIEW_TOOLBAR=الأدوات
+MI_VIEW_COLOR_PICKER=منتقي الألوان
+MI_VIEW_TOOL_BEHAVIOR=خاصيات الأدوات
+MI_VIEW_STARTUP_SCREEN=شاشة البدأ
+
+MI_FLT=الفلاتر
+MI_FLT_GRAYSCALE=تحوبل رمادي
+MI_FLT_INVERT= عكس
+MI_FLT_SOLARIZE=تشميس
+MI_FLT_RGB=RGB قنوات
+MI_FLT_HS=صفاء اللون
+MI_FLT_EXPOSURE=تعرض
+MI_FLT_AVERAGE=تعديل
+MI_FLT_BLUR_SOFT=ضبابية ناعمة
+MI_FLT_BLUR_MORE=اكثر ضبابية 
+MI_FLT_BLUR_CUSTOM=اختيار الضبابية 
+MI_FLT_SHARPEN=تصفية
+MI_FLT_UNSHARP_MASK=ازالة قناع التصفية
+MI_FLT_REMOVE_MATTE=استأصال لون
+MI_FLT_OPACITY=غير شفاف
+MI_FLT_PAINT_CONTOUR=محيط
+MI_FLT_DROP_SHADOW=ظل
+MI_FLT_GLOW= توهج
+MI_FLT_BEVEL=حافة ظلية
+
+MI_ICON=أيقونة
+MI_ICON_PAGE_NEW=صفحة جديدة
+MI_ICON_PAGE_DELETE=حذف الصفحة
+MI_ICON_PAGE_PROP=صفحة الخصائص
+MI_ICON_PAGE_EXPORT=تصدير الصفحة
+MI_ICON_UNIFORM_RATE=تمرير مدة الإطار لجميع الإطارات
+MI_ICON_CREATE_FROM_IMAGE=انشاء ايقونة من الصورة
+MI_ICON_TEST= معاينة
+
+MI_LIB=المكتبة
+MI_LIB_ADD=إضافة موارد
+MI_LIB_REMOVE=إزالة موارد
+MI_LIB_REPLACE=استبدال موارد
+MI_LIB_PROP=خصائص الموارد
+MI_LIB_EXTRACT_EDIT=استخراج و تعديل
+MI_LIB_EXTRACT_SAVE=استخراج وحفظ
+
+MI_HELP=مساعدة
+MI_HELP_CONTENTS=محتويات
+MI_HELP_GS=بدأ
+MI_HELP_HOMEPAGE=الصفحة الرئيسية
+MI_HELP_DONATE=تبرع
+MI_HELP_PREFERENCES=تفضيلات
+MI_HELP_LANGUAGE=لغة
+MI_HELP_ABOUT=حول
+
+; Pixel Format to String
+PF_1_BIT=1-بيت
+PF_16_COLORS=16 لونا
+PF_256_COLORS=256 لونا
+PF_24_BIT=24-بيت
+PF_32_BIT=32-بيت
+
+; Undo captions
+UNDO_MOVE_PAGE=نقل صفحة
+UNDO_FLIP_ROTATE=توجيه / استدارة
+
+; Page properties dialog box
+PG_CAPTION_NEW_PAGE=صفحة جديدة
+PG_CAPTION_PAGE_PROP=خصائص الصفحة 
+
+PG_SIZE_ITEMS=16 x 16 (الاصغر)<br>20 x 20 (نافذة ويندوز)<br>24 x 24 (شريط الأدوات)<br>32 x 32 (صغير)<br>48 x 48 (متوسط)<br>64 x 64 (كبير)<br>256 x 256 (ضخم)<br>اختياري
+PG_CUSTOM_SIZE=اختياري
+PG_SQUARE=مربع
+
+PG_CR=تخفيض اللون
+PG_CR_ITEMS=أبيض وأسود<br>16 لونا<br> لونا 256<br>24-bit RGB<br>لا تخفيض
+PG_ANIMATION=عند حفظ كصورة متحركة
+PG_FRAME_RATE=مدة الإطار بالملي ثانية
+PG_CREATE_FROM_SELECTED=إنشاء من الصفحة المختارة
+
+; Color Picker
+TAB_HSB_MAP=HSB خريطة
+TAB_SWATCHES=حوامل
+
+; Filter configuration dialogs
+LABEL_RED=أحمر
+LABEL_GREEN=أخضر
+LABEL_BLUE=أزرق
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=درجة اللون
+LABEL_SATURATION=تشبع
+LABEL_GAMMA=غاما
+LABEL_BRIGHTNESS=سطوع
+LABEL_GAUSSIAN_BLUR=ضبابية كوسية
+LABEL_BOX_BLUR=ضبابية مربعية
+LABEL_MATTE_COLOR=لون الاستأصال
+LABEL_WHITE_MATTE=استأصال اللون الابيض
+LABEL_BLACK_MATTE=استأصال اللون الاسود
+LABEL_INNER_GLOW=توهج داخلي
+LABEL_OUTER_GLOW=توهج خارجي
+
+LABEL_AMOUNT=كم
+LABEL_ANGLE_DEGREES=زاوية
+LABEL_BLUR=ضبابية 
+LABEL_DISTANCE=مسافة
+LABEL_INTENSITY=حدة
+LABEL_OPACITY=غير شفاف
+LABEL_RADIUS=شعاع
+LABEL_THRESHOLD=عتبة
+
+; Create icon from image dialog box
+CI_SELECT_FORMATS=اختر البنيات التي تريد خلقلها
+
+; Batch conversion dialog
+BC_FILES=الملفات
+BC_SETTINGS=الإعدادات
+BC_FORMAT=تحويل إلى
+BC_FOLDER=المجلد الهدف
+BC_OPEN=فتح الملفات المحولة
+BC_ICON_FORMATS=بنيات الايقونات
+
+;
+; Preferences dialog box
+PREF_MISC=متفرقات
+PREF_ENVIRONMENT=بيئة
+PREF_INSTALL=تثبيت
+PREF_IMAGE_MAX=الحجم الاقصى المسموح به لحجم الصور
+PREF_PNG_ICONS=استخدام ضغطPNG
+PREF_PNG_LIMIT=ضغط الصور بالحجم الذي هو على الأقل
+PREF_COLORS=الألوان
+PREF_TRANSPARENT_HATCH=شفافية
+PREF_DVM=عرض طريقة فتح / حفظ الحوارات
+PREF_DVM_ITEMS=أيقونات<br>قائمة<br>تفاصيل<br>مصغرات<br>بلاط
+PREF_MWA=عجلة الماوس
+PREF_MWA_ITEMS=بلا<br>انتقال عمودي<br>تكبير
+PREF_SAVE_TOOL_SETTINGS=حفظ إعدادات الأداة بين الدورات
+PREF_FILE_ASSOC=ربط الملفات
+
+; Language dialog box
+LABEL_LANG_PACK=حزمة اللغة
+
+; Metadata dialog box
+MD_TYPE=للملفات
+MD_TITLE=اسم الملف
+MD_AUTHOR=صاحب الملف
+MD_COPYRIGHT=حقوق التأليف والنشر
+MD_COMMENTS=تعليقات
+MD_QUALITY=حفظ في الجودة
+MD_LOOP_COUNT=حلقة العد
+
+; Print dialog box
+PRINT_COPIES=عدد الصفحات
+PRINT_ZOOM=تكبير (%)
+PRINT_CAPTION=التوضيحية
+PRINT_PAGES=طباعة
+PRINT_PAGES_BUTTONS=كل الصفحات<br>الصفحة الحالية
+
+; Resource properties dialog box
+RP_NAME=اسم
+RP_LANGUAGE=لغة
+RP_LANG_CUSTOM=اختيار اللغة
+RP_LANG_NEUTRAL=لغة محايدة
+; Startup screen
+ST_CHOOSE_ACTION=الرجاء اختيار إجراء للتنفيذ
+ST_NG=إنشاء رسم جديد
+ST_NG_INFO=إنشاء ايقونة او مؤشر او صورة متحركة
+ST_NL=إنشاء مكتبة جديدة
+ST_NL_INFO=خلق مكتبة ايقونات فارغة او ملف للموارد
+ST_OPEN=فتح مستند موجود
+ST_OPEN_INFO= فتح ملف صورة, مكتبة ايقونات  ,ملف قابل للتنفيذ او ملف للموارد
+ST_CONVERT=دفعة تحويل ملفات الصور
+ST_CONVERT_INFO=تحويل ملفات متعددة لايقونات أو بنية اخرى
+ST_NONE=عدم تنفيذ اي إجراء 
+ST_NONE_INFO=إغلاق شاشة بدء التشغيل
+ST_RECENT_INFO=فتح ملف محرر حديثا
+ST_SHOW=اظهار هذه الشاشة عند بدء التشغيل دائما 
+
+; Test dialog box
+LABEL_MOVE_OVER_IMAGE=حرك المؤشر فوق الصورة ادناه
+
+; Insert Text dialog box
+CAPTION_INSERT_TEXT=إدراج نص
+
+; Tool Behavior dialog box
+TB_ANTIALIAS=صقل
+TB_BRUSH_ITEMS=دائري<br>حاد<br>مائل<br>مائل عكسي<br>أفقي<br>عمودي<br>رذاذ
+TB_RETOUCH_ITEMS=ضبابية <br>أكثر وضوح<br>مراوغة<br>حرق<br>مسحة<br> إسفنج
+
+; Transform Selection dialog box
+XF_UNITS_ITEMS=بكسل<br>%
+
+; Hints
+HINT_COMPACT=عرض مدمج
+
+HINT_CP_FORE_COLOR=اللون الأمامي
+HINT_CP_BACK_COLOR=اللون الخلفي
+HINT_CP_SWAP_COLORS=عكس الألوان
+HINT_CP_DEFAULT=الوضع الاصلي
+HINT_CP_TRANSPARENT=شفاف
+HINT_CP_INVERTED=مقلوب
+HINT_CP_SWATCHES=انقر بزر الماوس الأيسر لاختيار اللون, انقر بالزر الايمن لاستبدال الحامل باللون الحالي
+HINT_CP_SWATCH_LOAD= شحن حامل السعة
+HINT_CP_SWATCH_SAVE=حفظ حامل السعة
+HINT_CP_RED=المكون الأحمر
+HINT_CP_GREEN=المكون الأحمر
+HINT_CP_BLUE=المكون الأزرق
+HINT_CP_ALPHA=اللون ألفا (شفافية(
+HINT_CP_HTML=HTML
+HINT_CP_WCP=منتقي الألوان ويندوز
+
+HINT_DOC_LB=قائمة الصفحات
+HINT_DOC_LB_PAGE=صفحة %d, قياس: %d x %d بكسل
+HINT_DOC_LB_PNG=.ICO/.CUR سيتم ضغط الملف ببنية اذا تم الحفظ ببنيةPNG
+HINT_DOC_ZOOM_MENU=تكبير
+HINT_DOC_NODES=%d عقد
+HINT_DOC_TOGGLE_PAGES=إخفاء/اظهار قائمة الصفحات
+
+HINT_RES_FOLDER=الرجاء تحديد مجلد للملفات المستخرجة
+
+HINT_STARTUP_HELP=مساعدة
+HINT_TEST_BGR_LOAD= شحن الخلفية
+HINT_TEST_BGR_DEFAULT=الخلفية  الأصلية
+
+HINT_TEXT_FACE=وجه الخط
+HINT_TEXT_BOLD=منضد
+HINT_TEXT_ITALIC=حرف طباعي مائل
+HINT_TEXT_UNDERLINE=تسطير
+
+HINT_TB_FRAMED=كائنات مؤطر
+HINT_TB_FILLED=كائنات مملوئة
+HINT_TB_LINE_WIDTH=عرض الخط
+HINT_TB_EYEDROPPER_BACK=القطارة عادت الى وضعها السابق
+HINT_TB_BRUSH_SIZE=حجم الفرشاة
+HINT_TB_BRUSH_SHAPE=شكل الفرشاة
+HINT_TB_TOLERANCE=عصا / اعادة التلوين/تسامح الدلو(%)
+HINT_TB_RETOUCH_MODE=وضع التنقيح
+HINT_TB_ERASER_STRENGTH=عرض الممحاة(%)
+HINT_TB_G_LINEAR=ملء متدرج خطي
+HINT_TB_G_RADIAL=ملء متدرج شعاعي
+HINT_TB_G_CONICAL=ملء متدرج مخروطي
+HINT_TB_G_SPIRAL=ملء متدرج حلزوني
+HINT_TB_REP_NONE=لا تكرار
+HINT_TB_REP_SYM=تكرار متماثل
+HINT_TB_REP_ASYM=تكرار غير متماثل
+HINT_TB_MODE_COLOR=تلوين
+HINT_TB_MODE_TRANSPARENCY=شفافية
+
+; eof

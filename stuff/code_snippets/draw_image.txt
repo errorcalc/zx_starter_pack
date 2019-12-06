@@ -1,0 +1,31 @@
+процедура медленного рисования картинки
+
+
+; de - output addr
+; hl - src
+; b - height
+; c - width
+draw_img:
+.y_loop:
+    ; copy line
+    push bc
+    push de
+    ld b,0
+    ldir
+    pop de
+    pop bc
+    ; down de
+    inc d
+    ld a,d
+    and 7
+    jr nz,.exit_down_de
+    ld a,e
+    sub -32
+    ld e,a
+    sbc a,a
+    and -8
+    add a,d
+    ld d,a
+.exit_down_de:
+    djnz .y_loop
+    ret

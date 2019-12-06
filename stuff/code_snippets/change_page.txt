@@ -1,0 +1,11 @@
+смена активной страницы в верхней памяти
+
+; a - page
+; registers not changed 
+set_page:
+    push bc
+    or 16
+    ld bc,#7ffd
+    out (c),a
+    pop bc
+    ret

@@ -1,0 +1,503 @@
+; ErrorSoft Green Pixel
+; Language pack: English
+; Created by: Åsmund Wego
+
+; General dictionary
+LABEL_WIDTH=Bredde
+LABEL_HEIGHT=Høyde
+LABEL_SIZE=Størrelse
+LABEL_COLOR=Farge
+LABEL_KIND=Type
+LABEL_ANTIALIAS=Antialias
+LABEL_POSITION=Posisjon
+LABEL_FILE_SIZE=Filstørrelse
+UNTITLED=Navnløs
+
+; Buttons
+B_OK=OK
+B_CANCEL=Avbryt
+B_YES=Ja
+B_NO=Nei
+B_RESET=Tilbakestill
+B_ADD=Legg til
+B_REMOVE=Fjern
+B_CLEAR=Tøm
+B_CLOSE=Lukk
+B_ALL=Alle
+B_NONE=Ingen
+B_PRINT=Skriv ut
+B_PRINTER_SETUP=Skriveroppsett
+B_PREVIEW=Forhåndsvisning
+B_COMPILE=Kompiler
+
+; Shown messages
+MSG_CONFIRMATION=Bekreftelse
+MSG_NOT_EXIST="%s" eksisterer ikke
+MSG_OVERWRITE=Vil du overskrive "%s"?
+MSG_UNKNOWN_FILE_TYPE=Filformatet for "%s" kunne ikke gjenkjennes. Denne filen kan ikke åpnes eller lagres av ErrorSoft Green Pixel, eller den har feil filtype.
+MSG_INVALID_FILE_FORMAT=File "%s" samsvarer ikke med formatet "%s". Filen kan være korrupt, har feil filtype, eller at feil filter er valgt i dialogen for å åpne fil.
+MSG_CROPPED=Bildet var større enn %dx%d og ble klippet. Lagring vil føre til tap av data. Bruk Innstillinger|Preferanser for å øke grensen for bildestørrelse.
+MSG_SAVE_CHANGES=Vil du lagre endringene som er gjort i "%s"?
+MSG_CONFIRM_REVERT=Alle endringer som er gjort i "%s" vil bli tapt, og denne operasjonen kan ikke angres. Er du sikker på at du vil fortsette?
+MSG_CONFIRM_REMOVE=Vil du virkelig fjerne valgte element(er)?
+MSG_CONFIRM_DESTROY_EXE=Ikonene kan ikke enkelt erstattes i denne kjørbare filen/ikonbiblioteket.<br><br>Hvis dette er et program eller DLL som inneholder annen funksjonalitet enn å bare holde ikoner, vil denne funksjonaliteten bli ødelagt ved lagring.<br>Hvis dette er kun et ikonbibliotek, vil sannsynligvis ingen ting galt skje.<br><br>Vil du fortsette til tross for dette?
+MSG_DATA_LOSS_INFO=For å unngå å miste data, lagre dokumentet også i et annet filformat.
+MSG_DL_MULTIPAGE=Dette filformatet støtter ikke å lagre flere bilder i en fil. Bare den første siden vil bli lagret.
+MSG_DL_LAYERS=Dette filformatet støtter ikke lagring av laginformasjon. Bildet var lagret flatt.
+MSG_DL_SIZE_256=Dette filformatet støtter ikke å lagre bilder større enn 256x256. Disse bildene ble kuttet.
+MSG_DL_TRANSPARENCY=Dette filformatet støtter ikke gjennomsiktighet.
+MSG_DL_COLOR_DEPTH=Deler av fargeinformajonen kunne ikke lagres.
+MSG_DL_ICNS=Noen sider kunne ikke lagres på grunn av begrensninger i ICNS formatet. Se seksjonen om filformater i hjelp for mer detaljer.
+MSG_FT_NO_OPTIONS=Valgt filformat kan ikke skreddersys
+MSG_ADD_FILES=Legg til filer i lista
+MSG_SELECT_PAGES=Velg noen sider
+MSG_SELECT_ITEMS=Velg noen elementer
+MSG_NO_LAYERS=Ingen lag tilstede
+MSG_NO_LAYERS_SELECTED=Ingen lag er valgt
+MSG_RES_EXIST=En ressurs med spesifisert type, navn og språk finnes allerede. Vennligst velg et annet navn eller språk.
+MSG_ERROR_WRITE_RES=En feil oppstod ved lagring til de angitte ressursene.
+MSG_PAGE_SIZE_0=Feil: Fysisk side kan ikke være 0 mm. Velg et annet papirformat.
+MSG_ERROR_ASSOC=Filassoseringen kunne ikke bli satt. Det kan være du må kjøre GreenPixel i administratormodus for å løse dette.
+MSG_FAIL_SINGLE_OPEN=Kunne ikke laste valgt fil.
+MSG_FAIL_MULTIPLE_OPEN=Noen filer kunne ikke åpnes.
+
+; Open/Save dialog filters
+FF_ALL=Alle filer
+FF_GFIE=GreenPixel basisformat
+FF_ICO=Ikonfiler
+FF_CUR=Musepekere
+FF_ANI=Animerte musepekere
+FF_ICNS=Apple Icon Image Format
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bitmaps
+FF_JPEG=JPEG filer
+FF_GIF=Graphics Interchange Format
+FF_JPEG_2000=JPEG 2000 filer
+FF_PCX=PCX filer
+FF_EXEC=Alle kjørbare filer og ikonbiblioteker
+FF_ICL=Ikonbiblioteker
+FF_RES=Win32 ressursfiler
+
+; Tool names
+TOOL_SEL_RECT=Rektangelvelging
+TOOL_SEL_ELLIPSE=Ellipsevelging
+TOOL_LASSO=Lasso
+TOOL_WAND=Magisk velging
+TOOL_SEL_PENCIL=Frihåndsvelging
+TOOL_TRANSFORM=Transformer/Flytt
+TOOL_CROP=Beskjær
+TOOL_HOTSPOT=Sett referansepunkt
+TOOL_EYEDROPPER=Fargeplukker
+TOOL_RETOUCH=Retusjér
+TOOL_RECT=Rektangel
+TOOL_ELLIPSE=Ellipse
+TOOL_LINE=Linje
+TOOL_TEXT=Tekst
+TOOL_PENCIL=Blyant
+TOOL_BRUSH=Pensel
+TOOL_ERASER=Viskelær
+TOOL_RECOLOR=Endre farge
+TOOL_BUCKET=Fyll farge
+TOOL_GRADIENT=Fyll gradvis
+TOOL_NONE=Ingen
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=Fil
+MI_FILE_NEW_GRAPHIC=Ny grafikk
+MI_FILE_NEW_LIBRARY=Nytt bibliotek
+MI_FILE_OPEN=Åpne
+MI_FILE_RECENT_FILES=Siste filer
+MI_FILE_RF_CLEAR=Tøm liste
+MI_FILE_BATCH_CONVERT=Satsvis filkonvertering
+MI_FILE_CLOSE=Lukk
+MI_FILE_CLOSE_ALL=Lukk alle
+MI_FILE_SAVE=Lagre
+MI_FILE_SAVE_AS=Lagre som
+MI_FILE_SAVE_ALL=Lagre alle
+MI_FILE_REVERT=Tilbakestill
+MI_FILE_METADATA=Metadata
+MI_FILE_PRINT=Skriv ut
+MI_FILE_EXIT=Avslutt
+
+MI_EDIT=Rediger
+MI_EDIT_UNDO=Angre
+MI_EDIT_CANT_UNDO=Kan ikke angre
+MI_EDIT_REDO=Gjør om
+MI_EDIT_CANT_REDO=Kan ikke gjøre om
+MI_EDIT_CUT=Klipp ut
+MI_EDIT_COPY=Kopier
+MI_EDIT_PASTE=Lim inn
+MI_EDIT_PASTE_PAGE=Lim inn som ny side
+MI_EDIT_PASTE_DOC=Lim inn som nytt dokument
+MI_EDIT_DELETE=Slett
+MI_EDIT_SEL_ALL=Velg alt
+MI_EDIT_SEL_NONE=Velg ingenting
+MI_EDIT_SEL_INVERT=Inverter valgt område
+MI_EDIT_SEL_LOAD=Last velgemaske
+MI_EDIT_SEL_SAVE=Lagre velgemaske
+MI_EDIT_CROP_TRANSPARENCY=Klipp vekk gjennomsiktig ramme
+MI_EDIT_TRANSFORM=Transformer
+MI_EDIT_SEL_TRANSFORM=Transformer utvalg
+MI_EDIT_FLIP_HORIZ=Flipp horisontalt
+MI_EDIT_FLIP_VERT=Flipp vertikalt
+MI_EDIT_ROTATE_LEFT=Roter 90 grader til venstre
+MI_EDIT_ROTATE_RIGHT=Roter 90 grader til høyre
+MI_EDIT_ROTATE_180=Roter 180 grader
+
+MI_VIEW=Vis
+MI_VIEW_ZOOM_IN=Zoom inn
+MI_VIEW_ZOOM_OUT=Zoom ut
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Tilpass til vindu
+MI_VIEW_GRID=Rutenett
+MI_VIEW_CELL_GRID=Hjelperuter
+MI_VIEW_CENTER_LINES=Senterlinjer
+MI_VIEW_PAGES=Liste over sider
+MI_VIEW_TOOLBAR=Verktøy
+MI_VIEW_COLOR_PICKER=Fargevelger
+MI_VIEW_TOOL_BEHAVIOR=Verktøyinnstillinger
+MI_VIEW_LAYERS=Lag
+MI_VIEW_STARTUP_SCREEN=Oppstartskjerm
+
+MI_FLT=Filtere
+MI_FLT_GRAYSCALE=Gråtoner
+MI_FLT_INVERT=Invertering
+MI_FLT_SOLARIZE=Solarisering
+MI_FLT_RGB=RGB kanaler
+MI_FLT_HS=Fargetone/Metning
+MI_FLT_EXPOSURE=Lyssetting
+MI_FLT_FORMULAE=RGB Formel
+MI_FLT_AVERAGE=Gjennomsnitt
+MI_FLT_BLUR_SOFT=Lett sløring
+MI_FLT_BLUR_MORE=Mer sløring
+MI_FLT_BLUR_CUSTOM=Egendefinert sløring
+MI_FLT_SHARPEN=Skjerpe
+MI_FLT_UNSHARP_MASK=Uskarp maske
+MI_FLT_REMOVE_MATTE=Fjern fargetone
+MI_FLT_OPACITY=Dekningsgrad
+MI_FLT_PAINT_CONTOUR=Mal kontur
+MI_FLT_DROP_SHADOW=Legg skygge
+MI_FLT_GLOW=Glød
+MI_FLT_BEVEL=Skråkant
+
+MI_LAYERS=Lag
+MI_LAYERS_NEW=Nytt lag
+MI_LAYERS_DUPLICATE=Dupliser lag
+MI_LAYERS_DELETE=Slett lag
+MI_LAYERS_PROP=Egenskaper for lag
+MI_LAYERS_MERGE_SELECTED=Slå sammen valgte
+MI_LAYERS_MERGE_VISIBLE=Slå sammen synlige
+MI_LAYERS_FLATTEN=Slå sammen alle
+MI_LAYERS_FROM_SEL=Opprett lag fra valgte elementer
+
+MI_ICON=Ikon
+MI_ICON_PAGE_NEW=Ny side
+MI_ICON_PAGE_DELETE=Slett side
+MI_ICON_PAGE_PROP=Egenskaper for side
+MI_ICON_PAGE_IMPORT=Importer side
+MI_ICON_PAGE_EXPORT=Eksporter side
+MI_ICON_PAGE_EXPORT_ALL=Eksporter alle sider
+MI_ICON_UNIFORM_RATE=Legg til tidsrate for alle rammer
+MI_ICON_CREATE_WIN=Opprett Windows-ikon fra bilde
+MI_ICON_CREATE_MAC=Opprett Mac-ikon fra bilde
+MI_ICON_TEST=Test
+
+MI_LIB=Bibliotek
+MI_LIB_ADD=Legg til ressurs
+MI_LIB_REMOVE=Fjern ressurs
+MI_LIB_REPLACE=Erstatt ressurser
+MI_LIB_PROP=Egenskaper for ressurs
+MI_LIB_EXTRACT_EDIT=Pakk ut og rediger
+MI_LIB_EXTRACT_SAVE=Pakk ut og lagre
+
+MI_SET=Innstillinger
+MI_SET_PREFERENCES=Preferanser
+MI_SET_LANGUAGE=Språk
+
+MI_HELP=Hjelp
+MI_HELP_CONTENTS=Innhold
+MI_HELP_HOMEPAGE=Hjemmeside
+MI_HELP_SUPPORT=Internettsupport
+MI_HELP_DONATE=Doner penger
+MI_HELP_ABOUT=Om ErrorSoft Green Pixel
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 farger
+PF_256_COLORS=256 farger
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=Lag flytende utvalg
+UNDO_MERGE_LAYERS=Slå sammen lag
+UNDO_MOVE_LAYERS=Flytt lag
+UNDO_MOVE_PAGE=flytting av side
+UNDO_FLIP_ROTATE=flipping/rotering
+
+; Layers glossary
+LY_LAYER=Lag
+LY_BACKGROUND=Bakgrunn
+LY_FLOATING_SEL=Flytende utvalg
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Ny side
+PG_CAPTION_PAGE_PROP=Egenskaper for side
+
+PG_SIZE_SMALLEST=minst
+PG_SIZE_TOOLBAR=verktøylinje
+PG_SIZE_SMALL=liten
+PG_SIZE_MEDIUM=middels
+PG_SIZE_LARGE=stor
+PG_SIZE_HUGE_VISTA=kjempestor, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Egendefinert størrelse
+PG_SQUARE=Kvadrat
+
+PG_CR=Fargereduksjon
+PG_CR_BW=Svart/hvitt
+PG_CR_16_WIN=16 farger (Windows-palett)
+PG_CR_16_MAC=16 farger (Mac-palett)
+PG_CR_256_ADAPT=256 farger (adaptiv)
+PG_CR_256_MAC=256 farger (Mac-palett)
+PG_CR_24=24-bit RGB
+PG_CR_32=Ingen reduksjon (32-bit)
+
+PG_ANIMATION=Animasjon
+PG_FRAME_RATE=Tidsrate (millisekunder)
+
+PG_CREATE_FROM_SELECTED=Opprett fra valgt side
+PG_WHEN_RESIZING=Når endrer størrelse
+PG_STRETCH=Strekk
+PG_CROP=Beskjær
+PG_IMAGE_ANCHORS=Bildeanker
+
+; Filter dialogs
+LABEL_RED=Rød
+LABEL_GREEN=Grønn
+LABEL_BLUE=Blå
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Fargetoneskiftning
+LABEL_SATURATION=Metning
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Lysstyrke
+LABEL_TORIC=Torus modus
+LABEL_GAUSSIAN_BLUR=Gaussisk sløring
+LABEL_BOX_BLUR=Bokssløring
+LABEL_MATTE_COLOR=Fargetone
+LABEL_WHITE_MATTE=Hvit
+LABEL_BLACK_MATTE=Svart
+LABEL_INNER_GLOW=Innvendig glød
+LABEL_OUTER_GLOW=Utvendig glød
+
+LABEL_AMOUNT=Mengde
+LABEL_ANGLE_DEGREES=Vinkel (grader)
+LABEL_BLUR=Sløring
+LABEL_DISTANCE=Avstand
+LABEL_INTENSITY=Intensitet
+LABEL_OPACITY=Dekningsgrad
+LABEL_RADIUS=Radius
+LABEL_THRESHOLD=Terskel
+
+; Batch conversion dialog
+BC_FILES=Filer
+BC_SETTINGS=Innstillinger
+BC_FORMAT=Konverter til
+BC_FOLDER=Målkatalog
+BC_OPEN=Åpne konverterte filer i ErrorSoft Green Pixel
+BC_ICON_FORMATS=Ikonformater du vil opprette
+
+; Cell grid dialog
+CG_ENABLED=Aktivert
+CG_SIZE=Rutestørrelse
+CG_SPACING=Ruteavstand
+CG_OFFSET=Forskyvning
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Velg formatene du vil opprette
+
+; ICL format dialog
+IF_TITLE=Velg ICL-format
+
+; Language dialog
+LABEL_LANG_PACK=Språkpakke
+
+; Layer properties dialog
+LP_NAME=Navn
+LP_VISIBLE=Synlig
+LP_BLEND_MODE=Blend modus
+
+LP_BM_NORMAL=Normal
+LP_BM_MASK=Mask
+LP_BM_BEHIND=Behind
+LP_BM_DISSOLVE=Dissolve
+LP_BM_HUE=Hue
+LP_BM_HUE_SHIFT=Hue Shift
+LP_BM_SAT=Saturation
+LP_BM_DARKEN=Darken
+LP_BM_MULTIPLY=Multiply
+LP_BM_COLOR_BURN=Color Burn
+LP_BM_LINEAR_BURN=Linear Burn
+LP_BM_DARKER_COLOR=Darker Color
+LP_BM_LIGHTEN=Lighten
+LP_BM_SCREEN=Screen
+LP_BM_COLOR_DODGE=Color Dodge
+LP_BM_LINEAR_DODGE=Linear Dodge (Add)
+LP_BM_LIGHTER_COLOR=Lighter Color
+LP_BM_OVERLAY=Overlay
+LP_BM_SOFT_LIGHT=Soft Light
+LP_BM_HARD_LIGHT=Hard Light
+LP_BM_VIVID_LIGHT=Vivid Light
+LP_BM_LINEAR_LIGHT=Linear Light
+LP_BM_PIN_LIGHT=Pin Light
+LP_BM_HARD_MIX=Hard Mix
+LP_BM_DIFFERENCE=Difference
+LP_BM_EXCLUSION=Exclusion
+
+; Metadata dialog
+MD_TYPE=For %s filer
+MD_TITLE=Tittel
+MD_AUTHOR=Forfatter
+MD_COPYRIGHT=Copyright
+MD_COMMENTS=Kommentarer
+MD_QUALITY=Lagre i kvalitet
+MD_LOOP_COUNT=Antall repetisjoner (0 = uendelig)
+
+; Preferences dialog
+PREF_MISC=Diverse
+PREF_ENVIRONMENT=Utseende
+PREF_INSTALL=Installasjon
+PREF_IMAGE_MAX=Maks tillatte bildestørrelse
+PREF_PNG_ICONS=Bruk av PNG pakking i .ICO/.CUR filer
+PREF_PNG_LIMIT=Pakk bilder der størrelsen er minimum:
+PREF_AA_IMAGES=Utjevn kanter for alle bilder som har endret størrelse
+PREF_COLORS=Farger
+PREF_TRANSPARENT_HATCH=Gjennomsiktig
+PREF_GRID2=Hjelperuter
+PREF_DVM=Visningsmodus for Åpne/Lagre dialoger
+PREF_DVM_ITEMS=Ikoner<br>Liste<br>Detaljer<br>Miniatyrbilder<br>Side ved side
+PREF_MWA=Aksjon for musehjul
+PREF_MWA_ITEMS=Ingen<br>Rulle<br>Zoome
+PREF_SAVE_TOOL_SETTINGS=Lagre verktøyinstillinger mellom sesjoner
+PREF_FILE_ASSOC=Assosierte filtyper
+PREF_ADMIN=Hvis du kjører Windows Vista eller nyere, må kjøre GreenPixel ved å velge 'Kjør som Administrator' for å kunne endre disse systeminstillingene.
+
+; Print dialog
+PRINT_COPIES=Kopier
+PRINT_ZOOM=Zoom (%)
+PRINT_CAPTION=Overskrift
+PRINT_PAGES=Skriv ut
+PRINT_PAGES_BUTTONS=Alle sider<br>Aktiv side
+
+; Resource properties dialog
+RP_NAME=Navn
+RP_LANGUAGE=Språk
+RP_LANG_CUSTOM=Egen ID for språk
+RP_LANG_NEUTRAL=Språknøytral
+
+; Save Options dialog
+SO_TITLE=Lagringsalternativer
+SO_QUALITY=Kvalitet
+SO_LOSSLESS=Uten tap
+
+; Startup screen
+ST_WELCOME=Velkommen!
+ST_CHOOSE_ACTION=Velg hvilken aksjon du vil utføre
+ST_NG=Opprett ny grafikk
+ST_NG_INFO=Lager et nytt ikon, musepeker eller animasjon
+ST_NL=Opprett nytt bibliotek
+ST_NL_INFO=Lager et nytt ikonbibliotek (.ICL) eller ressursfil (.RES)
+ST_OPEN=Åpne eksisterende dokument
+ST_OPEN_INFO=Åpner en bildefil, ikonbibliotek, kjørbar fil eller ressursfil
+ST_CONVERT=Konverter et knippe bildefiler satsvis
+ST_CONVERT_INFO=Konverterer flere bilder til ikoner eller andre bildeformater i en operasjon
+ST_NONE=Ikke gjør noe spesielt
+ST_NONE_INFO=Lukker denne velkomstskjermen
+ST_RECENT_INFO=Åpner en fil som var nylig åpnet i ErrorSoft Green Pixel
+ST_SHOW=Vis alltid denne velkomstskjermen ved oppstart
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Flytt musepekeren over bildet under
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Sett inn tekst
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Antialias
+TB_PATTERN=Mønster
+TB_SAMPLE_ALL_LAYERS=Prøve av alle lag
+TB_BRUSH_SIZE=Penseltykkelse
+TB_BRUSH_SHAPE=Penselform
+TB_BRUSH_ITEMS=Rund<br>Skarp<br>Skråstrek<br>Omvendt skråstrek<br>Horisontal<br>Vertikal<br>Sprayboks
+TB_LINE_WIDTH=Linjetykkelse
+TB_TOLERANCE=Tryllestav/Omfarging/Fylltoleranse (%)
+TB_CONTIGUOUS=Sammenhengende
+TB_SHAPE_FRAMED=Rammeformer
+TB_SHAPE_FILLED=Fylte former
+TB_EYEDROPPER_BACK=Fargeplukker bytter tilbake til forrige tegnevektøy etter bruk
+TB_RETOUCH_MODE=Retusjeringsmodus
+TB_RETOUCH_ITEMS=Sløring<br>Skjerping<br>Fargefilter<br>Brenne<br>Fargetone<br>Svamp
+TB_ERASER_STRENGTH=Viskelær styrke (%)
+TB_G_LINEAR=Lineær gradient
+TB_G_RADIAL=Radial gradient
+TB_G_CONICAL=Konisk gradient
+TB_G_SPIRAL=Spiral gradient
+TB_REP_NONE=Ingen repetisjon
+TB_REP_SYM=Symmetrisk repetisjon
+TB_REP_ASYM=Asymmetrisk repetisjon
+TB_MODE_COLOR=Fargemodus
+TB_MODE_TRANSPARENCY=Gjennomsiktighetsmodus
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=bildepunkter<br>%
+
+; Hints
+HINT_COMPACT=Kompakt visning
+
+HINT_CP_FORE_COLOR=Forgrunnsfarge
+HINT_CP_BACK_COLOR=Bakgrunnsfarge
+HINT_CP_SWAP_COLORS=Bytt farger
+HINT_CP_DEFAULT=Tilbakestill til standard
+HINT_CP_TRANSPARENT=Gjennomsiktig
+HINT_CP_INVERTED=Omvendt farge
+HINT_CP_TOGGLE_CHOOSER=Bytt om HSB-kart og fargeprøver
+HINT_CP_SWATCHES=Venstreklikk for å velge farge. Høyreklikk for å erstatte fargeprøve med aktiv farge.
+HINT_CP_SWATCH_LOAD=Hent lagrede fargeprøver
+HINT_CP_SWATCH_SAVE=Lagre fargeprøver
+HINT_CP_RED=Rød komponent
+HINT_CP_GREEN=Grønn komponent
+HINT_CP_BLUE=Blå komponent
+HINT_CP_ALPHA=Fargedekning (dekningsgrad)
+HINT_CP_HTML=HTML-kode
+HINT_CP_WCP=Windows fargevelger
+
+HINT_DOC_LB=Liste med sider (ikon formater/rammer)
+HINT_DOC_LB_PAGE=Side %d, størrelse: %d x %d bildepunkter
+HINT_DOC_LB_PNG=vil bli PNG-komprimert når dokumentet lagres som .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Zoom
+HINT_DOC_NODES=%d noder
+HINT_DOC_TOGGLE_PAGES=Skjul/vis liste over sider
+
+HINT_RES_FOLDER=Velg mappe for utpakkede filer
+
+HINT_STARTUP_HELP=Hjelp
+HINT_TEST_BGR_LOAD=Hent bakgrunn
+HINT_TEST_BGR_DEFAULT=Standard bakgrunn
+
+HINT_TEXT_FACE=Skrifttype
+HINT_TEXT_BOLD=Fet
+HINT_TEXT_ITALIC=Kursiv
+HINT_TEXT_UNDERLINE=Understreket
+
+; eof

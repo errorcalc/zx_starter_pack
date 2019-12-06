@@ -1,0 +1,336 @@
+; ErrorSoft Green Pixel
+; Language pack: Português (pt-PT)
+; Created by: Carlos Pires (charlypapa@sapo.pt)
+
+; General dictionary
+LABEL_WIDTH=Largura
+LABEL_HEIGHT=Altura
+LABEL_SIZE=Comprimento
+LABEL_COLOR=Cor
+LABEL_KIND=Espécie
+LABEL_ANTIALIAS=Antialias
+LABEL_POSITION=Posição
+UNTITLED=Sem Nome
+
+; Buttons
+B_OK=OK
+B_CANCEL=Cancelar
+B_RESET=Reset
+B_ADD=Juntar
+B_CLEAR=Limpar
+B_CLOSE=Fechar
+B_ALL=Tudo
+B_NONE=Nada
+B_PRINT=Imprimir
+B_PRINTER_SETUP=Configurar impressora
+
+; Shown messages
+MSG_FILE_NOT_FOUND=Não encontro o ficheiro
+MSG_UNKNOWN_FILE_TYPE=O formato do ficheiro "%s" não pode ser determinado automáticamente. Este ficheiro não pode ser salvo ou carregado por ErrorSoft Green Pixel ou tem uma extenção errada.
+MSG_INVALID_FILE_FORMAT=O ficheiro "%s" não está conforme o formato "%s". O ficheiro pode estar corrompido, ter extenção errada, ou ter sido escolhido um filtro incorrecto na caixa de dialogo Abrir.
+MSG_SAVE_CHANGES=Salvar as mudanças a "%s"?
+MSG_CONFIRM_REVERT=Todas as mudanças a "%s" serão perdidas e não recuperaveis. Mesmo assim,deseja continuar?
+MSG_DATA_LOSS_INFO=Para não perder dados, salve o documento com um formato de ficheiro diferente.
+MSG_DL_MULTIFORMAT=O formato deste ficheiro não suporta multiplos formatos de imagemgravados num só ficheiro. Sómente o formato da primeira imagem pode ser salvo.
+MSG_DL_TRANSPARENCY=O formato deste ficheiro não suporta transparencia.
+MSG_DL_COLOR_DEPTH=Algumas partes da informação da cor podem não ser salvas.
+MSG_ADD_FILES=Favor colocar alguns ficheiros na lista.
+MSG_SELECT_ICON_FORMATS=Favor seleccionar alguns formatos de icones.
+MSG_PAGE_SIZE_0=Erro: a largura da página não pode ter 0 mm. Escolha outro formato de papel.
+
+; Open/Save dialog filters
+FF_ALL=Todos
+FF_ICO=Icones
+FF_CUR=Cursores
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bitmaps
+FF_JPEG=JPEG 
+FF_EXEC=Todas as livrarias EXE e ICO 
+
+; Tool names
+TOOL_SEL_RECT=Selecção rectangular
+TOOL_SEL_ELLIPSE=Selecção eliptica
+TOOL_LASSO=Laço
+TOOL_WAND=Varinha Mágica
+TOOL_SEL_PENCIL=Selecção Lápis
+TOOL_TRANSFORM=Transformar
+TOOL_CROP=Apanhar
+TOOL_HOTSPOT=Seleccionar hotspot
+TOOL_EYEDROPPER=Conta-Gotas
+TOOL_RETOUCH=Retoque
+TOOL_RECT=Rectangulo
+TOOL_ELLIPSE=Elipse
+TOOL_LINE=Linha
+TOOL_TEXT=Texto
+TOOL_PENCIL=Lápis
+TOOL_BRUSH=Pincel
+TOOL_ERASER=Borracha
+TOOL_RECOLOR=Recolorir
+TOOL_BUCKET=Preencher
+TOOL_GRADIENT=Gradiente
+TOOL_NONE=Nada
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=Ficheiro
+MI_FILE_NEW=Novo
+MI_FILE_OPEN=Abrir
+MI_FILE_RECENT_FILES=Ficheiros recentes
+MI_FILE_RF_CLEAR=Limpar lista
+MI_FILE_EXTRACT=Extrair
+MI_FILE_BATCH_CONVERT=Converter Ficheiros (por tipo)
+MI_FILE_CLOSE=Fechar
+MI_FILE_CLOSE_ALL=Fechar tudo
+MI_FILE_SAVE=Salvar
+MI_FILE_SAVE_AS=Salvar como
+MI_FILE_SAVE_ALL=Salvar tudo
+MI_FILE_REVERT=Reverter
+MI_FILE_PRINT=Imprimir
+MI_FILE_PREFERENCES=Preferencias
+MI_FILE_EXIT=Sair
+
+MI_EDIT=Editar
+MI_EDIT_UNDO=Desfazer
+MI_EDIT_CANT_UNDO=Impossivel desfazer
+MI_EDIT_REDO=Refazer
+MI_EDIT_CANT_REDO=Impossivel refazer
+MI_EDIT_CUT=Cortar
+MI_EDIT_COPY=Copiar
+MI_EDIT_PASTE=Colar
+MI_EDIT_PASTE_FORMAT=Colar com novo formato
+MI_EDIT_DELETE=Apagar
+MI_EDIT_SEL_ALL=Selectionar tudo
+MI_EDIT_SEL_NONE=Desselectionar tudo
+MI_EDIT_SEL_INVERT=Inverter selecção
+MI_EDIT_SEL_LOAD=Carregar mascara de selecção
+MI_EDIT_SEL_SAVE=Salvar máscara de selecção
+MI_EDIT_TRANSFORM=Transformar
+MI_EDIT_SEL_TRANSFORM=Transformar selecção
+MI_EDIT_FLIP_HORIZ=Espelhar na horizontal
+MI_EDIT_FLIP_VERT=Espelhar na vertical
+MI_EDIT_ROTATE_LEFT=Rodar 90 graus à esquerda
+MI_EDIT_ROTATE_RIGHT=Rodar 90 graus à direita
+MI_EDIT_ROTATE_180=Rodar 180 graus
+
+MI_VIEW=Ver
+MI_VIEW_ZOOM_IN=Zoom in
+MI_VIEW_ZOOM_OUT=Zoom out
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Encher janela
+MI_VIEW_GRID=Grelha
+MI_VIEW_CENTER_LINES=Centrar linhas
+MI_VIEW_TOOLBAR=Barra de Ferramentas
+MI_VIEW_COLOR_PICKER=Agarrar a cor
+MI_VIEW_TOOL_BEHAVIOR=Estado das Ferramentas
+MI_VIEW_STARTUP_SCREEN=Ecran de Arranque
+
+MI_FLT=Filtros
+MI_FLT_GRAYSCALE=Escala de Cinzento
+MI_FLT_INVERT=Inverter
+MI_FLT_SOLARIZE=Solarizar
+MI_FLT_RGB=Canais RGB
+MI_FLT_HS=Tinta/Saturação
+MI_FLT_EXPOSURE=Exposição
+MI_FLT_AVERAGE=Quantidade
+MI_FLT_BLUR_SOFT=Desfocar pouco
+MI_FLT_BLUR_MORE=Desfocar mais
+MI_FLT_BLUR_CUSTOM=Desfocar a gosto
+MI_FLT_SHARPEN=Avivar
+MI_FLT_UNSHARP_MASK=Suavisar a máscara
+MI_FLT_REMOVE_MATTE=Remover mate
+MI_FLT_OPACITY=Opacidade
+MI_FLT_PAINT_CONTOUR=Pintar contorno
+MI_FLT_DROP_SHADOW=Deixar sombra
+MI_FLT_GLOW=Brilho
+MI_FLT_BEVEL=Bísel
+
+MI_ICON=Icone
+MI_ICON_FORMAT_NEW=Novo formato
+MI_ICON_FORMAT_DELETE=Apagar formato
+MI_ICON_FORMAT_PROP=Propriedades do formato
+MI_ICON_CREATE_FROM_IMAGE=Criar Icone de uma imagem
+MI_ICON_TEST=Testar
+
+MI_HELP=Ajuda
+MI_HELP_CONTENTS=Conteudo
+MI_HELP_GS=Começar
+MI_HELP_HOMEPAGE=Homepage
+MI_HELP_DONATE=Auxiliar
+MI_HELP_ABOUT=Acerca
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 cores
+PF_256_COLORS=256 cores
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_MOVE_FORMAT=Mover formato
+UNDO_FLIP_ROTATE=Espelhar/Rodar
+
+; Image Format properties dialog box
+IF_CAPTION_NEW_ICON=Novo icone
+IF_CAPTION_NEW_FORMAT=Novo formato de imagem
+IF_CAPTION_FORMAT_PROP=Propriedades do Formato da imagem
+
+IF_SIZE_ITEMS=16 x 16 (muito pequeno)<br>20 x 20 (Tipo janela XP)<br>24 x 24 (barra de ferramentas)<br>32 x 32 (pequeno)<br>48 x 48 (medio)<br>64 x 64 (grande)<br>256 x 256 (maior, Vista)<br>Custom
+IF_CUSTOM_SIZE=Tamanho personalizado
+IF_SQUARE=Quadrado
+
+IF_CR=Redução de cor
+IF_CR_ITEMS=Preto e Branco<br>16 colors (sistema de palette)<br>256 colors (adaptável)<br>24-bit RGB<br>Sem redução (32-bit)
+
+IF_CREATE_FROM_SELECTED=Criar através de um formato seleccionado
+
+; Color Picker
+TAB_HSB_MAP=Mapa HSB
+TAB_SWATCHES=Misturas
+
+; Filter configuration dialogs
+LABEL_RED=Vermelho
+LABEL_GREEN=Verde
+LABEL_BLUE=Azul
+LABEL_HUE_SHIFT=Tintura
+LABEL_SATURATION=Saturação
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Luminura
+LABEL_GAUSSIAN_BLUR=Desfocagem (Gauss)
+LABEL_BOX_BLUR=Caixa de desfocagem
+LABEL_MATTE_COLOR=Cor mate
+LABEL_WHITE_MATTE=Branco mate
+LABEL_BLACK_MATTE=Preto mate
+LABEL_INNER_GLOW=Brilho interno
+LABEL_OUTER_GLOW=Brilho externo
+
+LABEL_AMOUNT=Quantidade
+LABEL_ANGLE_DEGREES=Angulo (Graus)
+LABEL_BLUR=Desfocagem
+LABEL_DISTANCE=Distancia
+LABEL_INTENSITY=Intensidade
+LABEL_OPACITY=Opacidade
+LABEL_RADIUS=Raio
+LABEL_THRESHOLD=Limite
+
+; Create icon from image dialog box
+CI_SELECT_FORMATS=Seleccione os formatos que deseja criar
+
+; Batch conversion dialog
+BC_FILES=Ficheiros
+BC_SETTINGS=Settings
+BC_FORMAT=Converter para...
+BC_OPEN=Abrir ficheiros convertidos em ErrorSoft Green Pixel
+BC_ICON_FORMATS=Criação de formatos de Icone
+
+; Preferences dialog box
+PREF_MISC=Miscelanea
+PREF_ENVIRONMENT=Ambiente
+PREF_INSTALL=Instalar
+PREF_PNG_ICONS=Usar compressão PNG em ficheiros .ICO/.CUR 
+PREF_PNG_LIMIT=Comprimir formatos cujo tamanho é no minimo
+PREF_TRANSPARENT_HATCH=Transparente hatch
+PREF_COLOR_1=Cor 1
+PREF_COLOR_2=Cor 2
+PREF_DVM=Modo de abertura do diálogo Abrir/Salvar
+PREF_DVM_ITEMS=Icones<br>Lista<br>Detalhes<br>Thumbnails<br>Tiles
+PREF_EXTRACT=Extrair recursos de executáveis
+PREF_EXTRACT_FOLDER=Ficheiro alvo
+PREF_FILE_ASSOC=Associação de ficheiros
+
+; Print dialog box
+PRINT_COPIES=Copias
+PRINT_ZOOM=Zoom (%)
+PRINT_CAPTION=Captura
+PRINT_FORMATS=Imprimir
+PRINT_FORMATS_BUTTONS=Todos formatos<br>Formato corrente
+
+; Startup screen
+ST_CHOOSE_ACTION=Favor escolher uma acção para executar
+ST_NEW=Criar um  novo documento
+ST_NEW_INFO=Cria um novo Icone ou Cursor documentado
+ST_OPEN=Abrir um documento existente
+ST_OPEN_INFO=Abrir um Icone, Cursor ou outro ficheiro de imagem de um meio de armazenamento
+ST_RECENT=Abrir um ficheiro recente
+ST_RECENT_INFO=Abre um ficheiro recentemente editado com ErrorSoft Green Pixel
+ST_EXTRACT=Extrair recursos de um executável
+ST_EXTRACT_INFO=Abre um ficheiro EXE ou DLL e salva todos os icones e cursores encontrados numa pasta. Futuramente poderá abri-los com ErrorSoft Green Pixel.
+ST_CONVERT=Converter ficheiros de imagem
+ST_CONVERT_INFO=Converte ficheiros multi-imagem  em icones ou num outro formato de imagem
+ST_NONE=Não faz nada
+ST_NONE_INFO=Fecha este ecran de arranque
+ST_SHOW=Mostrar sempre este ecran no arranque
+
+; Test dialog box
+LABEL_MOVE_OVER_IMAGE=Move o cursor sobre a imagem em baixo
+
+; Insert Text dialog box
+CAPTION_INSERT_TEXT=Inserir texto
+
+; Tool Behavior dialog box
+TB_BRUSH_ITEMS=Redondo<br>Afiado<br>Inclinado<br>Declinado<br>Horizontal<br>Vertical<br>Spray
+TB_RETOUCH_ITEMS=Focagem<br>Afiar<br>Dodge<br>Queimar<br>Tintura<br>Esponja
+
+; Transform Selection dialog box
+XF_UNITS_ITEMS=pixels<br>%
+
+; Hints
+HINT_ABOUT_HOMEPAGE=Homepage
+HINT_COMPACT=Ver compacto
+
+HINT_CP_FORE_COLOR=Cor de Frente
+HINT_CP_BACK_COLOR=Cor de Fundo
+HINT_CP_SWAP_COLORS=Misturar cores
+HINT_CP_DEFAULT=Restaurar por defeito 
+HINT_CP_TRANSPARENT=Transparente
+HINT_CP_INVERTED=Invertida
+HINT_CP_SWATCHES=Click esquerdo para agarrar a cor , Click direito para sobrepor com a cor corrente
+HINT_CP_SWATCH_LOAD=Carregar mistura pré-determinada
+HINT_CP_SWATCH_SAVE=Salvar mistura pré-determinada
+HINT_CP_RED=Componente Vermelho
+HINT_CP_GREEN=Componente Verde
+HINT_CP_BLUE=Componente Azul
+HINT_CP_ALPHA=Cor alpha (opacidade)
+HINT_CP_HTML=Código HTML
+HINT_CP_WCP=Palete de Windows
+
+HINT_DOC_LB=Lista dos formatos de imagem
+HINT_DOC_LB_FORMAT=Formato %d, tamanho: %d x %d pixels
+HINT_DOC_LB_PNG=será PNG-comprimido quando o documento for salvo como .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Zoom
+
+HINT_STARTUP_HELP=Ajuda
+
+HINT_TEXT_FACE=Font face
+HINT_TEXT_BOLD=Bold
+HINT_TEXT_ITALIC=Italico
+HINT_TEXT_UNDERLINE=Sublinhado
+
+TB_ANTIALIAS=Antialias
+
+HINT_TB_FRAMED=Objectos partidos
+HINT_TB_FILLED=Objectos cheios
+HINT_TB_LINE_WIDTH=Largura da linha
+HINT_TB_EYEDROPPER_BACK=Conta-Gotas volta à ferramenta anterior
+HINT_TB_BRUSH_SIZE=Tamanho do pincel
+HINT_TB_BRUSH_SHAPE=Forma do Pincel
+HINT_TB_TOLERANCE=Varinha Mágica/Recolorir/Preencher - tolerancia (%)
+HINT_TB_RETOUCH_MODE=Retocar
+HINT_TB_ERASER_STRENGTH=Pressão da Borracha (%)
+HINT_TB_G_LINEAR=Gradiente linear
+HINT_TB_G_RADIAL=Gradiente radial
+HINT_TB_G_CONICAL=Gradiente conico
+HINT_TB_G_SPIRAL=Gradiente espiral
+HINT_TB_REP_NONE=Sem repetição
+HINT_TB_REP_SYM=Repetição simétrica
+HINT_TB_REP_ASYM=Repetição assimétrica
+HINT_TB_MODE_COLOR=Cores
+HINT_TB_MODE_TRANSPARENCY=Transparência
+
+; eof

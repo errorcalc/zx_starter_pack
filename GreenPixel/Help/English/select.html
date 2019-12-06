@@ -1,0 +1,60 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>How to select, transform, copy and paste image parts</title>
+
+</head><body>
+<span class="n">
+
+How to...
+
+<center><h1>Select, transform, copy and paste image parts</h1></center>
+
+Selecting in graphic programs like <em>Paint</em> is quite a simple task. You have to choose the rectangular or freehand select tool, draw the shape, and then the selection is ready to be moved around. However, this is not the case in GreenPixel. GreenPixel offers a much more sophisticated selection handling system which resembles that of professional photo editors.<p>
+
+<h2>Moving a part of an image to another place</h2><p>
+
+<ol>
+	<li>Select the <em>Brush</em> tool (B) and draw a one-colored blob.</li>
+
+	<li>Select the <em>Magic Wand</em> tool (W).<p>
+	<span class="r">Generally, this tool allows you to select contiguous, one-color areas at one click.</span></li>
+
+	<li>Click on the blob to select it.<p>
+	<span class="r">If all done right, you will see marching ants surrounding the selected area.</span></li>
+
+	<li>Select the <em>Transform</em> tool (F).<p>
+	You will notice that the ants marquee became blue and rectangular. This is called a <em>floating selection</em>, which means that the blob is no longer part of the image layer: it is ready to be moved around.<p>
+	<span class="r">You always have to make the selection float before resizing it or moving it to another place. This can be done by choosing the <em>Transform</em> (F) tool. If that tool is already selected, choose another tool and then revert back to <em>Transform</em>.</span></li>
+
+	<li>Click and drag the selection to transport it to another place.<p>
+	<span class="r">Note that moving floating selections between separate documents is not possible. Use <em>Edit|Cut (Ctrl+X)</em> and <em>Edit|Paste (Ctrl+V)</em> instead.</span></li>
+
+	<li>Press <em>Escape</em> or <em>Ctrl+D</em>, or choose <em>Edit|Deselect All</em> to glue the floating selection back to the image layer. The ants should now disappear.</li>
+</ol><p>
+
+Let's summarize what we did in a more abstract way.<p>
+
+<ol>
+	<li>Create the selection mask.<p>
+	<span class="r">This means using a selection tool to mark a part of the image and produce some black and white marching ants.</span></li>
+
+	<li>Make a floating selection.<p>
+	<span class="r">This converts the ants to blue and can be achieved by using the <em>Transform</em> tool.</span></li>
+
+	<li>Deal with the floating selection.<p>
+	<span class="r">Move it around, resize it, cut, copy and paste.</span></li>
+
+	<li>Flatten the floating selection.<p>
+	<span class="r">All marquees are removed and the selection layer is unified with the image layer.</span></li>
+</ol><p>
+
+Note that step 2 is not always necessary. You can still copy a selected part if the selection is not floating, and you can still apply <a href="filters.html">filters</a> to the selection. However, you cannot move the selected parts using your mouse!<p>
+
+<h2>More advanced selection handling</h2><p>
+
+Selection masks can be added, subtracted and intersected. Additionally, they can be saved to files and loaded back. (In fact, in the memory they are stored as black and white images, white representing the selected pixels.)<p>
+
+Normally, when you use a selection tool a second time, a completely new selection mask is created. However, by holding down <em>Shift</em>, <em>Ctrl</em> or <em>Shift+Ctrl</em>, you are able to add the new mask to the existing one, subtract it or intersect the two selection masks (as if they were planar sets).<p>
+
+</span>
+</body></html>

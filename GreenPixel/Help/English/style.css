@@ -1,0 +1,39 @@
+body {
+	background-color: #f8f8f8;
+	background-image: url('../images/question.png');
+	background-repeat: no-repeat;
+}
+a:link, a:visited {
+	color: #24860f;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a:hover {
+	color: #86240f;
+	text-decoration: none;
+	font-weight: bold;
+}
+.n {
+	font-family: Tahoma;
+	font-size: 11pt;
+}
+h1 {
+	color: #404040;
+	font-size: 20pt;
+	font-weight: normal;
+}
+h2 {
+	color: #505050;
+	font-size: 15pt;
+	font-weight: normal;
+}
+em {
+	font-style: normal;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+.r {
+	font-family: 'Times New Roman';
+	color: gray;
+	font-style: italic;
+}

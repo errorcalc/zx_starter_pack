@@ -1,0 +1,14 @@
+Процедура для получения адреса атриббута из адреса на экране
+; Input:
+; de - screen addr
+; Return:
+; de - attr addr
+attr_addr:
+    ld a,d
+    and #18
+    rrca 
+    rrca 
+    rrca 
+    add a,#5800/#100
+    ld d,a
+    ret

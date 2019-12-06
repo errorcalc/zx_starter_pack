@@ -1,0 +1,12 @@
+Things in the "projects" and "stuff" folders
+are distributed via BDL v1:
+------------------------------------------------------------
+"BEER DEMOSCENE LICENSE v1"
+*** error, github.com/errorcalc ***
+You can do whatever you want with this stuff.
+Any liability and risks lie with you.
+If we meet some day, and you think this 
+stuff is worth it, you can buy us a beer in return.
+The author will be happy if you mention author in your prod.
+------------------------------------------------------------
+Other products have their own license.

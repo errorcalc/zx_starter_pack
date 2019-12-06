@@ -1,0 +1,58 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>How to choose the file format that best suits your image</title>
+
+</head><body>
+<span class="n">
+
+How to...
+
+<center><h1>Choose the file format that best suits your image</h1></center>
+
+Below you will find some information about the image file formats GreenPixel knows and when to use which format.<p>
+
+<ul>
+	<li><em>GreenPixel native file format</em><p>
+	This file format is perfect for saving GreenPixel documents, since it's compact thanks to PNG compression and yet keeps all significant information - metadata (see <em>File|Metadata</em>), pages, layers, areas painted with inverted color, hot spot and selection. However, it's not widely recognized and not suitable for e.g. deploying your work on the Web - for that purpose you also have to export your file in another format.<p>
+	<em>Note</em> that currently this is the only file format known by GreenPixel that preserves layer information, which means that you <em>must</em> save a copy of your work in .GFIE format if it contains more than one layers!</li>
+
+	<li><em>ICO (Windows icon file format)</em><p>
+	<span class="r">Learn more about icons <a href="icon.html">here</a>.</span><p>
+	This file format allows you to store multiple pages. Furthermore, the larger pages are PNG-compressed (this can be configured choosing <em>Settings|Preferences</em>). However, only relatively small-sized (max. 256x256) images can be stored. Also note that 32-bit icon pages may <em>not</em> contain pixels of <em>inverted color</em> - these pixels will be saved as transparent.</li>
+
+	<li><em>CUR (Windows cursor file format)</em><p>
+	<span class="r">Learn more about static cursors <a href="cursor.html">here</a>.</span><p>
+	Used for storing static cursors (no animation allowed). This file format may also store multiple pages and allows PNG-compression, though these happen scarcely in practice. The 256x256 page size limit also applies here.</li>
+
+	<li><em>ANI (Windows animated cursor file format)</em><p>
+	<span class="r">Learn more about animated cursors <a href="animation.html">here</a>.</span><p>
+	The only format suitable for storing animated cursors. All frames must be at most 256x256 pixels big and may have a frame duration which is a multiple of a <em>jiffy</em> (1/60 second). ANI files may also store author information (metadata), which can be edited choosing <em>File|Metadata</em>.</li>
+
+	<li><em>ICNS (Apple Icon Image Format)</em><p>
+	This is the standard format for icons used by Mac OS X. Can store multiple pages, but only special page sizes are allowed: 16x12, 16x16, 32x32, 48x48, 128x128, 256x256, 512x512 and 1024x1024. Color depths are also limited: 16-color/256-color images must use a standard ICNS palette, and indexed images of the same size must have the same transparency mask. In addition, icons may only have one page for each combination of size and color depth. See <a href="macicon.html">this</a> article for more details.</li>
+
+	<li><em>PNG (Portable Network Graphics)</em><p>
+	Perhaps the most advanced lossless static image format among the well-known ones. It has an excellent compression ratio which makes it one of the most popular Web image formats. It cannot store multiple pages though, that is handled by the less-known <em>MNG</em> format which is not currently implemented in GreenPixel. (Of course, layers are also not preserved when saving as PNG!)</li>
+
+	<li><em>XPM (X-Pixmap)</em><p>
+	These are mostly used by programmers, especially Linux developers because they can be easily embedded into C source code. They cannot store semi-transparent pixels and occupy a large space on disk, so they are generally used for storing small GUI icons that will be compiled into binary code later.</li>
+
+	<li><em>BMP (Windows bitmap)</em><p>
+	Uncompressed, single-page image format. It is only recommended for some special uses where file size does not matter. Use PNG instead.</li>
+
+	<li><em>JPEG (by Joint Photographic Experts Group)</em><p>
+	This file format utilizes a lossy compression method, which means that some color information is lost, but that's usually not perceivable by the human eye. Does not know any kind of transparency, only fully opaque images are allowed. Pages and layers are not supported. Only recommended for the last stage of photo retouching, use a lossless compression method in the editing phases to prevent gradual image degradation. Not used for icons and similar graphics.</li>
+
+	<li><em>GIF (Graphic Interchange Format)</em><p>
+	<span class="r">Learn more about animated GIF's <a href="animation.html">here</a>.</span><p>
+	This format used to be very popular until the advent of PNG. It is now mainly used to store small Web animations. The disadvantages are the inability to store 24-bit and 32-bit images, not speaking of PNG being more efficient in compression ratio. Saving static images as GIF is thus strongly discouraged - use PNG instead. However, it is the only truly portable image format for storing animations.</li>
+	
+	<li><em>JP2, J2K, JPF, JPX (JPEG 2000 image format)</em><p>
+	This is an advanced image format intended to supersede the JPEG format. Offers better image quality with the same compression ratio and has an optional lossless mode; in contrary to JPEG, which is always lossy. Not too widespread in the common practice, though, so it is generally not used for web images, but it's an excellent choice for storing your photos.</li>
+	
+	<li><em>PCX (PC Paintbrush image file)</em><p>
+	An obsolete, single-page file format with a very primitive compression algorithm which is far not as effective as PNG. It cannot store 32-bit images either.</li>
+</ul>
+
+</span>
+</body></html>

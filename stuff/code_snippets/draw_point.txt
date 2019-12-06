@@ -1,0 +1,50 @@
+; Процедура рисует точку, на стандартном спектрумовском экране
+; Input:
+; d - y
+; e - x
+; Used:
+; c,h,l
+; #4000 or ((y / 64) << 11) or (((y % 64) / 8) << 5) or ((y % 8) << 8)
+draw_point:
+    ; получаем байт для x%8
+    ld h,high .point_bits
+    ld a,e
+    and #07
+    or low .point_bits
+    ld l,a
+    ld c,(hl)
+    ; high byte
+    ; y (номер трети)
+    ld a,d
+    rra
+    rra
+    rra
+    and #18
+    ld h,a
+    ; y (смещение внутри знакоместа)
+    ld a,d
+    and #07
+    or h
+    or #40; screen fix
+    ld h,a
+    ; low byte
+    ; x div 8 -> e
+    srl e
+    srl e
+    srl e
+    ; y (номер ряда)
+    ld a,d
+    rla
+    rla
+    and #e0
+    or e; x fix
+    ld l,a
+    ; на этом этапе в HL лежит адрес пиксела
+    ; вы можете легко переделать процедуру для set/reset/change point
+    ld a,(hl)
+    or c
+    ld (hl),a
+    ret
+    align 8
+.point_bits:
+    db 128,64,32,16,8,4,2,1

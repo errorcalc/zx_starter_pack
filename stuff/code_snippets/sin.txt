@@ -1,0 +1,32 @@
+процедура для получения синуса, с заданной амплитудой
+
+    ; ix - table, align 256
+    ; d - amp
+gen_sin:
+    ld e,#bc
+    ld hl,0    ;K*SIN
+.loop:
+    ld (ix),d
+    ld a,d
+    rla
+    sbc a,a
+    ld b,a
+    ld c,d
+    adc hl,bc ;tweaking
+    rr c
+    rrca
+    rr c
+    add hl,bc
+    ex de,hl
+    ld b,d
+    ld a,e
+    dup 3
+    sra b
+    rra
+    edup
+    ld c,a
+    sbc hl,bc
+    ex de,hl
+    inc ixl
+    jr nz,.loop
+    ret

@@ -1,0 +1,528 @@
+﻿; ErrorSoft Green Pixel
+; Language pack: English
+; Created by: Balázs Szalkai
+
+; General dictionary
+LABEL_WIDTH=Width
+LABEL_HEIGHT=Height
+LABEL_SIZE=Size
+LABEL_COLOR=Color
+LABEL_KIND=Kind
+LABEL_ANTIALIAS=Antialias
+LABEL_POSITION=Position
+LABEL_FILE_SIZE=File size
+UNTITLED=Untitled
+
+; Buttons
+B_OK=OK
+B_CANCEL=Cancel
+B_YES=Yes
+B_NO=No
+B_RESET=Reset
+B_ADD=Add
+B_REMOVE=Remove
+B_CLEAR=Clear
+B_CLOSE=Close
+B_ALL=All
+B_NONE=None
+B_PRINT=Print
+B_PRINTER_SETUP=Printer setup
+B_PREVIEW=Preview
+B_COMPILE=Compile
+
+; Shown messages
+MSG_CONFIRMATION=Confirmation
+MSG_NOT_EXIST="%s" does not exist
+MSG_OVERWRITE=Do you want to overwrite "%s"?
+MSG_UNKNOWN_FILE_TYPE=The file format of "%s" could not be automatically determined.<br>This file cannot be loaded or saved by ErrorSoft Green Pixel or has a wrong extension.
+MSG_INVALID_FILE_FORMAT=File "%s" does not meet the format "%s".<br>The file may be corrupt, may have a wrong extension, or an incorrect filter may have been specified in the Open dialog box.
+MSG_CROPPED=The image was bigger than %dx%d and was cropped.<br>Saving the image will cause loss of data.<br>Use Settings|Preferences to increase the limit of image size.
+MSG_SAVE_CHANGES=Do you want to save changes to "%s"?
+MSG_CONFIRM_REVERT=All changes to "%s" will be lost and this operation cannot be undone.<br>Are you sure you continue?
+MSG_CONFIRM_REMOVE=Do you really want to remove the selected item(s)?
+MSG_CONFIRM_DESTROY_EXE=The icons/cursors cannot be easily replaced in this executable file or icon library.<br><br>If this is a program or DLL that has other purpose that just storing icons, then these other capabilities will be destroyed during saving.<br>If this file is just an icon library, then probably nothing bad will happen.<br><br>Continue anyway?
+MSG_DATA_LOSS_INFO=To avoid losing data, you must save the document also in a different file format.
+MSG_DL_MULTIPAGE=This file format does not support multiple pages stored in one file.<br>Only the first page could be saved.
+MSG_DL_LAYERS=This file format does not support saving layer information. Image was saved flattened.
+MSG_DL_SIZE_256=This file format does not support saving images larger than 256x256.<br>These images were cropped.
+MSG_DL_TRANSPARENCY=This file format does not support transparency.
+MSG_DL_COLOR_DEPTH=Some part of the color information could not be saved.
+MSG_DL_ICNS=Some pages could not be saved due to the limitations of the ICNS format. See the help section on file formats for more details.
+MSG_FT_NO_OPTIONS=The selected file format cannot be customized
+MSG_ADD_FILES=Please add some files to the list
+MSG_SELECT_PAGES=Please select some pages
+MSG_SELECT_ITEMS=Please select some items
+MSG_NO_LAYERS=No layers are present
+MSG_NO_LAYERS_SELECTED=No layers are selected
+MSG_RES_EXIST=Another resource with the specified type, name and language already exists.<br>Please choose another name or language.
+MSG_ERROR_WRITE_RES=An error occurred while trying to save changes to the specified resources.
+MSG_PAGE_SIZE_0=Error: physical page width cannot be 0 mm.<br>Choose another paper format.
+MSG_ERROR_ASSOC=The file associations could not be set. Running GreenPixel in administrator mode may resolve the issue.
+MSG_FAIL_SINGLE_OPEN=Could not load the selected file.
+MSG_FAIL_MULTIPLE_OPEN=Some files could not be opened.
+
+; Open/Save dialog filters
+FF_ALL=All files
+FF_GFIE=GreenPixel native format
+FF_ICO=Icon files
+FF_CUR=Cursor files
+FF_ANI=Animated cursors
+FF_ICNS=Apple Icon Image Format
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bitmaps
+FF_JPEG=JPEG files
+FF_GIF=Graphics Interchange Format
+FF_JPEG_2000=JPEG 2000 files
+FF_PCX=PCX files
+FF_EXEC=All executable files and icon libraries
+FF_ICL=Icon libraries
+FF_RES=Win32 resource files
+
+; Tool names
+TOOL_SEL_RECT=Rectangular select
+TOOL_SEL_ELLIPSE=Elliptical select
+TOOL_LASSO=Lasso
+TOOL_WAND=Wand
+TOOL_SEL_PENCIL=Pencil select
+TOOL_TRANSFORM=Transform
+TOOL_CROP=Crop
+TOOL_HOTSPOT=Hot spot
+TOOL_EYEDROPPER=Eyedropper
+TOOL_RETOUCH=Retouch
+TOOL_RECT=Rectangle
+TOOL_ELLIPSE=Ellipse
+TOOL_LINE=Line
+TOOL_TEXT=Text
+TOOL_PENCIL=Pencil
+TOOL_BRUSH=Brush
+TOOL_ERASER=Eraser
+TOOL_RECOLOR=Recolor
+TOOL_BUCKET=Bucket fill
+TOOL_GRADIENT=Gradient fill
+TOOL_NONE=None
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=File
+MI_FILE_NEW_GRAPHIC=New graphic
+MI_FILE_NEW_LIBRARY=New library
+MI_FILE_OPEN=Open
+MI_FILE_RECENT_FILES=Recent files
+MI_FILE_RF_CLEAR=Clear list
+MI_FILE_OPEN_SAMPLE=Open sample
+MI_FILE_BATCH_CONVERT=Batch convert files
+MI_FILE_CLOSE=Close
+MI_FILE_CLOSE_ALL=Close all
+MI_FILE_SAVE=Save
+MI_FILE_SAVE_AS=Save as
+MI_FILE_SAVE_COPY=Save a copy
+MI_FILE_SAVE_ALL=Save all
+MI_FILE_REVERT=Revert
+MI_FILE_METADATA=Metadata
+MI_FILE_PRINT=Print
+MI_FILE_EXIT=Exit
+
+MI_EDIT=Edit
+MI_EDIT_UNDO=Undo
+MI_EDIT_CANT_UNDO=Can't undo
+MI_EDIT_REDO=Redo
+MI_EDIT_CANT_REDO=Can't redo
+MI_EDIT_CUT=Cut
+MI_EDIT_COPY=Copy
+MI_EDIT_PASTE=Paste
+MI_EDIT_PASTE_PAGE=Paste as New Page
+MI_EDIT_PASTE_DOC=Paste as New Document
+MI_EDIT_DELETE=Delete
+MI_EDIT_SEL_ALL=Select All
+MI_EDIT_SEL_NONE=Deselect All
+MI_EDIT_SEL_INVERT=Invert selection
+MI_EDIT_SEL_LOAD=Load selection mask
+MI_EDIT_SEL_SAVE=Save selection mask
+MI_EDIT_CROP_TRANSPARENCY=Crop transparent parts
+MI_EDIT_TRANSFORM=Transform
+MI_EDIT_SEL_TRANSFORM=Transform selection
+MI_EDIT_FLIP_HORIZ=Flip horizontally
+MI_EDIT_FLIP_VERT=Flip vertically
+MI_EDIT_ROTATE_LEFT=Rotate 90 degrees left
+MI_EDIT_ROTATE_RIGHT=Rotate 90 degrees right
+MI_EDIT_ROTATE_180=Rotate 180 degrees
+
+MI_VIEW=View
+MI_VIEW_ZOOM_IN=Zoom in
+MI_VIEW_ZOOM_OUT=Zoom out
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Fit window
+MI_VIEW_GRID=Grid
+MI_VIEW_CELL_GRID=Cell grid
+MI_VIEW_CENTER_LINES=Center lines
+MI_VIEW_PAGES=List of pages
+MI_VIEW_TOOLBAR=Toolbar
+MI_VIEW_COLOR_PICKER=Color Picker
+MI_VIEW_TOOL_BEHAVIOR=Tool Behavior
+MI_VIEW_LAYERS=Layers
+MI_VIEW_PANEL_LEFT=Left panel
+MI_VIEW_PANEL_RIGHT=Right panel
+MI_VIEW_STARTUP_SCREEN=Startup screen
+
+MI_FLT=Filters
+MI_FLT_GRAYSCALE=Grayscale
+MI_FLT_INVERT=Invert
+MI_FLT_SOLARIZE=Solarize
+MI_FLT_RGB=RGB Channels
+MI_FLT_HS=Hue/Saturation
+MI_FLT_EXPOSURE=Exposure
+MI_FLT_FORMULAE=RGB Formulae
+MI_FLT_AVERAGE=Average
+MI_FLT_BLUR_SOFT=Soft Blur
+MI_FLT_BLUR_MORE=Blur More
+MI_FLT_BLUR_CUSTOM=Custom Blur
+MI_FLT_SHARPEN=Sharpen
+MI_FLT_UNSHARP_MASK=Unsharp mask
+MI_FLT_REMOVE_MATTE=Remove matte
+MI_FLT_OPACITY=Opacity
+MI_FLT_PAINT_CONTOUR=Paint contour
+MI_FLT_DROP_SHADOW=Drop shadow
+MI_FLT_GLOW=Glow
+MI_FLT_BEVEL=Bevel
+
+MI_LAYERS=Layers
+MI_LAYERS_NEW=New layer
+MI_LAYERS_DUPLICATE=Duplicate layer
+MI_LAYERS_DELETE=Delete layer
+MI_LAYERS_PROP=Layer properties
+MI_LAYERS_MERGE_SELECTED=Merge selected
+MI_LAYERS_MERGE_VISIBLE=Merge visible
+MI_LAYERS_FLATTEN=Flatten image
+MI_LAYERS_FROM_SEL=Create layer from selection
+
+MI_ICON=Icon
+MI_ICON_PAGE_NEW=New page
+MI_ICON_PAGE_DELETE=Delete page
+MI_ICON_PAGE_PROP=Page properties
+MI_ICON_PAGE_IMPORT=Import pages
+MI_ICON_PAGE_EXPORT=Export page
+MI_ICON_PAGE_EXPORT_WITH_PF=Export page with pixel format (BMP only)
+MI_ICON_PAGE_EXPORT_ALL=Export all pages
+MI_ICON_UNIFORM_RATE=Apply frame duration to all frames
+MI_ICON_CREATE_WIN=Create Windows icon from image
+MI_ICON_CREATE_MAC=Create Mac icon from image
+MI_ICON_TEST=Test
+
+MI_LIB=Library
+MI_LIB_ADD=Add resources
+MI_LIB_REMOVE=Remove resources
+MI_LIB_REPLACE=Replace resources
+MI_LIB_PROP=Resource properties
+MI_LIB_EXTRACT_EDIT=Extract and edit
+MI_LIB_EXTRACT_SAVE=Extract and save
+
+MI_TOOLS_MEMO=Memos
+
+MI_SET=Settings
+MI_SET_PREFERENCES=Preferences
+MI_SET_LANGUAGE=Language
+MI_SET_CHECK_FOR_UPDATES=Check for updates 
+
+MI_HELP=Help
+MI_HELP_CONTENTS=Contents
+MI_HELP_HOMEPAGE=Homepage
+MI_HELP_WHATSNEW=Whats New?
+MI_HELP_SUPPORT=Online support
+MI_HELP_DONATE=Donate
+MI_HELP_ABOUT=About
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 colors
+PF_256_COLORS=256 colors
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=Create floating selection
+UNDO_MERGE_LAYERS=Merge layers
+UNDO_MOVE_LAYERS=Move layers
+UNDO_MOVE_PAGE=Move page
+UNDO_FLIP_ROTATE=Flip/Rotate
+
+; Layers glossary
+LY_LAYER=Layer
+LY_BACKGROUND=Background
+LY_FLOATING_SEL=Floating selection
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=New page
+PG_CAPTION_PAGE_PROP=Page properties
+
+PG_SIZE_SMALLEST=smallest
+PG_SIZE_TOOLBAR=toolbar
+PG_SIZE_SMALL=small
+PG_SIZE_MEDIUM=medium
+PG_SIZE_LARGE=large
+PG_SIZE_HUGE_VISTA=huge, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Custom size
+PG_SQUARE=Square
+PG_PROPORTIONAL=Proportional
+
+PG_CR=Color reduction
+PG_CR_BW=Black and White
+PG_CR_16_WIN=16 colors (Windows palette)
+PG_CR_16_MAC=16 colors (Mac palette)
+PG_CR_256_ADAPT=256 colors (adaptive)
+PG_CR_256_MAC=256 colors (Mac palette)
+PG_CR_24=24-bit RGB
+PG_CR_32=No reduction (32-bit)
+
+PG_ANIMATION=Animation
+PG_FRAME_RATE=Frame duration (milliseconds)
+
+PG_OTHER=Other
+PG_DPI=DPI
+
+PG_CREATE_FROM_SELECTED=Create from selected page
+PG_WHEN_RESIZING=When resizing
+PG_STRETCH=Stretch
+PG_CROP=Crop
+PG_IMAGE_ANCHORS=Image anchors
+
+; Filter dialogs
+LABEL_RED=Red
+LABEL_GREEN=Green
+LABEL_BLUE=Blue
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Hue shift
+LABEL_SATURATION=Saturation
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Brightness
+LABEL_TORIC=Torus mode
+LABEL_GAUSSIAN_BLUR=Gaussian Blur
+LABEL_BOX_BLUR=Box Blur
+LABEL_MATTE_COLOR=Matte color
+LABEL_WHITE_MATTE=White matte
+LABEL_BLACK_MATTE=Black matte
+LABEL_INNER_GLOW=Inner Glow
+LABEL_OUTER_GLOW=Outer Glow
+
+LABEL_AMOUNT=Amount
+LABEL_ANGLE_DEGREES=Angle (degrees)
+LABEL_BLUR=Blur
+LABEL_DISTANCE=Distance
+LABEL_INTENSITY=Intensity
+LABEL_OPACITY=Opacity
+LABEL_RADIUS=Radius
+LABEL_THRESHOLD=Threshold
+
+; Batch conversion dialog
+BC_FILES=Files
+BC_SETTINGS=Settings
+BC_FORMAT=Convert to
+BC_FOLDER=Target folder
+BC_OPEN=Open converted files in ErrorSoft Green Pixel
+BC_ICON_FORMATS=Icon formats to create
+
+; Cell grid dialog
+CG_ENABLED=Enabled
+CG_SIZE=Cell size
+CG_SPACING=Cell spacing
+CG_OFFSET=Offset
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Select the formats you would like to create
+
+; ICL format dialog
+IF_TITLE=Select ICL format
+
+; Language dialog
+LABEL_LANG_PACK=Language pack
+
+; Layer properties dialog
+LP_NAME=Name
+LP_VISIBLE=Visible
+LP_BLEND_MODE=Blend mode
+
+LP_BM_NORMAL=Normal
+LP_BM_MASK=Mask
+LP_BM_BEHIND=Behind
+LP_BM_DISSOLVE=Dissolve
+LP_BM_HUE=Hue
+LP_BM_HUE_SHIFT=Hue Shift
+LP_BM_SAT=Saturation
+LP_BM_DARKEN=Darken
+LP_BM_MULTIPLY=Multiply
+LP_BM_COLOR_BURN=Color Burn
+LP_BM_LINEAR_BURN=Linear Burn
+LP_BM_DARKER_COLOR=Darker Color
+LP_BM_LIGHTEN=Lighten
+LP_BM_SCREEN=Screen
+LP_BM_COLOR_DODGE=Color Dodge
+LP_BM_LINEAR_DODGE=Linear Dodge (Add)
+LP_BM_LIGHTER_COLOR=Lighter Color
+LP_BM_OVERLAY=Overlay
+LP_BM_SOFT_LIGHT=Soft Light
+LP_BM_HARD_LIGHT=Hard Light
+LP_BM_VIVID_LIGHT=Vivid Light
+LP_BM_LINEAR_LIGHT=Linear Light
+LP_BM_PIN_LIGHT=Pin Light
+LP_BM_HARD_MIX=Hard Mix
+LP_BM_DIFFERENCE=Difference
+LP_BM_EXCLUSION=Exclusion
+
+; Metadata dialog
+MD_TYPE=For %s files
+MD_TITLE=Title
+MD_AUTHOR=Author
+MD_COPYRIGHT=Copyright
+MD_COMMENTS=Comments
+MD_QUALITY=Save in quality
+MD_DPI=DPI
+MD_LOOP_COUNT=Loop count (0 = infinity)
+
+; Preferences dialog
+PREF_MISC=Misc
+PREF_ENVIRONMENT=Environment
+PREF_INSTALL=Install
+PREF_IMAGE_MAX=Max. allowed image size
+PREF_PNG_ICONS=Using PNG compression in .ICO/.CUR files
+PREF_PNG_LIMIT=Compress images whose size is at least
+PREF_AA_IMAGES=Antialias all resized images
+PREF_COLORS=Colors
+PREF_TRANSPARENT_HATCH=Transparent hatch
+PREF_GRID2=Secondary grid
+PREF_DVM=View mode of Open/Save dialogs
+PREF_DVM_ITEMS=Icons<br>List<br>Details<br>Thumbnails<br>Tiles
+PREF_MWA=Mouse wheel action
+PREF_MWA_ITEMS=None<br>Scroll<br>Zoom
+PREF_SAVE_TOOL_SETTINGS=Save tool settings between sessions
+PREF_SWAP_LAYERS_AND_COLOR_PICKER=Swap Layers and Color Picker (Photoshop like)
+PREF_FILE_ASSOC=File associations
+PREF_ADMIN=Note that, if using Windows Vista or newer, GreenPixel cannot modify these system settings unless run in administrator mode.
+PREF_AUTO_CHECK_FOR_UPDATES=Auto check for updates
+
+; Print dialog
+PRINT_COPIES=Copies
+PRINT_ZOOM=Zoom (%)
+PRINT_CAPTION=Caption
+PRINT_PAGES=Print
+PRINT_PAGES_BUTTONS=All pages<br>Current page
+
+; Resource properties dialog
+RP_NAME=Name
+RP_LANGUAGE=Language
+RP_LANG_CUSTOM=Custom language ID
+RP_LANG_NEUTRAL=Language Neutral
+
+; Save options dialog
+SO_TITLE=Save options
+SO_QUALITY=Quality
+SO_LOSSLESS=Lossless
+
+; Startup screen
+ST_WELCOME=Welcome!
+ST_CHOOSE_ACTION=Please choose an action to perform
+ST_NG=Create a new graphic
+ST_NG_INFO=Creates a new icon, cursor or animation document
+ST_NL=Create a new library
+ST_NL_INFO=Creates a blank icon library (.ICL) or resource file (.RES)
+ST_OPEN=Open an existing document
+ST_OPEN_INFO=Opens an image file, icon library, executable or resource file from a storage media
+ST_CONVERT=Batch convert image files
+ST_CONVERT_INFO=Converts multiple image files to icons or to another image format
+ST_OPEN_SAMPLE=Open sample
+ST_OPEN_SAMPLE_INFO=Open the sample image that was created using a ErrorSoft GreenPixel
+ST_NONE=Do not perform any action
+ST_NONE_INFO=Closes this startup screen
+ST_RECENT_INFO=Opens a file which was recently edited in ErrorSoft GreenPixel
+ST_SHOW=Always show this screen on startup
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Move the cursor over the image below
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Insert text
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Antialias
+TB_PATTERN=Pattern
+TB_IS_PATTERN_FILL=Fill pattern
+TB_IS_PATTERN_INVERT=Invert pattern
+TB_CLEAR_PATTERN=Clear pattern
+TB_SAMPLE_ALL_LAYERS=Sample all layers
+TB_BRUSH_SIZE=Brush size
+TB_BRUSH_SHAPE=Brush shape
+TB_BRUSH_ITEMS=Rounded<br>Sharp<br>Slash<br>Backslash<br>Horizontal<br>Vertical<br>Spray
+TB_LINE_WIDTH=Line width
+TB_TOLERANCE=Wand/Recolor/Bucket tolerance (%)
+TB_CONTIGUOUS=Contiguous
+TB_SHAPE_FRAMED=Framed shapes
+TB_SHAPE_FILLED=Filled shapes
+TB_EYEDROPPER_BACK=Eyedropper switches back to previous tool
+TB_RETOUCH_MODE=Retouch mode
+TB_RETOUCH_ITEMS=Blur<br>Sharpen<br>Dodge<br>Burn<br>Hue<br>Sponge
+TB_ERASER_STRENGTH=Eraser strength (%)
+TB_G_LINEAR=Linear gradient
+TB_G_RADIAL=Radial gradient
+TB_G_CONICAL=Conical gradient
+TB_G_SPIRAL=Spiral gradient
+TB_REP_NONE=No repetition
+TB_REP_SYM=Symmetrical repetition
+TB_REP_ASYM=Asymmetrical repetition
+TB_MODE_COLOR=Color mode
+TB_MODE_TRANSPARENCY=Transparency mode
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=pixels<br>%
+
+; Hints
+HINT_COMPACT=Compact view
+
+HINT_CP_FORE_COLOR=Foreground color
+HINT_CP_BACK_COLOR=Background color
+HINT_CP_SWAP_COLORS=Swap colors
+HINT_CP_DEFAULT=Restore default
+HINT_CP_TRANSPARENT=Transparent
+HINT_CP_INVERTED=Inverted
+HINT_CP_TOGGLE_CHOOSER=Toggle HSB map and swatches
+HINT_CP_SWATCHES=Left-click to pick color, right-click to overwrite swatch with current color
+HINT_CP_SWATCH_LOAD=Load swatch preset
+HINT_CP_SWATCH_SAVE=Save swatch preset
+HINT_CP_RED=Red component
+HINT_CP_GREEN=Green component
+HINT_CP_BLUE=Blue component
+HINT_CP_ALPHA=Color alpha (opacity)
+HINT_CP_HTML=HTML code
+HINT_CP_WCP=Windows Color Picker
+
+HINT_DOC_LB=List of pages (icon formats/frames)
+HINT_DOC_LB_PAGE=Page %d, size: %d x %d pixels
+HINT_DOC_LB_PNG=will be PNG-compressed when saving document as .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Zoom
+HINT_DOC_NODES=%d nodes
+HINT_DOC_TOGGLE_PAGES=Hide/show list of pages
+
+HINT_RES_FOLDER=Please select a folder for the extracted files
+
+HINT_STARTUP_HELP=Help
+HINT_TEST_BGR_LOAD=Load background
+HINT_TEST_BGR_DEFAULT=Default background
+
+HINT_TEXT_FACE=Font face
+HINT_TEXT_BOLD=Bold
+HINT_TEXT_ITALIC=Italic
+HINT_TEXT_UNDERLINE=Underline
+
+;Autoupdates
+AU_CHECK_FOR_UPDATES_QUESTION=Automatically check for updates? (need internet connection) 
+AU_UPDATE_AVIABLE_QUESTION=Update available, download and install update?
+
+; eof

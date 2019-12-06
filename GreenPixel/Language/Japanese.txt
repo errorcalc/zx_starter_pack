@@ -1,0 +1,505 @@
+; ErrorSoft Green Pixel
+; Language pack: Japanese
+; Created by: Tilt (http://tiltstr.seesaa.net/)
+
+; General dictionary
+LABEL_WIDTH=幅
+LABEL_HEIGHT=高さ
+LABEL_SIZE=サイズ
+LABEL_COLOR=カラー
+LABEL_KIND=種類
+LABEL_ANTIALIAS=アンチエイリアス
+LABEL_POSITION=位置
+LABEL_FILE_SIZE=ファイルサイズ
+UNTITLED=無題
+
+; Buttons
+B_OK=OK
+B_CANCEL=キャンセル
+B_YES=はい
+B_NO=いいえ
+B_RESET=リセット
+B_ADD=追加
+B_REMOVE=除去
+B_CLEAR=クリア
+B_CLOSE=閉じる
+B_ALL=すべて
+B_NONE=なし
+B_PRINT=印刷
+B_PRINTER_SETUP=プリンタ設定
+B_PREVIEW=プレビュー
+B_COMPILE=コンパイル
+
+; Shown messages 
+MSG_CONFIRMATION=確認
+MSG_NOT_EXIST="%s" は存在しません
+MSG_OVERWRITE=本当に "%s" を上書きしますか?
+MSG_UNKNOWN_FILE_TYPE=このファイル形式 "%s" は自動的に特定することが出来ない為、ErrorSoft Green Pixel で読み込み/保存することが出来ません... また、拡張子が誤っている可能性があります。
+MSG_INVALID_FILE_FORMAT=ファイル "%s" は "%s" 形式のファイルではありません。このファイルは破損しているか、または誤った拡張子が使用されている可能性があります。
+MSG_CROPPED=トリミングしたイメージサイズが %dx%d より大きいサイズになっています<br>このまま保存するとイメージを損なう可能性があります<br>ヘルプ|イメージサイズの増加を参照してください
+MSG_SAVE_CHANGES="%s" の変更を保存しますか??
+MSG_CONFIRM_REVERT="%s" へのすべての変更は破棄されます。 本当に続行しますか?
+MSG_CONFIRM_REMOVE=本当に選択されたアイテム(複)を除去しますか?
+MSG_CONFIRM_DESTROY_EXE=この実行形式ファイル、アイコンライブラリ内のアイコン/カーソルは置き換えできません。<br><br>このファイルがプログラム、または DLLファイルであれば保存を実行した時にファイルが破損する可能性があります。<br>もしこのファイルが通常のアイコンライブラリだった場合は問題なく保存することができます。<br><br>処理を続行しますか?
+MSG_DATA_LOSS_INFO=データを失うことを避けたい場合は、ファイルを別の形式で保存してください。
+MSG_DL_MULTIPAGE=このファイル形式は、複数ファイルに対応していません。最初のページのみ保存されました。
+MSG_DL_LAYERS=このファイル形式はレイヤー情報に対応していません、イメージは情報抜きで保存されました
+MSG_DL_SIZE_256=このファイル形式の、256x256以上のサイズの保存には対応していません。 これらはクロップされました。
+MSG_DL_TRANSPARENCY=このファイル形式は、透過処理に対応していません。
+MSG_DL_COLOR_DEPTH=いくつかの色情報は保存されませんでした。
+MSG_DL_ICNS=ICNS 形式の制限により、幾つかのページは保存できませんでした。このファイル形式に関する更に詳細な説明はヘルプセクションを参照してください。
+MSG_FT_NO_OPTIONS=選択されたファイル形式はカスタマイズに対応していません。
+MSG_ADD_FILES=ファイルをリストに追加してください。
+MSG_SELECT_PAGES=ページを選択してください
+MSG_SELECT_ITEMS=いくつかのアイテムを選択してください
+MSG_NO_LAYERS=レイヤーが存在しません
+MSG_NO_LAYERS_SELECTED=レイヤーが選択されていません
+MSG_RES_EXIST=指定された形式の名前/言語を持つリソースは既に存在します。<br>別の名前/言語を選択してください。
+MSG_ERROR_WRITE_RES=リソースの変更を指定形式で保存中に、エラーが起こりました。別の名前/形式を選択してください。
+MSG_PAGE_SIZE_0=エラー: ページの幅が 0 mm になっています。別の印紙書式を選択してください
+MSG_ERROR_ASSOC=ファイルの関連付けに失敗しました、GreenPixel を管理者権限で実行することで解決する可能性があります。
+MSG_FAIL_SINGLE_OPEN=選択されたファイルを読み込めません
+MSG_FAIL_MULTIPLE_OPEN=いくつかのファイルを開くことができませんでした。
+
+; Open/Save dialog filters
+FF_ALL=すべてのファイル
+FF_GFIE=GreenPixel 独自形式
+FF_ICO=アイコン
+FF_CUR=カーソル
+FF_ANI=アニメーションカーソル
+FF_ICNS=Apple アイコンイメージ形式
+FF_PNG=PNG
+FF_XPM=X-Pixmaps
+FF_BMP=ビットマップ
+FF_JPEG=JPEG
+FF_GIF=Graphics Interchange 形式
+FF_JPEG_2000=JPEG 2000 ファイル
+FF_PCX=PCX ファイル
+FF_EXEC=すべての実行形式ファイルとアイコンライブラリ
+FF_ICL=アイコンライブラリ形式
+FF_RES=Win32 リソースファイル
+
+; Tool names
+TOOL_SEL_RECT=矩形選択
+TOOL_SEL_ELLIPSE=楕円選択
+TOOL_LASSO=投げ縄
+TOOL_WAND=魔法の杖
+TOOL_SEL_PENCIL=鉛筆
+TOOL_TRANSFORM=変形
+TOOL_CROP=トリミング
+TOOL_HOTSPOT=ホットスポット
+TOOL_EYEDROPPER=スポイト
+TOOL_RETOUCH=レタッチ
+TOOL_RECT=矩形
+TOOL_ELLIPSE=楕円
+TOOL_LINE=ライン
+TOOL_TEXT=テキスト
+TOOL_PENCIL=鉛筆
+TOOL_BRUSH=ブラシ
+TOOL_ERASER=消しゴム
+TOOL_RECOLOR=塗りつぶし
+TOOL_BUCKET=塗りつぶしバケツ
+TOOL_GRADIENT=グラデーション
+TOOL_NONE=なし
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=ファイル(&F)
+MI_FILE_NEW_GRAPHIC=新規画像を作成&
+MI_FILE_NEW_LIBRARY=新規ライブラリ(&E)
+MI_FILE_OPEN=ファイルを開く&
+MI_FILE_RECENT_FILES=最近使用したファイル(&R)
+MI_FILE_RF_CLEAR=リストをクリア(&C)
+MI_FILE_BATCH_CONVERT=ファイルの一括変換&
+MI_FILE_CLOSE=閉じる&
+MI_FILE_CLOSE_ALL=すべて閉じる&
+MI_FILE_SAVE=保存...&
+MI_FILE_SAVE_AS=名前をつけて保存(&A)
+MI_FILE_SAVE_ALL=すべて保存(&V)
+MI_FILE_REVERT=反転&
+MI_FILE_METADATA=メタデータ&
+MI_FILE_PRINT=印刷&
+MI_FILE_EXIT=終了(&X)
+
+MI_EDIT=編集(&E)
+MI_EDIT_UNDO=元に戻す&
+MI_EDIT_CANT_UNDO=元に戻せません&
+MI_EDIT_REDO=やり直す&
+MI_EDIT_CANT_REDO=やり直せません&
+MI_EDIT_CUT=切り取り&
+MI_EDIT_COPY=コピー&
+MI_EDIT_PASTE=貼り付け&
+MI_EDIT_PASTE_PAGE=新規ページとして貼り付け&  
+MI_EDIT_PASTE_DOC=新規文書として貼り付け&
+MI_EDIT_DELETE=削除&
+MI_EDIT_SEL_ALL=すべて選択&
+MI_EDIT_SEL_NONE=すべて解除&
+MI_EDIT_SEL_INVERT=選択を反転&
+MI_EDIT_SEL_LOAD=選択マスクを読み込み(&T)
+MI_EDIT_SEL_SAVE=選択マスクを保存(&V)
+MI_EDIT_CROP_TRANSPARENCY=透明部分のトリミング&
+MI_EDIT_TRANSFORM=変形(&R)
+MI_EDIT_SEL_TRANSFORM=選択領域の変形
+MI_EDIT_FLIP_HORIZ=左右反転(&F)
+MI_EDIT_FLIP_VERT=上下反転(&L)
+MI_EDIT_ROTATE_LEFT=90 度左回転(&R)
+MI_EDIT_ROTATE_RIGHT=90 度右回転(&O)
+MI_EDIT_ROTATE_180=180 度回転(&A)
+
+MI_VIEW=表示(&V)
+MI_VIEW_ZOOM_IN=拡大&
+MI_VIEW_ZOOM_OUT=縮小&
+MI_VIEW_100_PERCENT=100 %&
+MI_VIEW_FIT_WINDOW=ウィンドウに合わせる&
+MI_VIEW_GRID=グリッド&
+MI_VIEW_CELL_GRID=セルグリッド&
+MI_VIEW_CENTER_LINES=中間線&
+MI_VIEW_PAGES=ページ一覧&
+MI_VIEW_TOOLBAR=ツールバー(&T)
+MI_VIEW_COLOR_PICKER=カラーピッカー(&C)
+MI_VIEW_TOOL_BEHAVIOR=ツールの動作(&B)
+MI_VIEW_LAYERS=レイヤー(&A)
+MI_VIEW_PANEL_LEFT=左パネル
+MI_VIEW_PANEL_RIGHT=右パネル
+MI_VIEW_STARTUP_SCREEN=スタートアップ画面(&S)
+
+MI_FLT=フィルター(&I)
+MI_FLT_GRAYSCALE=グレイスケール(&G)
+MI_FLT_INVERT=反転(&I)
+MI_FLT_SOLARIZE=ソラライズ(&S)
+MI_FLT_RGB=RGB チャンネル&
+MI_FLT_HS=色相 / 彩度&
+MI_FLT_EXPOSURE=露出補正&
+MI_FLT_FORMULAE=RGB 方式(&R)
+MI_FLT_AVERAGE=平均化(&A)
+MI_FLT_BLUR_SOFT=ぼかし - 弱&
+MI_FLT_BLUR_MORE=ぼかし - 強&
+MI_FLT_BLUR_CUSTOM=カスタムぼかし&
+MI_FLT_SHARPEN=シャープ&
+MI_FLT_UNSHARP_MASK=アンシャープマスク&
+MI_FLT_REMOVE_MATTE=マットの除去&
+MI_FLT_OPACITY=不透明度&
+MI_FLT_PAINT_CONTOUR=輪郭に色付け&
+MI_FLT_DROP_SHADOW=影をつける&
+MI_FLT_GLOW=発光&
+MI_FLT_BEVEL=べベル&
+
+MI_LAYERS=レイヤー(&L)
+MI_LAYERS_NEW=新規レイヤー&
+MI_LAYERS_DUPLICATE=レイヤーの複製(&D)
+MI_LAYERS_DELETE=レイヤーを削除(&E)
+MI_LAYERS_PROP=レイヤーのプロパティ(&L)
+MI_LAYERS_MERGE_SELECTED=選択領域を結合(&M)
+MI_LAYERS_MERGE_VISIBLE=可視部分を結合(&R)
+MI_LAYERS_FLATTEN=フラット・イメージ(&F)
+MI_LAYERS_FROM_SEL=選択領域からレイヤーを作成(&C)
+
+MI_ICON=アイコン(&C)
+MI_ICON_PAGE_NEW=新規ページ&
+MI_ICON_PAGE_DELETE=ページを削除(&D)
+MI_ICON_PAGE_PROP=ページのプロパティ(&P)
+MI_ICON_PAGE_IMPORT=ページをインポート
+MI_ICON_PAGE_EXPORT=ページをエクスポート(&E)
+MI_ICON_PAGE_EXPORT_ALL=すべてのページをエクスポート
+MI_ICON_UNIFORM_RATE=すべてのフレームに適用&
+MI_ICON_CREATE_WIN=イメージから Windows 用のアイコンを作成
+MI_ICON_CREATE_MAC=イメージから Mac 用のアイコンを作成
+MI_ICON_TEST=テスト&
+
+MI_LIB=ライブラリ(&B)
+MI_LIB_ADD=リソースを追加(&A)
+MI_LIB_REMOVE=リソースを除去(&R)
+MI_LIB_REPLACE=リソースを置換(&E)
+MI_LIB_PROP=リソースのプロパティ(&S)
+MI_LIB_EXTRACT_EDIT=抽出と編集(&X)...
+MI_LIB_EXTRACT_SAVE=抽出と保存(&T)
+
+MI_SET=設定(&S)
+MI_SET_PREFERENCES=環境設定&
+MI_SET_LANGUAGE=言語を選択&
+
+MI_HELP=ヘルプ(&H)
+MI_HELP_CONTENTS=トピック
+MI_HELP_HOMEPAGE=ホームページ(&H)
+MI_HELP_SUPPORT=オンラインサポート(&O)
+MI_HELP_DONATE=寄付
+MI_HELP_ABOUT=バージョン情報(&A)
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 色
+PF_256_COLORS=256 色
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=フローティング選択を作成
+UNDO_MERGE_LAYERS=レイヤーを結合
+UNDO_MOVE_LAYERS=レイヤーを移動
+UNDO_MOVE_PAGE=ページを移動
+UNDO_FLIP_ROTATE=反転/回転
+
+; Layers glossary
+LY_LAYER=レイヤー
+LY_BACKGROUND=背景
+LY_FLOATING_SEL=フローティング選択
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=新規ページ
+PG_CAPTION_PAGE_PROP=ページのプロパティ
+
+PG_SIZE_SMALLEST=最小
+PG_SIZE_TOOLBAR=ツールバー用
+PG_SIZE_SMALL=小
+PG_SIZE_MEDIUM=中
+PG_SIZE_LARGE=大
+PG_SIZE_HUGE_VISTA=最大(Vista)
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=カスタムサイズ
+PG_SQUARE=四角形
+
+PG_CR=色数の減少
+PG_CR_BW=白黒
+PG_CR_16_WIN=16 色 (Windows パレット)
+PG_CR_16_MAC=16 colors (Mac パレット)
+PG_CR_256_ADAPT=256 色 (適応型)
+PG_CR_256_MAC=256 色 (Mac パレット)
+PG_CR_24=24-bit RGB
+PG_CR_32=減少なし (32-bit)
+
+PG_ANIMATION=アニメーションとして保存
+PG_FRAME_RATE=フレームレート (単位: 1/60 秒)
+
+PG_CREATE_FROM_SELECTED=選択されたページから作成
+PG_WHEN_RESIZING=拡大縮小
+PG_STRETCH=伸縮合わせ
+PG_CROP=トリミング
+PG_IMAGE_ANCHORS=イメージアンカー
+
+; Filter dialogs
+LABEL_RED=赤
+LABEL_GREEN=緑
+LABEL_BLUE=青
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=色相シフト
+LABEL_SATURATION=彩度
+LABEL_GAMMA=ガンマ
+LABEL_BRIGHTNESS=明るさ  
+LABEL_TORIC=トーラスモード
+LABEL_GAUSSIAN_BLUR=ガウシアンぼかし
+LABEL_BOX_BLUR=矩形ぼかし
+LABEL_MATTE_COLOR=マット色
+LABEL_WHITE_MATTE=白色マット
+LABEL_BLACK_MATTE=黒色マット
+LABEL_INNER_GLOW=内側から発光
+LABEL_OUTER_GLOW=外側から発光
+
+LABEL_AMOUNT=量
+LABEL_ANGLE_DEGREES=角度 (度)
+LABEL_BLUR=ぼかし
+LABEL_DISTANCE=距離
+LABEL_INTENSITY=強度
+LABEL_OPACITY=不透明度
+LABEL_RADIUS=半径
+LABEL_THRESHOLD=しきい値
+
+; Batch conversion dialog
+BC_FILES=ファイル
+BC_SETTINGS=設定
+BC_FORMAT=変換
+BC_FOLDER=対象フォルダ
+BC_OPEN=変換後のファイルを ErrorSoft Green Pixel で開く
+BC_ICON_FORMATS=作成するアイコン形式
+
+; Cell grid dialog
+CG_ENABLED=有効
+CG_SIZE=セルのサイズ
+CG_SPACING=セルの間隔
+CG_OFFSET=オフセット調整
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=作成したい形式を選択してください。
+
+; ICL format dialog
+IF_TITLE=ICL 形式の選択
+
+; Language dialog
+LABEL_LANG_PACK=言語パック
+
+; Layer properties dialog
+LP_NAME=名前
+LP_VISIBLE=可視化
+LP_BLEND_MODE=ブレンドモード  
+
+LP_BM_NORMAL=標準
+LP_BM_MASKマスク
+LP_BM_BEHIND=背後
+LP_BM_DISSOLVE=ディゾルブ
+LP_BM_HUE=色相
+LP_BM_HUE_SHIFT=色相シフト
+LP_BM_SAT=彩度
+LP_BM_DARKEN=暗さ
+LP_BM_MULTIPLY=乗算
+LP_BM_COLOR_BURN=焼き込み(色)
+LP_BM_LINEAR_BURN=焼き込み(線形)
+LP_BM_DARKER_COLOR=暗部色
+LP_BM_LIGHTEN=明るさ
+LP_BM_SCREEN=画面
+LP_BM_COLOR_DODGE=覆い焼き(色)
+LP_BM_LINEAR_DODGE=線形覆い焼き(付加)
+LP_BM_LIGHTER_COLOR=明るさ(色)
+LP_BM_OVERLAY=オーバーレイ
+LP_BM_SOFT_LIGHT=ライト(弱)
+LP_BM_HARD_LIGHT=ライト(強)
+LP_BM_VIVID_LIGHT=ライト(鮮明)
+LP_BM_LINEAR_LIGHT=ライト(線形)
+LP_BM_PIN_LIGHT=ライト(ピン)
+LP_BM_HARD_MIX=混合(ハード)
+LP_BM_DIFFERENCE=差分
+LP_BM_EXCLUSION=除外
+
+; Metadata dialog
+MD_TYPE= %s ファイル
+MD_TITLE=タイトル
+MD_AUTHOR=作者
+MD_COPYRIGHT=著作権
+MD_COMMENTS=コメント
+MD_QUALITY=保存品質
+MD_LOOP_COUNT=ループ数 (0 = 無限大)
+
+; Preferences dialog
+PREF_MISC=その他
+PREF_ENVIRONMENT=環境設定
+PREF_INSTALL=関連付け
+PREF_IMAGE_MAX=イメージ最大サイズ (自己責任)
+PREF_PNG_ICONS=.ICO/.CUR ファイルにPNG圧縮を使用
+PREF_PNG_LIMIT=イメージのサイズを最小に圧縮
+PREF_AA_IMAGES=すべての拡大縮小にアンチエイリアスを使用
+PREF_COLORS=カラー
+PREF_TRANSPARENT_HATCH=透明ハッチ
+PREF_GRID2=セカンダリ・グリッド
+PREF_DVM=開く/保存 ダイアログを表示
+PREF_DVM_ITEMS=アイコン<br>一覧<br>詳細<br>サムネイル<br>並べて表示
+PREF_MWA=マウスホイール操作
+PREF_MWA_ITEMS=なし<br>スクロール<br>拡大
+PREF_SAVE_TOOL_SETTINGS=セッション間、ツール設定を保存
+PREF_FILE_ASSOC=ファイルの関連付け
+PREF_ADMIN=Windows Vista 以降を使用している場合、関連付け設定を GreenPixel から変更するには管理者権限で実行する必要がある点にご注意ください。
+
+; Print dialog
+PRINT_COPIES=コピー
+PRINT_ZOOM=拡大 (%)
+PRINT_CAPTION=キャプション
+PRINT_PAGES=印刷
+PRINT_PAGES_BUTTONS=すべてのページ<br>現在のページ
+
+; Resource properties dialog
+RP_NAME=名前
+RP_LANGUAGE=言語
+RP_LANG_CUSTOM=カスタム言語 ID
+RP_LANG_NEUTRAL=ニュートラル言語
+
+; Save Options dialog
+SO_TITLE=オプションを保存
+SO_QUALITY=品質
+SO_LOSSLESS=ロスレス
+
+; Startup screen
+ST_WELCOME=ようこそ !
+ST_CHOOSE_ACTION=アクションを選択してください
+ST_NG=新規画像を作成
+ST_NG_INFO= - 新規アイコン、カーソルまたはアニメーションを作成します。
+ST_NL=新規ライブラリを作成
+ST_NL_INFO= - 空のアイコンライブラリ(.ICL) またはリソースファイル(.RES)を作成します。
+ST_OPEN=既存のドキュメントを開く
+ST_OPEN_INFO= - 既存のアイコン/カーソルファイルを開きます。
+ST_CONVERT=イメージファイルの一括変換
+ST_CONVERT_INFO= - 複数のイメージファイルをアイコン、または別の形式に一括変換します。
+ST_NONE=何もしない
+ST_NONE_INFO= - スタートアップ画面を閉じます。
+ST_RECENT_INFO= - ErrorSoft Green Pixel で、最近使用したファイルを開きます。
+ST_SHOW=常にスタートアップ画面を表示する
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=下のイメージ上でカーソルを動かしてください
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=テキストの挿入
+
+; Tool Behavior dialog
+TB_ANTIALIAS=アンチエイリアス
+TB_PATTERN=パターン
+TB_SAMPLE_ALL_LAYERS=すべてのレイヤーサンプル
+TB_BRUSH_SIZE=ブラシサイズ
+TB_BRUSH_SHAPE=ブラシ形状
+TB_BRUSH_ITEMS=円形<br>四角<br>斜線<br>斜線<br>水平線<br>垂直線<br>スプレー
+TB_LINE_WIDTH=線の幅
+TB_TOLERANCE=魔法の杖/塗りつぶし/バケツの許容度 (%)
+TB_CONTIGUOUS=隣接
+TB_SHAPE_FRAMED=フレーム形状
+TB_SHAPE_FILLED=塗りつぶし形状
+TB_EYEDROPPER_BACK=スポイトから前のツールへの切替
+TB_RETOUCH_MODE=レタッチモード
+TB_RETOUCH_ITEMS=ぼかし<br>シャープ<br>覆い焼き<br>焼き込み<br>色合い<br>スポンジ
+TB_ERASER_STRENGTH=消しゴム強度 (%)
+TB_G_LINEAR=グラデーション(線形)
+TB_G_RADIAL=グラデーション(半径)
+TB_G_CONICAL=グラデーション(円錐)
+TB_G_SPIRAL=グラデーション(螺旋)
+TB_REP_NONE=反復なし
+TB_REP_SYM=対称反復
+TB_REP_ASYM=非対称反復
+TB_MODE_COLOR=カラーモード
+TB_MODE_TRANSPARENCY=透明モード
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=ピクセル<br>%
+
+; Hints
+HINT_COMPACT=コンパクト表示
+
+HINT_CP_FORE_COLOR=前景色
+HINT_CP_BACK_COLOR=背景色
+HINT_CP_SWAP_COLORS=カラーの入れ替え
+HINT_CP_DEFAULT=デフォルトに戻す
+HINT_CP_TRANSPARENT=透明度
+HINT_CP_INVERTED=逆転
+HINT_CP_TOGGLE_CHOOSER=HSB マップと色見本の切り替え
+HINT_CP_SWATCHES=左クリックで色を選択、右クリックで色見本に上書きします。
+HINT_CP_SWATCH_LOAD=色見本設定を読み込む
+HINT_CP_SWATCH_SAVE=色見本設定を保存
+HINT_CP_RED=赤色成分
+HINT_CP_GREEN=緑色成分
+HINT_CP_BLUE=青色成分
+HINT_CP_ALPHA=アルファカラー (不透明)
+HINT_CP_HTML=HTML コード
+HINT_CP_WCP=Windows カラーピッカー
+
+HINT_DOC_LB=ページの一覧 (アイコン形式/フレーム)
+HINT_DOC_LB_PAGE=ページ %d, サイズ: %d x %d ピクセル
+HINT_DOC_LB_PNG=.ICO/.CUR 形式でファイルを保存する時に圧縮(PNG)する
+HINT_DOC_ZOOM_MENU=拡大
+HINT_DOC_NODES=%d ノード
+HINT_DOC_TOGGLE_PAGES=ページの一覧を表示/隠す
+
+HINT_RES_FOLDER=ファイルを抽出するフォルダを選択してください。
+
+HINT_STARTUP_HELP=ヘルプ
+HINT_TEST_BGR_LOAD=背景を読み込み
+HINT_TEST_BGR_DEFAULT=デフォルト背景
+
+HINT_TEXT_FACE=フォントスタイル
+HINT_TEXT_BOLD=太字
+HINT_TEXT_ITALIC=斜体
+HINT_TEXT_UNDERLINE=下線
+
+; eof

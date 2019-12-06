@@ -1,0 +1,506 @@
+﻿; ErrorSoft Green Pixel
+; Language pack: Dutch
+; Created by: Gerrit Doornenbal
+; Edited by: Freddie Unlandt
+
+; General dictionary
+LABEL_WIDTH=Breedte
+LABEL_HEIGHT=Hoogte
+LABEL_SIZE=Grootte
+LABEL_COLOR=Kleur
+LABEL_KIND=Soort
+LABEL_ANTIALIAS=Anti-alias
+LABEL_POSITION=Positie
+LABEL_FILE_SIZE=Bestandsgrootte
+UNTITLED=Geen_naam
+
+; Buttons
+B_OK=OK
+B_CANCEL=Annuleren
+B_YES=Ja
+B_NO=Nee
+B_RESET=Reset
+B_ADD=Voeg toe
+B_REMOVE=Verwijder
+B_CLEAR=Clear
+B_CLOSE=Sluiten
+B_ALL=Alles
+B_NONE=Geen
+B_PRINT=Print
+B_PRINTER_SETUP=Printer instellingen
+B_PREVIEW=Afdrukvoorbeeld
+B_COMPILE=Compileren
+
+; Shown messages
+MSG_CONFIRMATION=Bevestiging
+MSG_NOT_EXIST="%s" niet gevonden
+MSG_OVERWRITE=Wil je "%s" overschrijven?
+MSG_UNKNOWN_FILE_TYPE=Het bestandsformaat "%s" kon niet automatisch vastgesteld worden. Dit bestand kan niet door ErrorSoft Green Pixel geopend of bewaard worden.
+MSG_INVALID_FILE_FORMAT=Bestand "%s" voldoet niet aan het "%s" formaat. Het bestand kan corrupt zijn, of de verkeerde extensie hebben, of er is een een incorrect filter gekozen in het Open-venster.
+MSG_CROPPED=De afbeelding was groter dan %dx%d en is bijgesneden. Opslaan van de afbeelding zal verlies van data opleveren. Gebruik Instellingen|Voorkeuren om de max. toegestane grootte van de afbeelding te verhogen.
+MSG_SAVE_CHANGES=Wilt u de wijzigingen in "%s" opslaan?
+MSG_CONFIRM_REVERT=Alle wijzigingen in  "%s" zullen verloren gaan, die kan niet ongedaan worden gemaakt. Weet je zeker dat je door wilt gaan?
+MSG_CONFIRM_REMOVE=Wilt u echt de geselecteerde items verwijderen?
+MSG_CONFIRM_DESTROY_EXE=De iconen kunnen niet zomaar vervangen worden in dit bestand.<br><br>Als dit een programma of DLL is die ook andere dingen doet dan alleen opslag van iconen, dan zullen mogelijk deze andere functies niet meer werken na het opslaan.<br>Indien dit bestand alleen een icon-bibliotheek is, dan zal er waarschijnlijk niets misgaan.<br><br> Wilt u toch doorgaan?
+MSG_DATA_LOSS_INFO=Bewaar het document ook in een ander bestandsformaat om geen data te verliezen.
+MSG_DL_MULTIPAGE=Dit bestandsformaat ondersteunt geen meerdere afbeeldingen in één bestand. Alleen de eerste pagina is bewaard.
+MSG_DL_LAYERS=Dit bestandsformaat ondersteunt geen meerdere lagen. Bestand is als 1 laag opgeslagen.
+MSG_DL_SIZE_256=Dit bestandformaat ondersteunt geen afbeeldingen groter de 256x256. Deze afbeeldingen worden verkleind.
+MSG_DL_TRANSPARENCY=Dit bestandsformaat ondersteunt geen transparantie.
+MSG_DL_COLOR_DEPTH=Sommige delen van de kleurinformatie kon niet worden opgeslagen.
+MSG_DL_ICNS=Sommige pagina's konden niet worden opgeslagen door beperkingen in het ICNS format. Meer informatie hierover vindt u in de help functie.
+MSG_FT_NO_OPTIONS=Het geselecteerde file format kan niet aangepast worden.
+MSG_ADD_FILES=Voeg enkele bestanden toe aan de lijst.
+MSG_SELECT_PAGES=Selecteer enkele pagina's
+MSG_SELECT_ITEMS=Selecteer een of meer items.
+MSG_NO_LAYERS=Er zijn geen lagen aanwezig
+MSG_NO_LAYERS_SELECTED=Er zijn geen lagen geselecteerd.
+MSG_RES_EXIST=Een resource van het gespecificeerde type, naam en taal bestaat al. Kies een andere naam of taal.
+MSG_ERROR_WRITE_RES=Er is een fout opgetreden bij het opslaan naar de gespecificeerde resource.
+MSG_PAGE_SIZE_0=Error: Fysieke pagina kan niet 0 mm zijn. Kies een ander papierformaat.
+MSG_ERROR_ASSOC=De bestandstoewijzingen konden niet worden ingesteld. GreenPixel opstarten in administrator mode zou het probleem kunnen oplossen.
+MSG_FAIL_SINGLE_OPEN=Kan het geselecteerde bestand niet laden.
+MSG_FAIL_MULTIPLE_OPEN=Sommige bestanden konden niet geopend worden.
+
+; Open/Save dialog filters
+FF_ALL=Alle bestanden
+FF_GFIE=GreenPixel bestanden
+FF_ICO=Icon bestanden
+FF_CUR=Cursor bestanden
+FF_ANI=Bewegende cursors
+FF_ICNS=Apple Icon Image Format
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bitmaps
+FF_JPEG=JPEG bestanden
+FF_GIF=Graphics Interchange Format
+FF_JPEG_2000=JPEG 2000 bestanden
+FF_PCX=PCX bestanden
+FF_EXEC=Alle opstartbare bestanden en icon bibliotheken
+FF_ICL=Icon bibliotheken
+FF_RES=Win32 resource bestanden
+
+; Tool names
+TOOL_SEL_RECT=selecteer rechthoek
+TOOL_SEL_ELLIPSE=selecteer elliptische vorm
+TOOL_LASSO=Selecteer met lasso
+TOOL_WAND=Selecteer met toverstok
+TOOL_SEL_PENCIL=Penseel
+TOOL_TRANSFORM=Transformeer
+TOOL_CROP=Bijsnijden
+TOOL_HOTSPOT=Set hotspot
+TOOL_EYEDROPPER=Kleur meten
+TOOL_RETOUCH=Retoucheer
+TOOL_RECT=Rechthoek
+TOOL_ELLIPSE=Ellipse
+TOOL_LINE=Lijn
+TOOL_TEXT=Text
+TOOL_PENCIL=Penseel
+TOOL_BRUSH=Kwast
+TOOL_ERASER=Gummen
+TOOL_RECOLOR=Opnieuw kleuren
+TOOL_BUCKET=Opvullen
+TOOL_GRADIENT=Met kleurverloop vullen
+TOOL_NONE=None
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=Bestand
+MI_FILE_NEW_GRAPHIC=Nieuwe afbeelding
+MI_FILE_NEW_LIBRARY=Nieuwe library
+MI_FILE_OPEN=Open
+MI_FILE_RECENT_FILES=Recente bestanden
+MI_FILE_RF_CLEAR=Lijst leegmaken
+MI_FILE_BATCH_CONVERT=Bestanden in batch converteren
+MI_FILE_CLOSE=Afsluiten
+MI_FILE_CLOSE_ALL=Alles afsluiten
+MI_FILE_SAVE=Opslaan
+MI_FILE_SAVE_AS=Opslaan als
+MI_FILE_SAVE_ALL=Alles opslaan
+MI_FILE_REVERT=Ga terug naar vorig bestand
+MI_FILE_METADATA=Metadata
+MI_FILE_PRINT=Print
+MI_FILE_EXIT=Afsluiten
+
+MI_EDIT=Edit
+MI_EDIT_UNDO=Ongedaan maken
+MI_EDIT_CANT_UNDO=Ongedaan maken niet mogelijk
+MI_EDIT_REDO=Opnieuw
+MI_EDIT_CANT_REDO=Opnieuw niet mogelijk
+MI_EDIT_CUT=Knippen
+MI_EDIT_COPY=Kopiëren
+MI_EDIT_PASTE=Plakken
+MI_EDIT_PASTE_PAGE=Plakken als nieuwe pagina
+MI_EDIT_PASTE_DOC=Plakken als nieuw document
+MI_EDIT_DELETE=Verwijderen
+MI_EDIT_SEL_ALL=Selecteer alles
+MI_EDIT_SEL_NONE=Deselecteer alles
+MI_EDIT_SEL_INVERT=Inverteer selectie
+MI_EDIT_SEL_LOAD=Open selectiemasker
+MI_EDIT_SEL_SAVE=Bewaar selectiemasker
+MI_EDIT_CROP_TRANSPARENCY=Snij transparente delen af
+MI_EDIT_TRANSFORM=Transformeer
+MI_EDIT_SEL_TRANSFORM=Transformeer selectie
+MI_EDIT_FLIP_HORIZ=Keer horizontaal om
+MI_EDIT_FLIP_VERT=Keer verticaal om
+MI_EDIT_ROTATE_LEFT=Draai 90 graden links
+MI_EDIT_ROTATE_RIGHT=Draai 90 graden rechts
+MI_EDIT_ROTATE_180=Draai 180 graden
+
+MI_VIEW=Beeld
+MI_VIEW_ZOOM_IN=Zoom in
+MI_VIEW_ZOOM_OUT=Zoom uit
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Maak passend op scherm
+MI_VIEW_GRID=Referentielijnen
+MI_VIEW_CELL_GRID=Cel Referentie Grid
+MI_VIEW_CENTER_LINES=Centreer lijnen
+MI_VIEW_PAGES=Lijst van pagina's
+MI_VIEW_TOOLBAR=Toolbar
+MI_VIEW_COLOR_PICKER=Kleuren meten
+MI_VIEW_TOOL_BEHAVIOR=Tool-eigenschappen
+MI_VIEW_LAYERS=Lagen
+MI_VIEW_PANEL_LEFT=Linker paneel
+MI_VIEW_PANEL_RIGHT=Rechter paneel
+MI_VIEW_STARTUP_SCREEN=Opstartscherm
+
+MI_FLT=Filters
+MI_FLT_GRAYSCALE=Grijs instellen
+MI_FLT_INVERT=Inverteren
+MI_FLT_SOLARIZE=Solarizeren
+MI_FLT_RGB=RGB kanalen
+MI_FLT_HS=Tint/Verzadiging
+MI_FLT_EXPOSURE=Belichting
+MI_FLT_FORMULAE=RGB Formule
+MI_FLT_AVERAGE=Uitmiddelen
+MI_FLT_BLUR_SOFT=Beetje vervagen
+MI_FLT_BLUR_MORE=Erg vervagen
+MI_FLT_BLUR_CUSTOM=Stel vervaging in
+MI_FLT_SHARPEN=Scherp
+MI_FLT_UNSHARP_MASK=Onscherpte masker
+MI_FLT_REMOVE_MATTE=Kleurtoon verwijderen
+MI_FLT_OPACITY=Kleurtoon
+MI_FLT_PAINT_CONTOUR=Omlijsting
+MI_FLT_DROP_SHADOW=Schaduw instellen
+MI_FLT_GLOW=Oplichtende omlijsting
+MI_FLT_BEVEL=Schuin verloop
+
+MI_LAYERS=Lagen
+MI_LAYERS_NEW=Nieuwe laag
+MI_LAYERS_DUPLICATE=Laag kopiëren
+MI_LAYERS_DELETE=Laag verwijderen
+MI_LAYERS_PROP=Laag Eigenschappen.
+MI_LAYERS_MERGE_SELECTED=Geselecteerde lagen samenvoegen.
+MI_LAYERS_MERGE_VISIBLE=Zichtbare lagen samenvoegen.
+MI_LAYERS_FLATTEN=Alle lagen samenvoegen.
+MI_LAYERS_FROM_SEL=Maak nieuwe laag van selectie.
+
+MI_ICON=Icon
+MI_ICON_PAGE_NEW=Nieuwe pagina
+MI_ICON_PAGE_DELETE=Verwijder pagina
+MI_ICON_PAGE_PROP=Pagina eigenschappen
+MI_ICON_PAGE_IMPORT=Importeer pagina
+MI_ICON_PAGE_EXPORT=Exporteer pagina
+MI_ICON_PAGE_EXPORT_ALL=Exporteer alle pagina's
+MI_ICON_UNIFORM_RATE=Gebruik frame rate in alle frames
+MI_ICON_CREATE_WIN=Maak Windows icon van afbeelding
+MI_ICON_CREATE_MAC=Maak Mac icon van afbeelding
+MI_ICON_TEST=Test
+
+MI_LIB=Library
+MI_LIB_ADD=Voeg resources toe
+MI_LIB_REMOVE=Verwijder resources
+MI_LIB_REPLACE=Vervang resources
+MI_LIB_PROP=Resource eigenschappen
+MI_LIB_EXTRACT_EDIT=Uitpakken en wijzigen
+MI_LIB_EXTRACT_SAVE=Uitpakken en opslaan
+
+MI_SET=Instellingen
+MI_SET_PREFERENCES=Voorkeuren
+MI_SET_LANGUAGE=Taal
+
+MI_HELP=Help
+MI_HELP_CONTENTS=Inhoud
+MI_HELP_HOMEPAGE=Homepage
+MI_HELP_SUPPORT=Online support
+MI_HELP_DONATE=Doneer
+MI_HELP_ABOUT=About
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 kl.
+PF_256_COLORS=256 kl.
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=Maak drijvende selectie
+UNDO_MERGE_LAYERS=Voeg lagen samen
+UNDO_MOVE_LAYERS=Verplaats laag
+UNDO_MOVE_PAGE=Verplaats pagina
+UNDO_FLIP_ROTATE=Omkeren/Draaien
+
+; Layers glossary
+LY_LAYER=Laag
+LY_BACKGROUND=Achtergrond
+LY_FLOATING_SEL=Drijvende selectie
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Nieuwe pagina
+PG_CAPTION_PAGE_PROP=Pagina eigenschappen
+
+PG_SIZE_SMALLEST=kleinste
+PG_SIZE_TOOLBAR=gereedschapsbalk
+PG_SIZE_SMALL=klein
+PG_SIZE_MEDIUM=medium
+PG_SIZE_LARGE=groot
+PG_SIZE_HUGE_VISTA=erg groot, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Zelf ingesteld formaat
+PG_SQUARE=Vierkant
+
+PG_CR=Kleur reductie
+PG_CR_BW=Zwart/Wit
+PG_CR_16_WIN=16 kleuren (Windows palet)
+PG_CR_16_MAC=16 kleuren (Mac palet)
+PG_CR_256_ADAPT=256 kleuren (adaptive)
+PG_CR_256_MAC=256 kleuren (Mac palet)
+PG_CR_24=24-bit RGB
+PG_CR_32=Geen reductie (32-bit)
+
+PG_ANIMATION=Animatie
+PG_FRAME_RATE=Frame rate (eenheid: 1/60 s)
+
+PG_CREATE_FROM_SELECTED=Maak van geselecteerde pagina
+PG_WHEN_RESIZING=Als je grootte wijzigt
+PG_STRETCH=Groter maken
+PG_CROP=Kleiner maken
+PG_IMAGE_ANCHORS=Beeld-ankers
+
+; Filter dialogs
+LABEL_RED=Rood
+LABEL_GREEN=Groen
+LABEL_BLUE=Blauw
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Tintverschuiving
+LABEL_SATURATION=Verzadiging
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Helderheid
+LABEL_TORIC=Torus mode
+LABEL_GAUSSIAN_BLUR=Gaussian wazig maken
+LABEL_BOX_BLUR=Box wazig maken
+LABEL_MATTE_COLOR=Kleurtoon
+LABEL_WHITE_MATTE=Wit
+LABEL_BLACK_MATTE=Zwart
+LABEL_INNER_GLOW=Naar binnen oplichten
+LABEL_OUTER_GLOW=Naar buiten oplichten
+
+LABEL_AMOUNT=Hoeveelheid
+LABEL_ANGLE_DEGREES=Hoek (graden)
+LABEL_BLUR=Vervagen
+LABEL_DISTANCE=Afstand
+LABEL_INTENSITY=Intensiteit
+LABEL_OPACITY=Doorschijnendheid
+LABEL_RADIUS=Reikwijdte
+LABEL_THRESHOLD=Threshold
+
+; Batch conversion dialog
+BC_FILES=Bestanden
+BC_SETTINGS=Instellingen
+BC_FORMAT=Omzetten naar
+BC_FOLDER=Doel map
+BC_OPEN=Open geconverteerde bestanden in ErrorSoft Green Pixel
+BC_ICON_FORMATS=Icon formaten om te maken
+
+; Cell grid dialog
+CG_ENABLED=Aan
+CG_SIZE=Cel formaat
+CG_SPACING=Cel ruimte
+CG_OFFSET=Offset
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Selecteer de icon-formaten die je wilt maken
+
+; ICL format dialog
+IF_TITLE=Selecteer ICL-formaat
+
+; Language dialog
+LABEL_LANG_PACK=Taalpakketten
+
+; Layer properties dialog
+LP_NAME=Naam
+LP_VISIBLE=Zichtbaar
+LP_BLEND_MODE=Lagen mix mode
+
+LP_BM_NORMAL=Normaal
+LP_BM_MASK=Maskeer
+LP_BM_BEHIND=Achter
+LP_BM_DISSOLVE=Oplossen
+LP_BM_HUE=Tint
+LP_BM_HUE_SHIFT=Tint verschuiven
+LP_BM_SAT=Verzadiging
+LP_BM_DARKEN=Donker maken
+LP_BM_MULTIPLY=Vermenigvuldigen
+LP_BM_COLOR_BURN=Kleur branden
+LP_BM_LINEAR_BURN=Lineair branden
+LP_BM_DARKER_COLOR=Donkerder kleur
+LP_BM_LIGHTEN=Lichter
+LP_BM_SCREEN=Scherm
+LP_BM_COLOR_DODGE=Kleur dodge
+LP_BM_LINEAR_DODGE=Lineair dodge (Toevoegen)
+LP_BM_LIGHTER_COLOR=Lichtere kleur
+LP_BM_OVERLAY=Extra laag
+LP_BM_SOFT_LIGHT=Zacht licht
+LP_BM_HARD_LIGHT=Hard licht
+LP_BM_VIVID_LIGHT=Helder licht
+LP_BM_LINEAR_LIGHT=Lineair licht
+LP_BM_PIN_LIGHT=Punt licht
+LP_BM_HARD_MIX=Harde mix
+LP_BM_DIFFERENCE=Verschil
+LP_BM_EXCLUSION=Uitsluiten
+
+; Metadata dialog
+MD_TYPE=Voor %s bestanden
+MD_TITLE=Titel
+MD_AUTHOR=Auteur
+MD_COPYRIGHT=Copyright
+MD_COMMENTS=Commentaar
+MD_QUALITY=Sla op met kwaliteit (%)
+MD_LOOP_COUNT=Aantal ronden (0 = oneindig)
+
+; Preferences dialog
+PREF_MISC=Overigen
+PREF_ENVIRONMENT=Omgeving
+PREF_INSTALL=Install
+PREF_IMAGE_MAX=Max. toegestane image grootte
+PREF_PNG_ICONS=Gebruik PNG compressie in .ICO/.CUR bestanden
+PREF_PNG_LIMIT=Comprimeer bestanden groter dan 
+PREF_AA_IMAGES=Antialias alle van grootte veranderde afbeeldingen
+PREF_COLORS=Kleuren
+PREF_TRANSPARENT_HATCH=Transparantie beeld
+PREF_GRID2=Secundaire grid
+PREF_DVM=Weergave van Open/Bewaar schermen
+PREF_DVM_ITEMS=Icons<br>Lijst<br>Details<br>Miniatuurweergaven<br>Tegels
+PREF_MWA=Muis-wiel functie
+PREF_MWA_ITEMS=Geen<br>Scrollen<br>In/Uit zoomen
+PREF_SAVE_TOOL_SETTINGS=Bewaar tool instellingen als standaard.
+PREF_FILE_ASSOC=Bestands koppelingen
+PREF_ADMIN=Als u Windows Vista of een nieuwer OS gebruikt, kan GreenPixel alleen systeeminstellingen wijzigen als het wordt opgestart in Administrator-modus.
+
+; Print dialog
+PRINT_COPIES=kopieën
+PRINT_ZOOM=Zoom (%)
+PRINT_CAPTION=Naam
+PRINT_PAGES=Print
+PRINT_PAGES_BUTTONS=Alle pagina's<br>Huidige pagina
+
+; Resource properties dialog
+RP_NAME=Naam
+RP_LANGUAGE=Taal
+RP_LANG_CUSTOM=Custom taal ID
+RP_LANG_NEUTRAL=Taal neutraal
+
+; Save Options dialog
+SO_TITLE=Bewaar instellingen
+SO_QUALITY=Kwaliteit
+SO_LOSSLESS=Zonder verlies
+
+; Startup screen
+ST_WELCOME=Welkom!
+ST_CHOOSE_ACTION=Kies een van onderstaande acties om uit te voeren
+ST_NG=Maak een nieuwe afbeelding
+ST_NG_INFO=Maakt een nieuwe icon-, cursor- of animatiebestand.
+ST_NL=Maak een nieuwe library
+ST_NL_INFO=Maakt een lege icon library (.ICL) of resource bestand (.RES)
+ST_OPEN=Open een bestaand bestand
+ST_OPEN_INFO=Open een afbeelding, icon bibliotheek, programma of resourcebestand van schijf.
+ST_CONVERT=Converteer afbeeldingsbestanden in batch
+ST_CONVERT_INFO=Converteert meerdere afbeeldingsbestanden naar iconen of een ander afbeeldingsformaat.
+ST_NONE=Doe geen van deze acties
+ST_NONE_INFO=Sluit dit opstartscherm af.
+ST_RECENT_INFO=Opent een bestand dat recent gewijzigd is in ErrorSoft Green Pixel.
+ST_SHOW=Laat dit scherm altijd zien bij opstarten
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Beweeg de cursor over het plaatje hieronder
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Voeg text in
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Anti-alias
+TB_PATTERN=Pattern
+TB_SAMPLE_ALL_LAYERS=Voorbeeld van alle lagen
+TB_BRUSH_SIZE=Penseelgrootte
+TB_BRUSH_SHAPE=Penseelvorm
+TB_BRUSH_ITEMS=Rond<br>Scherp<br>Slash<br>Backslash<br>Horizontaal<br>Verticaal<br>Sproeien
+TB_LINE_WIDTH=Lijndikte
+TB_TOLERANCE=Wand/Recolor/Bucket tolerantie
+TB_CONTIGUOUS=Aaneengesloten
+TB_SHAPE_FRAMED=Lijst vormen
+TB_SHAPE_FILLED=Invul vormen
+TB_EYEDROPPER_BACK=Pipet gaat terug naar vorige tool
+TB_RETOUCH_MODE=Retoucheer mode
+TB_RETOUCH_ITEMS=Vervagen<br>verscherpen<br>Lichter<br>Donkerder<br>Kleurtoon<br>Spons
+TB_ERASER_STRENGTH=Uitgum kracht (%)
+TB_G_LINEAR=Lineaire gradiënt
+TB_G_RADIAL=Radiale gradiënt
+TB_G_CONICAL=Conische gradiënt
+TB_G_SPIRAL=Spirale gradiënt
+TB_REP_NONE=Geen herhaling
+TB_REP_SYM=Symmetrisch herhalen
+TB_REP_ASYM=Asymmetrisch herhalen
+TB_MODE_COLOR=Kleurmodus
+TB_MODE_TRANSPARENCY=Transparante modus
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=pixels<br>%
+
+; Hints
+HINT_COMPACT=Compacte view
+
+HINT_CP_FORE_COLOR=Voorgrondkleur
+HINT_CP_BACK_COLOR=Achtergrondkleur
+HINT_CP_SWAP_COLORS=Wissel kleuren
+HINT_CP_DEFAULT=Ga terug naar standaard instellingen
+HINT_CP_TRANSPARENT=Transparant
+HINT_CP_INVERTED=Geïnverteerd
+HINT_CP_TOGGLE_CHOOSER=Wissel tussen HSB map en voorbeelden
+HINT_CP_SWATCHES=Klik links om kleur te selecteren, klik rechts om kleurveld met huidige kleur te overschrijven
+HINT_CP_SWATCH_LOAD=Laad kleurveld (voorbeeld) preset
+HINT_CP_SWATCH_SAVE=Sla kleurveld (voorbeeld) preset op
+HINT_CP_RED=Rode kleur component
+HINT_CP_GREEN=Groene kleur component
+HINT_CP_BLUE=Blauwe kleur component
+HINT_CP_ALPHA=Alpha kleur (transparantie)
+HINT_CP_HTML=HTML-code
+HINT_CP_WCP=Windows kleuren selectie tool
+
+HINT_DOC_LB=Lijst van pagina's (icon formaten/frames)
+HINT_DOC_LB_PAGE=Pagina %d, grootte: %d x %d pixels
+HINT_DOC_LB_PNG=zal PNG-compressie gebruiken bij op opslaan als .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Zoomen
+HINT_DOC_NODES=%d nodes
+HINT_DOC_TOGGLE_PAGES=Laat lijst van pagina's wel/niet zien
+
+HINT_RES_FOLDER=Selecteer een directory om de bestanden te bewaren
+
+HINT_STARTUP_HELP=Help
+HINT_TEST_BGR_LOAD=Achtergrond laden
+HINT_TEST_BGR_DEFAULT=Standaard achtergrond
+
+HINT_TEXT_FACE=Lettertype
+HINT_TEXT_BOLD=Vet
+HINT_TEXT_ITALIC=Schuin
+HINT_TEXT_UNDERLINE=Onderstrepen
+
+; eof

@@ -1,0 +1,505 @@
+﻿; ErrorSoft Green Pixel
+; Language pack: Turkish
+; Created by: mhsmaslan@gmail.com
+
+; General dictionary
+LABEL_WIDTH=Genişlik
+LABEL_HEIGHT=Yükseklik
+LABEL_SIZE=Boyut
+LABEL_COLOR=Renk
+LABEL_KIND=Tür
+LABEL_ANTIALIAS=Yumuşatma
+LABEL_POSITION=Pozisyon
+LABEL_FILE_SIZE=Dosya boyutu
+UNTITLED=Adsız
+
+; Buttons
+B_OK=Tamam
+B_CANCEL=Çıkış
+B_YES=Evet
+B_NO=Hayır
+B_RESET=Sıfırla
+B_ADD=Ekle
+B_REMOVE=Kaldır
+B_CLEAR=Temizle
+B_CLOSE=Kapat
+B_ALL=Tümü
+B_NONE=None
+B_PRINT=Yazdır
+B_PRINTER_SETUP=Yazıcı kurulumu
+B_PREVIEW=Önizle
+B_COMPILE=Derle
+
+; Shown messages
+MSG_CONFIRMATION=Confirmation
+MSG_NOT_EXIST="%s" mevcut değil
+MSG_OVERWRITE="%s" üzerine yazmak ister misiniz?
+MSG_UNKNOWN_FILE_TYPE="% s" dosya formatı otomatik olarak belirlenemedi.<br>Dosya yüklenemedi yada ErrorSoft Green Pixel tarafından kaydedilmemiş veya yanlış bir uzantıya sahip.
+MSG_INVALID_FILE_FORMAT=File "%s" does not meet the format "%s".<br>The file may be corrupt, may have a wrong extension, or an incorrect filter may have been specified in the Open dialog box.
+MSG_CROPPED=The image was bigger than %dx%d and was cropped.<br>Saving the image will cause loss of data.<br>Use Settings|Preferences to increase the limit of image size.
+MSG_SAVE_CHANGES="%s" için değişiklikleri kaydetmek istiyor musunuz?
+MSG_CONFIRM_REVERT="%s" için tüm değişiklikler kaybolacak ve bu işlem geri alınamaz. <br> Devam etmek istediğinize emin misiniz?
+MSG_CONFIRM_REMOVE=Gerçekten seçili öğe (ler) kaldırmak istiyor musunuz?
+MSG_CONFIRM_DESTROY_EXE=The icons/cursors cannot be easily replaced in this executable file or icon library.<br><br>If this is a program or DLL that has other purpose that just storing icons, then these other capabilities will be destroyed during saving.<br>If this file is just an icon library, then probably nothing bad will happen.<br><br>Continue anyway?
+MSG_DATA_LOSS_INFO=Veri kaybını önlemek için, farklı bir dosya formatında da belgeyi kaydetmeniz gerekir.
+MSG_DL_MULTIPAGE=Bu dosya biçimi tek bir dosyada saklanır birden fazla sayfa desteklemez. <br> Sadece ilk sayfa kaydedilmiş olabilir.
+MSG_DL_LAYERS=Bu dosya biçimi katman bilgilerini kaydetme desteklemiyor. Görüntü düzleşmiş olarak kaydedildi.
+MSG_DL_SIZE_256=Bu dosya biçimi 256x256 büyük görüntüler kaydedilmesini desteklemez. <br> Bu görüntüler kırpıldı.
+MSG_DL_TRANSPARENCY=Bu dosya biçimi saydamlığı desteklemez.
+MSG_DL_COLOR_DEPTH=Renk bilgilerini kısmı kurtarılamadı.
+MSG_DL_ICNS=Bazı sayfalar ICNS formatının sınırlamaları nedeniyle kaydedilemedi. Daha fazla bilgi için dosya formatları hakkında yardım bölümüne bakın.
+MSG_FT_NO_OPTIONS=Seçilen dosya biçimi özelleştirilemez
+MSG_ADD_FILES=Lütfen listeye bazı dosyaları ekleyin
+MSG_SELECT_PAGES=Lütfen bazı sayfalar seçin
+MSG_SELECT_ITEMS=Lütfen bazı öğeler seçin
+MSG_NO_LAYERS=No layers are present
+MSG_NO_LAYERS_SELECTED=Hiçbir katman seçilmedi
+MSG_RES_EXIST=Belirtilen tür, ad ve dil ile başka bir kaynak zaten var. <br> Başka bir ad veya dil seçiminizi yapınız.
+MSG_ERROR_WRITE_RES=Belirtilen konuma kaydetmeye çalışırken bir hata oluştu.
+MSG_PAGE_SIZE_0=Hata: Fiziksel sayfa genişliği 0 mm olamaz <br> başka bir kağıt formatını seçin.
+MSG_ERROR_ASSOC=Dosya ilişkilendirmeleri ayarlanamadı. Yönetici modunda GreenPixel sorunu giderebilir.
+MSG_FAIL_SINGLE_OPEN=Seçilen dosya yüklenemedi.
+MSG_FAIL_MULTIPLE_OPEN=Bazı dosyalar açılamadı.
+
+; Open/Save dialog filters
+FF_ALL=Tüm dosyalar
+FF_GFIE=GreenPixel native format
+FF_ICO=Simge dosyaları
+FF_CUR=İmleç dosyaları
+FF_ANI=Animasyonlu imleçler
+FF_ICNS=Apple Simgesi Görüntü Biçimi
+FF_PNG=Taşınabilir Ağ Grafikleri
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bitmaps
+FF_JPEG=JPEG Dosyaları
+FF_GIF=Grafik Değişim Biçimi
+FF_JPEG_2000=JPEG 2000 dosyaları
+FF_PCX=PCX dosyaları
+FF_EXEC=Tüm yürütülebilir dosyaları ve simge kütüphaneleri
+FF_ICL=Simge kütüphaneleri
+FF_RES=Win32 kaynak dosyalarını
+
+; Tool names
+TOOL_SEL_RECT=Dikdörtgen seçim
+TOOL_SEL_ELLIPSE=Eliptik seçim
+TOOL_LASSO=Serbest Şekil
+TOOL_WAND=Çubuk
+TOOL_SEL_PENCIL=Kalem seçim
+TOOL_TRANSFORM=Dönüştürme
+TOOL_CROP=Kırpma
+TOOL_HOTSPOT=Sıcak nokta
+TOOL_EYEDROPPER=Damlalık
+TOOL_RETOUCH=Rötuş
+TOOL_RECT=Dikdörtgen
+TOOL_ELLIPSE=Elips
+TOOL_LINE=Çizgi
+TOOL_TEXT=Metin
+TOOL_PENCIL=Kalem
+TOOL_BRUSH=Fırça
+TOOL_ERASER=Silgi
+TOOL_RECOLOR=Yeniden Renklendir
+TOOL_BUCKET=Renkle doldurma
+TOOL_GRADIENT=Degrade dolgu
+TOOL_NONE=Yok
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=Dosya
+MI_FILE_NEW_GRAPHIC=Yeni grafik
+MI_FILE_NEW_LIBRARY=Yeni kütüphane
+MI_FILE_OPEN=Aç
+MI_FILE_RECENT_FILES=Yeni dosyalar
+MI_FILE_RF_CLEAR=Listeyi temizle
+MI_FILE_BATCH_CONVERT=Toplu dönüştürme dosyaları
+MI_FILE_CLOSE=Kapat
+MI_FILE_CLOSE_ALL=Hepsini kapat
+MI_FILE_SAVE=Kaydet
+MI_FILE_SAVE_AS=Farklı kaydet olarak
+MI_FILE_SAVE_ALL=Tümünü kaydet
+MI_FILE_REVERT=Döndür
+MI_FILE_METADATA=Meta veri
+MI_FILE_PRINT=Yazdır
+MI_FILE_EXIT=Çık
+
+MI_EDIT=Düzenle
+MI_EDIT_UNDO=Geri
+MI_EDIT_CANT_UNDO=Geri alınamıyor
+MI_EDIT_REDO=İleri
+MI_EDIT_CANT_REDO=İleri alınamıyor
+MI_EDIT_CUT=Kes
+MI_EDIT_COPY=Kopyala
+MI_EDIT_PASTE=Yapıştır
+MI_EDIT_PASTE_PAGE=Yeni sayfa olarak yapıştır
+MI_EDIT_PASTE_DOC=Yeni dosya olarak yapıştır
+MI_EDIT_DELETE=Sil
+MI_EDIT_SEL_ALL=Tümünü Seç
+MI_EDIT_SEL_NONE=Tümünü bırak
+MI_EDIT_SEL_INVERT=Seçimi ters çevir
+MI_EDIT_SEL_LOAD=Seçilen maskeyi yükleyin
+MI_EDIT_SEL_SAVE=Seçilen maskeyi kaydedin
+MI_EDIT_CROP_TRANSPARENCY=Şeffaf parçaları kırp
+MI_EDIT_TRANSFORM=Dönüştür
+MI_EDIT_SEL_TRANSFORM=Dönüştürme seçimi
+MI_EDIT_FLIP_HORIZ=Yatay çevir
+MI_EDIT_FLIP_VERT=Dikey çevir
+MI_EDIT_ROTATE_LEFT=Sola 90 derece döndürün
+MI_EDIT_ROTATE_RIGHT=Sağa 90 derece döndürün
+MI_EDIT_ROTATE_180=180 derece döndürün
+
+MI_VIEW=Görünüm
+MI_VIEW_ZOOM_IN=Yakınlaş
+MI_VIEW_ZOOM_OUT=Uzaklaş
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Pencereye sığdır
+MI_VIEW_GRID=Izgara
+MI_VIEW_CELL_GRID=Hücreli ızgara
+MI_VIEW_CENTER_LINES=Merkez hattı
+MI_VIEW_PAGES=Sayfaları listele
+MI_VIEW_TOOLBAR=Araç Çubuğu
+MI_VIEW_COLOR_PICKER=Renk seçici
+MI_VIEW_TOOL_BEHAVIOR=Tool Behavior
+MI_VIEW_LAYERS=Katmanlar
+MI_VIEW_PANEL_LEFT=Sol panel
+MI_VIEW_PANEL_RIGHT=Sağ panel
+MI_VIEW_STARTUP_SCREEN=Başlangıç ekranı
+
+MI_FLT=Filtreler
+MI_FLT_GRAYSCALE=Gri tonları
+MI_FLT_INVERT=Ters çevir
+MI_FLT_SOLARIZE=Solarizasyon
+MI_FLT_RGB=RGB Kanalları
+MI_FLT_HS=Ton/Doygunluk
+MI_FLT_EXPOSURE=Pozlama
+MI_FLT_FORMULAE=RGB Formülleri
+MI_FLT_AVERAGE=Ortalama
+MI_FLT_BLUR_SOFT=Hafif bulanıklaştır
+MI_FLT_BLUR_MORE=Bulanıklaştır
+MI_FLT_BLUR_CUSTOM=Özel bulanıklaştırma
+MI_FLT_SHARPEN=Netleştir
+MI_FLT_UNSHARP_MASK=Flu görüntü maskesi
+MI_FLT_REMOVE_MATTE=Mat kaldır
+MI_FLT_OPACITY=Saydamlık
+MI_FLT_PAINT_CONTOUR=Boya konturu
+MI_FLT_DROP_SHADOW=Gölge bırak
+MI_FLT_GLOW=Parıltı
+MI_FLT_BEVEL=Konik
+
+MI_LAYERS=Katmanlar
+MI_LAYERS_NEW=Yeni katman
+MI_LAYERS_DUPLICATE=Katmanı kopyala
+MI_LAYERS_DELETE=Katmanı sil
+MI_LAYERS_PROP=Katman özellikleri
+MI_LAYERS_MERGE_SELECTED=Seçilenleri birleştir
+MI_LAYERS_MERGE_VISIBLE=Seçilileri göster
+MI_LAYERS_FLATTEN=Görüntüyü düzleştirin
+MI_LAYERS_FROM_SEL=Seçimden bir katman oluşturun
+
+MI_ICON=Icon
+MI_ICON_PAGE_NEW=Yeni Sayfa
+MI_ICON_PAGE_DELETE=Sayfayı Sil
+MI_ICON_PAGE_PROP=Sayfa özellikleri
+MI_ICON_PAGE_IMPORT=Sayfa içe aktar
+MI_ICON_PAGE_EXPORT=Sayfa dışa aktar
+MI_ICON_PAGE_EXPORT_ALL=Tüm sayfaları dışa aktar
+MI_ICON_UNIFORM_RATE=Tüm kareye kadar çerçeve süresi geçerli
+MI_ICON_CREATE_WIN=Windows icon görüntüsü oluştur
+MI_ICON_CREATE_MAC=Mac icon görüntüsü oluştur
+MI_ICON_TEST=Test
+
+MI_LIB=Kütüphane
+MI_LIB_ADD=Kaynak ekleme
+MI_LIB_REMOVE=Kaynakları kaldır
+MI_LIB_REPLACE=Kaynakları değiştir
+MI_LIB_PROP=Kaynak özellikleri
+MI_LIB_EXTRACT_EDIT=Çıkar ve düzenle
+MI_LIB_EXTRACT_SAVE=Çıkar ve kaydet
+
+MI_SET=Ayarlar
+MI_SET_PREFERENCES=Seçenekler
+MI_SET_LANGUAGE=Dil
+
+MI_HELP=Yardım
+MI_HELP_CONTENTS=İçerik
+MI_HELP_HOMEPAGE=Anasayfa
+MI_HELP_SUPPORT=Online destek
+MI_HELP_DONATE=Bağış
+MI_HELP_ABOUT=Hakkında
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 colors
+PF_256_COLORS=256 colors
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=Hareketli seçim oluşturun
+UNDO_MERGE_LAYERS=Katmanları birleştir
+UNDO_MOVE_LAYERS=Katmanları taşı
+UNDO_MOVE_PAGE=Sayfayı taşı
+UNDO_FLIP_ROTATE=Döndür/Çevir
+
+; Layers glossary
+LY_LAYER=Katman
+LY_BACKGROUND=Arkaplan
+LY_FLOATING_SEL=Değişken seçimi
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Yeni sayfa
+PG_CAPTION_PAGE_PROP=Sayfa özellikleri
+
+PG_SIZE_SMALLEST=Çok küçük
+PG_SIZE_TOOLBAR=Araç çubuğu
+PG_SIZE_SMALL=Küçük
+PG_SIZE_MEDIUM=Orta
+PG_SIZE_LARGE=Büyük
+PG_SIZE_HUGE_VISTA=Çok büyük, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Özel boyut
+PG_SQUARE=Oranı koru
+
+PG_CR=renk azaltma
+PG_CR_BW=Siyah ve beyaz
+PG_CR_16_WIN=16 colors (Windows palette)
+PG_CR_16_MAC=16 colors (Mac palette)
+PG_CR_256_ADAPT=256 colors (adaptive)
+PG_CR_256_MAC=256 colors (Mac palette)
+PG_CR_24=24-bit RGB
+PG_CR_32=azalma yok (32-bit)
+
+PG_ANIMATION=Animasyon
+PG_FRAME_RATE=Kare süresi (milisaniye)
+
+PG_CREATE_FROM_SELECTED=Seçilenden sayfa oluştur
+PG_WHEN_RESIZING=Yeniden boyutlandır
+PG_STRETCH=Ger
+PG_CROP=Kırp
+PG_IMAGE_ANCHORS=Image anchors
+
+; Filter dialogs
+LABEL_RED=Kırmızı
+LABEL_GREEN=Yeşil
+LABEL_BLUE=Mavi
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=renk tonu
+LABEL_SATURATION=Doyma
+LABEL_GAMMA=Kontrast derecesi
+LABEL_BRIGHTNESS=Parlaklık
+LABEL_TORIC=Yumru modu
+LABEL_GAUSSIAN_BLUR=Gaussian Blur
+LABEL_BOX_BLUR=Kutu bulanıklaştırma
+LABEL_MATTE_COLOR=Örtü renk
+LABEL_WHITE_MATTE=Beyaz mat
+LABEL_BLACK_MATTE=Siyah mat
+LABEL_INNER_GLOW=İç Işıma
+LABEL_OUTER_GLOW=Dış Işıma
+
+LABEL_AMOUNT=Miktar
+LABEL_ANGLE_DEGREES=Açısı (derece)
+LABEL_BLUR=Bulanıklaştırma
+LABEL_DISTANCE=Mesafe
+LABEL_INTENSITY=Yoğunluk
+LABEL_OPACITY=Saydamlık
+LABEL_RADIUS=Yarıçap
+LABEL_THRESHOLD=Eşik
+
+; Batch conversion dialog
+BC_FILES=Dosyalar
+BC_SETTINGS=Ayarlar
+BC_FORMAT=Dönüştür
+BC_FOLDER=Hedef klasör
+BC_OPEN=Dönüştürülen dosyaları ErrorSoft Green Pixel açın
+BC_ICON_FORMATS=Simge biçimleri oluşturmak için
+
+; Cell grid dialog
+CG_ENABLED=Etkin
+CG_SIZE=Hücre boyutu
+CG_SPACING=Hücre aralığı
+CG_OFFSET=Offset
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Oluşturmak istediğiniz biçimleri seçin
+
+; ICL format dialog
+IF_TITLE=ICL biçimi seçin
+
+; Language dialog
+LABEL_LANG_PACK=Dil paketi
+
+; Layer properties dialog
+LP_NAME=Ad
+LP_VISIBLE=Görünür
+LP_BLEND_MODE=Karışım modu
+
+LP_BM_NORMAL=Normal
+LP_BM_MASK=Maske
+LP_BM_BEHIND=Arkasında
+LP_BM_DISSOLVE=Çözün
+LP_BM_HUE=renk tonu
+LP_BM_HUE_SHIFT=renk tonu
+LP_BM_SAT=Doygunluk
+LP_BM_DARKEN=Koyu
+LP_BM_MULTIPLY=Çoğalt
+LP_BM_COLOR_BURN=Renk Yanması
+LP_BM_LINEAR_BURN=Doğrusal Yanma
+LP_BM_DARKER_COLOR=Koyu Renk
+LP_BM_LIGHTEN=Aydınlat
+LP_BM_SCREEN=Ekran
+LP_BM_COLOR_DODGE=Renk atlatma
+LP_BM_LINEAR_DODGE=Doğrusal Soldurma (Ekle)
+LP_BM_LIGHTER_COLOR=Açık Renk
+LP_BM_OVERLAY=Kaplama
+LP_BM_SOFT_LIGHT=Yumuşak Işık
+LP_BM_HARD_LIGHT=Sert Işık
+LP_BM_VIVID_LIGHT=Canlı Işık
+LP_BM_LINEAR_LIGHT=Doğrusal Işık
+LP_BM_PIN_LIGHT=Pin Işığı
+LP_BM_HARD_MIX=Katı Karışım
+LP_BM_DIFFERENCE=Fark
+LP_BM_EXCLUSION=Dışlama
+
+; Metadata dialog
+MD_TYPE=%s dosyaları için
+MD_TITLE=Başlık
+MD_AUTHOR=Yazar
+MD_COPYRIGHT=Telif Hakkı
+MD_COMMENTS=Yorumlar
+MD_QUALITY=Kaliteli kaydet
+MD_LOOP_COUNT=Döngü sayısı (0 = sonsuz)
+
+; Preferences dialog
+PREF_MISC=Çeşitli
+PREF_ENVIRONMENT=Ortam
+PREF_INSTALL=Kurulum
+PREF_IMAGE_MAX=Maksimum izin verilen görüntü boyutu
+PREF_PNG_ICONS=.ICO/.CUR dosyaları için PNG sıkıştırması kullan
+PREF_PNG_LIMIT=Compress images whose size is at least
+PREF_AA_IMAGES=Tüm boyutlandırılmış görüntüleri yumuşat
+PREF_COLORS=Renkler
+PREF_TRANSPARENT_HATCH=Saydam kapak
+PREF_GRID2=İkincil ızgara
+PREF_DVM=Görüntü modu Aç/Kapat diyalogları
+PREF_DVM_ITEMS=Simgeler<br>Liste<br>Detaylar<br>Öngörüntüler<br>Fayans
+PREF_MWA=Fare tekerleği eylemi
+PREF_MWA_ITEMS=Hiçbiri <br> Kaydırma <br> Yakınlaştırma
+PREF_SAVE_TOOL_SETTINGS=Oturumlar arasında araç ayarlarını kaydet
+PREF_FILE_ASSOC=Dosya birlikleri
+PREF_ADMIN=Unutmayın, Windows Vista veya daha yeni kullanıyorsanız, GreenPixel yönetici modunda çalıştırmadıkça bu sistem ayarlarını değiştiremez.
+
+; Print dialog
+PRINT_COPIES=Kopyalar
+PRINT_ZOOM=Yakınlaştırma (%)
+PRINT_CAPTION=Başlık
+PRINT_PAGES=Yazdır
+PRINT_PAGES_BUTTONS=Tüm sayfalar <br> Geçerli sayfa
+
+; Resource properties dialog
+RP_NAME=Ad
+RP_LANGUAGE=Dil
+RP_LANG_CUSTOM=Özel dil ID
+RP_LANG_NEUTRAL=Dil Boş
+
+; Save options dialog
+SO_TITLE=Kayıt seçenekleri
+SO_QUALITY=Kalite
+SO_LOSSLESS=Kayıpsız
+
+; Startup screen
+ST_WELCOME=Hoşgeldiniz!
+ST_CHOOSE_ACTION=Gerçekleştirilecek eylemi seçin
+ST_NG=Yeni bir grafik oluşturma
+ST_NG_INFO=Yeni bir simge, imleç veya animasyon belgesi oluştur
+ST_NL=Yeni bir kitaplık oluşturma
+ST_NL_INFO=Boş bir simge kütüphanesi (. ICL) veya kaynak dosyası (. RES) oluşturur
+ST_OPEN=Varolan bir belgeyi aç
+ST_OPEN_INFO=Bir depolama ortamından bir görüntü dosyası, simge kütüphanesi, yürütülebilir ya da kaynak dosyayı açar
+ST_CONVERT=Görüntü dosyalarını toplu dönüştür
+ST_CONVERT_INFO=Birden fazla resim dosyalarını simge veya başka görüntü biçimine dönüştür
+ST_NONE=Herhangi bir eylem yapmayın
+ST_NONE_INFO=Bu başlangıç ​​ekranı kapatır
+ST_RECENT_INFO=Son zamanlarda ErrorSoft Green Pixel düzenlenebilir bir dosya açar
+ST_SHOW=Her zaman başlangıçta bu ekran göster
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Aşağıdaki resmin üzerine imleci hareket ettirin
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Metin ekleme
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Yumuşatma
+TB_PATTERN=Desen
+TB_SAMPLE_ALL_LAYERS =Tüm katman örnekleri
+TB_BRUSH_SIZE=Fırça boyutu
+TB_BRUSH_SHAPE=Fırça şekli
+TB_BRUSH_ITEMS=Yuvarlak <br> Keskin <br> Eğik çizgi <br> Ters eğik çizgi <br> Yatay <br> Dikey <br> Püskürtme
+TB_LINE_WIDTH=Satır genişliği
+TB_TOLERANCE=Değnek / Resmi Yeniden / Kepçe toleransı (%)
+TB_CONTIGUOUS=Bitişik'i
+TB_SHAPE_FRAMED=Çerçeveli şekiller
+TB_SHAPE_FILLED=Dolgulu şekiller
+TB_EYEDROPPER_BACK=Damlalık önceki araca geri döner
+TB_RETOUCH_MODE=Rötuş modu
+TB_RETOUCH_ITEMS=Blur <br> Dodge <br> Yanık <br> Hue <br> Sünger Keskinleştirme
+TB_ERASER_STRENGTH=Eraser gücü (%)
+TB_G_LINEAR=Doğrusal degrade
+TB_G_RADIAL=Radyal degrade
+TB_G_CONICAL=Konik degrade
+TB_G_SPIRAL=Spiral degrade
+TB_REP_NONE=Tekrarlama
+TB_REP_SYM=Simetrik tekrarı
+TB_REP_ASYM=Asimetrik tekrarı
+TB_MODE_COLOR=Renk modu
+TB_MODE_TRANSPARENCY=Şeffaf mod
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=pikseller<br>%
+
+; Hints
+HINT_COMPACT=Küçük görünümü
+
+HINT_CP_FORE_COLOR=Ön plan rengi
+HINT_CP_BACK_COLOR=Arka plan rengi
+HINT_CP_SWAP_COLORS=renkleri değiştir
+HINT_CP_DEFAULT=Varsayılan geri yükleme
+HINT_CP_TRANSPARENT=Şeffaf
+HINT_CP_INVERTED=Ters
+HINT_CP_TOGGLE_CHOOSER=Geçiş HSB harita ve örnekleri
+HINT_CP_SWATCHES=rengi seçmek için sol tıklayın, geçerli renk ile örneğini üzerine yazmak için sağ tıklatın
+HINT_CP_SWATCH_LOAD=renk örneğini ön ayarını yükleyin
+HINT_CP_SWATCH_SAVE=Ön ayar örneğini kaydet
+HINT_CP_RED=Kırmızı bileşeni
+HINT_CP_GREEN=Yeşil bileşeni
+HINT_CP_BLUE=Mavi bileşeni
+HINT_CP_ALPHA=Renk alfa (opaklık)
+HINT_CP_HTML=HTML kodu
+HINT_CP_WCP=Windows Renk Seçicisi
+
+HINT_DOC_LB=List of pages (icon formats/frames)
+HINT_DOC_LB_PAGE=Page %d, size: %d x %d pixels
+HINT_DOC_LB_PNG=will be PNG-compressed when saving document as .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Yakınlaş
+HINT_DOC_NODES=%d nodes
+HINT_DOC_TOGGLE_PAGES=Sayfa listelerini Gizle/Göster
+
+HINT_RES_FOLDER=Ayıklanan dosyalar için bir klasör seçin
+
+HINT_STARTUP_HELP=Yardım
+HINT_TEST_BGR_LOAD=Arka plan yükle
+HINT_TEST_BGR_DEFAULT=Varsayılan arka plan
+
+HINT_TEXT_FACE=Yazı tipi
+HINT_TEXT_BOLD=Kalın
+HINT_TEXT_ITALIC=İtalik
+HINT_TEXT_UNDERLINE=Altı çizili
+
+; eof

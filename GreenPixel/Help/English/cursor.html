@@ -1,0 +1,33 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>How to create a static (non-animated) cursor</title>
+
+</head><body>
+<span class="n">
+
+How to...
+
+<center><h1>Create a static (non-animated) cursor</h1></center>
+
+<span class="r">For information on creating animated cursors with GreenPixel, click <a href="animation.html">here</a>.</span><p>
+
+It may be surprising but .ICO (Windows icon) and .CUR (Windows cursor) files are very-very similar. (This means that cursors may also have multiple pages which may also be PNG-compressed, but this scarcely occurs.) The only difference is that, considering a cursor, all pages must have a so-called <em>hot spot</em> which is a special pixel marking the spot where mouse events occur. For example, this is the tip of an arrow, the tip of the pointing finger of a hand cursor or just the middle of an I-beam (text cursor). This pixel can be specified using the <em>Hot spot (H)</em> tool.<p>
+
+Usually, Windows cursors have no more than <em>one</em> page which is <em>32 x 32</em> pixels large and may be of arbitrary color depth. The <em>inverted</em> color is widely used - it allows the pointer to be visible over almost all screen images.<p>
+
+So let's summarize the most important characteristics of Windows cursors:<p>
+
+<ul>
+	<li>One page with 32 x 32 pixels</li>
+	<li>Hot spot specified</li>
+	<li>Optional use of the inverted color</li>
+</ul>
+
+<span class="h">Open <em>select.cur</em> from the Samples folder in order to see an example - that cursor was extracted from GreenPixel itself.</span><p>
+
+<h2>Testing your cursor</h2><p>
+
+See <a href="test.html">this</a> article.
+
+</span>
+</body></html>

@@ -1,0 +1,68 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>How to create an Apple Macintosh icon</title>
+
+</head><body>
+<span class="n">
+
+How to...
+
+<center><h1>Create an Apple Macintosh icon</h1></center>
+
+Icons targeting the Mac OS should be designed in several sizes and color depths, just like <a href="winicon.html">icons for Windows</a>. This is to ensure that they look good on your Mac whether displayed in small or large sizes. The default extension for the Apple Icon Image Format is <em>ICNS</em>. These files may <em>only</em> contain pages which fall into one of the following categories:<p>
+
+<center><table>
+	<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><em>Size</em></td><td><em>Color depth</em></td></tr>
+	<tr><td>&nbsp;</td><td>1024x1024</td><td>32-bit</td></tr>
+	<tr><td>&nbsp;</td><td>512x512</td><td>32-bit</td></tr>
+	<tr><td>&nbsp;</td><td>256x256</td><td>32-bit</td></tr>
+	<tr><td>&nbsp;</td><td>128x128</td><td>32-bit</td></tr>
+	<tr><td>&nbsp;</td><td>48x48</td><td>32-bit</td></tr>
+	<tr><td>a</td><td>48x48</td><td>256 colors</td></tr>
+	<tr><td>a</td><td>48x48</td><td>16 colors</td></tr>
+	<tr><td>a</td><td>48x48</td><td>Black and white</td></tr>
+	<tr><td>&nbsp;</td><td>32x32</td><td>32-bit</td></tr>
+	<tr><td>b</td><td>32x32</td><td>256 colors</td></tr>
+	<tr><td>b</td><td>32x32</td><td>16 colors</td></tr>
+	<tr><td>b</td><td>32x32</td><td>Black and white</td></tr>
+	<tr><td>&nbsp;</td><td>16x16</td><td>32-bit</td></tr>
+	<tr><td>c</td><td>16x16</td><td>256 colors</td></tr>
+	<tr><td>c</td><td>16x16</td><td>16 colors</td></tr>
+	<tr><td>c</td><td>16x16</td><td>Black and white</td></tr>
+	<tr><td>d</td><td>16x12</td><td>256 colors</td></tr>
+	<tr><td>d</td><td>16x12</td><td>16 colors</td></tr>
+	<tr><td>d</td><td>16x12</td><td>Black and white</td></tr>
+</table></center><p>
+
+<ul>
+<li><em>Neither</em> can your document contain pages failing to meet one of the above formats, <em>nor</em> can it contain multiple pages of the same format! For example, you cannot store two pages in your <em>ICNS</em> file which are both <em>48x48 @ 32-bit</em> - that wouldn't make sense anyway.<p></li>
+
+<li>Here <em>256 colors</em> means that you <em>must</em> use a standard Mac palette! We recommend you load this standard palette to the swatches (it is contained in <em>Swatches/ICNS-256-colors.swa</em>) so you can pick colors from it for drawing. (For more information on how you can access the <em>Swatches</em>, see <a href="ui.html">this</a> and look for the word <em>swatches</em>.)<p></li>
+
+<li><em>16 colors</em> also means that you <em>must</em> use a standard palette. Using a custom set of 16 colors is not allowed. This palette can be loaded from <em>Swatches/ICNS-16-colors.swa</em>. Note that it is <em>not</em> a subset of the 256-color ICNS palette!<p></li>
+
+<li>It is important that if none of two ICNS pages is 32-bit, but they are of the same size, then they <em>must</em> have the same transparency mask, meaning that if a pixel is transparent in one of them, then the corresponding pixel is transparent in the other one. For example, these pages are allowed for formats <em>48x48 @ 16 colors</em> and <em>48x48 @ Black and white</em>:<p>
+<center><img src="../images/icns_alpha_same.png" alt="Same alpha channel"/></center><p>
+but these are not:<p>
+<center><img src="../images/icns_alpha_diff.png" alt="Different alpha channel"/></center><p>
+The first page of the second document contains opaque pixels in the letters <em>g</em> and <em>e</em> which are transparent in the second page of the second document (In addition, there are such pixels vice versa.) This restriction on alpha channels does not apply for <em>32-bit</em> pages. Those formats which must have the same transparency mask are marked with <em>the same letter</em> in the table of icon formats above.<p></li>
+
+<li>When re-opening a previously saved ICNS file, sometimes it may seem that GreenPixel has inserted <em>random black pages</em>. This is because in order to save pages with <em>16 colors</em> or <em>256 colors</em>, image editors <em>must</em> always insert a <em>Black and white</em> page with the corresponding size if none present -- this is the only place where the transparency mask can be stored for those other pages.<p></li>
+</ul>
+
+<h2>Converting an existing image to a Macintosh icon</h2><p>
+
+<ol>
+	<li>Open your existing image file.</li>
+	<li>Should it have multiple pages, select the page you want to create the new icon from.</li>
+	<li>Choose the menu item <em>Icon|Create Mac icon from image</em> and put a check in the boxes corresponding to the formats you want to create.</li>
+</ol><p>
+
+<span class="r">You should then edit the individual pages to ensure that your icon will look good when displayed resized.</span><p>
+
+<h2>Testing your icon</h2><p>
+
+See <a href="test.html">this</a> article.
+
+</span>
+</body></html>

@@ -1,0 +1,50 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>How to create a Windows icon</title>
+
+</head><body>
+<span class="n">
+
+How to...
+
+<center><h1>Create a Windows icon</h1></center>
+
+In contrary to the common belief, icons are not just small, partially transparent images with <em>ICO</em> extension. Most icons contain more than one page. These pages are different in size and/or color depth, helping the operating system to choose the icon page most suitable for the current purpose.<p>
+
+So creating an icon means drawing an image in <em>several</em> sizes and color depths. Windows Vista and newer versions recommend that all icon have a <em>256x256 @ 32-bit</em> page, from which all other pages are derived. The most important image formats are the following:<p>
+
+<ul>
+	<li>Size<ul>
+		<li>256x256</li>
+		<li>48x48</li>
+		<li>32x32</li>
+		<li>16x16</li>
+	</ul></li><p>
+
+	<li>Color depth<ul>
+		<li>32-bit</li>
+		<li>256 colors</li>
+		<li>16 colors</li>
+	</ul></li>
+</ul><p>
+
+<em>Tip</em>: Start designing your icon prototype in a size even bigger, possibly as big as <em>1024x1024</em>. Keep in mind that lowering the resolution is always an option.<p>
+
+<span class="r">Note that the color depth cannot be specified explicitly in GreenPixel, it is updated dynamically according to the picture contents. For example, if you want to create a page in 256 colors, draw an image which has at most 256 colors and does not have semi-transparent pixels. If you want to create 16-color icons for the Windows OS, use only the 16 system colors - those which comprise the two topmost lines of the default swatch preset.</span><p>
+
+<h2>Converting an existing image to a Windows icon</h2><p>
+
+<ol>
+	<li>Open your existing image file.</li>
+	<li>Should it have multiple pages, select the page you want to create the new icon from.</li>
+	<li>Choose the menu item <em>Icon|Create Windows icon from image</em> and put a check in the boxes corresponding to the formats you want to create.</li>
+</ol><p>
+
+The newly created icon may have pages with the same size and color depth. For example, there is no such format in GreenPixel as <em>16x16 @ 24-bit</em>, since that page would have 256 pixels and that means at most 256 different colors - so the format is rather displayed as <em>16x16 @ 256 colors</em>. If this happens, you should remove the duplicate pages to avoid redundancy.<p>
+
+<h2>Testing your icon</h2><p>
+
+See <a href="test.html">this</a> article.
+
+</span>
+</body></html>

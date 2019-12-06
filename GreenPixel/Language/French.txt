@@ -1,0 +1,505 @@
+; ErrorSoft Green Pixel
+; Language pack: French (France)
+; Created by: François Cerveau 
+
+; General dictionary
+LABEL_WIDTH=Largeur
+LABEL_HEIGHT=Hauteur
+LABEL_SIZE=Taille
+LABEL_COLOR=Couleur
+LABEL_KIND=Type
+LABEL_ANTIALIAS=Lissage
+LABEL_POSITION=Position
+LABEL_FILE_SIZE=Taille du fichier
+UNTITLED=Sans_titre
+
+; Buttons
+B_OK=OK
+B_CANCEL=Annuler
+B_YES=Oui
+B_NO=Non
+B_RESET=Reinitialiser
+B_ADD=Ajouter
+B_REMOVE=Effacer
+B_CLEAR=Effacer tout
+B_CLOSE=Fermer
+B_ALL=Tous
+B_NONE=Aucun
+B_PRINT=Imprimer
+B_PRINTER_SETUP=Configurer l'imprimante
+B_PREVIEW=Aperçu
+B_COMPILE=Compiler
+
+; Shown messages
+MSG_CONFIRMATION=Confirmation
+MSG_NOT_EXIST="%s" n'existe pas
+MSG_OVERWRITE=Voulez-vous écraser "%s" ?
+MSG_UNKNOWN_FILE_TYPE=Le format de fichier de "%s" n'a pu être déterminé automatiquement.<br>Ce fichier ne peut être chargé ou enregistré, ou ne possède pas la bonne extension.
+MSG_INVALID_FILE_FORMAT=Le fichier "%s" ne correspond pas au type "%s".<br>Il peut être détérioré, avoir une extension erronée, ou bien un filtre inadéquat a été indiqué dans la boîte de dialogue Ouvrir.
+MSG_CROPPED=L'image était plus grande que %d×%d et a été recadrée.<br>L'enregistrer entraînera une perte de données.<br>Utilisez la fenêtre "Préférences" (menu Options) pour augmenter la taille limite des images.
+MSG_SAVE_CHANGES=Enregistrer les modifications de "%s" ?
+MSG_CONFIRM_REVERT=Toutes les modifications de "%s" seront perdues, et l'opération ne peut être annulée.<br>Êtes-vous sûr de vouloir continuer ?
+MSG_CONFIRM_REMOVE=Voulez-vous vraiment supprimer l'(les) élément(s) sélectionné(s) ?
+MSG_CONFIRM_DESTROY_EXE=Les icônes/curseurs ne peuvent être remplacés facilement dans cet exécutable ou bibliothèque d'icônes.<br><br>Si ce programme ou DLL assume d'autre tâches que le stockage d'icônes, ces autres fonctionnalités seront supprimées lors de l'enregistrement.<br>Si ce fichier n'est qu'une bibliothèque d'icones, rien de dommageable ne devrait survenir.<br><br>Voulez-vous continuer ?
+MSG_DATA_LOSS_INFO=Pour éviter la perte des données, enregistrer aussi le document sous un autre type.
+MSG_DL_MULTIPAGE=Ce type de fichier ne supporte pas le multipage.<br>Seule la première page peut être enregistrée.
+MSG_DL_LAYERS=Ce type de fichier n'intègre pas les calques. L'image a été aplatie pour l'enregistrement.
+MSG_DL_SIZE_256=Ce type de fichier ne peut intégrer des images plus grandes que 256×256.<br>Ces images ont été recadrées.
+MSG_DL_TRANSPARENCY=Ce type de fichier n'assume pas la transparence.
+MSG_DL_COLOR_DEPTH=Une partie des informations de couleurs n'a pu être enregistrée.
+MSG_DL_ICNS=Certaines pages n'ont pu être enregistrées, à cause des limites du format ICNS. Voir la section "types de fichier" de l'aide pour plus d'informations.
+MSG_FT_NO_OPTIONS=Le type de fichier sélectionné ne peut être personnalisé
+MSG_ADD_FILES=Ajoutez des fichiers à la liste
+MSG_SELECT_PAGES=Choisissez des pages
+MSG_SELECT_ITEMS=Choisissez des éléments
+MSG_NO_LAYERS=Il n'existe aucun calque
+MSG_NO_LAYERS_SELECTED=Aucun calque n'est sélectionné
+MSG_RES_EXIST=Une autre ressource des type, nom et langue spécifiés existe déjà.<br>Veuillez choisir un autre nom ou langage.
+MSG_ERROR_WRITE_RES=Une erreur s'est poduite en tentant d'enregistrer les modifications des ressources spécifiées.
+MSG_PAGE_SIZE_0=Erreur: la page physique ne peut faire 0 mm.<br>Choisissez un autre format de papier.
+MSG_ERROR_ASSOC=Les associations de fichiers ne peuvent être modifiées. Lancer GreenPixel en mode Administrateur devrait résoudre le problème.
+MSG_FAIL_SINGLE_OPEN=Le fichier spécifié n'a pu être chargé.
+MSG_FAIL_MULTIPLE_OPEN=Certains fichiers n'ont pu être ouverts.
+
+; Open/Save dialog filters
+FF_ALL=Tous les fichiers
+FF_GFIE=Format natif de GreenPixel
+FF_ICO=Icône Windows
+FF_CUR=Curseur
+FF_ANI=Curseurs animés
+FF_ICNS=Icône Mac OS X
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Bitmaps Windows 
+FF_JPEG=Images JPEG
+FF_JPEG_2000=Images JPEG 2000
+FF_GIF=Graphics Interchange Format
+FF_PCX=Fichiers PCX
+FF_EXEC=Tous les exécutables et bibliothèques d'icônes
+FF_ICL=Bibliothèques d'icônes
+FF_RES=Fichiers de ressources Win32
+
+; Tool names
+TOOL_SEL_RECT=Sélection rectangulaire
+TOOL_SEL_ELLIPSE=Sélection elliptique
+TOOL_LASSO=Lasso
+TOOL_WAND=Baguette magique
+TOOL_SEL_PENCIL=Sélection libre
+TOOL_TRANSFORM=Transformer
+TOOL_CROP=Rognage
+TOOL_HOTSPOT=Pixel actif du curseur
+TOOL_EYEDROPPER=Pipette
+TOOL_RETOUCH=Retouche
+TOOL_RECT=Rectangle
+TOOL_ELLIPSE=Ellipse
+TOOL_LINE=Ligne
+TOOL_TEXT=Texte
+TOOL_PENCIL=Crayon
+TOOL_BRUSH=Pinceau
+TOOL_ERASER=Gomme
+TOOL_RECOLOR=Recolorer
+TOOL_BUCKET=Remplissage
+TOOL_GRADIENT=Dégradé
+TOOL_NONE=Aucun
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Maj
+KEY_DEL=Suppr
+KEY_ENTER=Entrée
+
+; Menu items
+MI_FILE=Fichier
+MI_FILE_NEW_GRAPHIC=Nouvelle création
+MI_FILE_NEW_LIBRARY=Nouvelle bibliothèque
+MI_FILE_OPEN=Ouvrir
+MI_FILE_RECENT_FILES=Fichiers récents
+MI_FILE_RF_CLEAR=Purger la liste
+MI_FILE_BATCH_CONVERT=Convertir des fichiers par lot
+MI_FILE_CLOSE=Fermer
+MI_FILE_CLOSE_ALL=Tout fermer
+MI_FILE_SAVE=Enregistrer
+MI_FILE_SAVE_AS=Enregistrer sous
+MI_FILE_SAVE_ALL=Enregistrer tout
+MI_FILE_REVERT=Version enregistrée
+MI_FILE_METADATA=Métadonnées
+MI_FILE_PRINT=Imprimer
+MI_FILE_EXIT=Quitter
+
+MI_EDIT=Édition
+MI_EDIT_UNDO=Annuler
+MI_EDIT_CANT_UNDO=Impossible d'annuler
+MI_EDIT_REDO=Répéter
+MI_EDIT_CANT_REDO=Impossible de répéter
+MI_EDIT_CUT=Couper
+MI_EDIT_COPY=Copier
+MI_EDIT_PASTE=Coller
+MI_EDIT_PASTE_PAGE=Coller en tant que nouvelle page
+MI_EDIT_PASTE_DOC=Coller en tant que nouveau document
+MI_EDIT_DELETE=Supprimer
+MI_EDIT_SEL_ALL=Sélectionner tout
+MI_EDIT_SEL_NONE=Annuler la sélection
+MI_EDIT_SEL_INVERT=Inverser la sélection
+MI_EDIT_SEL_LOAD=Charger un masque de sélection
+MI_EDIT_SEL_SAVE=Enregistrer le masque de sélection
+MI_EDIT_CROP_TRANSPARENCY=Rogner les parties transparentes
+MI_EDIT_TRANSFORM=Transformer
+MI_EDIT_SEL_TRANSFORM=Transformer la sélection
+MI_EDIT_FLIP_HORIZ=Miroir horizontal
+MI_EDIT_FLIP_VERT=Miroir vertical
+MI_EDIT_ROTATE_LEFT=Rotation 90° antihoraire
+MI_EDIT_ROTATE_RIGHT=Rotation 90° horaire
+MI_EDIT_ROTATE_180=Rotation 180°
+
+MI_VIEW=Affichage
+MI_VIEW_ZOOM_IN=Zoom avant
+MI_VIEW_ZOOM_OUT=Zoom arrière
+MI_VIEW_100_PERCENT=Taille réelle
+MI_VIEW_FIT_WINDOW=Adapter à la fenêtre
+MI_VIEW_GRID=Grille des pixels
+MI_VIEW_CELL_GRID=Grille personnalisée
+MI_VIEW_CENTER_LINES=Axes
+MI_VIEW_PAGES=Volet des pages 
+MI_VIEW_TOOLBAR=Barre d'outils
+MI_VIEW_COLOR_PICKER=Couleurs (figé? bouger un curseur)
+MI_VIEW_TOOL_BEHAVIOR=Comportement de l'outil
+MI_VIEW_LAYERS=Calques
+MI_VIEW_PANEL_LEFT=Outils
+MI_VIEW_PANEL_RIGHT=Palettes
+MI_VIEW_STARTUP_SCREEN=Écran d'accueil
+
+MI_FLT=Filtres
+MI_FLT_GRAYSCALE=Niveaux de gris
+MI_FLT_INVERT=Négatif
+MI_FLT_SOLARIZE=Solarisation
+MI_FLT_RGB=Couches RVB
+MI_FLT_HS=Teinte/Saturation
+MI_FLT_EXPOSURE=Exposition
+MI_FLT_FORMULAE=Formules RVB 
+MI_FLT_AVERAGE=Moyenne
+MI_FLT_BLUR_SOFT=Flou léger
+MI_FLT_BLUR_MORE=Plus flou
+MI_FLT_BLUR_CUSTOM=Flou personnalisé
+MI_FLT_SHARPEN=Accentuation
+MI_FLT_UNSHARP_MASK=Renforcer la netteté (masque flou)
+MI_FLT_REMOVE_MATTE=Transparence (retirer le cache)
+MI_FLT_OPACITY=Opacité
+MI_FLT_PAINT_CONTOUR=Tracer un contour au pinceau
+MI_FLT_DROP_SHADOW=Ombre portée
+MI_FLT_GLOW=Lueur
+MI_FLT_BEVEL=Volume (biseautage)
+
+MI_LAYERS=Calques
+MI_LAYERS_NEW=Nouveau calque
+MI_LAYERS_DUPLICATE=Dupliquer le calque
+MI_LAYERS_DELETE=Supprimer le calque
+MI_LAYERS_PROP=Propriétés du calque
+MI_LAYERS_MERGE_SELECTED=Fusionner les calques sélectionnés
+MI_LAYERS_MERGE_VISIBLE=Fusionner les calques visibles
+MI_LAYERS_FLATTEN=Aplatir l'image
+MI_LAYERS_FROM_SEL=Créer un calque à partir de la sélection.
+
+MI_ICON=Icône
+MI_ICON_PAGE_NEW=Nouvelle page
+MI_ICON_PAGE_DELETE=Supprimer la page
+MI_ICON_PAGE_PROP=Propriétés de la page
+MI_ICON_PAGE_IMPORT=Importer des images en tant que pages
+MI_ICON_PAGE_EXPORT=Exporter la page
+MI_ICON_PAGE_EXPORT_ALL=Exporter toutes les pages
+MI_ICON_UNIFORM_RATE=Appliquer la durée d'affichage à toutes les images de l'animation
+MI_ICON_CREATE_WIN=Créer une icône Windows à partir de cette image
+MI_ICON_CREATE_MAC=Créer une icône Mac à partir de cette image
+MI_ICON_TEST=Tester sur un fond
+
+MI_LIB=Bibliothèque
+MI_LIB_ADD=Ajouter des ressources
+MI_LIB_REMOVE=Enlever des ressources
+MI_LIB_REPLACE=Remplacer des ressources
+MI_LIB_PROP=Propriétés de la ressource
+MI_LIB_EXTRACT_EDIT=Extraire et éditer
+MI_LIB_EXTRACT_SAVE=Extraire et enregistrer
+
+MI_SET=Options
+MI_SET_PREFERENCES=Préférences
+MI_SET_LANGUAGE=Langue
+
+MI_HELP=Aide
+MI_HELP_CONTENTS=Sommaire de l'aide
+MI_HELP_HOMEPAGE=Site de ErrorSoft
+MI_HELP_SUPPORT=Assistance en ligne
+MI_HELP_DONATE=Faites un don
+MI_HELP_ABOUT=À propos de 
+
+; Pixel Format to String
+PF_1_BIT=1 bit
+PF_16_COLORS=16 coul.
+PF_256_COLORS=256 coul.
+PF_24_BIT=24 bits
+PF_32_BIT=32 bits
+
+; Undo captions
+UNDO_CREATE_FLOATING=Créer une sélection flottante
+UNDO_MERGE_LAYERS=Fusionner des calques
+UNDO_MOVE_LAYERS=Déplacer des calques
+UNDO_MOVE_PAGE=Déplacer la page
+UNDO_FLIP_ROTATE=Miroirs/Rotations
+
+; Layers glossary
+LY_LAYER=Calque
+LY_BACKGROUND=Arrière-plan
+LY_FLOATING_SEL=Sélection flottante
+
+; Page properties dialog box
+PG_CAPTION_NEW_PAGE=Nouvelle page
+PG_CAPTION_PAGE_PROP=Propriétés de la page
+
+PG_SIZE_SMALLEST=petite
+PG_SIZE_TOOLBAR=barre d'outils
+PG_SIZE_SMALL=moyenne XP
+PG_SIZE_MEDIUM=mosaïque ou moyenne
+PG_SIZE_LARGE=grande
+PG_SIZE_HUGE_VISTA=maximum Windows
+PG_SIZE_APPLE=Macintosh
+PG_CUSTOM_SIZE=Taille personnalisée
+PG_SQUARE=Carrée
+
+PG_CR=Réduction des couleurs
+PG_CR_BW=Noir et blanc
+PG_CR_16_WIN=16 couleurs (palette Windows)
+PG_CR_16_MAC=16 couleurs (palette Mac)
+PG_CR_256_ADAPT=256 couleurs (adaptatives)
+PG_CR_256_MAC=256 couleurs (palette Mac)
+PG_CR_24=24 bits RVB
+PG_CR_32=Aucune réduction (32 bits)
+
+PG_ANIMATION=Animation
+PG_FRAME_RATE=Durée d'affichage (millisecondes)
+
+PG_CREATE_FROM_SELECTED=Créer à partir de la page sélectionnée
+PG_WHEN_RESIZING=En redimensionnant
+PG_STRETCH=Étirer
+PG_CROP=Recadrer
+PG_IMAGE_ANCHORS=Ancrage
+
+; Filter dialogs
+LABEL_RED=Rouge
+LABEL_GREEN=Vert
+LABEL_BLUE=Bleu
+LABEL_R=R
+LABEL_G=V
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Changement de teinte
+LABEL_SATURATION=Saturation
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Luminosité
+LABEL_TORIC=Mode torique
+LABEL_GAUSSIAN_BLUR=Flou Gaussien
+LABEL_BOX_BLUR=Flou par moyenne
+LABEL_MATTE_COLOR=Couleur cache
+LABEL_WHITE_MATTE=Cache blanc
+LABEL_BLACK_MATTE=Cache noir
+LABEL_INNER_GLOW=Lueur interne
+LABEL_OUTER_GLOW=Lueur externe
+
+LABEL_AMOUNT=Gain
+LABEL_ANGLE_DEGREES=Angle (degrés)
+LABEL_BLUR=Flou
+LABEL_DISTANCE=Distance
+LABEL_INTENSITY=Intensité
+LABEL_OPACITY=Valeur
+LABEL_RADIUS=Rayon
+LABEL_THRESHOLD=Seuil
+
+; Batch conversion dialog
+BC_FILES=Fichiers
+BC_SETTINGS=Configuration
+BC_FORMAT=Convertir en
+BC_FOLDER=Dossier-cible
+BC_OPEN=Ouvrir les fichiers convertis dans ErrorSoft Green Pixel
+BC_ICON_FORMATS=Formats d'icône à créer
+;
+; Cell grid dialog
+CG_ENABLED=Activée
+CG_SIZE=Pas de la grille
+CG_SPACING=Espacement
+CG_OFFSET=Décalage
+;
+; Create icon from image dialog box
+CI_SELECT_FORMATS=Choisissez les formats que vous souhaitez créer
+
+; ICL format dialog
+IF_TITLE=Sélectionner le format ICL
+
+; Language dialog box
+LABEL_LANG_PACK=Packs de langue disponibles 
+;
+; Layer properties dialog
+LP_NAME=Nom
+LP_VISIBLE=Visible
+LP_BLEND_MODE=Mode de fusion
+
+LP_BM_NORMAL=Normal
+LP_BM_MASK=Masque
+LP_BM_BEHIND=Derrière
+LP_BM_DISSOLVE=Fondu
+LP_BM_HUE=Teinte
+LP_BM_HUE_SHIFT=Changement de teinte
+LP_BM_SAT=Saturation
+LP_BM_DARKEN=Obscurcir
+LP_BM_MULTIPLY=Produit
+LP_BM_COLOR_BURN=Densité couleur +
+LP_BM_LINEAR_BURN=Densité Linéaire +
+LP_BM_DARKER_COLOR=Couleur plus foncée
+LP_BM_LIGHTEN=Éclaircir
+LP_BM_SCREEN=Superposition
+LP_BM_COLOR_DODGE=Densité couleur -
+LP_BM_LINEAR_DODGE=Densité linéaire - (Ajout)
+LP_BM_LIGHTER_COLOR=Couleur plus claire
+LP_BM_OVERLAY=Incrustation
+LP_BM_SOFT_LIGHT=Lumière tamisée
+LP_BM_HARD_LIGHT=Lumière crue
+LP_BM_VIVID_LIGHT=Lumière vive
+LP_BM_LINEAR_LIGHT=Lumière linéaire
+LP_BM_PIN_LIGHT=Lumière ponctuelle
+LP_BM_HARD_MIX=Mélange maximal
+LP_BM_DIFFERENCE=Différence
+LP_BM_EXCLUSION=Exclusion
+
+; Metadata dialog box
+MD_TYPE=Pour les fichiers %s
+MD_TITLE=Titre 
+MD_AUTHOR=Auteur 
+MD_COPYRIGHT=Copyright
+MD_COMMENTS=Commentaires 
+MD_QUALITY=Enregister en qualité 
+MD_LOOP_COUNT=Nombre de boucles (0 = infini) 
+;
+; Preferences dialog box
+PREF_MISC=Images
+PREF_ENVIRONMENT=Environnement
+PREF_INSTALL=Types de fichier associés
+PREF_IMAGE_MAX=Taille maximum autorisée (en pixels)
+PREF_PNG_ICONS=Compression PNG dans les fichiers icônes et curseurs
+PREF_PNG_LIMIT=Compresser les images dont le côté fait au moins :
+PREF_AA_IMAGES=Lisser toutes les images redimensionnées
+PREF_COLORS=Couleurs
+PREF_TRANSPARENT_HATCH=Damier transparent
+PREF_GRID2=Grille personnalisée 
+PREF_DVM=Aspect des fenêtres Ouvrir/Enregistrer
+PREF_DVM_ITEMS=Icônes<br>Liste<br>Détails<br>Miniatures<br>Mosaïque
+PREF_MWA=Action de la molette de la souris
+PREF_MWA_ITEMS=Aucune<br>Défilement<br>Zoom
+PREF_SAVE_TOOL_SETTINGS=Conserver les réglages d'outils entre les sessions
+PREF_FILE_ASSOC=Extensions de fichiers à ouvrir par défaut avec ErrorSoft Green Pixel
+PREF_ADMIN=Noter que sous Windows Vista ou ultérieur, GreenPixel ne peut modifier ces paramètres que s'il est exécuté en mode administrateur.
+
+; Print dialog
+PRINT_COPIES=Copies
+PRINT_ZOOM=Échelle (%)
+PRINT_CAPTION=Légende
+PRINT_PAGES=Imprimer
+PRINT_PAGES_BUTTONS=Toutes les pages<br>Page en cours
+
+; Resource properties dialog
+RP_NAME=Nom
+RP_LANGUAGE=Langue
+RP_LANG_CUSTOM=Langue spécifique
+RP_LANG_NEUTRAL=Langue neutre
+
+; Save Options dialog
+SO_TITLE=Enregistrer les options
+SO_QUALITY=Qualité
+SO_LOSSLESS=Sans perte
+
+; Startup screen
+ST_WELCOME=Bienvenue !
+ST_CHOOSE_ACTION=Choisissez une action à exécuter
+ST_NG=Créer un nouveau graphisme
+ST_NG_INFO=Crée un nouveau fichier icône, curseur, ou curseur animé
+ST_NL=Créer une nouvelle bibliothèque
+ST_NL_INFO=Crée une bibliothèque d'icônes (.ICL) ou un fichier de ressources (.RES) vide
+ST_OPEN=Ouvrir un document existant
+ST_OPEN_INFO=Ouvre un fichier image, une bibliothèque d'icônes, un exécutable, ou un fichier de ressources à partir d'un support de stockage.
+ST_CONVERT=Convertir des fichiers image par lot
+ST_CONVERT_INFO=Convertit plusieurs fichiers image en icône ou en un autre type d'image
+ST_NONE=Ne rien faire
+ST_NONE_INFO=Ferme cet écran d'accueil
+ST_RECENT_INFO=Ouvre un fichier récemment édité dans ErrorSoft Green Pixel
+ST_SHOW=Toujours afficher cet écran au démarrage de l'application
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Déplacer le curseur au dessus de l'image ci-dessous
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Insérer du texte
+
+; Tool Behaviour dialog
+TB_ANTIALIAS=Lissage
+TB_PATTERN=Patron
+TB_SAMPLE_ALL_LAYERS=Échantillonner tous les calques
+TB_BRUSH_SIZE=Taille du pinceau
+TB_BRUSH_SHAPE=Forme du pinceau
+TB_BRUSH_ITEMS=Arrondi<br>Pointu<br>Barre oblique<br>Barre inversée<br>Horizontal<br>Vertical<br>Aérographe
+TB_LINE_WIDTH=Épaisseur de ligne
+TB_TOLERANCE=Tolérance Baguette/Recolorer/Remplissage (%)
+TB_CONTIGUOUS=Adjacent
+TB_SHAPE_FRAMED=Contour
+TB_SHAPE_FILLED=Forme pleine
+TB_EYEDROPPER_BACK=La pipette bascule avec l'outil précédent
+TB_RETOUCH_MODE=Mode retouche
+TB_RETOUCH_ITEMS=Atténuer<br>Accentuer<br>Densité -<br>Densité +<br>Teinte<br>Éponge
+TB_ERASER_STRENGTH=Force de la gomme (%)
+TB_G_LINEAR=Dégradé linéaire
+TB_G_RADIAL=Dégradé radial
+TB_G_CONICAL=Dégradé cônique
+TB_G_SPIRAL=Dégradé spiral
+TB_REP_NONE=Pas de répétition
+TB_REP_SYM=Répétition symétrique
+TB_REP_ASYM=Répétition asymétrique
+TB_MODE_COLOR=Mode couleur
+TB_MODE_TRANSPARENCY=Mode transparence
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=pixels<br>%
+
+; Hints
+HINT_COMPACT=Affichage compact
+
+HINT_CP_FORE_COLOR=Premier plan
+HINT_CP_BACK_COLOR=Arrière-plan
+HINT_CP_SWAP_COLORS=Échanger les couleurs
+HINT_CP_DEFAULT=Réinitialiser
+HINT_CP_TRANSPARENT=Transparent
+HINT_CP_INVERTED=Inversée
+HINT_CP_TOGGLE_CHOOSER=Basculer la carte HSB et les échantillons
+HINT_CP_SWATCHES=Clic gauche pour prélever une couleur, clic droit pour remplacer l'échantillon par la couleur en cours
+HINT_CP_SWATCH_LOAD=Charger un échantillon prédéfini
+HINT_CP_SWATCH_SAVE=Enregistrer un échantillon prédéfini
+HINT_CP_RED=Composante rouge
+HINT_CP_GREEN=Composante verte
+HINT_CP_BLUE=Composante bleue
+HINT_CP_ALPHA=Transparence alpha
+HINT_CP_HTML=Code HTML
+HINT_CP_WCP=Palette couleur de Windows
+
+HINT_DOC_LB=Liste des pages (composants de l'icone)
+HINT_DOC_LB_PAGE=Page %d, taille: %d × %d pixels
+HINT_DOC_LB_PNG=seront compressés en PNG en enregistrant le document sous les types .ICO ou .CUR
+HINT_DOC_ZOOM_MENU=Zoom
+HINT_DOC_NODES=%d points de jonction
+HINT_DOC_TOGGLE_PAGES=Volet des pages
+
+HINT_RES_FOLDER=Choisissez un dossier-cible pour les fichiers extraits
+;
+HINT_STARTUP_HELP=Aide
+HINT_TEST_BGR_LOAD=Charger un arrière-plan
+HINT_TEST_BGR_DEFAULT=Arrière-plan par défaut
+
+HINT_TEXT_FACE=Police
+HINT_TEXT_BOLD=Gras
+HINT_TEXT_ITALIC=Italique
+HINT_TEXT_UNDERLINE=Souligné
+
+; eof

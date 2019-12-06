@@ -1,0 +1,44 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>How to assemble a so-called icon library</title>
+
+</head><body>
+<span class="n">
+
+How to...
+
+<center><h1>Assemble a so-called icon library</h1></center>
+
+<h2>Introduction</h2><p>
+
+Icon libraries are special DLL (Windows dynamically linked library) files which may contain embedded icons and cursors called <em>resources</em>. These icon libraries have the extension ICL and are mainly used for distributing a huge collection of icons over the Internet.<p>
+
+The properties of a resource are:<p>
+
+<ul>
+	<li><em>Type</em><p>
+	Icon or cursor. Although there are many other types of resources (string, dialog, font, etc.), ICL files rarely have these types of resources and GreenPixel does not support editing them.</li>
+	<li><em>Name</em><p>
+	An identifier which consists of uppercase letters, numbers and underscores.</li>
+	<li><em>Language</em><p>
+	Stored as an integral number, this property has little importance at icon and cursor resources. Mainly used for dialog and string resources.</li>
+</ul>
+
+These three properties uniquely identify a resource. No two resources are allowed with the same type, name and language.<p>
+
+<h2>Creating an icon library with GreenPixel</h2><p>
+
+<ol>
+	<li>Choose <em>File|New library</em> or click the <em>New ICL</em> icon found at the <em>Startup screen</em>.<p>
+	<center><img src="../images/startupicl.png"></center><p></li>
+	<li>Click the button marked with a plus sign or use the commands of the <em>Library</em> menu to add resources to your icon library.<p>
+	<center><img src="../images/libnew.png"></center><p></li>
+	<li>Choose <em>File|Save</em> and save the library as <em>&lt;filename&gt;.icl.</em></li>
+</ol>
+
+<h2>For software developers</h2><p>
+
+Saving resource compilations in Win32 .RES file format is also supported. This makes GreenPixel a specialized resource editor. (Opening and saving a .RES file should also keep the other resources like strings or dialogs - which are hidden in GreenPixel's library editor window -, but creating a backup of your original file is recommended.)
+
+</span>
+</body></html>

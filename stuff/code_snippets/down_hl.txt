@@ -1,0 +1,16 @@
+спустится на строку ниже, в стандартном спектрумовском экране
+
+down_hl:
+    inc h
+    ld a,h
+    and 7
+    jr nz,.exit_down_hl
+    ld a,l
+    sub -32
+    ld l,a
+    sbc a,a
+    and -8
+    add a,h
+    ld h,a
+.exit_down_hl:
+    ret

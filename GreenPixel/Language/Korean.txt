@@ -1,0 +1,503 @@
+; ErrorSoft Green Pixel
+; Language pack: 한국어
+; Created by: JaeHyung Lee (http://webnest.net/)
+
+; General dictionary
+LABEL_WIDTH=너비
+LABEL_HEIGHT=높이
+LABEL_SIZE=크기
+LABEL_COLOR=색상
+LABEL_KIND=종류
+LABEL_ANTIALIAS=안티-앨리어싱
+LABEL_POSITION=위치
+LABEL_FILE_SIZE=파일 크기
+UNTITLED=제목 없음
+
+; Buttons
+B_OK=확인
+B_CANCEL=취소
+B_YES=예
+B_NO=아니오
+B_RESET=재설정
+B_ADD=추가
+B_REMOVE=제거
+B_CLEAR=지우기
+B_CLOSE=닫기
+B_ALL=모두
+B_NONE=없음
+B_PRINT=인쇄
+B_PRINTER_SETUP=인쇄 설정
+B_PREVIEW=미리보기
+B_COMPILE=컴파일
+
+; Shown messages
+MSG_CONFIRMATION=확인
+MSG_NOT_EXIST="%s" 존재하지 않음
+MSG_OVERWRITE="%s"을(를) 덮어씌우기하시겠습니까?
+MSG_UNKNOWN_FILE_TYPE="%s" 파일 형식은 자동으로 결정할 수 없습니다. 이 파일을 불러올 수 없거나 GIE Pro에 의해 저장되었거나 아니면 잘못된 확장자입니다.
+MSG_INVALID_FILE_FORMAT="%s" 파일은 "%s"의 형식과 맞지 않습니다. 아마 파일 오류나 잘못된 확장자일 겁니다, 잘못된 필터에 대해서는 팝업창에 상세히 설명되어 있습니다.
+MSG_CROPPED=이미지가 %dx%d 보다 커서 잘렸습니다. 저장한 이미지의 일부 데이타는 손실됩니다. 이미지의 크기 설정에 관한 도움말|환경설정을 이용하세요.
+MSG_SAVE_CHANGES=이 파일을 저장하시겠습니까?
+MSG_CONFIRM_REVERT="%s" 모든 변경 내역이 손실됩니다. 그리고 이 작업은 되돌릴 수 없습니다. 정말로 계속하시겠습니까?
+MSG_CONFIRM_REMOVE=선택한 항목을 제거하시겠습니까?
+이 실행 파일 또는 아이콘 라이브러리에서 아이콘/커서를 간단히 대체할 수 없습니다.<br><br>만약 아이콘을 단지 storing하는 다른 목적을 가진 프로그림이거나 DLL 파일이라면, 이러한 다른 호환성은 저장하는 동안에 파기됩니다.<br>이 파일이 아이콘 라이브러리인라면 잘못되는 경우가 발생하지 않을 겁니다.<br><br>계속하시겠습니까?
+MSG_DATA_LOSS_INFO=데이터의 손실을 예방하기 위해 다른 파일 형식으로 문서 저장
+MSG_DL_MULTIPAGE=이 파일 확장자는 한 파일 안에 여러 이미지 저장이 지원되지 않습니다. 단지 첫페이지에서 저장할 수 있습니다.
+MSG_DL_LAYERS=이 파일 형식은 레이어 정보 저장을 지원하지 않습니다. 이미지는 병합 저장되었습니다.
+MSG_DL_SIZE_256=이 파일 확장자는 256x256 픽셀 보다 큰 사이즈는 지원하지 않습니다. 이미지들은 자르기 한 이미지입니다.
+MSG_DL_TRANSPARENCY=이 파일 형식은 투명 속성을 지원하지 않습니다.
+MSG_DL_COLOR_DEPTH=색상 정보의 일부분은 저장되지 않습니다.
+MSG_DL_ICNS=ICNS 형식의 제한으로 인해 일부 페이지를 저장할 수 없습니다. 자세한 정보는 파일 형식에서 도움말 부분을 참고하십시오.
+MSG_FT_NO_OPTIONS=선택한 파일 형식은 사용자 정의할 수 없습니다.
+MSG_ADD_FILES=목록에서 가져올 파일들을 선택해주십시오.
+MSG_SELECT_PAGES=페이지를 선택해주십시오.
+MSG_SELECT_ITEMS=항목을 선택해주십시오.
+MSG_NO_LAYERS=표시할 레이어가 없습니다.
+MSG_NO_LAYERS_SELECTED=선택한 레이어가 없습니다.
+MSG_RES_EXIST=열거된 형식, 이름과 언어의 리소스는 이미 존재합니다. 다른 이름 또는 언어를 선택해주십시오.
+MSG_ERROR_WRITE_RES=지정된 리소스로 변경 사항을 저장하는 도중에 오류가 발생했습니다.
+MSG_PAGE_SIZE_0=오류: 0 mm 페이지 넓이는 허용되지 않습니다. 다른 페이지 형식을 선택해주십시오.
+MSG_ERROR_ASSOC=파일 연결을 설정할 수 없습니다. GreenPixel를 최고 관리자로 실행하면 이 문제를 해결할 수 있습니다.
+MSG_FAIL_SINGLE_OPEN=선택한 파일을 불러올 수 없습니다. 
+MSG_FAIL_MULTIPLE_OPEN=일부 파일을 열 수 없습니다.
+
+; Open/Save dialog filters
+FF_ALL=모든 파일
+FF_GFIE=GreenPixel 기본 형식
+FF_ICO=ICO 파일
+FF_CUR=CUR 파일
+FF_ANI=애니메이션 커서
+FF_ICNS=애플 아이콘 이미지 형식 
+FF_PNG=PNG 파일
+FF_XPM=XPM 파일
+FF_BMP=BMP 파일
+FF_JPEG=JPEG 파일
+FF_GIF=GIF 파일
+FF_JPEG_2000=JPEG 2000 파일 
+FF_PCX=PCX 파일
+FF_EXEC=모든 실행 파일과 아이콘 라이브러리
+FF_ICL=아이콘 라이브러리
+FF_RES=Win32 리소스 파일들
+
+; Tool names
+TOOL_SEL_RECT=사각형 선택 윤곽 도구
+TOOL_SEL_ELLIPSE=타원형 선택 윤곽 도구
+TOOL_LASSO=올가미 도구
+TOOL_WAND=빠른 선택 도구
+TOOL_SEL_PENCIL=선택 도구
+TOOL_TRANSFORM=변형 도구
+TOOL_CROP=자르기 도구
+TOOL_HOTSPOT=핫스폿 표시
+TOOL_EYEDROPPER=색상 선택 도구
+TOOL_RETOUCH=수정 도구
+TOOL_RECT=사각형 도구
+TOOL_ELLIPSE=타원형 도구
+TOOL_LINE=선 도구
+TOOL_TEXT=문자 도구
+TOOL_PENCIL=연필 도구
+TOOL_BRUSH=브러쉬 도구
+TOOL_ERASER=지우개 도구
+TOOL_RECOLOR=다시 칠하기
+TOOL_BUCKET=페인트 통 도구
+TOOL_GRADIENT=그라디언트 도구
+TOOL_NONE=없음
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=파일
+MI_FILE_NEW_GRAPHIC=새 그래픽 작업
+MI_FILE_NEW_LIBRARY=새 라이브러리
+MI_FILE_OPEN=열기
+MI_FILE_RECENT_FILES=최근 파일
+MI_FILE_RF_CLEAR=목록 지우기
+MI_FILE_BATCH_CONVERT=일괄 파일 변환
+MI_FILE_CLOSE=닫기
+MI_FILE_CLOSE_ALL=모두 닫기
+MI_FILE_SAVE=저장하기
+MI_FILE_SAVE_AS=다른 이름으로 저장
+MI_FILE_SAVE_ALL=모두 저장
+MI_FILE_REVERT=되돌리기
+MI_FILE_METADATA=메타데이타
+MI_FILE_PRINT=인쇄
+MI_FILE_EXIT=끝내기
+
+MI_EDIT=편집
+MI_EDIT_UNDO=실행 취소
+MI_EDIT_CANT_UNDO=실행 취소 불가
+MI_EDIT_REDO=되돌리기
+MI_EDIT_CANT_REDO=되돌리기 불가
+MI_EDIT_CUT=잘라내기
+MI_EDIT_COPY=복사하기
+MI_EDIT_PASTE=붙여넣기
+MI_EDIT_PASTE_PAGE=새 페이지로 붙여넣기
+MI_EDIT_PASTE_DOC=새 문서로 붙여넣기 
+MI_EDIT_DELETE=삭제하기
+MI_EDIT_SEL_ALL=모두 선택
+MI_EDIT_SEL_NONE=모두 해제
+MI_EDIT_SEL_INVERT=선택 반전
+MI_EDIT_SEL_LOAD=마스크 선택 영역 불러오기
+MI_EDIT_SEL_SAVE=마스크 선택 영역 저장하기
+MI_EDIT_CROP_TRANSPARENCY=투명 영역 자르기
+MI_EDIT_TRANSFORM=변형
+MI_EDIT_SEL_TRANSFORM=선택 영역 변형
+MI_EDIT_FLIP_HORIZ=가로 뒤집기
+MI_EDIT_FLIP_VERT=세로 뒤집기
+MI_EDIT_ROTATE_LEFT=좌로 90도 회전
+MI_EDIT_ROTATE_RIGHT=우로 90도 회전
+MI_EDIT_ROTATE_180=180도 회전
+
+MI_VIEW=보기
+MI_VIEW_ZOOM_IN=확대
+MI_VIEW_ZOOM_OUT=축소
+MI_VIEW_100_PERCENT=실제 크기
+MI_VIEW_FIT_WINDOW=화면 맞춤
+MI_VIEW_GRID=격자
+MI_VIEW_CELL_GRID=셀 격자
+MI_VIEW_CENTER_LINES=중앙선
+MI_VIEW_PAGES=페이지 목록
+MI_VIEW_TOOLBAR=도구바
+MI_VIEW_COLOR_PICKER=칼라 피커
+MI_VIEW_TOOL_BEHAVIOR=비헤비어
+MI_VIEW_LAYERS=레이어
+MI_VIEW_STARTUP_SCREEN=시작 화면
+
+MI_FLT=필터
+MI_FLT_GRAYSCALE=흑백화
+MI_FLT_INVERT=반전
+MI_FLT_SOLARIZE=과대 노출
+MI_FLT_RGB=RGB 채널
+MI_FLT_HS=색조/채도
+MI_FLT_EXPOSURE=노출
+MI_FLT_FORMULAE=RGB 형식
+MI_FLT_AVERAGE=평균
+MI_FLT_BLUR_SOFT=가벼운 흐림
+MI_FLT_BLUR_MORE=더 흐리게
+MI_FLT_BLUR_CUSTOM=흐림 비율 설정
+MI_FLT_SHARPEN=선명 효과
+MI_FLT_UNSHARP_MASK=언샵 마스크
+MI_FLT_REMOVE_MATTE=경계 영역 제거
+MI_FLT_OPACITY=불투명도
+MI_FLT_PAINT_CONTOUR=윤곽 칠하기
+MI_FLT_DROP_SHADOW=음영 효과
+MI_FLT_GLOW=광선 효과
+MI_FLT_BEVEL=경사 효과
+
+MI_LAYERS=레이어
+MI_LAYERS_NEW=새 레이어
+MI_LAYERS_DUPLICATE=레이어 복제
+MI_LAYERS_DELETE=레이어 삭제
+MI_LAYERS_PROP=레이어 속성
+MI_LAYERS_MERGE_SELECTED=선택 레이어 병합
+MI_LAYERS_MERGE_VISIBLE=보이는 레이어 병합
+MI_LAYERS_FLATTEN=배경으로 이미지 병합
+MI_LAYERS_FROM_SEL=선택 영역을 레이어로
+
+MI_ICON=아이콘
+MI_ICON_PAGE_NEW=새 페이지
+MI_ICON_PAGE_DELETE=페이지 삭제
+MI_ICON_PAGE_PROP=페이지 속성
+MI_ICON_PAGE_IMPORT=페이지 가져오기 
+MI_ICON_PAGE_EXPORT=페이지 내보내기
+MI_ICON_PAGE_EXPORT_ALL=모든 페이지 내보내기 
+MI_ICON_UNIFORM_RATE=모든 프레임에 프레임 지속시간 적용
+MI_ICON_CREATE_WIN=이미지로부터 Win 아이콘 만들기
+MI_ICON_CREATE_MAC=이미지로부터 Mac 아이콘 만들기
+MI_ICON_TEST=테스트
+
+MI_LIB=라이브러리
+MI_LIB_ADD=리소스 추가
+MI_LIB_REMOVE=리소스 제거
+MI_LIB_REPLACE=리소스 대체
+MI_LIB_PROP=리소스 속성
+MI_LIB_EXTRACT_EDIT=추출 및 편집
+MI_LIB_EXTRACT_SAVE=추출 및 저장
+
+MI_SET=설정
+MI_SET_PREFERENCES=환경 설정
+MI_SET_LANGUAGE=언어
+
+MI_HELP=도움말
+MI_HELP_CONTENTS=소개 및 사용법
+MI_HELP_HOMEPAGE=홈페이지
+MI_HELP_SUPPORT=온라인 지원
+MI_HELP_DONATE=후원하기
+MI_HELP_ABOUT=제품 정보
+
+; Pixel Format to String
+PF_1_BIT=1 비트
+PF_16_COLORS=16 색상
+PF_256_COLORS=256 색상
+PF_24_BIT=24 비트
+PF_32_BIT=32 비트
+
+; Undo captions
+UNDO_CREATE_FLOATING=선택 영역 만들기
+UNDO_MERGE_LAYERS=레이어 병합
+UNDO_MOVE_LAYERS=레이어 이동
+UNDO_MOVE_PAGE=페이지 이동
+UNDO_FLIP_ROTATE=뒤집기/회전
+
+; Layers glossary
+LY_LAYER=레이어
+LY_BACKGROUND=배경
+LY_FLOATING_SEL=선택 영역 레이어
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=새 페이지
+PG_CAPTION_PAGE_PROP=페이지 속성
+
+PG_SIZE_SMALLEST=매우 작음 
+PG_SIZE_TOOLBAR=도구바 
+PG_SIZE_SMALL=작음 
+PG_SIZE_MEDIUM=중간 
+PG_SIZE_LARGE=큰 
+PG_SIZE_HUGE_VISTA=매우 큰, 비스타 
+PG_SIZE_APPLE=애플 
+PG_CUSTOM_SIZE=사용자 정의
+PG_SQUARE=정사각형
+
+PG_CR=색상 감소
+PG_CR_BW=흑백
+PG_CR_16_WIN=16 칼라 (윈도우 팔레트)
+PG_CR_16_MAC=16 칼라 (Mac 팔레트)
+PG_CR_256_ADAPT=256 칼라 (adaptive)
+PG_CR_256_MAC=256 칼라 (Mac 팔레트)
+PG_CR_24=24-bit RGB
+PG_CR_32=감소 없음 (32-비트)
+
+PG_ANIMATION=애니메이션
+PG_FRAME_RATE=프레임 감소 (ms)
+
+PG_CREATE_FROM_SELECTED=선택한 페이지로부터 만들기
+PG_WHEN_RESIZING=크기 조정시
+PG_STRETCH=늘리기
+PG_CROP=자르기
+PG_IMAGE_ANCHORS=이미지 앵커
+
+; Filter dialogs
+LABEL_RED=적색
+LABEL_GREEN=녹색
+LABEL_BLUE=청색
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=색조 이동
+LABEL_SATURATION=채도
+LABEL_GAMMA=대비
+LABEL_BRIGHTNESS=명도
+LABEL_TORIC=토러스 모드 
+LABEL_GAUSSIAN_BLUR=가우시안 블러
+LABEL_BOX_BLUR=박스 블러
+LABEL_MATTE_COLOR=경계 부분 색상
+LABEL_WHITE_MATTE=흰색 영역 제거
+LABEL_BLACK_MATTE=검정 영역 제거
+LABEL_INNER_GLOW=내부 광선
+LABEL_OUTER_GLOW=외부 광선
+
+LABEL_AMOUNT=양
+LABEL_ANGLE_DEGREES=각도
+LABEL_BLUR=흐림
+LABEL_DISTANCE=거리
+LABEL_INTENSITY=강도
+LABEL_OPACITY=불투명도
+LABEL_RADIUS=범위
+LABEL_THRESHOLD=경계값
+
+; Batch conversion dialog
+BC_FILES=파일
+BC_SETTINGS=설정
+BC_FORMAT=변환 형식 선택
+BC_FOLDER=폴드 설정
+BC_OPEN=GIE Pro로 변환된 파일 열기
+BC_ICON_FORMATS=제작 아이콘 형식
+
+; Cell grid dialog
+CG_ENABLED=사용
+CG_SIZE=셀 크기
+CG_SPACING=셀 간격
+CG_OFFSET=오프셋
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=제작하고 싶은 형식을 선택하십시오.
+
+; ICL format dialog
+IF_TITLE=ICL 형식을 선택하십시오.
+
+; Language dialog
+LABEL_LANG_PACK=언어 팩
+
+; Layer properties dialog
+LP_NAME=이름
+LP_VISIBLE=표시
+LP_BLEND_MODE=혼합 옵션
+
+LP_BM_NORMAL=표준
+LP_BM_MASK=마스크
+LP_BM_BEHIND=배경
+LP_BM_DISSOLVE=디졸브
+LP_BM_HUE=색조
+LP_BM_HUE_SHIFT=색조
+LP_BM_SAT=채도
+LP_BM_DARKEN=어둡게 하기 
+LP_BM_MULTIPLY=곱하기 
+LP_BM_COLOR_BURN=색상 번
+LP_BM_LINEAR_BURN=선형 번
+LP_BM_DARKER_COLOR=어두운 색상
+LP_BM_LIGHTEN=밝게 하기 
+LP_BM_SCREEN=스크린
+LP_BM_COLOR_DODGE=색상 닷지
+LP_BM_LINEAR_DODGE=선형 닷지(추가)
+LP_BM_LIGHTER_COLOR=밝은 색상
+LP_BM_OVERLAY=오브레이
+LP_BM_SOFT_LIGHT=소프트 라이트
+LP_BM_HARD_LIGHT=하드 라이트
+LP_BM_VIVID_LIGHT=선명한 라이트
+LP_BM_LINEAR_LIGHT=선형 라이트
+LP_BM_PIN_LIGHT=핀 라이트
+LP_BM_HARD_MIX=하드 혼합 
+LP_BM_DIFFERENCE=차이
+LP_BM_EXCLUSION=제외
+
+; Metadata dialog
+MD_TYPE=%s 파일
+MD_TITLE=제목
+MD_AUTHOR=저작자
+MD_COPYRIGHT=저작권
+MD_COMMENTS=설명
+MD_QUALITY=저장 품질
+MD_LOOP_COUNT=반복 횟수 (0 = 무한반복)
+
+; Preferences dialog
+PREF_MISC=기타
+PREF_ENVIRONMENT=문서 환경
+PREF_INSTALL=설치
+PREF_IMAGE_MAX=최대. 허용 이미지 크기
+PREF_PNG_ICONS=.ICO/.CUR 파일에서 PNG 압축 사용
+PREF_PNG_LIMIT=최소 크기로 이미지 압축
+PREF_AA_IMAGES=크기 변경된 모든 이미지 안티-앨리어싱
+PREF_COLORS=색상
+PREF_TRANSPARENT_HATCH=문서 바탕 음영색
+PREF_GRID2=보조 격자
+PREF_DVM=열기/저장 대화창의 보기 방식
+PREF_DVM_ITEMS=아이콘<br>목록<br>자세히<br>썸네일<br>타일
+PREF_MWA=마우스 휠 액션
+PREF_MWA_ITEMS=없음<br>스크롤<br>확대
+PREF_SAVE_TOOL_SETTINGS=세션 사이의 도구 설정 저장
+PREF_FILE_ASSOC=파일 연결
+PREF_ADMIN=알림: 비스타 또는 Win 7을 사용중이라면 GreenPixel를 관리자 권한으로 실행해야만 이러한 파일들의 연결 설정이 적용됩니다.
+
+; Print dialog
+PRINT_COPIES=복사
+PRINT_ZOOM=확대 (%)
+PRINT_CAPTION=자막 
+PRINT_PAGES=인쇄
+PRINT_PAGES_BUTTONS=모든 페이지<br>현재 페이지
+
+; Resource properties dialog
+RP_NAME=이름
+RP_LANGUAGE=언어
+RP_LANG_CUSTOM=사용자 언어 ID
+RP_LANG_NEUTRAL=언어 중립
+
+; Save Options dialog
+SO_TITLE=옵션 저장
+SO_QUALITY=품질 
+SO_LOSSLESS=무손실 
+
+; Startup screen
+ST_WELCOME=환영합니다!
+ST_CHOOSE_ACTION=작업할 항목을 선택해주십시오
+ST_NG=새 그래픽 작업
+ST_NG_INFO=새 아이콘, 커스 또는 애니메이션 문서 만들기
+ST_NL=새 라이브러리 만들기
+ST_NL_INFO=빈 아이콘 라이브러리(.ICL) 또는 리소스 파일(.RES) 만들기
+ST_OPEN=기존 문서 열기
+ST_OPEN_INFO=미디어 저장장치에서 EXE 또는 리소스 파일, 아이콘 라이브러리 또는 이미지 파일 열기
+ST_CONVERT=이미지 파일 일괄 변환
+ST_CONVERT_INFO=여러 이미지 파일을 아이콘 또는 다른 이미지 형식으로 변환하기
+ST_NONE=어떤 실행도 하지 않음
+ST_NONE_INFO=이 시작화면 닫기
+ST_RECENT_INFO=GreenPixel에서 최근 편집한 파일 열기
+ST_SHOW=시작시 이 화면 항상 표시
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=아래 이미지 위로 커서를 이동하십시오.
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=글자 입력하십시오.
+
+; Tool Behavior dialog
+TB_ANTIALIAS=안티-앨리어싱
+TB_PATTERN=패턴 
+TB_SAMPLE_ALL_LAYERS=모든 레이어 샘플링
+TB_BRUSH_SIZE=브러쉬 크기
+TB_BRUSH_SHAPE=브러쉬 모양
+TB_BRUSH_ITEMS=둥글게<br>날카롭게<br>슬러시<br>백슬러시<br>가로<br>세로<br>스프레이
+TB_LINE_WIDTH=선 너비
+TB_TOLERANCE=허용치 (%)
+TB_CONTIGUOUS=인접
+TB_SHAPE_FRAMED=프레임 모얌
+TB_SHAPE_FILLED=채워진 모양
+TB_EYEDROPPER_BACK=아이드롭퍼를 이전 도구로 되돌리기
+TB_RETOUCH_MODE=리터치 방식
+TB_RETOUCH_ITEMS=블러<br>샤펀<br>닷지<br>번<br>색조<br>스폰지
+TB_ERASER_STRENGTH=지우개 강도 (%)
+TB_G_LINEAR=선형 그라디언트
+TB_G_RADIAL=방사형 그라디언트
+TB_G_CONICAL=원뿔형 그라디언트
+TB_G_SPIRAL=나선형 그라디언트
+TB_REP_NONE=반복 없음
+TB_REP_SYM=대칭 반복
+TB_REP_ASYM=비대칭 반복
+TB_MODE_COLOR=색상 방식
+TB_MODE_TRANSPARENCY=투명 모드
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=픽셀<br>%
+
+; Hints
+HINT_COMPACT=간단히 보기
+
+HINT_CP_FORE_COLOR=전경 색상
+HINT_CP_BACK_COLOR=배경 색상
+HINT_CP_SWAP_COLORS=색상 전환
+HINT_CP_DEFAULT=기본 설정
+HINT_CP_TRANSPARENT=투명
+HINT_CP_INVERTED=반전
+HINT_CP_TOGGLE_CHOOSER=HSB 맵/색상 견본 전환
+HINT_CP_SWATCHES=색상 선택은 좌클릭, 현재 색상으로 대체는 우클릭
+HINT_CP_SWATCH_LOAD=색상 견본 프리셋 불러오기
+HINT_CP_SWATCH_SAVE=색상 견본 프리셋 저장하기
+HINT_CP_RED=적색 콤포넌트
+HINT_CP_GREEN=녹색 콤포넌트
+HINT_CP_BLUE=청색 콤포넌트
+HINT_CP_ALPHA=색상 알파 (불투명도)
+HINT_CP_HTML=HTML 코드
+HINT_CP_WCP=윈도우 칼라 피커
+
+HINT_DOC_LB=페이지 목록 (아이콘 확장자/프레임)
+HINT_DOC_LB_PAGE=페이지 %d, 크기: %d x %d 픽셀
+HINT_DOC_LB_PNG=.ICO/.CUR로 저장될 때 PNG-압축이 됩니다.
+HINT_DOC_ZOOM_MENU=확대
+HINT_DOC_NODES=%d 노드
+HINT_DOC_TOGGLE_PAGES=페이지 목록 숨김/보임
+
+HINT_RES_FOLDER=추출한 파일을 저장할 폴드를 선택해주십시오.
+
+HINT_STARTUP_HELP=도움말
+HINT_TEST_BGR_LOAD=배경 불러오기
+HINT_TEST_BGR_DEFAULT=기본 배경
+
+HINT_TEXT_FACE=글꼴 종류
+HINT_TEXT_BOLD=짙게
+HINT_TEXT_ITALIC=기울임
+HINT_TEXT_UNDERLINE=밑줄
+
+; eof

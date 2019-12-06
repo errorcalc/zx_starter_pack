@@ -1,0 +1,506 @@
+; ErrorSoft Green Pixel
+; Language pack: Hungarian
+; Created by: Balázs Szalkai
+
+; General dictionary
+LABEL_WIDTH=Szélesség
+LABEL_HEIGHT=Magasság
+LABEL_SIZE=Méret
+LABEL_COLOR=Szín
+LABEL_KIND=Típus
+LABEL_ANTIALIAS=Élsimítás
+LABEL_POSITION=Pozíció
+LABEL_FILE_SIZE=Fájlméret
+UNTITLED=Névtelen
+
+; Buttons
+B_OK=OK
+B_CANCEL=Mégse
+B_YES=Igen
+B_NO=Nem
+B_RESET=Vissza
+B_ADD=Hozzáad
+B_REMOVE=Eltávolít
+B_CLEAR=Törlés
+B_CLOSE=Bezárás
+B_ALL=Mind
+B_NONE=Egyik sem
+B_PRINT=Nyomtatás
+B_PRINTER_SETUP=Nyomtatóbeállítás
+B_PREVIEW=Előnézet
+B_COMPILE=Lefordít
+
+; Shown messages
+MSG_CONFIRMATION=Megerősítés
+MSG_NOT_EXIST="%s" nem található
+MSG_OVERWRITE=Biztosan felül akarod írni "%s"-t?
+MSG_UNKNOWN_FILE_TYPE="%s" fájlformátuma nem dönthető el automatikusan.<br>Ezt a fájlt a ErrorSoft Green Pixel nem tudja megnyitni vagy elmenteni, vagy hibás a fájl kiterjesztése.
+MSG_INVALID_FILE_FORMAT=A(z) "%s" fájl nem "%s" formátumú.<br>A fájl hibás, helytelen a kiterjesztése, vagy nem megfelelő fájltípus lett kiválasztva a Megnyitás párbeszédablakban.
+MSG_CROPPED=A kép %dx%d-nél nagyobb volt, így a GreenPixel méretre vágta.<br>A kép mentése adatvesztést fog okozni.<br>A Beállítások|Konfiguráció menüpont segítségével növelheted a megengedett képméretet.
+MSG_SAVE_CHANGES=Szeretnéd menteni "%s" változtatásait?
+MSG_CONFIRM_REVERT="%s" mindent változtatása elveszik és ez a művelet nem vonható vissza.<br>Biztosan folytatni akarod?
+MSG_CONFIRM_REMOVE=Valóban törölni szeretnéd a kijelölt elem(ek)et?
+MSG_CONFIRM_DESTROY_EXE=Ebben a futtatható fájlban vagy ikonkönyvtárban nem cserélhetőek egyszerűen az ikonok/kurzorok.<br><br>Ha ez egy program vagy DLL, melynek más célja is van, mint pusztán ikonok tárolása, akkor ezek a képességek mentéskor elvesznek.<br>Ha ez a fájl csak egy ikonkönyvtár, akkor valószínűleg semmi rossz nem fog történni.<br><br>Folytatni akarod?
+MSG_DATA_LOSS_INFO=Az adatvesztés elkerülése végett, mentsd a dokumentumot más formátumban.
+MSG_DL_MULTIPAGE=Ez a fájlformátum nem támogatja több kép tárolását egy fájlban.<br>Csak az első oldal került mentésre.
+MSG_DL_LAYERS=Ez a fájlformátum nem támogatja a rétegek mentését. A rétegek egyesítve kerültek mentésre.
+MSG_DL_SIZE_256=Ez a fájlformátum nem támogatja 256x256-nál nagyobb képek mentését.<br>A képek egy része levágásra került.
+MSG_DL_TRANSPARENCY=Ez a fájlformátum nem támogatja az átlátszóságot.
+MSG_DL_COLOR_DEPTH=A színinformáció egy részét nem sikerült menteni.
+MSG_DL_ICNS=Egy vagy több oldal nem került mentésre az ICNS formátum korlátai miatt. Lásd a Súgó fájlformátumokról szóló részét.
+MSG_FT_NO_OPTIONS=A kiválasztott fájlformátum nem szabható testre.
+MSG_ADD_FILES=Adj hozzá egy vagy több fájlt a listához!
+MSG_SELECT_PAGES=Jelölj ki egy vagy több oldalt!
+MSG_SELECT_ITEMS=Jelölj ki egy vagy több elemet!
+MSG_NO_LAYERS=Nincsenek rétegek
+MSG_NO_LAYERS_SELECTED=Nincsenek kijelölt rétegek
+MSG_RES_EXIST=A megadott típussal, névvel és nyelvvel már létezik egy erőforrás.<br>Válassz más nevet vagy nyelvet.
+MSG_ERROR_WRITE_RES=Hiba lépett fel a megadott erőforrások mentése közben.
+MSG_PAGE_SIZE_0=Hiba: az oldal fizikai szélessége nem lehet 0 mm.<br>Válassz másik oldalformátumot.
+MSG_ERROR_ASSOC=A fájltársításokat nem sikerült beállítani. A GreenPixel rendszergazdai módban való futtatása megoldhatja a problémát.
+MSG_FAIL_SINGLE_OPEN=A kiválasztott fájlt nem lehetett betölteni.
+MSG_FAIL_MULTIPLE_OPEN=Néhány fájlt nem lehetett megnyitni.
+
+; Open/Save dialog filters
+FF_ALL=Minden fájl
+FF_GFIE=GreenPixel saját formátum
+FF_ICO=Ikonfájlok
+FF_CUR=Kurzorfájlok
+FF_ANI=Animált kurzorok
+FF_ICNS=Apple ikonformátum
+FF_PNG=PNG fájlok
+FF_XPM=X-Pixmap fájlok
+FF_BMP=Windows bitképek
+FF_JPEG=JPEG fájlok
+FF_GIF=GIF fájlok
+FF_JPEG_2000=JPEG 2000 fájlok
+FF_PCX=PCX fájlok
+FF_EXEC=Minden futtatható fájl és ikonkönyvtár
+FF_ICL=Ikonkönyvtárak
+FF_RES=Win32 resource fájlok
+
+; Tool names
+TOOL_SEL_RECT=Téglalap kijelölése
+TOOL_SEL_ELLIPSE=Ellipszis kijelölése
+TOOL_LASSO=Lasszó
+TOOL_WAND=Varázspálca
+TOOL_SEL_PENCIL=Kijelölő ceruza
+TOOL_TRANSFORM=Transzformáció
+TOOL_CROP=Levágás
+TOOL_HOTSPOT=Hotspot beállítása
+TOOL_EYEDROPPER=Szemcseppentő
+TOOL_RETOUCH=Retusáló
+TOOL_RECT=Téglalap
+TOOL_ELLIPSE=Ellipszis
+TOOL_LINE=Vonal
+TOOL_TEXT=Szöveg
+TOOL_PENCIL=Ceruza
+TOOL_BRUSH=Ecset
+TOOL_ERASER=Radír
+TOOL_RECOLOR=Átszínező
+TOOL_BUCKET=Festékesvödör
+TOOL_GRADIENT=Színátmenet
+TOOL_NONE=Egyik sem
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=File
+MI_FILE_NEW_GRAPHIC=Új grafika
+MI_FILE_NEW_LIBRARY=Új könyvtár
+MI_FILE_OPEN=Megnyitás
+MI_FILE_RECENT_FILES=Legutóbbi fájlok
+MI_FILE_RF_CLEAR=Lista törlése
+MI_FILE_BATCH_CONVERT=Több fájl konverziója
+MI_FILE_CLOSE=Bezárás
+MI_FILE_CLOSE_ALL=Mindet bezárja
+MI_FILE_SAVE=Mentés
+MI_FILE_SAVE_AS=Mentés másként
+MI_FILE_SAVE_COPY=Másolat mentése
+MI_FILE_SAVE_ALL=Mindent menti
+MI_FILE_REVERT=Visszaállítás
+MI_FILE_METADATA=Metaadat
+MI_FILE_PRINT=Nyomtatás
+MI_FILE_EXIT=Kilépés
+
+MI_EDIT=Szerkesztés
+MI_EDIT_UNDO=Visszavonás
+MI_EDIT_CANT_UNDO=Nem vonható vissza
+MI_EDIT_REDO=Ismét
+MI_EDIT_CANT_REDO=Nem ismételhető
+MI_EDIT_CUT=Kivágás
+MI_EDIT_COPY=Másolás
+MI_EDIT_PASTE=Beillesztés
+MI_EDIT_PASTE_PAGE=Beillesztés új oldalként
+MI_EDIT_PASTE_DOC=Beillesztés új dokumentumként
+MI_EDIT_DELETE=Törlés
+MI_EDIT_SEL_ALL=Mindet kijelöli
+MI_EDIT_SEL_NONE=Kijelölés megszüntetése
+MI_EDIT_SEL_INVERT=Kijelölés invertálása
+MI_EDIT_SEL_LOAD=Kijelölés betöltése
+MI_EDIT_SEL_SAVE=Kijelölés mentése
+MI_EDIT_CROP_TRANSPARENCY=Átlátszó részek levágása
+MI_EDIT_TRANSFORM=Transzformáció
+MI_EDIT_SEL_TRANSFORM=Kijelölés transzformációja
+MI_EDIT_FLIP_HORIZ=Vízszintes tükrözés
+MI_EDIT_FLIP_VERT=Függőleges tükrözés
+MI_EDIT_ROTATE_LEFT=Forgatás 90 fokkal balra
+MI_EDIT_ROTATE_RIGHT=Forgatás 90 fokkal jobbra
+MI_EDIT_ROTATE_180=Forgatás 180 fokkal
+
+MI_VIEW=Nézet
+MI_VIEW_ZOOM_IN=Nagyítás
+MI_VIEW_ZOOM_OUT=Kicsinyítés
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Ablakhoz igazít
+MI_VIEW_GRID=Rács
+MI_VIEW_CELL_GRID=Cellarács
+MI_VIEW_CENTER_LINES=Középvonalak
+MI_VIEW_PAGES=Oldalak listája
+MI_VIEW_TOOLBAR=Eszköztár
+MI_VIEW_COLOR_PICKER=Színválasztó
+MI_VIEW_TOOL_BEHAVIOR=Eszközbeállítások
+MI_VIEW_LAYERS=Rétegek
+MI_VIEW_PANEL_LEFT=Bal oldali panel
+MI_VIEW_PANEL_RIGHT=Jobb oldali panel
+MI_VIEW_STARTUP_SCREEN=Indítóképernyő
+
+MI_FLT=Szűrők
+MI_FLT_GRAYSCALE=Szürkeárnyalatos
+MI_FLT_INVERT=Inverz
+MI_FLT_SOLARIZE=Solarize
+MI_FLT_RGB=RGB komponensek
+MI_FLT_HS=Árnyalat/telítettség
+MI_FLT_EXPOSURE=Fényesség
+MI_FLT_FORMULAE=RGB formulák
+MI_FLT_AVERAGE=Átlag
+MI_FLT_BLUR_SOFT=Elmosás
+MI_FLT_BLUR_MORE=Több elmosás
+MI_FLT_BLUR_CUSTOM=Egyéni elmosás
+MI_FLT_SHARPEN=Élesítés
+MI_FLT_UNSHARP_MASK=Életlen maszk
+MI_FLT_REMOVE_MATTE=Remove matte
+MI_FLT_OPACITY=Opacitás
+MI_FLT_PAINT_CONTOUR=Kontúr kihúzása
+MI_FLT_DROP_SHADOW=Árnyékvetés
+MI_FLT_GLOW=Ragyogás
+MI_FLT_BEVEL=Kidomborítás
+
+MI_LAYERS=Rétegek
+MI_LAYERS_NEW=Új réteg
+MI_LAYERS_DUPLICATE=Réteg duplikálása
+MI_LAYERS_DELETE=Réteg törlése
+MI_LAYERS_PROP=Réteg tulajdonságai
+MI_LAYERS_MERGE_SELECTED=Kijelöltek egyesítése
+MI_LAYERS_MERGE_VISIBLE=Láthatóak egyesítése
+MI_LAYERS_FLATTEN=Összes egyesítése
+MI_LAYERS_FROM_SEL=Réteg készítése a kijelölésből
+
+MI_ICON=Ikon
+MI_ICON_PAGE_NEW=Új oldal
+MI_ICON_PAGE_DELETE=Oldal törlése
+MI_ICON_PAGE_PROP=Oldal tulajdonságai
+MI_ICON_PAGE_IMPORT=Oldalak importálása
+MI_ICON_PAGE_EXPORT=Oldal exportálása
+MI_ICON_PAGE_EXPORT_ALL=Az összes oldal exportálása
+MI_ICON_UNIFORM_RATE=Időtartam alkalmazása az összes képkockára
+MI_ICON_CREATE_WIN=Windows ikon készítése a képből
+MI_ICON_CREATE_MAC=Mac ikon készítése a képből
+MI_ICON_TEST=Teszt
+
+MI_LIB=Könyvtár
+MI_LIB_ADD=Erőforrások hozzáadása
+MI_LIB_REMOVE=Erőforrások törlése
+MI_LIB_REPLACE=Erőforrások cseréje
+MI_LIB_PROP=Erőforrás tulajdonságai
+MI_LIB_EXTRACT_EDIT=Kibontás és szerkesztés
+MI_LIB_EXTRACT_SAVE=Kibontás és mentés
+
+MI_SET=Beállítások
+MI_SET_PREFERENCES=Konfiguráció
+MI_SET_LANGUAGE=Nyelv
+
+MI_HELP=Súgó
+MI_HELP_CONTENTS=Tartalom
+MI_HELP_HOMEPAGE=Honlap
+MI_HELP_SUPPORT=Online support
+MI_HELP_DONATE=Adomány
+MI_HELP_ABOUT=Névjegy
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 szín
+PF_256_COLORS=256 szín
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=Lebegő kijelölés létrehozása
+UNDO_MERGE_LAYERS=Rétegek összefűzése
+UNDO_MOVE_LAYERS=Rétegek mozgatása
+UNDO_MOVE_PAGE=Oldal mozgatása
+UNDO_FLIP_ROTATE=Tükrözés/forgatás
+
+; Layers glossary
+LY_LAYER=Réteg
+LY_BACKGROUND=Háttér
+LY_FLOATING_SEL=Lebegő kijelölés
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Új oldal
+PG_CAPTION_PAGE_PROP=Oldal tulajdonságai
+
+PG_SIZE_SMALLEST=legkisebb
+PG_SIZE_TOOLBAR=eszköztár
+PG_SIZE_SMALL=kicsi
+PG_SIZE_MEDIUM=közepes
+PG_SIZE_LARGE=nagy
+PG_SIZE_HUGE_VISTA=hatalmas, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Egyéni méret
+PG_SQUARE=Négyzetes
+
+PG_CR=Színmélység-csökkentés
+PG_CR_BW=Fekete-fehér
+PG_CR_16_WIN=16 szín (Windows paletta)
+PG_CR_16_MAC=16 szín (Mac paletta)
+PG_CR_256_ADAPT=256 szín (adaptív)
+PG_CR_256_MAC=256 szín (Mac paletta)
+PG_CR_24=24-bites RGB
+PG_CR_32=Nincs csökkentés (32-bit)
+
+PG_ANIMATION=Animáció
+PG_FRAME_RATE=Képkocka időtartama (ezredmásodperc)
+
+PG_CREATE_FROM_SELECTED=Létrehozás a kijelölt oldal alapján
+PG_WHEN_RESIZING=Átméretezéskor
+PG_STRETCH=Nyújtás
+PG_CROP=Levágás
+PG_IMAGE_ANCHORS=Horgony
+
+; Filter dialogs
+LABEL_RED=Vörös
+LABEL_GREEN=Zöld
+LABEL_BLUE=Kék
+LABEL_R=V
+LABEL_G=Z
+LABEL_B=K
+LABEL_A=A
+LABEL_HUE_SHIFT=Árnyalat
+LABEL_SATURATION=Telítettség
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Fényerő
+LABEL_TORIC=Tórusz mód
+LABEL_GAUSSIAN_BLUR=Gauss-elmosás
+LABEL_BOX_BLUR=Négyzetes elmosás
+LABEL_MATTE_COLOR=Matte színe
+LABEL_WHITE_MATTE=Fehér matte
+LABEL_BLACK_MATTE=Fekete matte
+LABEL_INNER_GLOW=Belső ragyogás
+LABEL_OUTER_GLOW=Külső ragyogás
+
+LABEL_AMOUNT=Mennyiség
+LABEL_ANGLE_DEGREES=Szög (fokban)
+LABEL_BLUR=Elmosás
+LABEL_DISTANCE=Távolság
+LABEL_INTENSITY=Intenzitás
+LABEL_OPACITY=Opacitás
+LABEL_RADIUS=Sugár
+LABEL_THRESHOLD=Vágás
+
+; Batch conversion dialog
+BC_FILES=Fájlok
+BC_SETTINGS=Beállítások
+BC_FORMAT=Célformátum
+BC_FOLDER=Célmappa
+BC_OPEN=A konvertált fájlok megnyitása a ErrorSoft Green Pixel-ban
+BC_ICON_FORMATS=Készítendő képformátumok
+
+; Cell grid dialog
+CG_ENABLED=Látszik a rács
+CG_SIZE=Cellaméret
+CG_SPACING=Cellatávolság
+CG_OFFSET=Eltolás
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Válaszd ki a kívánt képformátumokat
+
+; ICL format dialog
+IF_TITLE=Válassz formátumot
+
+; Language dialog
+LABEL_LANG_PACK=Nyelvi csomag
+
+; Layer properties dialog
+LP_NAME=Név
+LP_VISIBLE=Látható
+LP_BLEND_MODE=Keverési mód
+
+LP_BM_NORMAL=Normál
+LP_BM_MASK=Maszk
+LP_BM_BEHIND=Mögötte
+LP_BM_DISSOLVE=Dissolve
+LP_BM_HUE=Árnyalat
+LP_BM_HUE_SHIFT=Árnyalat-eltolás
+LP_BM_SAT=Telítettség
+LP_BM_DARKEN=Sötétítés
+LP_BM_MULTIPLY=Szorzás
+LP_BM_COLOR_BURN=Color Burn
+LP_BM_LINEAR_BURN=Linear Burn
+LP_BM_DARKER_COLOR=Sötétebb szín
+LP_BM_LIGHTEN=Világosítás
+LP_BM_SCREEN=Képernyő
+LP_BM_COLOR_DODGE=Color Dodge
+LP_BM_LINEAR_DODGE=Linear Dodge (összeadás)
+LP_BM_LIGHTER_COLOR=Világosabb szín
+LP_BM_OVERLAY=Overlay
+LP_BM_SOFT_LIGHT=Gyenge fény (Soft)
+LP_BM_HARD_LIGHT=Erős fény (Hard)
+LP_BM_VIVID_LIGHT=Élénk fény (Vivid)
+LP_BM_LINEAR_LIGHT=Lineáris fény
+LP_BM_PIN_LIGHT=Spotfény (Pin)
+LP_BM_HARD_MIX=Hard Mix
+LP_BM_DIFFERENCE=Különbség
+LP_BM_EXCLUSION=Exclusion
+
+; Metadata dialog
+MD_TYPE=%s fájlok
+MD_TITLE=Cím
+MD_AUTHOR=Szerző
+MD_COPYRIGHT=Copyright
+MD_COMMENTS=Megjegyzés
+MD_QUALITY=Minőség
+MD_LOOP_COUNT=Ismétlésszám (0 = végtelen)
+
+; Preferences dialog
+PREF_MISC=Vegyes
+PREF_ENVIRONMENT=Kinézet
+PREF_INSTALL=Telepítés
+PREF_IMAGE_MAX=Max. megengedett képméret
+PREF_PNG_ICONS=PNG tömörítés használata .ICO/.CUR fájlokban
+PREF_PNG_LIMIT=Képek tömörítése, melyek mérete min.
+PREF_AA_IMAGES=Átméretezett képek élsimítása
+PREF_COLORS=Színek
+PREF_TRANSPARENT_HATCH=Sakktábla
+PREF_GRID2=Másodlagos rács
+PREF_DVM=Ablakok "Nézet" beállítása
+PREF_DVM_ITEMS=Ikonok<br>Lista<br>Részletek<br>Miniatűrök<br>Mozaik
+PREF_MWA=Középső görgő által kiváltott művelet
+PREF_MWA_ITEMS=Nincs<br>Görgetés<br>Zoom
+PREF_SAVE_TOOL_SETTINGS=Eszközbeállítások mentése a programindítások között
+PREF_FILE_ASSOC=Fájltársítások
+PREF_ADMIN=Vista vagy újabb op. rendszer használata esetén a GreenPixel csak rendszergazdaként futtatva tudja módosítani a beállításokat.
+
+; Print dialog
+PRINT_COPIES=Másolatok
+PRINT_ZOOM=Nagyítás
+PRINT_CAPTION=Felirat
+PRINT_PAGES=Oldal
+PRINT_PAGES_BUTTONS=Összes<br>Csak a kijelölt
+
+; Resource properties dialog
+RP_NAME=Név
+RP_LANGUAGE=Nyelv
+RP_LANG_CUSTOM=Egyéni nyelvazonosító
+RP_LANG_NEUTRAL=Nyelvsemleges
+
+; Save Options dialog
+SO_TITLE=Mentési beállítások
+SO_QUALITY=Minőség
+SO_LOSSLESS=Veszteségmentes
+
+; Startup screen
+ST_WELCOME=Üdvözöllek!
+ST_CHOOSE_ACTION=Válassz egy menüpontot
+ST_NG=Új grafika
+ST_NG_INFO=Új ikont, kurzort vagy animációt hoz létre
+ST_NL=Új könyvtár
+ST_NL_INFO=Üres ikonkönyvtárat (.ICL) vagy erőforrásfájlt (.RES) hoz létre
+ST_OPEN=Meglévő dokumentum megnyitása
+ST_OPEN_INFO=Képfájlt, ikonkönyvtárat, futtatható- vagy erőforrásfájlt nyit meg egy adathordozóról
+ST_CONVERT=Több kép együttes konverziója
+ST_CONVERT_INFO=Egyszerre több képet konvertál .ICO-, vagy más megadott képformátumba
+ST_NONE=Semmilyen műveletet ne hajtson végre
+ST_NONE_INFO=Bezárja ezt a kezdőképernyőt
+ST_RECENT_INFO=Egy, a ErrorSoft Green Pixel-val nemrég szerkesztett fájlt nyit meg
+ST_SHOW=Indításkor mindig jelenjen meg ez az ablak
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Vidd a kurzort a kép fölé
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Szöveg beszúrása
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Élsimítás
+TB_PATTERN=Minta
+TB_SAMPLE_ALL_LAYERS=Mintavétel az összes rétegről
+TB_BRUSH_SIZE=Ecsetméret
+TB_BRUSH_SHAPE=Ecset alakja
+TB_BRUSH_ITEMS=Kerek<br>Szögletes<br>Per<br>Backslash<br>Vízszintes<br>Függőleges<br>Spray
+TB_LINE_WIDTH=Vonalvastagság
+TB_TOLERANCE=Varázspálca/Átszínező/Festékesvödör toleranciája (%)
+TB_CONTIGUOUS=Összefüggő
+TB_SHAPE_FRAMED=Üres alakzatok
+TB_SHAPE_FILLED=Kitöltött alakzatok
+TB_EYEDROPPER_BACK=A szemcseppentő visszavált az előző eszközre
+TB_RETOUCH_MODE=Retusáló mód
+TB_RETOUCH_ITEMS=Elmosás<br>Élesítés<br>Dodge<br>Burn<br>Árnyalat<br>Szivacs
+TB_ERASER_STRENGTH=Radír erőssége (%)
+TB_G_LINEAR=Lineáris színátmenet
+TB_G_RADIAL=Radiális színátmenet
+TB_G_CONICAL=Kúpos színátmenet
+TB_G_SPIRAL=Spirális színátmenet
+TB_REP_NONE=Nincs ismétlés
+TB_REP_SYM=Szimmetrikus ismétlés
+TB_REP_ASYM=Aszimmetrikus ismétlés
+TB_MODE_COLOR=Szín mód
+TB_MODE_TRANSPARENCY=Átlátszóság mód
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=képpont<br>%
+
+; Hints
+HINT_COMPACT=Kompakt nézet
+
+HINT_CP_FORE_COLOR=Előtérszín
+HINT_CP_BACK_COLOR=Háttérszín
+HINT_CP_SWAP_COLORS=Színek felcserélése
+HINT_CP_DEFAULT=Alapértelmezés
+HINT_CP_TRANSPARENT=Átlátszó
+HINT_CP_INVERTED=Inverz
+HINT_CP_TOGGLE_CHOOSER=Váltás a HSB térkép és a paletta között
+HINT_CP_SWATCHES=Bal-klikk a szín felszedéséhez, jobb-klikk az aktuális színnel való felülíráshoz
+HINT_CP_SWATCH_LOAD=Paletta betöltése
+HINT_CP_SWATCH_SAVE=Paletta mentése
+HINT_CP_RED=Vörös komponens
+HINT_CP_GREEN=Zöld komponens
+HINT_CP_BLUE=Kék komponens
+HINT_CP_ALPHA=Alpha (átlátszatlanság)
+HINT_CP_HTML=HTML kód
+HINT_CP_WCP=Windows színválasztó
+
+HINT_DOC_LB=Oldalak listája (ikonformátumok/képkockák)
+HINT_DOC_LB_PAGE=%d. oldal, méret: %d x %d pixel
+HINT_DOC_LB_PNG=.ICO/.CUR fájlokban PNG-tömörítve kerül mentésre
+HINT_DOC_ZOOM_MENU=Méretarány
+HINT_DOC_NODES=%d csúcs
+HINT_DOC_TOGGLE_PAGES=Oldalak listájának elrejtése/megjelenítése
+
+HINT_RES_FOLDER=Válassz egy mappát a kibontott fájlok számára
+
+HINT_STARTUP_HELP=Súgó
+HINT_TEST_BGR_LOAD=Háttér betöltése
+HINT_TEST_BGR_DEFAULT=Alapértelmezett háttér
+
+HINT_TEXT_FACE=Betűtípus
+HINT_TEXT_BOLD=Félkövér
+HINT_TEXT_ITALIC=Dőlt
+HINT_TEXT_UNDERLINE=Aláhúzott
+
+; eof

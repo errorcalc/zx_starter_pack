@@ -1,0 +1,509 @@
+﻿; ErrorSoft Green Pixel
+; Language pack: Russian
+; Created by: Error
+
+; General dictionary
+LABEL_WIDTH=Ширина
+LABEL_HEIGHT=Высота
+LABEL_SIZE=Размер
+LABEL_COLOR=Цвет
+LABEL_KIND=Вид
+LABEL_ANTIALIAS=Сглаживание
+LABEL_POSITION=Позиция
+LABEL_FILE_SIZE=Размер файла
+UNTITLED=Без Заголовка
+
+; Buttons
+B_OK=OK
+B_CANCEL=Отмена
+B_YES=Да
+B_NO=Нет
+B_RESET=Сброс
+B_ADD=Добавить
+B_REMOVE=Удалить
+B_CLEAR=Очистить
+B_CLOSE=Закрыть
+B_ALL=Все
+B_NONE=Никакие
+B_PRINT=Печать
+B_PRINTER_SETUP=Установка принтера
+B_PREVIEW=Предпросмотр
+B_COMPILE=Собрать
+
+; Shown messages
+MSG_NOT_EXIST="%s" не существует
+MSG_OVERWRITE=Вы хотите перезаписать "%s"?
+MSG_UNKNOWN_FILE_TYPE=Невозможно автоматически определить формат файла "%s".<br>Этот файл не может быть загружен/сохранен ErrorSoft Green Pixel или он имеет неправильное расширение.
+MSG_INVALID_FILE_FORMAT=Файл "%s" не соответствует формату "%s".<br>Файл может быть поврежден, может иметь неправильное расширение или, возможно, неправильный фильтр был определен в окне диалога Открыть.
+MSG_CROPPED=Образ был больше чем %dx%d и был обрезан.<br>Сохранение этого образа приведет к потере данных.<br>Используйте На&стройки|Параметры, чтобы увеличить разрешенный размер образа.
+MSG_SAVE_CHANGES=Вы хотите сохранить изменения в "%s"?
+MSG_CONFIRM_REVERT=Все изменения к "%s" будут потеряны,<br>а эта операция не может быть отменена. Вы уверенны, что хотите продолжить?
+MSG_DATA_LOSS_INFO=Чтобы избежать потери данных, сохраните документ также в другом формате файла.
+MSG_DL_MULTIPAGE=Этот формат файла не поддерживает множественные образы, хранимые в одном файле.<br>Только первая страница могла быть сохранена.
+MSG_DL_LAYERS=Этот формат файла не поддерживает сохранение информации слоя.<br>Поэтому образ был сохранен разглаженным.
+MSG_DL_SIZE_256=Этот формат файла не поддерживает сохранение образов, больших чем 256x256.<br>Эти образы были обрезаны.
+MSG_DL_TRANSPARENCY=Этот формат файла не поддерживает прозрачность.
+MSG_DL_COLOR_DEPTH=Некоторая часть информации цвета не могла быть сохранена.
+MSG_ADD_FILES=Пожалуйста, добавьте какие-либо файлы в список
+MSG_SELECT_PAGES=Пожалуйста, выберите какие-либо страницы
+MSG_SELECT_ITEMS=Пожалуйста, выберите какие-либо элементы
+MSG_CONFIRM_REMOVE=Вы действительно хотите удалить выбранный(ные) элемент(ы)?
+MSG_RES_EXIST=Другой ресурс с указанным типом, именем или языком уже существует.<br>Пожалуйста, выберите другое имя или язык.
+MSG_ERROR_WRITE_RES=Произошла ошибка при попытке сохранить изменения в указанные ресурсы.
+MSG_PAGE_SIZE_0=Ошибка: Физическая ширина страницы не может быть 0 мм.<br>Выберите другой формат бумаги.
+MSG_ERROR_ASSOC=Ассоциации файлов не могли быть установлены. Выполнение GreenPixel в режиме администратора может решить эту проблему.
+
+; Open/Save dialog filters
+FF_ALL=Все Файлы
+FF_GFIE=GreenPixel исходный формат
+FF_ICO=Файлы значков
+FF_CUR=Файлы курсоров
+FF_ANI=Анимированные курсоры
+FF_PNG=PNG
+FF_XPM=X-Pixmaps
+FF_BMP=Windows Bitmaps
+FF_JPEG=JPEG Файлы
+FF_GIF=GIF
+FF_PCX=PCX Файлы
+FF_EXEC=Все исполняемые и библиотеки значков
+FF_ICL=Библиотеки значков
+FF_RES=Файлы Win32 ресурсов
+
+; Tool names
+TOOL_SEL_RECT=Выбор прямоугольник
+TOOL_SEL_ELLIPSE=Выбор эллипс
+TOOL_LASSO=Лассо
+TOOL_WAND=Волшебная палочка
+TOOL_SEL_PENCIL=Выбор карандашом
+TOOL_TRANSFORM=Трансформация
+TOOL_CROP=Обрезка
+TOOL_HOTSPOT=Установить горячую точку
+TOOL_EYEDROPPER=Цветоподборщик [Пипетка]
+TOOL_RETOUCH=Ретушь
+TOOL_RECT=Прямоугольник
+TOOL_ELLIPSE=Эллипс
+TOOL_LINE=Линия
+TOOL_TEXT=Текст
+TOOL_PENCIL=Карандаш
+TOOL_BRUSH=Кисть
+TOOL_ERASER=Ластик
+TOOL_RECOLOR=Перекраска
+TOOL_BUCKET=Заливка цветом
+TOOL_GRADIENT=Заливка градиентом
+TOOL_NONE=Нет
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=Фа&йл
+MI_FILE_NEW_GRAPHIC=Новая графика
+MI_FILE_NEW_LIBRARY=Н&овая библиотека
+MI_FILE_OPEN=Открыть
+MI_FILE_RECENT_FILES=Недавн&ие файлы
+MI_FILE_RF_CLEAR=О&чистить список
+MI_FILE_OPEN_SAMPLE=Открыть пример
+MI_FILE_BATCH_CONVERT=Пакетное преобразование
+MI_FILE_CLOSE=&Закрыть
+MI_FILE_CLOSE_ALL=З&акрыть все
+MI_FILE_SAVE=Сохранить
+MI_FILE_SAVE_AS=&Сохранить как
+MI_FILE_SAVE_COPY=Сохранить как копию
+MI_FILE_SAVE_ALL=Сохра&нить все
+MI_FILE_REVERT=В Ис&ходное состояние
+MI_FILE_METADATA=Метаданные
+MI_FILE_PRINT=Печать
+MI_FILE_EXIT=В&ыход
+
+MI_EDIT=Пра&вка
+MI_EDIT_UNDO=Отменить
+MI_EDIT_CANT_UNDO=Не могу отменить
+MI_EDIT_REDO=Вернуть
+MI_EDIT_CANT_REDO=Не могу вернуть
+MI_EDIT_CUT=Вырезать
+MI_EDIT_COPY=Копировать
+MI_EDIT_PASTE=Вставить
+MI_EDIT_PASTE_PAGE=Вставить как Новая страница
+MI_EDIT_PASTE_DOC=Вставить как Новый документ
+MI_EDIT_DELETE=Удалить
+MI_EDIT_SEL_ALL=Выбрать Все
+MI_EDIT_SEL_NONE=Отменить Выбор всех
+MI_EDIT_SEL_INVERT=Обратить Выбор
+MI_EDIT_SEL_LOAD=З&агрузить маску выбора
+MI_EDIT_SEL_SAVE=С&охранить маску выбора
+MI_EDIT_CROP_TRANSPARENCY=Обр&езать прозрачные части
+MI_EDIT_TRANSFORM=Тра&нсформация
+MI_EDIT_SEL_TRANSFORM=Трансформация выборки
+MI_EDIT_FLIP_HORIZ=Пер&евернуть горизонтально
+MI_EDIT_FLIP_VERT=Пере&вернуть вертикально
+MI_EDIT_ROTATE_LEFT=Повернуть на 90° влево
+MI_EDIT_ROTATE_RIGHT=Повернуть на 90° вправо
+MI_EDIT_ROTATE_180=Вращать по 180°
+
+MI_VIEW=В&ид
+MI_VIEW_ZOOM_IN=Увеличить
+MI_VIEW_ZOOM_OUT=Уменьшить
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Подогнать по окну
+MI_VIEW_GRID=Сетка
+MI_VIEW_CELL_GRID=Сетка с коррекцией Ячеек
+MI_VIEW_CENTER_LINES=Осевые линии
+MI_VIEW_PAGES=Список Страниц
+MI_VIEW_TOOLBAR= Сервис
+MI_VIEW_COLOR_PICKER= Цветоподборщик
+MI_VIEW_TOOL_BEHAVIOR= Настройки Инструментов
+MI_VIEW_LAYERS= Слои
+MI_VIEW_STARTUP_SCREEN= На&чальный Экран
+MI_VIEW_PANEL_LEFT=Панель слева
+MI_VIEW_PANEL_RIGHT=Панель справа
+
+MI_FLT=Фи&льтры
+MI_FLT_GRAYSCALE=О&ттенки Серого
+MI_FLT_INVERT=Обр&атить
+MI_FLT_SOLARIZE=С&оляризация
+MI_FLT_RGB=RGB Каналы
+MI_FLT_HS=Оттенок/Насыщение
+MI_FLT_EXPOSURE=Выдержка
+MI_FLT_FORMULAE=RGB Уравнение
+MI_FLT_AVERAGE=Усредн&ить
+MI_FLT_BLUR_SOFT=Мягкая Размытость
+MI_FLT_BLUR_MORE=Размыть Больше
+MI_FLT_BLUR_CUSTOM=Заказная Размытость
+MI_FLT_SHARPEN=Увеличить Резкость
+MI_FLT_UNSHARP_MASK=Нерезкая Маска
+MI_FLT_REMOVE_MATTE=Удалить по Маске
+MI_FLT_OPACITY=Непрозрачность
+MI_FLT_PAINT_CONTOUR=Окраска Контура
+MI_FLT_DROP_SHADOW=Падающая Тень
+MI_FLT_GLOW=Свечение
+MI_FLT_BEVEL=Фаска
+
+MI_LAYERS=Сл&ои
+MI_LAYERS_NEW=Новый слой
+MI_LAYERS_DUPLICATE=Дублировать слой
+MI_LAYERS_DELETE=Удалить слой
+MI_LAYERS_PROP=Свойства слоя
+MI_LAYERS_MERGE_SELECTED=Объединить выбранные
+MI_LAYERS_MERGE_VISIBLE=Объединить видимые
+MI_LAYERS_FLATTEN=Разгладить образ
+MI_LAYERS_FROM_SEL=Создать слой из выбора
+
+MI_ICON=З&начок
+MI_ICON_PAGE_NEW=Новая страница
+MI_ICON_PAGE_DELETE=Удалить страницу
+MI_ICON_PAGE_PROP=Свойства страницы
+MI_ICON_PAGE_IMPORT=Импортировать страницу
+MI_ICON_PAGE_EXPORT=Экспортировать страницу
+MI_ICON_PAGE_EXPORT_WITH_PF=Экспортировать страницу с форматом пикселя (только BMP)
+MI_ICON_PAGE_EXPORT_ALL=Экспортировать все страницы
+MI_ICON_UNIFORM_RATE=Применить длительность ко всем кадрам
+MI_ICON_CREATE_FROM_IMAGE=Создать значок из образа
+MI_ICON_CREATE_WIN=Создать иконку для Windows из картинки
+MI_ICON_CREATE_MAC=Создать иконку для Mac из картинки
+MI_ICON_TEST=Тестирование
+
+MI_LIB=Библиотека
+MI_LIB_ADD=Добавить Ресурсы
+MI_LIB_REMOVE=Удалить Ресурсы
+MI_LIB_REPLACE=Заменить Ресурсы
+MI_LIB_PROP=Свойства Ресурса
+MI_LIB_EXTRACT_EDIT=Извлечь и Редактировать
+MI_LIB_EXTRACT_SAVE=Извлечь и Сохранить
+
+MI_TOOLS_MEMO=Записи
+
+MI_SET=На&стройки
+MI_SET_PREFERENCES=Параметры
+MI_SET_LANGUAGE=Язык
+MI_SET_CHECK_FOR_UPDATES=Проверить обновления
+
+MI_HELP=Спр&авка
+MI_HELP_CONTENTS=Содер&жание
+MI_HELP_HOMEPAGE=До&машняя Страница
+MI_HELP_WHATSNEW=Что нового?
+MI_HELP_SUPPORT=О&нлайн Поддержка
+MI_HELP_DONATE=Пожер&твовать
+MI_HELP_ABOUT=О пр&ограмме
+
+; Pixel Format to String
+PF_1_BIT=1-бит
+PF_16_COLORS=16 цветов
+PF_256_COLORS=256 цв-ов
+PF_24_BIT=24-бит
+PF_32_BIT=32-бит
+
+; Undo captions
+UNDO_CREATE_FLOATING=Создать Плавающую Выборку
+UNDO_MERGE_LAYERS=Объединить Слои
+UNDO_MOVE_LAYERS=Переместить Слой
+UNDO_MOVE_PAGE=Переместить Страницу
+UNDO_FLIP_ROTATE=Перевернуть/Повернуть
+
+; Layers glossary
+LY_LAYER=Слой
+LY_BACKGROUND=Фон
+LY_FLOATING_SEL=Плавающая Выборка
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Новая Страница
+PG_CAPTION_PAGE_PROP=Свойства Страницы
+
+PG_SIZE_SMALLEST=наименшая
+PG_SIZE_TOOLBAR=панель инструментов
+PG_SIZE_SMALL=малая
+PG_SIZE_MEDIUM=средняя
+PG_SIZE_LARGE=большая
+PG_SIZE_HUGE_VISTA=огромная, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Пользовательский размер
+PG_SQUARE=Квадрат
+PG_PROPORTIONAL=Сохранять пропорции
+
+PG_CR=Сокращение цветов
+PG_CR_ITEMS=Черный и Белый<br>16 цветов (системная палитра)<br>256 цветов (адаптивное)<br>24-бит RGB<br>Без сокращения (32-бит)
+
+PG_ANIMATION=При сохранении как Анимация
+PG_FRAME_RATE= Длительность кадра (миллисекунды)
+
+PG_OTHER=Прочее
+PG_DPI=DPI
+
+PG_CREATE_FROM_SELECTED=Создать из выбранной страницы
+PG_WHEN_RESIZING=При Изменении Размеров
+PG_STRETCH=Растяжка
+PG_CROP=Обрезка
+PG_IMAGE_ANCHORS=Якоря Образа
+
+; Color Picker
+TAB_HSB_MAP=HSB Карта
+TAB_SWATCHES=Образчики
+
+; Filter dialogs
+LABEL_RED=Краcн
+LABEL_GREEN=Зелен
+LABEL_BLUE=Синий
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Смещение оттенка
+LABEL_SATURATION=Насыщение
+LABEL_GAMMA=Гамма
+LABEL_BRIGHTNESS=Яркость
+LABEL_GAUSSIAN_BLUR=Гауссово Размытие
+LABEL_BOX_BLUR=Блочное Размытие
+LABEL_MATTE_COLOR=Цвет Маски
+LABEL_WHITE_MATTE=Маска Белого
+LABEL_BLACK_MATTE=Маска Черного
+LABEL_INNER_GLOW=Внутреннее Свечение
+LABEL_OUTER_GLOW=Внешнее Свечение
+
+LABEL_AMOUNT=Величина
+LABEL_ANGLE_DEGREES=Угол (градусы)
+LABEL_BLUR=Размытие
+LABEL_DISTANCE=Перспектива
+LABEL_INTENSITY=Интенсивность
+LABEL_OPACITY=Видимость
+LABEL_RADIUS=Радиус
+LABEL_THRESHOLD=Порог
+
+; Batch conversion dialog
+BC_FILES=Файлы
+BC_SETTINGS=Настройки
+BC_FORMAT=Преобразовать в
+BC_FOLDER=Папка назначения
+BC_OPEN=Открыть преобразованные файлы в ErrorSoft Green Pixel
+BC_ICON_FORMATS=Форматы значка для создания
+
+; Cell grid dialog
+CG_ENABLED=Включить
+CG_SIZE=Размер Ячейки
+CG_SPACING=Интервал Между Ячейками (Разрядка) 
+CG_OFFSET=Смещение
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Выберите форматы, которые Вы хотели бы создать
+
+; Language dialog
+LABEL_LANG_PACK=Языковой пакет
+
+; Layer properties dialog
+LP_NAME=Имя
+LP_VISIBLE=Видимый
+LP_BLEND_MODE=Режим смешивания
+
+LP_BM_NORMAL=Нормальный
+LP_BM_MASK=Маска
+LP_BM_BEHIND=Фон
+LP_BM_DISSOLVE=Разложение
+LP_BM_HUE=Оттенок
+LP_BM_HUE_SHIFT=Изменение цветового тона
+LP_BM_SAT=Насыщенность
+LP_BM_DARKEN=Затемнение
+LP_BM_MULTIPLY=Умножение
+LP_BM_COLOR_BURN=Затемнение основы
+LP_BM_LINEAR_BURN=Линейный затемнител
+LP_BM_DARKER_COLOR=Затемненный цвет
+LP_BM_LIGHTEN=Замена светлым
+LP_BM_SCREEN=Осветление
+LP_BM_COLOR_DODGE=Осветление основы
+LP_BM_LINEAR_DODGE=Линейный осветлитель (Add)
+LP_BM_LIGHTER_COLOR=Lighter Color
+LP_BM_OVERLAY=Перекрытие
+LP_BM_SOFT_LIGHT=Мягкий свет
+LP_BM_HARD_LIGHT=Жесткий свет
+LP_BM_VIVID_LIGHT=Яркий свет
+LP_BM_LINEAR_LIGHT=Линейный свет
+LP_BM_PIN_LIGHT=Точечный свет
+LP_BM_HARD_MIX=Жесткое смешивание
+LP_BM_DIFFERENCE=Разница
+LP_BM_EXCLUSION=Исключение
+
+; Metadata dialog
+MD_TYPE= Для %s файлов
+MD_TITLE=Заголовок
+MD_AUTHOR=Автор
+MD_COPYRIGHT=Авторские права
+MD_COMMENTS=Комментарии
+MD_QUALITY=Сохранить в качестве
+MD_DPI=DPI
+MD_LOOP_COUNT=Число повторений (0 = бесконечно)
+
+; Preferences dialog
+PREF_MISC=Разное
+PREF_ENVIRONMENT=Среда
+PREF_INSTALL=Установки
+PREF_IMAGE_MAX=Максимально разрешенный размер образа
+PREF_PNG_ICONS=Использование PNG сжатия в .ICO/.CUR файлах
+PREF_PNG_LIMIT=Сжимать образы, если из размер превосходит:
+PREF_AA_IMAGES=Сглаживать все измененные образы
+PREF_COLORS=Цвета
+PREF_TRANSPARENT_HATCH=Прозрач. штриховка
+PREF_GRID2=Вторичная сетка
+PREF_DVM= Вид диалога Открыть/Сохранить
+PREF_DVM_ITEMS=Значки<br>Список<br>Таблица<br>Эскизы<br>Плитка
+PREF_MWA= Действие колесика мыши
+PREF_MWA_ITEMS=Нет<br>Прокрутка<br>Масштабирование
+PREF_SAVE_TOOL_SETTINGS=Сохранять настройки инструментов между сеансами
+PREF_SWAP_LAYERS_AND_COLOR_PICKER=Поменять местами Слои и Цветоподборщик (Photoshop like)
+PREF_FILE_ASSOC=Ассоциации Файлов
+PREF_ADMIN=Заметьте, под Windows Vista - Windows 10, GreenPixel не может изменить эти системные настройки, если не выполняется в режиме администратора.
+PREF_AUTO_CHECK_FOR_UPDATES=Автоматическая проверка обновлений
+
+; Print dialog
+PRINT_COPIES=Копий
+PRINT_ZOOM=Масштаб (%)
+PRINT_CAPTION=Имя
+PRINT_PAGES=Печать
+PRINT_PAGES_BUTTONS= Все страницы<br> Данная страница
+
+; Resource properties dialog
+RP_NAME=Имя
+RP_LANGUAGE=Язык
+RP_LANG_CUSTOM=ID Заказного Языка
+RP_LANG_NEUTRAL=Нейтральный Язык
+
+; Startup screen
+ST_WELCOME=Добро пожаловать!
+ST_CHOOSE_ACTION=Пожалуйста, выберите действие для выполнения
+ST_NG=Создать новую графику
+ST_NG_INFO=Создать новый документ значка, курсора или анимации.
+ST_NL=Создать новую библиотеку
+ST_NL_INFO=Создать пустую библиотеку значка (.ICL) или файл ресурса (.RES)
+ST_OPEN=Открыть существующий документ
+ST_OPEN_INFO=Открыть файл образа, библиотеку значка, исполняемый файл или файл ресурса с носителя данных.
+ST_CONVERT=Пакетно преобразовать файлы образов
+ST_CONVERT_INFO=Преобразовать множественные файлы образов в значки или в другие форматы образа.
+ST_OPEN_SAMPLE=Открыть пример
+ST_OPEN_SAMPLE_INFO=Открыть пример изображения созданного в ErrorSoft GreenPixel.
+ST_NONE=Не выполнять никаких действий
+ST_NONE_INFO=Закрыть этот начальный экран.
+ST_RECENT_INFO=Открыть файл, недавно редактированный в ErrorSoft GreenPixel 
+ST_SHOW=Всегда показывать этот экран на запуске
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Перемещайте курсор над образом ниже
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Вставить Текст
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Сглаживание
+TB_PATTERN=Паттерн
+TB_IS_PATTERN_FILL=Заливка паттерна
+TB_IS_PATTERN_INVERT=Инвертировать паттерн
+TB_CLEAR_PATTERN=Убрать паттерн
+TB_SAMPLE_ALL_LAYERS=Выборка из всех слоев
+TB_NOTHING=Текущий выбранный инструмент не может быть настроен
+TB_BRUSH_SIZE=Размер Кисти
+TB_BRUSH_SHAPE=Форма Кисти
+TB_BRUSH_ITEMS=Круглая<br>Заостренная<br>Косая<br>Обрат. Косая<br>Горизонтальная<br>Вертикальная<br>Спрей
+TB_LINE_WIDTH=Ширина Линии
+TB_TOLERANCE=Допуск В.Палочки/Перекраски/Заливки
+TB_CONTIGUOUS=Заливка смежных пикселей
+TB_SHAPE_FRAMED=Каркасные Фигуры
+TB_SHAPE_FILLED=Залитые Фигуры
+TB_EYEDROPPER_BACK=Пипетка переключается назад на предыдущий инструмент
+TB_RETOUCH_MODE=Режим Ретуши
+TB_RETOUCH_ITEMS=Размытие<br>Резче<br>Осветление<br>Затемнение<br>Оттенок<br>Губка
+TB_ERASER_STRENGTH=Интенсивность Ластика (%)
+TB_G_LINEAR=Линейный Градиент
+TB_G_RADIAL=Радиальный Градиент
+TB_G_CONICAL=Конический Градиент
+TB_G_SPIRAL=Спиральный Градиент
+TB_REP_NONE=Без Повторения
+TB_REP_SYM=Симметричное Повторение
+TB_REP_ASYM=Асимметричное Повторение
+TB_MODE_COLOR=Режим Цвет
+TB_MODE_TRANSPARENCY=Режим Прозрачность
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=пикселы<br>%
+
+; Hints
+HINT_COMPACT=Компактный Вид
+
+HINT_CP_FORE_COLOR=Цвет Переднего Плана
+HINT_CP_BACK_COLOR=Цвет Фона
+HINT_CP_SWAP_COLORS=Обменять Цвета
+HINT_CP_DEFAULT=Восстановить По Умолчанию
+HINT_CP_TRANSPARENT=Прозрачный
+HINT_CP_INVERTED=Инвертированный
+HINT_CP_TOGGLE_CHOOSER=Переключение между HSB картой и палитрой
+HINT_CP_SWATCHES=Левый щелчок - выбрать цвет, правый щелчок - перезаписать образец текущим цветом
+HINT_CP_SWATCH_LOAD=Загрузить предустановку образца
+HINT_CP_SWATCH_SAVE=Сохранить предустановку образца
+HINT_CP_RED=Красный компонент
+HINT_CP_GREEN=Зеленый компонент
+HINT_CP_BLUE=Синий компонент
+HINT_CP_ALPHA=Альфа канал цвета (Непрозрачность)
+HINT_CP_HTML=HTML Код
+HINT_CP_WCP=Цветоподборщик Windows
+
+HINT_DOC_LB=Список страниц (форматы значков/кадры)
+HINT_DOC_LB_PAGE=Страница %d, размер: %d x %d пикселов
+HINT_DOC_LB_PNG=будет PNG-сжата при сохранении документа как .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Масштаб
+HINT_DOC_NODES=%d узлов
+HINT_DOC_TOGGLE_PAGES=Скрыть/Показать список страниц
+
+HINT_RES_FOLDER=Пожалуйста, выберите папку для извлекаемых файлов
+
+HINT_STARTUP_HELP=Справка
+HINT_TEST_BGR_LOAD=Загрузить фон
+HINT_TEST_BGR_DEFAULT=Фон по умолчанию
+
+HINT_TEXT_FACE=Шрифт
+HINT_TEXT_BOLD=Полужирный
+HINT_TEXT_ITALIC=Курсив
+HINT_TEXT_UNDERLINE=Подчеркнутый
+
+;Autoupdates
+AU_CHECK_FOR_UPDATES_QUESTION=Автоматически проверять обновления? (необходимо подключение к интернету)
+AU_UPDATE_AVIABLE_QUESTION=Доступно обновление, загрузить и установить обновление?
+
+; eof

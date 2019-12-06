@@ -1,0 +1,506 @@
+; ErrorSoft Green Pixel
+; Language pack: Finnish
+; Created by: VeikkoM
+
+; General dictionary
+LABEL_WIDTH=Leveys
+LABEL_HEIGHT=Korkeus
+LABEL_SIZE=Koko
+LABEL_COLOR=Väri
+LABEL_KIND=Laji
+LABEL_ANTIALIAS=Reunanpehmennys
+LABEL_POSITION=Sijainti
+LABEL_FILE_SIZE=Tiedostokoko
+UNTITLED=Nimetön
+
+; Buttons
+B_OK=OK
+B_CANCEL=Peruuta
+B_YES=Kyllä
+B_NO=Ei
+B_RESET=Palauta
+B_ADD=Lisää
+B_REMOVE=Poista
+B_CLEAR=Tyhjennä
+B_CLOSE=Sulje
+B_ALL=Kaikki
+B_NONE=Ei mitään
+B_PRINT=Tulosta
+B_PRINTER_SETUP=Tulostimen asetukset
+B_PREVIEW=Esikatselu
+B_COMPILE=Käännä
+
+; Shown messages
+MSG_CONFIRMATION=Vahvistus
+MSG_NOT_EXIST="%s" ei ole
+MSG_OVERWRITE=Haluatko korvata kohteen "%s"?
+MSG_UNKNOWN_FILE_TYPE=Tiedostomuotoa "%s" ei voitu määrittää automaattisesti.<br>Tätä tiedostoa ei voi ladata tai tallentaa ohjelmalla ErrorSoft Green Pixel tai tiedostolla on väärä tunnus.
+MSG_INVALID_FILE_FORMAT=Tiedosto "%s" ei täytä "%s" muotoa.<br>Tiedosto saattaa olla vahingoittunut, sillä voi olla väärä tunniste tai Avaa-valintaikkunassa on määritetty virheellinen suodatin.
+MSG_CROPPED=Kuva oli isompi kuin %dx %d ja oli rajattu.<br>Kuvan tallentaminen aiheuttaa tietojen häviämisen.<br>Käytä Asetukset|Ominaisuudet muuttaaksesi kuvakoon raja-asetuksia.
+MSG_SAVE_CHANGES=Haluatko tallentaa muutokset kohteeseen "%s"?
+MSG_CONFIRM_REVERT=Kaikki muutokset menetetään kohteeseen "%s", eikä tätä toimintoa voi kumota.<br>Haluatko varmasti jatkaa?
+MSG_CONFIRM_REMOVE=Haluatko poistaa valitut kohteet?
+MSG_CONFIRM_DESTROY_EXE=Kuvakkeita/osoittimia ei voi helposti korvata tässä suoritettavassa tiedostossa tai kuvakekirjastossa.<br><br>Jos tämä ohjelma tai DLL on tarkoitettu muuhun, kuin vain tallentamaan kuvakkeita, nämä ominaisuudet tuhotaan tallennuksen aikana.<br>Jos tämä tiedosto on vain kuvakekirjasto, sitten luultavasti mitään pahaa ei tapahdu.<br><br>Jatketaanko?
+MSG_DATA_LOSS_INFO=Vältä tietojen häviäminen tallentamalla asiakirja myös eri tiedostomuodossa.
+MSG_DL_MULTIPAGE=Tämä tiedostomuoto ei tue monisivuja tallennettuna yhteen tiedostoon.<br>Vain ensimmäisen sivun voisi tallentaa.
+MSG_DL_LAYERS=Tämä tiedostomuoto ei tue tasotietojen tallentamista. Kuva tallennettiin tasot yhdistettyinä.
+MSG_DL_SIZE_256=Tämä tiedostomuoto ei tue yli 256 x 256 tallentamista.<br>Nämä kuvat olivat rajattuja.
+MSG_DL_TRANSPARENCY=Tämä tiedostomuoto ei tue läpinäkyvyyttä.
+MSG_DL_COLOR_DEPTH=Osaa väritiedoista ei voitu tallentaa.
+MSG_DL_ICNS=Sivuja ei voitu tallentaa ICNS formaatin rajoituksen vuoksi. Katso ohjesta lisätietoja tiedostomuodoista.
+MSG_FT_NO_OPTIONS=Valittua tiedostomuoto ei voi mukauttaa
+MSG_ADD_FILES=Lisää tiedostoja luetteloon
+MSG_SELECT_PAGES=Valitse joitain sivuja
+MSG_SELECT_ITEMS=Valitse joitain kohteita
+MSG_NO_LAYERS=Tasoja ei ole
+MSG_NO_LAYERS_SELECTED=Tasoja ei ole valittu
+MSG_RES_EXIST=Toinen määritetty tyyppi, jonka nimi ja kieli ovat jo olemassa.<br>Valitse toinen nimi tai kieli.
+MSG_ERROR_WRITE_RES=Virhe tallennettaessa määritettyjä resursseja.
+MSG_PAGE_SIZE_0=Virhe: fyysisen sivun leveys ei voi olla 0 mm.<br>Valitse toinen paperikoko.
+MSG_ERROR_ASSOC=Tiedostokytkentöjä ei voitu määrittää. GreenPixel Käynnistäminen järjestelmän valvojana saattaa ratkaista ongelman.
+MSG_FAIL_SINGLE_OPEN=Valittua tiedostoa ei voitu ladata.
+MSG_FAIL_MULTIPLE_OPEN=Joitain tiedostoja ei voi avata.
+
+; Open/Save dialog filters
+FF_ALL=Kaikki tiedostot
+FF_GFIE=GreenPixel alkuperäinen formaatti
+FF_ICO=Kuvaketiedostot
+FF_CUR=Kohdistintiedostot
+FF_ANI=Animoidut osoittimet
+FF_ICNS=Apple Icon Image Format
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bittikartat
+FF_JPEG=JPEG tiedostot
+FF_GIF=Graphics Interchange Format
+FF_JPEG_2000=JPEG 2000 tiedostot
+FF_PCX=PCX-tiedostot
+FF_EXEC=Kaikki suoritettavat tiedostot ja kuvakekirjastot
+FF_ICL=Kuvakekirjastot
+FF_RES=Win32 resurssitiedostot
+
+; Tool names
+TOOL_SEL_RECT=Suorakulmainen valinta
+TOOL_SEL_ELLIPSE=Elliptinen valinta
+TOOL_LASSO=Lasso
+TOOL_WAND=Taikasauva
+TOOL_SEL_PENCIL=Valitse kynällä
+TOOL_TRANSFORM=Siirto
+TOOL_CROP=Rajaus
+TOOL_HOTSPOT=Aktiivipiste
+TOOL_EYEDROPPER=Värivalitsin
+TOOL_RETOUCH=Korjailu
+TOOL_RECT=Suorakulmio
+TOOL_ELLIPSE=Soikio
+TOOL_LINE=Viiva
+TOOL_TEXT=Teksti
+TOOL_PENCIL=Kynä
+TOOL_BRUSH=Sivellin
+TOOL_ERASER=Pyyhekumi
+TOOL_RECOLOR=Muuta värejä
+TOOL_BUCKET=Täyttö
+TOOL_GRADIENT=Liukuväritäyttö
+TOOL_NONE=Ei mitään
+
+; Menu shortcuts
+KEY_CTRL=CTRL
+KEY_ALT=ALT
+KEY_SHIFT=Vaihto
+KEY_DEL=Del
+KEY_ENTER=Kirjoita
+
+; Menu items
+MI_FILE=Tiedosto
+MI_FILE_NEW_GRAPHIC=Uusi piirros
+MI_FILE_NEW_LIBRARY=Uusi kirjasto
+MI_FILE_OPEN=Avaa
+MI_FILE_RECENT_FILES=Nykyiset tiedostot
+MI_FILE_RF_CLEAR=Tyhjennä luettelo
+MI_FILE_BATCH_CONVERT=Erämuunna tiedostoja
+MI_FILE_CLOSE=Sulje
+MI_FILE_CLOSE_ALL=Sulje kaikki
+MI_FILE_SAVE=Tallenna
+MI_FILE_SAVE_AS=Tallenna nimellä
+MI_FILE_SAVE_ALL=Tallenna kaikki
+MI_FILE_REVERT=Palauta
+MI_FILE_METADATA=Metatiedot
+MI_FILE_PRINT=Tulosta
+MI_FILE_EXIT=Poistu
+
+MI_EDIT=Muokkaa
+MI_EDIT_UNDO=Kumoa
+MI_EDIT_CANT_UNDO=Ei voi kumota
+MI_EDIT_REDO=Tee uudelleen
+MI_EDIT_CANT_REDO=Ei voi tehdä uudelleen
+MI_EDIT_CUT=Leikkaa
+MI_EDIT_COPY=Kopioi
+MI_EDIT_PASTE=Liitä
+MI_EDIT_PASTE_PAGE=Liitä uutena sivuna
+MI_EDIT_PASTE_DOC=Liitä uutena asiakirjana
+MI_EDIT_DELETE=Poista
+MI_EDIT_SEL_ALL=Valitse kaikki
+MI_EDIT_SEL_NONE=Poista kaikki valinnat
+MI_EDIT_SEL_INVERT=Käänteinen valinta
+MI_EDIT_SEL_LOAD=Lataa valintamaski
+MI_EDIT_SEL_SAVE=Tallenna valintamaski
+MI_EDIT_CROP_TRANSPARENCY=Rajaa läpinäkyvät osat
+MI_EDIT_TRANSFORM=Muunna
+MI_EDIT_SEL_TRANSFORM=Muunna valinta
+MI_EDIT_FLIP_HORIZ=Käännä vaakasuunnassa
+MI_EDIT_FLIP_VERT=Käännä pystysuunnassa
+MI_EDIT_ROTATE_LEFT=Kierrä 90° vasemmalle
+MI_EDIT_ROTATE_RIGHT=Kierrä 90° oikealle
+MI_EDIT_ROTATE_180=Kierrä 180°
+
+MI_VIEW=Näkymä
+MI_VIEW_ZOOM_IN=Lähennä
+MI_VIEW_ZOOM_OUT=Loitonna
+MI_VIEW_100_PERCENT=100 %
+MI_VIEW_FIT_WINDOW=Sovita ikkunaan
+MI_VIEW_GRID=Ruudukko
+MI_VIEW_CELL_GRID=Ruudukko
+MI_VIEW_CENTER_LINES=Keskiviivat
+MI_VIEW_PAGES=Sivuluettelo
+MI_VIEW_TOOLBAR=Työkalurivi
+MI_VIEW_COLOR_PICKER=Värinvalitsin
+MI_VIEW_TOOL_BEHAVIOR=Työkalun käyttäytyminen
+MI_VIEW_LAYERS=Tasot
+MI_VIEW_PANEL_LEFT=Vasen paneeli
+MI_VIEW_PANEL_RIGHT=Oikea paneeli
+MI_VIEW_STARTUP_SCREEN=Aloitusnäyttö
+
+MI_FLT=Suodattimet
+MI_FLT_GRAYSCALE=Harmaasävy
+MI_FLT_INVERT=Negatiivi
+MI_FLT_SOLARIZE=Solarisaatio
+MI_FLT_RGB=RGB kanavat
+MI_FLT_HS=Sävy/kylläisyys
+MI_FLT_EXPOSURE=Valotus
+MI_FLT_FORMULAE=RGB lauseke
+MI_FLT_AVERAGE=Keskiarvo
+MI_FLT_BLUR_SOFT=Pehmeä sumennus
+MI_FLT_BLUR_MORE=Sumenna lisää
+MI_FLT_BLUR_CUSTOM=Mukautettu sumennus
+MI_FLT_SHARPEN=Terävöinti
+MI_FLT_UNSHARP_MASK=Epäterävä maski
+MI_FLT_REMOVE_MATTE=Poista peiteväri
+MI_FLT_OPACITY=Peittävyys
+MI_FLT_PAINT_CONTOUR=Ääriviiva
+MI_FLT_DROP_SHADOW=Varjo
+MI_FLT_GLOW=Hehku
+MI_FLT_BEVEL=Viiste
+
+MI_LAYERS=Tasot
+MI_LAYERS_NEW=Uusi taso
+MI_LAYERS_DUPLICATE=Monista taso
+MI_LAYERS_DELETE=Poista taso
+MI_LAYERS_PROP=Tason ominaisuudet
+MI_LAYERS_MERGE_SELECTED=Yhdistä valitut
+MI_LAYERS_MERGE_VISIBLE=Yhdistä näkyvät
+MI_LAYERS_FLATTEN=Yhdistä kaikki tasot
+MI_LAYERS_FROM_SEL=Luo taso valinnasta
+
+MI_ICON=Kuvake
+MI_ICON_PAGE_NEW=Uusi sivu
+MI_ICON_PAGE_DELETE=Poista sivu
+MI_ICON_PAGE_PROP=Sivun ominaisuudet
+MI_ICON_PAGE_IMPORT=Tuo sivuja
+MI_ICON_PAGE_EXPORT=Vie sivu
+MI_ICON_PAGE_EXPORT_ALL=Vie kaikki sivut
+MI_ICON_UNIFORM_RATE=Käytä kehyksen kestoa kaikkiin kehyksiin
+MI_ICON_CREATE_WIN=Luo Windows-kuvake kuvasta
+MI_ICON_CREATE_MAC=Luo Mac-kuvake kuvasta
+MI_ICON_TEST=Kokeile eri taustoilla
+
+
+MI_LIB=Kirjasto
+MI_LIB_ADD=Lisää resursseja
+MI_LIB_REMOVE=Poista resursseja
+MI_LIB_REPLACE=Korvaa resursseja
+MI_LIB_PROP=Resurssin ominaisuudet
+MI_LIB_EXTRACT_EDIT=Pura ja muokkaa
+MI_LIB_EXTRACT_SAVE=Pura ja tallenna
+
+MI_SET=Asetukset
+MI_SET_PREFERENCES=Asetukset
+MI_SET_LANGUAGE=Kieli
+
+MI_HELP=Ohje
+MI_HELP_CONTENTS=Sisältö
+MI_HELP_HOMEPAGE=Kotisivu
+MI_HELP_SUPPORT=Verkkotuki
+MI_HELP_DONATE=Lahjoita
+MI_HELP_ABOUT=Tietoja
+
+; Pixel Format to String
+PF_1_BIT=1 bitti
+PF_16_COLORS=16 väriä
+PF_256_COLORS=256 väriä
+PF_24_BIT=24 bittiä
+PF_32_BIT=32 bittiä
+
+; Undo captions
+UNDO_CREATE_FLOATING=Kelluvan valinnan luonti
+UNDO_MERGE_LAYERS=Tasojen yhdistäminen
+UNDO_MOVE_LAYERS=Tasojen siirto
+UNDO_MOVE_PAGE=Sivun siirto
+UNDO_FLIP_ROTATE=Kääntö/kierto
+
+; Layers glossary
+LY_LAYER=Taso
+LY_BACKGROUND=Tausta
+LY_FLOATING_SEL=Kelluva valinta
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Uusi sivu
+PG_CAPTION_PAGE_PROP=Sivun ominaisuudet
+
+PG_SIZE_SMALLEST=pienin
+PG_SIZE_TOOLBAR=työkalurivi
+PG_SIZE_SMALL=pieni
+PG_SIZE_MEDIUM=keskiväli
+PG_SIZE_LARGE=suuri
+PG_SIZE_HUGE_VISTA=valtava, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Mukautettu koko
+PG_SQUARE=Neliö
+
+PG_CR=Värien vähentäminen
+PG_CR_BW=Musta/valkoinen
+PG_CR_16_WIN=16 väriä (Windows paletti)
+PG_CR_16_MAC=16 väriä (Mac paletti)
+PG_CR_256_ADAPT=256 väriä (mukautuva)
+PG_CR_256_MAC=256 väriä (Mac paletti)
+PG_CR_24=24 bitin RGB
+PG_CR_32=Ei vähennystä (32-bit)
+
+PG_ANIMATION=Animaatio
+PG_FRAME_RATE=Kehyksen kesto (millisekuntia)
+
+PG_CREATE_FROM_SELECTED=Luo valitulta sivulta
+PG_WHEN_RESIZING=Koon muuttaminen
+PG_STRETCH=Venytys
+PG_CROP=Rajaus
+PG_IMAGE_ANCHORS=Tukipisteet
+
+; Filter dialogs
+LABEL_RED=Punainen
+LABEL_GREEN=Vihreä
+LABEL_BLUE=Sininen
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Värisävyn muutos
+LABEL_SATURATION=Kylläisyys
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Kirkkaus
+LABEL_TORIC=Torus
+LABEL_GAUSSIAN_BLUR=Gaussian Blur
+LABEL_BOX_BLUR=Box Blur
+LABEL_MATTE_COLOR=Peiteväri
+LABEL_WHITE_MATTE=Valkoinen
+LABEL_BLACK_MATTE=Musta
+LABEL_INNER_GLOW=Sisäinen hehku
+LABEL_OUTER_GLOW=Ulompi hehku
+
+LABEL_AMOUNT=Määrä
+LABEL_ANGLE_DEGREES=Kulma (°)
+LABEL_BLUR=Sumennus
+LABEL_DISTANCE=Etäisyys
+LABEL_INTENSITY=Voimakkuus
+LABEL_OPACITY=Peittävyys
+LABEL_RADIUS=Säde
+LABEL_THRESHOLD=Kynnys
+
+; Batch conversion dialog
+BC_FILES=Tiedostot
+BC_SETTINGS=Asetukset
+BC_FORMAT=Muunna 
+BC_FOLDER=Kohdekansio
+BC_OPEN=Avaa muunnetut tiedostot ohjelmalla ErrorSoft Green Pixel
+BC_ICON_FORMATS=Kuvakkeiden muodon luominen
+
+; Cell grid dialog
+CG_ENABLED=Käytössä
+CG_SIZE=Solun koko
+CG_SPACING=Solujen välistys
+CG_OFFSET=Siirtymä
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Valitse muoto, jonka haluat luoda
+
+; ICL format dialog
+IF_TITLE=Valitse ICL-muoto
+
+; Language dialog
+LABEL_LANG_PACK=Kielipaketti
+
+; Layer properties dialog
+LP_NAME=Nimi
+LP_VISIBLE=Näkyvissä
+LP_BLEND_MODE=Sekoitustila
+
+LP_BM_NORMAL=Normaali
+LP_BM_MASK=Maski
+LP_BM_BEHIND=Taakse
+LP_BM_DISSOLVE=Häivytys
+LP_BM_HUE=Värisävy
+LP_BM_HUE_SHIFT=Värisävyn muutos
+LP_BM_SAT=Kylläisyys
+LP_BM_DARKEN=Tummentava
+LP_BM_MULTIPLY=Kertova
+LP_BM_COLOR_BURN=Värilisävalotus
+LP_BM_LINEAR_BURN=Lineaarinen lisävalotus
+LP_BM_DARKER_COLOR=Tummempi väri
+LP_BM_LIGHTEN=Vaalentava
+LP_BM_SCREEN=Rasteri
+LP_BM_COLOR_DODGE=Lisävalotus
+LP_BM_LINEAR_DODGE=Lineaarinen lisävalotus (lisää)
+LP_BM_LIGHTER_COLOR=Vaaleampi väri
+LP_BM_OVERLAY=Sulauttava
+LP_BM_SOFT_LIGHT=Pehmeä valo
+LP_BM_HARD_LIGHT=Kova valo
+LP_BM_VIVID_LIGHT=Kirkas valo
+LP_BM_LINEAR_LIGHT=Lineaarinen valo
+LP_BM_PIN_LIGHT=Kohdevalo
+LP_BM_HARD_MIX=Kova sekoitus
+LP_BM_DIFFERENCE=Erottava
+LP_BM_EXCLUSION=Poistava
+
+; Metadata dialog
+MD_TYPE=%s tiedostoille
+MD_TITLE=Otsikko
+MD_AUTHOR=Tekijä
+MD_COPYRIGHT=Tekijänoikeus
+MD_COMMENTS=Kommentit
+MD_QUALITY=Tallenna laatu
+MD_LOOP_COUNT=Toistomäärä (0 = ääretön)
+
+; Preferences dialog
+PREF_MISC=Muut
+PREF_ENVIRONMENT=Ympäristö
+PREF_INSTALL=Liitännät
+PREF_IMAGE_MAX=Suurin sallittu kuvakoko
+PREF_PNG_ICONS=PNG-pakkauksen käyttö .ICO /.CUR-tiedostoissa
+PREF_PNG_LIMIT=Pakkaa kuvat, joiden koko on vähintään
+PREF_AA_IMAGES=Reunanpehmennys kaikille muutetuille kuville
+PREF_COLORS=Värit
+PREF_TRANSPARENT_HATCH=Läpinäkyvä ristikko
+PREF_GRID2=Lisäruudukko
+PREF_DVM=Näytä Avaa/Tallenna
+PREF_DVM_ITEMS=Kuvakkeet<br>Luettelo<br>Tiedot<br>Pikkukuvat<br>Laatat
+PREF_MWA=Hiiripyörän toiminto
+PREF_MWA_ITEMS=Ei mitään<br>Vieritä<br>Zoomaa
+PREF_SAVE_TOOL_SETTINGS=Tallenna työkaluasetukset istuntojen välillä
+PREF_FILE_ASSOC=Tiedostojen kytkennät
+PREF_ADMIN=Jos käytät Windows Vistaa tai uudempaa, GreenPixel ei voi muuttaa järjestelmäasetuksia, ellet suorita ohjelmaa järjestelmänvalvojana.
+
+; Print dialog
+PRINT_COPIES=Kopiot
+PRINT_ZOOM=Zoom  (%)
+PRINT_CAPTION=Kuvateksti
+PRINT_PAGES=Tulosta
+PRINT_PAGES_BUTTONS=Kaikki sivut<br>Nykyinen sivu
+
+; Resource properties dialog
+RP_NAME=Nimi
+RP_LANGUAGE=Kieli
+RP_LANG_CUSTOM=Mukautettu kielitunnus
+RP_LANG_NEUTRAL=Kielestä riippumaton
+
+; Save options dialog
+SO_TITLE=Tallenna asetukset
+SO_QUALITY=Laatu
+SO_LOSSLESS=Häviötön
+
+; Startup screen
+ST_WELCOME=Tervetuloa!
+ST_CHOOSE_ACTION=Valitse suoritettava toiminto
+ST_NG=Luo uusi kuva
+ST_NG_INFO=Luo uuden kuvakkeen, osoittimen tai animaatio-asiakirjan
+ST_NL=Luo uusi kirjasto
+ST_NL_INFO=Luo tyhjän ikonikirjaston  (.ICL) tai resurssitiedoston  (.RES)
+ST_OPEN=Avaa aiemmin luotu asiakirja
+ST_OPEN_INFO=Avaa kuvatiedosto, kuvakekirjasto, suoritettava tiedoston tai resurssitiedosto muistivälineeltä
+ST_CONVERT=Erämuunna  kuvatiedostoja
+ST_CONVERT_INFO=Muuntaa useita kuvatiedostoja kuvakkeiksi tai toiseen muotoon
+ST_NONE=Ei toimintoa
+ST_NONE_INFO=Sulkee alkunäytön
+ST_RECENT_INFO=Avaa tiedosto, joka on äskettäin muokattu ohjelmalla ErrorSoft Green Pixel
+ST_SHOW=Näytä tämä näyttö käynnistettäessä
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Siirrä osoitin allaolevaan kuvaan 
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Lisää tekstiä
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Reunanpehmennys
+TB_PATTERN=Kuviointi
+TB_SAMPLE_ALL_LAYERS=Näyte kaikista tasoista
+TB_BRUSH_SIZE=Sivellinkoko
+TB_BRUSH_SHAPE=Siveltimen muoto
+TB_BRUSH_ITEMS=Pyöristetty<br>Terävä<br>Vinoviiva<br>Kenoviiva<br>Vaaka<br>Pysty<br>Ruisku
+TB_LINE_WIDTH=Viivan leveys
+TB_TOLERANCE=Taikasauvan/Värien vaihdon/Täytön toleranssi (%)
+TB_CONTIGUOUS=Vierekkäiset
+TB_SHAPE_FRAMED=Kehystetyt muodot
+TB_SHAPE_FILLED=Täytetyt muodot
+TB_EYEDROPPER_BACK=Pipetti vaihtuu takaisin edelliseen työkaluun
+TB_RETOUCH_MODE=Korjailutila
+TB_RETOUCH_ITEMS=Sumennus<br>Terävöinti<br>Lisävalotus<br>Värivalotus<br>Värisävy<br>Sieni
+TB_ERASER_STRENGTH=Pyyhekumin vahvuus (%)
+TB_G_LINEAR=Lineaarinen liukuväri
+TB_G_RADIAL=Radiaali kaltevuus
+TB_G_CONICAL=Kartiomainen liukuväri
+TB_G_SPIRAL=Kierre kaltevuus
+TB_REP_NONE=Ei toistoa
+TB_REP_SYM=Symmetrinen toisto
+TB_REP_ASYM=Epäsymmetrinen toisto
+TB_MODE_COLOR=Väritila
+TB_MODE_TRANSPARENCY=Läpinäkyvyystila
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=pikseliä<br>%
+
+; Hints
+HINT_COMPACT=Kutistettu näkymä
+
+HINT_CP_FORE_COLOR=Edustaväri
+HINT_CP_BACK_COLOR=Taustaväri
+HINT_CP_SWAP_COLORS=Vaihda värit
+HINT_CP_DEFAULT=Palauta oletusasetus
+HINT_CP_TRANSPARENT=Läpinäkyvä
+HINT_CP_INVERTED=Käänteinen
+HINT_CP_TOGGLE_CHOOSER=Vaihda HSB kartta/väriviuhkat
+HINT_CP_SWATCHES=Valitse väri hiiren vasemmalla, kakkospainikkeella korvaa väriviuhka nykyisellä värillä
+HINT_CP_SWATCH_LOAD=Lataa väriviuhkan alkuasetus
+HINT_CP_SWATCH_SAVE=Tallenna väriviuhkan esiasetus
+HINT_CP_RED=Punainen osa
+HINT_CP_GREEN=Vihreät komponentit
+HINT_CP_BLUE=Sinisen komponentti
+HINT_CP_ALPHA=Alfa-väri  (opasiteetti)
+HINT_CP_HTML=HTML-koodi
+HINT_CP_WCP=Windows värinvalitsija
+
+HINT_DOC_LB=Luettelo sivuista  (kuvake muodot/kehykset)
+HINT_DOC_LB_PAGE=Sivu  %d, koko: %d x %d pikseliä
+HINT_DOC_LB_PNG=tallennettaessa .ICO/.CUR formaattiin, käytetään PNG pakkausta
+HINT_DOC_ZOOM_MENU=Zoomaus
+HINT_DOC_NODES=%d solmua
+HINT_DOC_TOGGLE_PAGES=Näytä/piilota sivuluettelo
+
+HINT_RES_FOLDER=Valitse kansio puretuille tiedostoille
+
+HINT_STARTUP_HELP=Ohje
+HINT_TEST_BGR_LOAD=Lataa tausta
+HINT_TEST_BGR_DEFAULT=Oletustausta
+
+HINT_TEXT_FACE=Fontti
+HINT_TEXT_BOLD=Lihavoitu
+HINT_TEXT_ITALIC=Kursiivi
+HINT_TEXT_UNDERLINE=Alleviivaus
+
+; eof

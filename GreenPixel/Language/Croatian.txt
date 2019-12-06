@@ -1,0 +1,388 @@
+; ErrorSoft Green Pixel
+; Language pack: Croatian
+; Created by: Anonimac
+
+; Glavni direktorij
+LABEL_WIDTH=Širina
+LABEL_HEIGHT=Visina
+LABEL_SIZE=Veličina
+LABEL_COLOR=Boja
+LABEL_KIND=Vrsta
+LABEL_ANTIALIAS=Antialijas
+LABEL_POSITION=Pozicija
+UNTITLED=Neimenovano
+
+; Gumbi
+B_OK=U redu
+B_CANCEL=Poništi
+B_RESET=Restartiraj
+B_ADD=Dodaj
+B_REMOVE=Ukloni
+B_CLEAR=Obriši
+B_CLOSE=Zatvori
+B_ALL=Sve
+B_NONE=Nijedan
+B_PRINT=Ispiši
+B_PRINTER_SETUP=Podesi pisač
+B_PREVIEW=Pregledaj
+B_COMPILE=Kompajliraj
+
+; Prikazane poruke
+MSG_NOT_EXIST="%s" ne postoji
+MSG_NOT_FOUND_ICLSTUB=Važna datoteka, "Config\iclstub.dll" ne može biti pronađena.<br>Nadomjestite datoteku iz GreenPixel zip paketa.
+MSG_OVERWRITE=Želite li prepisati preko "%s"?
+MSG_UNKNOWN_FILE_TYPE=Format datoteke "%s" se nije mogao automatski odrediti. Ova datoteka ne može biti učitana ili upamćena u ErrorSoft Green Pixel ili ima pogrešni nastavak.
+MSG_INVALID_FILE_FORMAT=Datoteka "%s" ne podržava format "%s".<br>Datoteka može biti pokvarena, može imati pogrešni nastavak, ili je neispravan filter određen u Otvori dijaloški okvir.
+MSG_CROPPED=Slika je bila veća nego %dx%d i isječena je.<br>Spremanje slike će prouzroćiti gubitak podataka.<br>Koristite Pomoć|Postavke da povećate granicu veličine slike.
+MSG_SAVE_CHANGES=Želite li spremiti promjene u "%s"?
+MSG_CONFIRM_REVERT=Sve promjene načinjene u "%s" će biti izgubljene i ova operacija se ne može poništiti.<br>Jeste li zaista sigurni da želite nastaviti?
+MSG_DATA_LOSS_INFO=Kako bi ste izbjegli gubitak podataka, spremite dokument u još jednom formatu datoteke.
+MSG_DL_MULTIPAGE=Ovaj format datoteke ne podržava mogućnost čuvanja više slika u jednoj datoteci.<br>Samo prva strana može biti sačuvana.
+MSG_DL_SIZE_256=Ovaj format datoteke ne podržava spremanje slika veće rezolucije od 256x256 piksela.<br>Ove slike su isjećene.
+MSG_DL_TRANSPARENCY=Ovaj format datoteke ne podržava prozirnost.
+MSG_DL_COLOR_DEPTH=Neki dijelovi informacije o boji nisu uspješno spremljeni.
+MSG_ADD_FILES=Dodajte još datoteka na list
+MSG_SELECT_PAGES=Odaberite još stranica
+MSG_SELECT_ITEMS=Odaberite još detalja
+MSG_CONFIRM_REMOVE=Želite li ukloniti izabran(e) detalj(e)?
+MSG_RES_EXIST=Drugi resurs s određenim tipom, imenom i jezikom već postoji.<br>Odaberite drugo ime ili jezik.
+MSG_PAGE_SIZE_0=Greška: fizicka širina stranice ne može biti 0 mm.<br>Odaberite drugi format papira.
+
+; Otvori/Spremi filteri dijaloga
+FF_ALL=Sve datoteke
+FF_ICO=Datoteke ikona
+FF_CUR=Datoteke strelica
+FF_ANI=Animirane strelice
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Piksmape
+FF_BMP=Bitmape
+FF_JPEG=JPEG datoteke
+FF_GIF=Graphics Interchange Format
+FF_EXEC=Sve izvršive datoteke i biblioteke ikona
+FF_ICL=Biblioteke ikona
+FF_RES=Win32 resursne datoteke
+
+; Imena alata
+TOOL_SEL_RECT=Pravokutni oblik odabira
+TOOL_SEL_ELLIPSE=Eliptični oblik odabira
+TOOL_LASSO=Laso
+TOOL_WAND=Magični štapić
+TOOL_SEL_PENCIL=Odabir olovkom
+TOOL_TRANSFORM=Transformacija
+TOOL_CROP=Isjeci
+TOOL_HOTSPOT=Podesi hotspot
+TOOL_EYEDROPPER=Kapaljka
+TOOL_RETOUCH=Retuširanje
+TOOL_RECT=Pravokutnik
+TOOL_ELLIPSE=Elipsa
+TOOL_LINE=Crta
+TOOL_TEXT=Tekst
+TOOL_PENCIL=Olovka
+TOOL_BRUSH=četka
+TOOL_ERASER=Gumica
+TOOL_RECOLOR=Ponovno bojenje
+TOOL_BUCKET=Punjenje kantice
+TOOL_GRADIENT=Punjenje gradientom
+TOOL_NONE=Ništa
+
+; Meni prečice
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_ENTER=Enter
+KEY_DEL=Delete
+
+; Stavke menija
+MI_FILE=Datoteka
+MI_FILE_NEW_GRAPHIC=Novi grafički dokument
+MI_FILE_NEW_LIBRARY=Nova biblioteka
+MI_FILE_OPEN=Otvori
+MI_FILE_RECENT_FILES=Nedavne datoteke
+MI_FILE_RF_CLEAR=Obriši listu
+MI_FILE_BATCH_CONVERT=Grupno konvertirane datoteke
+MI_FILE_CLOSE=Zatvori
+MI_FILE_CLOSE_ALL=Zatvori sve
+MI_FILE_SAVE=Spremi
+MI_FILE_SAVE_AS=Spremi kao
+MI_FILE_SAVE_ALL=Spremi sve
+MI_FILE_REVERT=Vrati
+MI_FILE_METADATA=Metapodaci
+MI_FILE_PRINT=Ispiši
+MI_FILE_EXIT=Izađi
+
+MI_EDIT=Uređivanje
+MI_EDIT_UNDO=Poništi
+MI_EDIT_CANT_UNDO=Nemoguće poništiti
+MI_EDIT_REDO=Ponovi
+MI_EDIT_CANT_REDO=Nemoguće ponoviti
+MI_EDIT_CUT=Izreži
+MI_EDIT_COPY=Kopiraj
+MI_EDIT_PASTE=Zalijepi
+MI_EDIT_PASTE_PAGE=Zalijepi kao Nova Stranica
+MI_EDIT_DELETE=Izbriši
+MI_EDIT_SEL_ALL=Odaberi sve
+MI_EDIT_SEL_NONE=Odaberi ništa
+MI_EDIT_SEL_INVERT=Preokreni odabrano
+MI_EDIT_SEL_LOAD=Ucitaj odabranu masku
+MI_EDIT_SEL_SAVE=Spremi odabranu masku
+MI_EDIT_CROP_TRANSPARENCY=Isjeci prozirne dijelove
+MI_EDIT_TRANSFORM=Transformiraj
+MI_EDIT_SEL_TRANSFORM=Transformiraj odabrano
+MI_EDIT_FLIP_HORIZ=Okreni horizontalno
+MI_EDIT_FLIP_VERT=Okreni vertikalno
+MI_EDIT_ROTATE_LEFT=Okreni za 90° lijevo
+MI_EDIT_ROTATE_RIGHT=Okreni za 90° desno
+MI_EDIT_ROTATE_180=Okreni za 180°
+
+MI_VIEW=Prikaz
+MI_VIEW_ZOOM_IN=Povećaj
+MI_VIEW_ZOOM_OUT=Smanji
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Podesi prema prozoru
+MI_VIEW_GRID=Mreža
+MI_VIEW_CENTER_LINES=Središnje crte
+MI_VIEW_PAGES=Popis stranica
+MI_VIEW_TOOLBAR=Alatna traka
+MI_VIEW_COLOR_PICKER=Odabirač boja
+MI_VIEW_TOOL_BEHAVIOR=Karakteristike alata
+MI_VIEW_STARTUP_SCREEN=Početni zaslon
+
+MI_FLT=Filteri
+MI_FLT_GRAYSCALE=Crno-Bijelo
+MI_FLT_INVERT=Preokreni
+MI_FLT_SOLARIZE=Solariziraj
+MI_FLT_RGB=RGB kanali
+MI_FLT_HS=Nijansa
+MI_FLT_EXPOSURE=Izloženost
+MI_FLT_FORMULAE=RGB Formula
+MI_FLT_AVERAGE=Prosječno
+MI_FLT_BLUR_SOFT=Meka zamrljanost
+MI_FLT_BLUR_MORE=Dodaj zamrljanost
+MI_FLT_BLUR_CUSTOM=Prilagodi zamrljanost
+MI_FLT_SHARPEN=Zaoštri
+MI_FLT_UNSHARP_MASK=Otupi masku
+MI_FLT_REMOVE_MATTE=Ukloni zamućenost
+MI_FLT_OPACITY=Prozirnost
+MI_FLT_PAINT_CONTOUR=Obris boje
+MI_FLT_DROP_SHADOW=Dodaj sjenu
+MI_FLT_GLOW=Sjaj
+MI_FLT_BEVEL=Nagib
+
+MI_ICON=Ikona
+MI_ICON_PAGE_NEW=Nova stranica
+MI_ICON_PAGE_DELETE=Obriši stranicu
+MI_ICON_PAGE_PROP=Svojstva stranice
+MI_ICON_PAGE_EXPORT=Izvezi stranicu
+MI_ICON_UNIFORM_RATE=Primjeni brzinu sličice na sve
+MI_ICON_CREATE_FROM_IMAGE=Napravi ikonu od slike
+MI_ICON_TEST=Test
+
+MI_LIB=Library
+MI_LIB_ADD=Dodaj izvore
+MI_LIB_REMOVE=Ukloni izvore
+MI_LIB_REPLACE=Nadoknadi izvore
+MI_LIB_PROP=Svojstva izvora
+MI_LIB_EXTRACT_EDIT=Izvuci i uredi
+MI_LIB_EXTRACT_SAVE=Izvuci i spremi
+
+MI_HELP=Pomoć
+MI_HELP_CONTENTS=Sadržaj
+MI_HELP_GS=Tutorijal
+MI_HELP_HOMEPAGE=Web stranica
+MI_HELP_DONATE=Doniraj
+MI_HELP_PREFERENCES=Podešavanja
+MI_HELP_LANGUAGE=Jezik
+MI_HELP_ABOUT=O programu
+
+; Piksel Format za String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 boja
+PF_256_COLORS=256 boja
+PF_24_BIT=24-bita
+PF_32_BIT=32-bita
+
+; Nazivi za poništavanja
+UNDO_MOVE_PAGE=Pomicanje stranice
+UNDO_FLIP_ROTATE=Okretanje/Rotiranje
+
+; Dijalog o svojstvima stranice
+PG_CAPTION_NEW_PAGE=Nova stranica
+PG_CAPTION_PAGE_PROP=Svojstva stranice
+
+PG_SIZE_ITEMS=16 x 16 (najmanje)<br>20 x 20 (XP prozorska ikona)<br>24 x 24 (alatna traka)<br>32 x 32 (malo)<br>48 x 48 (srednje)<br>64 x 64 (veliko)<br>256 x 256 (ogromno, Vista)<br>Prilagođeno
+PG_CUSTOM_SIZE=Prilagođena veličina
+PG_SQUARE=Kvadrat
+
+PG_CR=Redukcija boje
+PG_CR_ITEMS=Crno-Bijela<br>16 boja (sistemska paleta)<br>256 boja (prilagodljiva)<br>24-bita RGB<br>Bez smanjenja (32-bit)
+
+PG_ANIMATION=Animacija
+PG_FRAME_RATE=Broj sličica po milisekundi
+PG_CREATE_FROM_SELECTED=Napravi od odabrane stranice
+
+; Izabirač boja
+TAB_HSB_MAP=HSB Mapa
+TAB_SWATCHES=Uzorci
+
+; Dijalozi podešavanja filtera
+LABEL_RED=Crvena
+LABEL_GREEN=Zelena
+LABEL_BLUE=Plava
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Promijena nijanse
+LABEL_SATURATION=Natopljenost
+LABEL_GAMMA=Gama
+LABEL_BRIGHTNESS=Svjetloća
+LABEL_GAUSSIAN_BLUR=Pokretna zamrljanost
+LABEL_BOX_BLUR=Kockasta zamrljanost
+LABEL_MATTE_COLOR=Boja zamućenost
+LABEL_WHITE_MATTE=Bijela zamućenost
+LABEL_BLACK_MATTE=Crna zamućenost
+LABEL_INNER_GLOW=Unutrašnji sjaj
+LABEL_OUTER_GLOW=Vanjski sjaj
+
+LABEL_AMOUNT=Količina
+LABEL_ANGLE_DEGREES=Ugao (stepeni)
+LABEL_BLUR=Zamrljanost
+LABEL_DISTANCE=Udaljenost
+LABEL_INTENSITY=JačinaSnaga
+LABEL_OPACITY=Providnost
+LABEL_RADIUS=Radijus
+LABEL_THRESHOLD=Granica
+
+; Stvaranje ikone od slike u dijaloškom okviru
+CI_SELECT_FORMATS=Odaberite formate koje biste željeli napraviti
+
+; Grupni okvir konverzije
+BC_FILES=Datoteke
+BC_SETTINGS=Postavke
+BC_FORMAT=Konvertiraj u
+BC_FOLDER=Izabrana datoteka
+BC_OPEN=Otvori konvertirane datoteke u ErrorSoft Green Pixel
+BC_ICON_FORMATS=Formati ikona za stvaranje
+
+; Okvir sa postavkama
+PREF_MISC=Razno
+PREF_ENVIRONMENT=Okolina
+PREF_INSTALL=Instaliraj
+PREF_IMAGE_MAX=Maksimalna dozvoljena veličina slike
+PREF_PNG_ICONS=Korištenje PNG kompresije u .ICO/.CUR datotekama
+PREF_PNG_LIMIT=Kompresiraj sliku čija je veličina najmanja
+PREF_COLORS=Boje
+PREF_TRANSPARENT_HATCH=Prozirnost grupa
+PREF_DVM=Način prikaza Otvori/Spremi dijaloga
+PREF_DVM_ITEMS=Ikone<br>Lista<br>Informacije<br>Sličice<br>Tapete
+PREF_MWA=Radnja izvršena okretanjem točkica na mišu
+PREF_MWA_ITEMS=Nijedan<br>Pomicanje<br>Zum
+PREF_SAVE_TOOL_SETTINGS=Postavke alata spremanja između sesija
+PREF_FILE_ASSOC=Asociranje sa datotekama
+
+; Okvir jezika
+LABEL_LANG_PACK=Jezični paket
+
+; Metapodatkovni dijaloški okvir
+MD_TYPE=Za %s datoteke
+MD_TITLE=Naslov
+MD_AUTHOR=Autor
+MD_COPYRIGHT=Autorska prava
+MD_COMMENTS=Komentari
+MD_QUALITY=Spremi u kvaliteti
+MD_LOOP_COUNT=Broj ponavljanja (0 = neograničeno)
+
+; Okvir ispisivanja
+PRINT_COPIES=Kopije
+PRINT_ZOOM=Povećavanje (%)
+PRINT_CAPTION=Naziv
+PRINT_PAGES=Ispiši
+PRINT_PAGES_BUTTONS=Sve stranice<br>Trenutna stranica
+
+; Početni zaslon
+ST_CHOOSE_ACTION=Molimo izaberite radnju za izvršavanje
+ST_NG=Napravi novi grafički dokument
+ST_NG_INFO=Izrađuje novu ikonu, strelicu ili animacijski dokument
+ST_NL=Napravi novu biblioteku
+ST_NL_INFO=Izrađuje praznu biblioteku ikona (.ICL) ili resursnu datoteku (.RES)
+ST_OPEN=Otvori postojeći dokument
+ST_OPEN_INFO=Otvara datoteku slike, biblioteku ikona ili drugu sliku iz podatkovnog medija
+ST_CONVERT=Grupno konvertirane datoteke slika
+ST_CONVERT_INFO=Pretvara više datoteka slika u ikone ili u drugi format slike
+ST_NONE=Ne izvršavaj nikakvu akciju
+ST_NONE_INFO=Zatvara početni zaslon
+ST_RECENT_INFO=Otvara datoteku koja je nedavno uređen u ErrorSoft Green Pixel
+ST_SHOW=Uvijek pokaži početni zaslon po pokretanju
+
+; Test okvir
+LABEL_MOVE_OVER_IMAGE=Postavi strelicu preko slike ispod
+
+; Okvir umetanja teksta
+CAPTION_INSERT_TEXT=Umetni tekst
+
+; Prozor ponašanja alata
+TB_ANTIALIAS=Antialijas
+TB_BRUSH_ITEMS=Kružno<br>Oštro<br>Kosa crta<br>Povratna kosa crta<br>Horizontalno<br>Vertikalno<br>Sprej
+TB_RETOUCH_ITEMS=Zamrljanost<br>Izoštri<br>Zamrljaj<br>Otopi<br>Nijansa<br>Spužva
+
+; Prozor transformiranja odabranog
+XF_UNITS_ITEMS=pikseli<br>%
+
+; Savjeti
+HINT_COMPACT=Kompaktan izgled
+
+HINT_CP_FORE_COLOR=Prednja boja
+HINT_CP_BACK_COLOR=Boja pozadine
+HINT_CP_SWAP_COLORS=Zamijeni boje
+HINT_CP_DEFAULT=Vrati na prvobitna podešavanja
+HINT_CP_TRANSPARENT=Prozirnost
+HINT_CP_INVERTED=Preobrnute boje
+HINT_CP_SWATCHES=Lijevi klik za izabir boje, desni klik za zamjenjivanje uzorka sa trenutnom bojom
+HINT_CP_SWATCH_LOAD=Učitaj prvobitni uzorak
+HINT_CP_SWATCH_SAVE=Sačuvaj podešenja uzorka
+HINT_CP_RED=Crvena komponenta
+HINT_CP_GREEN=Zelena komponenta
+HINT_CP_BLUE=Plava komponenta
+HINT_CP_ALPHA=Alfa boje (providnost)
+HINT_CP_HTML=HTML kod
+HINT_CP_WCP=Windows Odabirač Boja
+
+HINT_DOC_LB=Lista stranica (formati ikona/sličice)
+HINT_DOC_LB_PAGE=Stranica %d, veličina: %d x %d piksela
+HINT_DOC_LB_PNG=Bit će PNG-kompresiran kod cuvanja dokumenta kao .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Povećanje
+HINT_DOC_NODES=%d čvorova
+HINT_DOC_TOGGLE_PAGES=Sakrij/pokaži popis stranica
+
+HINT_RES_FOLDER=Izaberite mapu za izvučene datoteke
+
+HINT_STARTUP_HELP=Pomoć
+HINT_TEST_BGR_LOAD=Učitaj pozadinu
+HINT_TEST_BGR_DEFAULT=Uobičajena pozadina
+
+HINT_TEXT_FACE=Lice fonta
+HINT_TEXT_BOLD=Podebljano
+HINT_TEXT_ITALIC=Kurziv
+HINT_TEXT_UNDERLINE=Podvučeno
+
+HINT_TB_FRAMED=Uokvireni objekti
+HINT_TB_FILLED=Ispunjeni objekti
+HINT_TB_LINE_WIDTH=Debljina crte
+HINT_TB_EYEDROPPER_BACK=Kapaljka se vraća na prošli alat
+HINT_TB_BRUSH_SIZE=Veličina cetke
+HINT_TB_BRUSH_SHAPE=Oblik četke
+HINT_TB_TOLERANCE=Čarobni štapić/Ponovno bojanje/Tolerancija kantice (%)
+HINT_TB_RETOUCH_MODE=Mod retuširanja
+HINT_TB_ERASER_STRENGTH=Snaga gumice (%)
+HINT_TB_G_LINEAR=Linearni gradijent
+HINT_TB_G_RADIAL=Radijalni gradijent
+HINT_TB_G_CONICAL=Stožast gradijent
+HINT_TB_G_SPIRAL=Spiralni gradijent
+HINT_TB_REP_NONE=Bez ponavljanja
+HINT_TB_REP_SYM=Simetričko ponavljanje
+HINT_TB_REP_ASYM=Asimetričko ponavljanje
+HINT_TB_MODE_COLOR=Mod boje
+HINT_TB_MODE_TRANSPARENCY=Mod prozirnosti
+
+; eof
+

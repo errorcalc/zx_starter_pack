@@ -1,0 +1,56 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>How to deal with layers</title>
+
+</head><body>
+<span class="n">
+
+How to...
+
+<center><h1>Deal with layers</h1></center>
+
+Suppose that you are working on a button graphic with some text like <em>OK</em>, and you would like to change the text to e.g. <em>Cancel</em>. When using a simpler graphic program, you have to remove the text pixel-by-pixel, restoring the exact background carefully.<p>
+
+Using layers, this process is much easier. You have to create one layer for the background and one for the text, then select the text layer and use the <em>Eraser (E)</em> tool to clear the whole layer - the background now remains intact. When not using layers, the process is as hard as removing graffiti - a separate layer is similar to placing a removable protective coating on the concerned wall. All pages of your GreenPixel document initially consist of one layer named <em>Background</em>.<p>
+
+The most important properties of a layer are:<p>
+
+<ul>
+	<li><em>Name</em><p>
+	<span class="r">This is an arbitrary text identifier for the layer.</span></li>
+	<li><em>Visibility</em><p>
+	<span class="r">Invisible layers can also be drawn to (of course if they are selected).</li>
+	<li><em>Opacity</em> (0..255)</li>
+	<li><em>Blend mode</em><p>
+	This property specifies how the layer pixels blend with the underlying image. The default mode is <em>Normal</em>. Other modes can be used for special effects: <em>Multiply</em> simulates the effect of sheets drawn with permanent marker, using the <em>Screen</em> mode is similar to shooting two images on the same film, <em>Lighter Color</em> chooses the lighter of the layer and background colors, etc.</li>
+</ul><p>
+
+<span class="r">It's important to know that only those layers are editable which are selected in the <em>Layers list</em> window - painting tools only affect these layers. If no layers are selected in the list, you will see a dashed circle (<em>No</em> sign) when trying to use a tool.<p>
+Nevertheless, the <em>floating selection</em> counts as a special layer - it cannot be drawn to, but it can be moved and resized, while other layers have a static size in GreenPixel.</span><p>
+
+Note that layer information cannot be preserved unless you save your work in the native GreenPixel format. When saving a multilayer image in e.g. PNG format, only the result of the blending process is saved - reopening that file would show only one <em>Background</em> layer remaining (read more <a href="formats.html">here</a>.<p>
+
+<h2>Creating colored text using layers</h2>
+
+The following example demonstrates the use of layer masks:<p>
+
+<ol>
+	<li>Create a page about 400 by 100 pixels large.</li>
+	<li>Select a dark red color and the <em>Bucket (K)</em> tool.</li>
+	<li>Fill the whole <em>Background</em> layer with red paint.</li>
+	<li>Select the <em>Retouch (U)</em> tool.</li>
+	<li>Set the retouch mode to <em>Hue</em> and the brush size to a larger value in the <em>Tool behavior</em> dialog.</li>
+	<li>Draw some strokes with the retouch brush on the red background.<p>
+	<span class="r">This causes an effect similar to the colors of spilt oil by modifying image hue.</span></li>
+	<li>Create a new layer using <em>Layers|New layer</em> or pressing <em>Ctrl+L</em>.</li>
+	<li>Double-click on the item representing the new layer in the layers list or choose <em>Layers|Layer properties</em> to open the properties dialog.</li>
+	<li>Name this layer <em>Text</em> and choose the <em>Mask</em> blend mode.<p>
+	<center><img src="../images/layerprop.png"></center><p>
+	<span class="r">When using the <em>Mask</em> blend mode, the alpha values of the layer below are multiplied with the alpha of the blending layer - this means that transparent pixels hide all background pixels, so you will see a fully transparent image now.</span></li>
+	<li>Select the new layer in the list, use the <em>Text (T)</em> tool, type some text and click OK.<p>
+	<span class="r">Since the text serves as a mask for the layer below, its opaque pixels allow the background to show through.</span></li>
+	<li>Move the floating selection to the right place and press <em>Ctrl+D</em>.</li>
+</ol>
+
+</span>
+</body></html>

@@ -1,0 +1,500 @@
+﻿; ErrorSoft Green Pixel
+; Language pack: Română
+; Created by: Borodi Gheorghe
+
+; General dictionary
+LABEL_WIDTH=Lăţime
+LABEL_HEIGHT=Înălţime
+LABEL_SIZE=Dimensiune
+LABEL_COLOR=Culoare
+LABEL_KIND=Fel
+LABEL_ANTIALIAS=Antialias
+LABEL_POSITION=Poziţia
+LABEL_FILE_SIZE=Mărimea fişierului
+UNTITLED=Fără titlu
+
+; Buttons
+B_OK=OK
+B_CANCEL=Anulare
+B_YES=Da
+B_NO=Nu
+B_RESET=Reset
+B_ADD=Adauga
+B_REMOVE=Şterge
+B_CLEAR=Clar
+B_CLOSE=Închide
+B_ALL=Toate
+B_NONE=Nici unul
+B_PRINT=Imprimantă
+B_PRINTER_SETUP=Imprimantă setare
+B_PREVIEW=Previzualizare
+B_COMPILE=Alcătuire
+
+; Shown messages
+MSG_CONFIRMATION=Confirmare
+MSG_NOT_EXIST="%s" nu exista
+MSG_OVERWRITE=Doriţi să suprascrieţi "%s"?
+MSG_UNKNOWN_FILE_TYPE=Formatul de fişier "%s" nu poate fi determinat automat.<br>Acest fişier nu poate fi încărcat sau salvat de ErrorSoft Green Pixel sau are o extensie greşită.
+MSG_INVALID_FILE_FORMAT=File "%s" nu respectă formatul "%s".<br>Fişier poate fi corupt, poate avea o extensie greşită, sau un filtru incorect, poate au fost specificate în caseta de dialog la Deschidere.
+MSG_CROPPED=Imaginea a fost mai mare decât %dx%d şi a fost decupată.<br>Salvarea imaginii va provoca pierderi de date.<br>Folosește Setările|Preferinţe pentru a creşte limita dimensiunii imaginii.
+MSG_SAVE_CHANGES=Doriţi să salvaţi modificările aduse "%s"?
+MSG_CONFIRM_REVERT=Toate modificările aduse "%s"se vor pierde şi această operaţiune nu poate fi anulată.<br>Eşti sigur că vei continua?
+MSG_CONFIRM_REMOVE=Chiar vreți să eliminaţi elementul selectat(s)?
+MSG_CONFIRM_DESTROY_EXE=Pictogramele/cursoarele nu pot fi uşor de înlocuit în acest fişier executabil sau bibliotecă de pictograme.<br><br>În cazul în care acesta este un program sau DLL care are ca scop și altceva,nu doar de depozitare pictograme, atunci aceste alte capabilităţi vor fi distruse în timpul salvarii.<br>Dacă acest fişier este doar o bibliotecă de pictogramă, atunci, probabil, nimic rău nu se va întâmpla.<br><br>Continuaţi oricum?
+MSG_DATA_LOSS_INFO=Pentru a evita pierderea de date, trebuie să salvaţi documentul, într-un format diferit de fişier.
+MSG_DL_MULTIPAGE=Acest format de fişier nu acceptă mai multe pagini stocate într-un singur fişier.<br>Doar prima pagină poate fi salvată.
+MSG_DL_LAYERS=Acest format de fişier nu acceptă salvarea informaţiilor strat. Imaginea a fost salvată aplatizat.
+MSG_DL_SIZE_256=Acest format de fişier nu acceptă salvarea imaginii mai mare de 256x256.<br>Aceste imagini au fost trunchiate.
+MSG_DL_TRANSPARENCY=Acest format de fişier nu acceptă transparenţă.
+MSG_DL_COLOR_DEPTH=O parte a informaţiilor de culoare nu au putut fi salvate.
+MSG_DL_ICNS=Unele pagini nu ar putea fi salvate din cauza limitărilor de format ICNS. Pentru mai multe detalii, vezi secţiunea de ajutor pe formate de fişiere .
+MSG_FT_NO_OPTIONS=Formatul de fişier selectat nu poate fi personalizat
+MSG_ADD_FILES=Vă rugăm să adăugaţi câteva fişiere la listă
+MSG_SELECT_PAGES=Vă rugăm să selectaţi câteva pagini
+MSG_SELECT_ITEMS=Vă rugăm să selectaţi câteva elemente
+MSG_NO_LAYERS=Nu sunt prezente straturi
+MSG_NO_LAYERS_SELECTED=Nu sunt selectate straturi
+MSG_RES_EXIST=O altă resursă cu tipul, numele şi limba menţionate deja există.<br>Vă rugăm să alegeţi un alt nume sau limbă.
+MSG_ERROR_WRITE_RES=O eroare a avut loc în timpul încercării de salvare a modificările aduse resurselor specificate.
+MSG_PAGE_SIZE_0=Eroare:lăţimea paginii fizic nu poate fi 0 mm.<br>Alege un alt format de hârtie.
+MSG_ERROR_ASSOC=Asociaţiile de fişiere nu a putut fi stabilită. Rularea GreenPixel în modul de administrator poate rezolva problema.
+MSG_FAIL_SINGLE_OPEN=Nu a putut fi încărcat fişierul selectat.
+MSG_FAIL_MULTIPLE_OPEN=Unele fişiere nu au putut fi deschise.
+
+; Open/Save dialog filters
+FF_ALL=Toate fișierele
+FF_GFIE=GreenPixel nativ format
+FF_ICO=Fişiere pictograme
+FF_CUR=Fişiere Cursor
+FF_ANI=Cursoare animate
+FF_ICNS=Apple pictograme Image Format
+FF_PNG=Portable Network Graphics
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bitmaps
+FF_JPEG=JPEG fișiere
+FF_GIF=Graphics Interchange Format
+FF_JPEG_2000=JPEG 2000 fișiere
+FF_PCX=PCX fișiere
+FF_EXEC=Toate fișierele executabile  și biblioteci pictograme
+FF_ICL=Biblioteci pictograme
+FF_RES=Win32 resurse fișiere
+
+; Tool names
+TOOL_SEL_RECT=Selectaţi Rectangular
+TOOL_SEL_ELLIPSE=Selectaţi Elliptic
+TOOL_LASSO=Lasso
+TOOL_WAND=Wand
+TOOL_SEL_PENCIL=Selectaţi creion
+TOOL_TRANSFORM=Transformare
+TOOL_CROP=Decupează
+TOOL_HOTSPOT=Hot spot
+TOOL_EYEDROPPER=Pipetă
+TOOL_RETOUCH=Retuș
+TOOL_RECT=Rectangular
+TOOL_ELLIPSE=Elipsă
+TOOL_LINE=Linie
+TOOL_TEXT=Text
+TOOL_PENCIL=Creion
+TOOL_BRUSH=Pensulă
+TOOL_ERASER=Gumă de șters
+TOOL_RECOLOR=Recolorare
+TOOL_BUCKET=Găleată de umplere
+TOOL_GRADIENT=Umplere graduală
+TOOL_NONE=Nimic
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=Fișier
+MI_FILE_NEW_GRAPHIC=Grafică nouă
+MI_FILE_NEW_LIBRARY=Librărie nouă
+MI_FILE_OPEN=Deschide
+MI_FILE_RECENT_FILES=Fișier recent
+MI_FILE_RF_CLEAR=Șterge lista
+MI_FILE_BATCH_CONVERT=Conversie fișiere in grup
+MI_FILE_CLOSE=Închis
+MI_FILE_CLOSE_ALL=Închis tot
+MI_FILE_SAVE=Salvează
+MI_FILE_SAVE_AS=Salvează asta
+MI_FILE_SAVE_ALL=Salvează tot
+MI_FILE_REVERT=Revino
+MI_FILE_METADATA=Metadata
+MI_FILE_PRINT=Imprimare
+MI_FILE_EXIT=Ieșire
+
+MI_EDIT=Editare
+MI_EDIT_UNDO=Înapoi
+MI_EDIT_CANT_UNDO=Nu se poate înapoi
+MI_EDIT_REDO=Înainte
+MI_EDIT_CANT_REDO=Nu se poate înainte
+MI_EDIT_CUT=Taie
+MI_EDIT_COPY=Copiază
+MI_EDIT_PASTE=Lipește
+MI_EDIT_PASTE_PAGE=Lipire ca pagină nouă
+MI_EDIT_PASTE_DOC=Lipire ca document nou
+MI_EDIT_DELETE=Șterge
+MI_EDIT_SEL_ALL=Selectează tot
+MI_EDIT_SEL_NONE=Deselectează tot
+MI_EDIT_SEL_INVERT=Inversează selecția
+MI_EDIT_SEL_LOAD=Ia maska selectată
+MI_EDIT_SEL_SAVE=Salvează maska selectată
+MI_EDIT_CROP_TRANSPARENCY=Decupează partea transparentă
+MI_EDIT_TRANSFORM=Transformă
+MI_EDIT_SEL_TRANSFORM=Transformă selecția
+MI_EDIT_FLIP_HORIZ=Rotește orizontal
+MI_EDIT_FLIP_VERT=Rotește vertical
+MI_EDIT_ROTATE_LEFT=Rotire 90 de grade stânga
+MI_EDIT_ROTATE_RIGHT=Rotire 90 de grade dreapta
+MI_EDIT_ROTATE_180=Rotire 180 de grade
+
+MI_VIEW=Vezi
+MI_VIEW_ZOOM_IN=Micșorează
+MI_VIEW_ZOOM_OUT=Zoom out
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Cît fereastra
+MI_VIEW_GRID=Grilă
+MI_VIEW_CELL_GRID=Rețea in celule
+MI_VIEW_CENTER_LINES=Center lines
+MI_VIEW_PAGES=Listă de pagini
+MI_VIEW_TOOLBAR=Bară de instrumente
+MI_VIEW_COLOR_PICKER=Alegere culoare
+MI_VIEW_TOOL_BEHAVIOR=Comportarea instrumentului
+MI_VIEW_LAYERS=Strat
+MI_VIEW_STARTUP_SCREEN=Ecranul de pornire
+
+MI_FLT=Filtre
+MI_FLT_GRAYSCALE=Scală de gri
+MI_FLT_INVERT=Inversează
+MI_FLT_SOLARIZE=Solarizare
+MI_FLT_RGB=RGB Canale
+MI_FLT_HS=Hue/Saturation
+MI_FLT_EXPOSURE=Exposure
+MI_FLT_FORMULAE=RGB Formulae
+MI_FLT_AVERAGE=Mediu
+MI_FLT_BLUR_SOFT=Blur Moale
+MI_FLT_BLUR_MORE=Blur Mult
+MI_FLT_BLUR_CUSTOM=Blur Reglabil
+MI_FLT_SHARPEN=Ascuțire
+MI_FLT_UNSHARP_MASK=Dezascuțire maskă
+MI_FLT_REMOVE_MATTE=Scoatere matul
+MI_FLT_OPACITY=Opacitae
+MI_FLT_PAINT_CONTOUR=Vopsea de contur
+MI_FLT_DROP_SHADOW=Un pic de umbră
+MI_FLT_GLOW=Strălucire
+MI_FLT_BEVEL=Teșire
+
+MI_LAYERS=Strat
+MI_LAYERS_NEW=Strat nou
+MI_LAYERS_DUPLICATE=Duplicare strat
+MI_LAYERS_DELETE=Șterge strat
+MI_LAYERS_PROP=Proprietați strat
+MI_LAYERS_MERGE_SELECTED=Merge selecția
+MI_LAYERS_MERGE_VISIBLE=Merge vizibil
+MI_LAYERS_FLATTEN=Aplatizare imagine
+MI_LAYERS_FROM_SEL=Creare strat din selecție
+MI_ICON=Pictogramă
+MI_ICON_PAGE_NEW=Pagină nouă
+MI_ICON_PAGE_DELETE=Șterge pagina
+MI_ICON_PAGE_PROP=Proprietăți pagină
+MI_ICON_PAGE_IMPORT=Importă pagini
+MI_ICON_PAGE_EXPORT=Exportă pagină
+MI_ICON_PAGE_EXPORT_ALL=Exportă toate paginile
+MI_ICON_UNIFORM_RATE=Se aplică durata cadru pentru toate cadrele
+MI_ICON_CREATE_WIN=Creare pictograma din imagini
+MI_ICON_CREATE_MAC=Creare Pictograme, Mac icon, din imagini
+MI_ICON_TEST=Test
+
+MI_LIB=Librărie
+MI_LIB_ADD=Adaugă resurse
+MI_LIB_REMOVE=Șterge resurse
+MI_LIB_REPLACE=Înlocuire resursă
+MI_LIB_PROP=Proprietăți resursă
+MI_LIB_EXTRACT_EDIT=Extragere si editare
+MI_LIB_EXTRACT_SAVE=Extragere si salvare
+
+MI_SET=Setări
+MI_SET_PREFERENCES=Preferințe
+MI_SET_LANGUAGE=Limbă
+
+MI_HELP=Ajutor
+MI_HELP_CONTENTS=Conținut
+MI_HELP_HOMEPAGE=Pagina de start
+MI_HELP_SUPPORT=Online suport
+MI_HELP_DONATE=Donați
+MI_HELP_ABOUT=Despre
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 colori
+PF_256_COLORS=256 colori
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=Crearea de selecţie flotantă
+UNDO_MERGE_LAYERS=Merge strat
+UNDO_MOVE_LAYERS=Mută stratul
+UNDO_MOVE_PAGE=Mută pagina
+UNDO_FLIP_ROTATE=Impuls/Rotire
+; Layers glossary
+LY_LAYER=Strat
+LY_BACKGROUND=Fundal
+LY_FLOATING_SEL=Flotare selectie
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Pagină nouă
+PG_CAPTION_PAGE_PROP=Pagină proprietăti
+
+PG_SIZE_SMALLEST=Mai mic
+PG_SIZE_TOOLBAR=Bară de unelte
+PG_SIZE_SMALL=Mic
+PG_SIZE_MEDIUM=mediu
+PG_SIZE_LARGE=larg
+PG_SIZE_HUGE_VISTA=Mare, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Ajustare marime
+PG_SQUARE=Square
+
+PG_CR=Color reduction
+PG_CR_BW=Negru și alb
+PG_CR_16_WIN=16 colori (Windows palette)
+PG_CR_16_MAC=16 colori (Mac palette)
+PG_CR_256_ADAPT=256 colori (adaptare)
+PG_CR_256_MAC=256 colori (Mac palette)
+PG_CR_24=24-bit RGB
+PG_CR_32=Nu reducție (32-bit)
+
+PG_ANIMATION=Animație
+PG_FRAME_RATE=Durată cadru (millisecunde)
+
+PG_CREATE_FROM_SELECTED=Crearea de la pagina selectată
+PG_WHEN_RESIZING=cînd redimensionare
+PG_STRETCH=Întinde
+PG_CROP=Decupează
+PG_IMAGE_ANCHORS=Ancorează imaginea
+
+; Filter dialogs
+LABEL_RED=Roșu
+LABEL_GREEN=Verde
+LABEL_BLUE=Albastru
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Schimbare nuanță
+LABEL_SATURATION=Saturație
+LABEL_GAMMA=Gamma
+LABEL_BRIGHTNESS=Luminozitate
+LABEL_TORIC=Torus mode
+LABEL_GAUSSIAN_BLUR=Gaussian Blur
+LABEL_BOX_BLUR=Box Blur
+LABEL_MATTE_COLOR=Mat color
+LABEL_WHITE_MATTE=Alb mat
+LABEL_BLACK_MATTE=Negru mat
+LABEL_INNER_GLOW=Strălucire interior
+LABEL_OUTER_GLOW=Strălucire exterior
+
+LABEL_AMOUNT=Sumă
+LABEL_ANGLE_DEGREES=Unghi (degrees)
+LABEL_BLUR=Blur
+LABEL_DISTANCE=Distanță
+LABEL_INTENSITY=Intensitate
+LABEL_OPACITY=Opacitate
+LABEL_RADIUS=Rază
+LABEL_THRESHOLD=Prag
+
+; Batch conversion dialog
+BC_FILES=Fișiere
+BC_SETTINGS=Setări
+BC_FORMAT=Convertiţi la
+BC_FOLDER=Dosarul ţinta
+BC_OPEN=Deschideţi fişierele convertite în ErrorSoft Green Pixel
+BC_ICON_FORMATS=Pentru a crea formate de pictograme
+
+; Cell grid dialog
+CG_ENABLED=Activat
+CG_SIZE=Dimensiunea de celule
+CG_SPACING=Spaţiere celulă
+CG_OFFSET=Diferenţa
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Selectaţi formatele pe care aţi dori să creaţi
+
+; ICL format dialog
+IF_TITLE=Selectați format ICL 
+
+; Language dialog
+LABEL_LANG_PACK=Pachetul lingvistic
+
+; Layer properties dialog
+LP_NAME=Nume
+LP_VISIBLE=Visibil
+LP_BLEND_MODE=Modul de amestec
+
+LP_BM_NORMAL=Normal
+LP_BM_MASK=Mask
+LP_BM_BEHIND=În urmă
+LP_BM_DISSOLVE=Dizolvare
+LP_BM_HUE=Nuanță
+LP_BM_HUE_SHIFT=Schimbă nuanța
+LP_BM_SAT=Saturatie
+LP_BM_DARKEN=Umbri
+LP_BM_MULTIPLY=Multiply
+LP_BM_COLOR_BURN=Culoare arsă
+LP_BM_LINEAR_BURN=Liniar Ars
+LP_BM_DARKER_COLOR=Umbrire Culoare
+LP_BM_LIGHTEN=Lumină
+LP_BM_SCREEN=Ecran
+LP_BM_COLOR_DODGE=Evită Culoarea
+LP_BM_LINEAR_DODGE=Linear Dodge (Add)
+LP_BM_LIGHTER_COLOR=Culoare Luminoasă
+LP_BM_OVERLAY=Acoperire
+LP_BM_SOFT_LIGHT=Lumină Moalet
+LP_BM_HARD_LIGHT=Lumină Taret
+LP_BM_VIVID_LIGHT=Lumină Vie
+LP_BM_LINEAR_LIGHT=Lumină Linear
+LP_BM_PIN_LIGHT=Lumină Ac
+LP_BM_HARD_MIX=Amestec Tare
+LP_BM_DIFFERENCE=Diferență
+LP_BM_EXCLUSION=Excldere
+
+; Metadata dialog
+MD_TYPE=For %s fisiere
+MD_TITLE=Titlu
+MD_AUTHOR=Autor
+MD_COPYRIGHT=Drepturi de autor
+MD_COMMENTS=Comentarii
+MD_QUALITY=Salvare în calitate
+MD_LOOP_COUNT=Numărul de buclă (0 = infinit)
+
+; Preferences dialog
+PREF_MISC=Diverse
+PREF_ENVIRONMENT=Ambianţă
+PREF_INSTALL=Instalează
+PREF_IMAGE_MAX=Max. permis imaginea în dimensiune
+PREF_PNG_ICONS=Folosind PNG compresie la .ICO/.CUR fișiere
+PREF_PNG_LIMIT=Comprimarea imaginilor a căror dimensiune este de cel puţin
+PREF_AA_IMAGES=Antialias toate imaginile redimensionate
+PREF_COLORS=Culori
+PREF_TRANSPARENT_HATCH=Trapă transparent
+PREF_GRID2=Reţea secundară
+PREF_DVM=Vezi modul de Deschidere/Salvare dialog
+PREF_DVM_ITEMS=Pictograme<br>Listă<br>Detailii<br>Miniaturi<br>Titluri
+PREF_MWA=Rotiţa mouse-ului de acţiune
+PREF_MWA_ITEMS=Nu<br>Derulaţi<br>Zoom
+PREF_SAVE_TOOL_SETTINGS=Salvaţi setările de unelte între sesiuni
+PREF_FILE_ASSOC=Asocieri fişier
+PREF_ADMIN=Reţineţi că, în cazul în care utilizaţi Windows Vista sau mai nou, GreenPixel nu pot modifica aceste setări de sistem in afara cazului in modul administrator.
+; Print dialog
+PRINT_COPIES=Copii
+PRINT_ZOOM=Zoom (%)
+PRINT_CAPTION=Titlu
+PRINT_PAGES=Print
+PRINT_PAGES_BUTTONS=Toate paginile<br>Pagina curentă
+
+; Resource properties dialog
+RP_NAME=Nume
+RP_LANGUAGE=Limbă
+RP_LANG_CUSTOM=Limbaj personalizat ID
+RP_LANG_NEUTRAL=Limbaj Neutru
+
+; Save Options dialog
+SO_TITLE=Salvează opțiunile
+SO_QUALITY=Calitate
+SO_LOSSLESS=Fără pierderi
+
+; Startup screen
+ST_WELCOME=Bun venit!
+ST_CHOOSE_ACTION=Vă rugăm să alegeţi pentru a efectua o acţiune
+ST_NG=Crearea unei grafică nouă
+ST_NG_INFO=Creează o pictogramă nouă, cursor sau document de animaţie
+ST_NL=Creaţi o bibliotecă nouă
+ST_NL_INFO=Creează o bibliotecă de pictogramă necompletată (.ICL) sau resursă fişiere (.RES)
+ST_OPEN=Deschideţi un document existent
+ST_OPEN_INFO=Deschide un fişier de imagine, bibliotecă pictogramă, sau un fişier executabil de la un suport de stocare de resurse
+ST_CONVERT=Conversie lot de fişiere imagine
+ST_CONVERT_INFO=Conversia mai multor fişiere imagine la icoane sau la un alt format de imagine
+ST_NONE=Nu efectuaţi nicio acţiune
+ST_NONE_INFO=Închide acest ecran de pornire
+ST_RECENT_INFO=Deschide un fişier care a fost recent editat în ErrorSoft Green Pixel
+ST_SHOW=Arată întotdeauna acest ecran la pornire
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Mută cursorul peste imaginea de mai jos
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Insert text
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Antialias
+TB_PATTERN=Șablon
+TB_SAMPLE_ALL_LAYERS=Încercaţi toate straturile
+TB_BRUSH_SIZE=Dimensiune pensulă
+TB_BRUSH_SHAPE=Formă pensulă
+TB_BRUSH_ITEMS=Rotunjeşte<br>Ascuţit<br>Reduce<br>Bară Oblică<br>Orizontal<br>Vertical<br>Spray
+TB_LINE_WIDTH=Lăţime Linie
+TB_TOLERANCE=Baghetă/Recolor/Găleată toleranță (%)
+TB_CONTIGUOUS=Continu
+TB_SHAPE_FRAMED=Forme încadrate
+TB_SHAPE_FILLED=Forme umplute
+TB_EYEDROPPER_BACK=Pipetă comută înapoi la instrumentul precedent
+TB_RETOUCH_MODE=Retuș mod
+TB_RETOUCH_ITEMS=Blur<br>Claritate<br>Ocolire<br>Ars<br>Nuanță<br>Burete
+TB_ERASER_STRENGTH=Putere de ștergere (%)
+TB_G_LINEAR=Pantă liniară
+TB_G_RADIAL=Pantă radială
+TB_G_CONICAL=Pantă conică
+TB_G_SPIRAL=Pantă spirală
+TB_REP_NONE=Nerepetare
+TB_REP_SYM=Repetare simetrică
+TB_REP_ASYM=Repetare asimetrică
+TB_MODE_COLOR=Mod color 
+TB_MODE_TRANSPARENCY=Mod transparent
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=pixeli<br>%
+
+; Hints
+HINT_COMPACT=Compact view
+
+HINT_CP_FORE_COLOR=Prim plan color
+HINT_CP_BACK_COLOR=Fundal color
+HINT_CP_SWAP_COLORS=Schimbă culorile
+HINT_CP_DEFAULT=Restaurare implicită
+HINT_CP_TRANSPARENT=Transparent
+HINT_CP_INVERTED=Inversat
+HINT_CP_TOGGLE_CHOOSER=Comută hartă HSB şi specimenele
+HINT_CP_SWATCHES=Click stânga pentru a alege culori, faceţi clic dreapta pentru a suprascrie cu specimenul de culoare curent
+HINT_CP_SWATCH_LOAD=Încărcare specimen presetat
+HINT_CP_SWATCH_SAVE=Salvare presetare specimen
+HINT_CP_RED=Roșu component
+HINT_CP_GREEN=Verde component
+HINT_CP_BLUE=Albastru component
+HINT_CP_ALPHA=Color alpha (opacity)
+HINT_CP_HTML=HTML code
+HINT_CP_WCP=Windows Alegere culoare
+
+HINT_DOC_LB=Lista de pagini (icon formate/cadre)
+HINT_DOC_LB_PAGE=Page %d, mărime: %d x %d pixels
+HINT_DOC_LB_PNG=Va fi PNG-comprimat atunci când salvaţi document ca .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Zoom
+HINT_DOC_NODES=%d noduri
+HINT_DOC_TOGGLE_PAGES=Ascunde/arată lista de pagini
+
+HINT_RES_FOLDER=Vă rugăm să selectaţi un dosar pentru fişierele extrase
+
+HINT_STARTUP_HELP=Ajutor
+HINT_TEST_BGR_LOAD=Alege fudal
+HINT_TEST_BGR_DEFAULT=Fundal implicit
+
+HINT_TEXT_FACE=Faţă font
+HINT_TEXT_BOLD=Bold
+HINT_TEXT_ITALIC=Italic
+HINT_TEXT_UNDERLINE=Subliniat
+
+; eof

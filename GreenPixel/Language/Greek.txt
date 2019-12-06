@@ -1,0 +1,528 @@
+﻿; ErrorSoft Green Pixel
+; Language pack: Greek
+; Created by: Theodoros Stefanidhes, edit by: Sotiris Markou
+
+; General dictionary
+LABEL_WIDTH=Πλάτος
+LABEL_HEIGHT=Ύψος
+LABEL_SIZE=Μέγεθος
+LABEL_COLOR=Χρώμα
+LABEL_KIND=Είδος
+LABEL_ANTIALIAS=Εξομάλυνση
+LABEL_POSITION=Θέση
+LABEL_FILE_SIZE=Μέγεθος αρχείου
+UNTITLED=Χωρίς Τίτλο
+
+; Buttons
+B_OK=Εντάξει
+B_CANCEL=Ακύρωση
+B_YES=Ναι
+B_NO=Όχι
+B_RESET=Επαναφορά
+B_ADD=Πρόσθεση
+B_REMOVE=Αφαίρεση
+B_CLEAR=Καθαρισμός
+B_CLOSE=Κλείσιμο
+B_ALL=Όλα
+B_NONE=Κανένα
+B_PRINT=Εκτύπωση
+B_PRINTER_SETUP=Ρύθμιση Εκτυπωτή
+B_PREVIEW=Προεπισκόπηση
+B_COMPILE=Δημιουργία
+
+; Shown messages
+MSG_CONFIRMATION=Επιβεβαίωση
+MSG_NOT_EXIST="%s" δεν υπάρχει
+MSG_OVERWRITE=Θέλετε αντικατάσταση του "%s";
+MSG_UNKNOWN_FILE_TYPE=Η μορφή του αρχείου "%s" δεν θα μπορεί να καθοριστεί αυτόματα. Δεν μπορεί να φορτωθεί ή να αποθηκευτεί ή έχει λάθος επέκταση.
+MSG_INVALID_FILE_FORMAT=Το αρχείο "%s" δεν είναι συμβατό με τη μορφή "%s". Μπορεί να είναι αλλοιωμένο,  να έχει λάθος επέκταση, ή μπορεί να ορίστηκε λάθος φίλτρο στο Παράθυρο Διαλόγου.
+MSG_CROPPED=Η εικόνα είναι μεγαλύτερη από %dx%d και κόπηκε. Η αποθήκευση της εικόνας θα προκαλέσει  απώλεια δεδομένων. Χρήση Βοήθεια|Προτιμήσεις για αύξηση του ορίου μεγέθους εικόνας.
+MSG_SAVE_CHANGES=Θέλετε αποθήκευση των αλλαγών σε "%s";
+MSG_CONFIRM_REVERT=Όλες οι αλλαγές στο '% s' θα χαθούν και η λειτουργία δεν θα μπορεί να αναιρεθεί. Θέλετε συνέχεια;
+MSG_CONFIRM_REMOVE=Σίγουρα θέλετε να αφαιρέσετε τα επιλεγμένα στοιχεία;
+MSG_CONFIRM_DESTROY_EXE=Οι εικόνες / κέρσορες δεν μπορούν να αντικατασταθούν εύκολα σε αυτό το εκτελέσιμο αρχείο ή το εικονίδιο
+MSG_DATA_LOSS_INFO=Για αποφυγή απώλειας δεδομένων, αποθηκεύστε το έγγραφο, σε άλλη μορφή.
+MSG_DL_MULTIPAGE=Αυτή η μορφή αρχείου δεν υποστηρίζει πολλές εικόνες. Μόνο η πρώτη σελίδα μπορεί να αποθηκευτεί.
+MSG_DL_LAYERS=Η μορφή αρχείου δεν υποστηρίζει αποθήκευση πληροφοριών. Η εικόνα σώθηκε επίπεδα.
+MSG_DL_SIZE_256=Αυτή η μορφή αρχείου δεν υποστηρίζει αποθήκευση εικόνων πάνω από 256x256. Οι εικόνες θα κοπούν.
+MSG_DL_TRANSPARENCY=Αυτή η μορφή αρχείου δεν υποστηρίζει διαφάνεια.
+MSG_DL_COLOR_DEPTH=Κάποιες πληροφορίες χρώματος δεν μπορούν να σωθούν.
+MSG_DL_ICNS=Μερικές σελίδες δεν μπορούν να αποθηκευτούν λόγω των περιορισμών της μορφής ICNS. Δείτε την βοήθεια στους τύπους αρχείων για περισσότερες λεπτομέρειες.
+MSG_FT_NO_OPTIONS=Η επιλεγμένη μορφή αρχείου δεν μπορεί να προσαρμοστεί
+MSG_ADD_FILES=Προσθέστε κάποια αρχεία στη λίστα
+MSG_SELECT_PAGES=Επιλέξτε κάποιες σελίδες
+MSG_SELECT_ITEMS=Παρακαλώ επιλέξτε μερικά στοιχεία
+MSG_NO_LAYERS = Δεν υπάρχουν επίπεδα
+MSG_NO_LAYERS_SELECTED=Δεν έχουν επιλεγεί επίπεδα
+MSG_RES_EXIST=Ένας πόρος με το καθορισμένο όνομα και γλώσσα υπάρχει ήδη. Παρακαλώ επιλέξτε άλλο όνομα ή γλώσσα.
+MSG_ERROR_WRITE_RES=Εμφανίστηκε λάθος στην αποθήκευση αλλαγών των καθορισμένων πόρων.
+MSG_PAGE_SIZE_0=Λάθος: το πλάτος σελίδας δεν μπορεί να είναι 0 mm. Επιλέξτε άλλη μορφή φύλλου.
+MSG_ERROR_ASSOC = Οι συσχετισμοί αρχείων μπορεί να μην έχουν ρυθμιστεί. Τρέχοντας GreenPixel σε λειτουργία διαχειριστή μπορεί να επιλυθεί το ζήτημα.
+MSG_FAIL_SINGLE_OPEN = Δεν ήταν δυνατή η φόρτωση του επιλεγμένου αρχείου.
+MSG_FAIL_MULTIPLE_OPEN = Μερικά αρχεία δεν μπορούν να ανοίξουν
+
+; Open/Save dialog filters
+FF_ALL=Όλα τα αρχεία
+FF_GFIE=GreenPixel μητρική μορφή
+FF_ICO=Αρχεία Εικονιδίων
+FF_CUR=Αρχεία Δρομέα
+FF_ANI=Κινούμενοι Δρομείς
+FF_ICNS=Εικονιδίο Apple
+FF_PNG=Φορητά Γραφικά Δικτύου
+FF_XPM=X-Pixmaps
+FF_BMP=Windows bitmaps
+FF_JPEG=JPEG αρχεία
+FF_GIF=Μορφή Ανταλλαγής Γραφικών (GIF)
+FF_JPEG_2000=Αρχεία JPEG 2000
+FF_PCX=PCX αρχεία
+FF_EXEC=Όλα τα εκτελέσιμα αρχεία και εικονίδια βιβλιοθήκης
+FF_ICL=Εικονίδια Βιβλιοθήκης
+FF_RES=Win32 αρχεία πόρων
+
+; Tool names
+TOOL_SEL_RECT=Επιλογή Ορθογώνιου
+TOOL_SEL_ELLIPSE=Επιλογή Έλλειψης
+TOOL_LASSO=Λάσο
+TOOL_WAND=Μαγικό Ραβδί
+TOOL_SEL_PENCIL=Επιλογή Μολυβιού
+TOOL_TRANSFORM=Μετατροπή
+TOOL_CROP=Περικοπή
+TOOL_HOTSPOT=Ορισμός ενεργού σημείου
+TOOL_EYEDROPPER=Σταγονόμετρο
+TOOL_RETOUCH=Βελτίωση ατελειών
+TOOL_RECT=Ορθογώνιο
+TOOL_ELLIPSE=Έλλειψη
+TOOL_LINE=Γραμμή
+TOOL_TEXT=Κείμενο
+TOOL_PENCIL=Μολύβι
+TOOL_BRUSH=Πινέλο
+TOOL_ERASER=Γόμα
+TOOL_RECOLOR=Επαναχρωματισμός
+TOOL_BUCKET=Γέμισμα με χρώμα
+TOOL_GRADIENT=Λοξό γέμισμα
+TOOL_NONE=Κανένα
+
+; Menu shortcuts
+KEY_CTRL=Ctrl
+KEY_ALT=Alt
+KEY_SHIFT=Shift
+KEY_DEL=Del
+KEY_ENTER=Enter
+
+; Menu items
+MI_FILE=Αρχείο
+MI_FILE_NEW_GRAPHIC=Νέο αρχείο γραφικών
+MI_FILE_NEW_LIBRARY=Νέα βιβλιοθήκη
+MI_FILE_OPEN=Άνοιγμα
+MI_FILE_RECENT_FILES=Πρόσφατα αρχεία
+MI_FILE_RF_CLEAR=Καθαρισμός λίστας
+MI_FILE_BATCH_CONVERT=Μετατροπή δέσμης αρχείων
+MI_FILE_CLOSE=Κλείσιμο
+MI_FILE_CLOSE_ALL=Κλείσιμο όλων
+MI_FILE_SAVE=Αποθήκευση
+MI_FILE_SAVE_AS=Αποθήκευση ως
+MI_FILE_SAVE_ALL=Αποθήκευση όλων
+MI_FILE_REVERT=Επιστροφή
+MI_FILE_METADATA=Μετα-δεδομένα
+MI_FILE_PRINT=Εκτύπωση
+MI_FILE_EXIT=Έξοδος
+
+MI_EDIT=Επεξεργασία
+MI_EDIT_UNDO=Aναίρεση
+MI_EDIT_CANT_UNDO=Αδύνατη αναίρεση
+MI_EDIT_REDO=Ακύρωση αναίρεσης
+MI_EDIT_CANT_REDO=Αδύνατη ακύρωση αναίρεσης
+MI_EDIT_CUT=Αποκοπή
+MI_EDIT_COPY=Αντιγραφή
+MI_EDIT_PASTE=Επικόλληση
+MI_EDIT_PASTE_PAGE=Επικόλληση ως Νέα Σελίδα
+MI_EDIT_PASTE_DOC=Επικόλληση ως νέου εγγράφου
+MI_EDIT_DELETE=Διαγραφή
+MI_EDIT_SEL_ALL=Επιλογή Όλων
+MI_EDIT_SEL_NONE=Αποεπιλογή Όλων
+MI_EDIT_SEL_INVERT=Αναστροφή επιλογής
+MI_EDIT_SEL_LOAD=Φόρτωση επιλεγμένης μάσκας
+MI_EDIT_SEL_SAVE=Αποθήκευση επιλεγμένης μάσκας
+MI_EDIT_CROP_TRANSPARENCY=Περικοπή τμημάτων διαφάνειας
+MI_EDIT_TRANSFORM=Μετατροπή
+MI_EDIT_SEL_TRANSFORM=Μετατροπή επιλεγμένων
+MI_EDIT_FLIP_HORIZ=Στροφή οριζόντια
+MI_EDIT_FLIP_VERT=Στροφή κάθετα
+MI_EDIT_ROTATE_LEFT=Περιστροφή 90 μοίρες αριστερά
+MI_EDIT_ROTATE_RIGHT=Περιστροφή 90 μοίρες δεξιά
+MI_EDIT_ROTATE_180=Περιστροφή 180 μοίρες
+
+MI_VIEW=Επισκόπηση
+MI_VIEW_ZOOM_IN=Μεγέθυνση
+MI_VIEW_ZOOM_OUT=Σμίκρυνση
+MI_VIEW_100_PERCENT=100%
+MI_VIEW_FIT_WINDOW=Τακτοποίηση παράθυρου
+MI_VIEW_GRID=Πλέγμα
+MI_VIEW_CELL_GRID=Πλέγμα κελιών
+MI_VIEW_CENTER_LINES=Κεντρικές γραμμές
+MI_VIEW_PAGES=Λίστα σελίδων
+MI_VIEW_TOOLBAR=Γραμμή Εργαλείων
+MI_VIEW_COLOR_PICKER=Συλλογή Χρώματος
+MI_VIEW_TOOL_BEHAVIOR=Εργαλείο Προσαρμογής
+MI_VIEW_LAYERS=Επίπεδα
+MI_VIEW_PANEL_LEFT=Αριστερός Πίνακας
+MI_VIEW_PANEL_RIGHT=Δεξιός Πίνακας
+MI_VIEW_STARTUP_SCREEN=Οθόνη Έναρξης
+
+MI_FLT=Φίλτρα
+MI_FLT_GRAYSCALE=Κλίμακα του γκρι
+MI_FLT_INVERT=Αναστροφή
+MI_FLT_SOLARIZE=Ηλιακές ακτίνες
+MI_FLT_RGB=RGB Κανάλια
+MI_FLT_HS=Απόχρωση/Κορεσμός
+MI_FLT_EXPOSURE=Πόζα
+MI_FLT_FORMULAE=RGB Τύποι
+MI_FLT_AVERAGE=Μέσος όρος χρωμάτων
+MI_FLT_BLUR_SOFT=Απαλό Θόλωμα
+MI_FLT_BLUR_MORE=Περισσότερο Θόλωμα
+MI_FLT_BLUR_CUSTOM=Προσαρμοσμένο Θόλωμα
+MI_FLT_SHARPEN=Όξυνση
+MI_FLT_UNSHARP_MASK=Μάσκα απόξυνσης
+MI_FLT_REMOVE_MATTE=Αφαίρεση ματ
+MI_FLT_OPACITY=Αδιαφάνεια
+MI_FLT_PAINT_CONTOUR=Χρώμα περιγράμματος
+MI_FLT_DROP_SHADOW=Εμφάνιση σκιάς
+MI_FLT_GLOW=Λάμψη
+MI_FLT_BEVEL=Λοξότμηση
+
+MI_LAYERS=Επίπεδα
+MI_LAYERS_NEW=Νέο επίπεδο
+MI_LAYERS_DUPLICATE=Διπλότυπο επιπέδου
+MI_LAYERS_DELETE=Διαγραφή επιπέδου
+MI_LAYERS_PROP=Ιδιότητες επιπέδου
+MI_LAYERS_MERGE_SELECTED=Ένωση επιλεγμένων
+MI_LAYERS_MERGE_VISIBLE=Ένωση εμφανιζόμενων
+MI_LAYERS_FLATTEN=Επίπεδη εικόνα
+MI_LAYERS_FROM_SEL=Δημιουργία επιπέδου από επιλεγμένα
+
+MI_ICON=Εικονίδιο
+MI_ICON_PAGE_NEW=Νέα σελίδα
+MI_ICON_PAGE_DELETE=Διαγραφή σελίδας
+MI_ICON_PAGE_PROP=Ιδιότητες σελίδας
+MI_ICON_PAGE_IMPORT=Εισαγωγή σελίδας
+MI_ICON_PAGE_EXPORT=Εξαγωγή σελίδας
+MI_ICON_PAGE_EXPORT_ALL=Εξαγωγή όλων των σελίδων
+MI_ICON_UNIFORM_RATE=Εφαρμογή διάρκειας πλαισίου σε όλα
+MI_ICON_CREATE_WIN=Δημιουργία εικονιδίου Windows από εικόνα
+MI_ICON_CREATE_MAC=Δημιουργία εικονιδίου Mac από εικόνα
+MI_ICON_TEST=Δοκιμή
+
+MI_LIB=Βιβλιοθήκη
+MI_LIB_ADD=Πρόσθεση πόρων
+MI_LIB_REMOVE=Αφαίρεση πόρων
+MI_LIB_REPLACE=Αντικατάσταση πόρων
+MI_LIB_PROP=Ιδιότητες Πόρου
+MI_LIB_EXTRACT_EDIT=Εξαγωγή και επεξεργασία
+MI_LIB_EXTRACT_SAVE=Εξαγωγή και αποθήκευση
+
+MI_SET=Ρυθμίσεις
+MI_SET_PREFERENCES=Προτιμήσεις
+MI_SET_LANGUAGE=Γλώσσα
+
+MI_HELP=Βοήθεια
+MI_HELP_CONTENTS=Περιεχόμενα
+MI_HELP_HOMEPAGE=Αρχική Σελίδα
+MI_HELP_SUPPORT=Βοήθεια με σύνδεση
+MI_HELP_DONATE=Δωρεά
+MI_HELP_ABOUT=Σχετικά
+
+; Pixel Format to String
+PF_1_BIT=1-bit
+PF_16_COLORS=16 χρώματα
+PF_256_COLORS=256 χρώματα
+PF_24_BIT=24-bit
+PF_32_BIT=32-bit
+
+; Undo captions
+UNDO_CREATE_FLOATING=Δημιουργία κυμαινόμενης επιλογής
+UNDO_MERGE_LAYERS=Ένωση επιπέδων
+UNDO_MOVE_LAYERS=Μετακίνηση επιπέδων
+UNDO_MOVE_PAGE=Μετακίνηση σελίδας
+UNDO_FLIP_ROTATE=Στροφή/Περιστροφή
+
+; Layers glossary
+LY_LAYER=Επίπεδο
+LY_BACKGROUND=Φόντο
+LY_FLOATING_SEL=Κυμαινόμενη επιλογή
+
+; Page properties dialog
+PG_CAPTION_NEW_PAGE=Νέα σελίδα
+PG_CAPTION_PAGE_PROP=Ιδιότητες σελίδας
+PG_SIZE_ITEMS=16 x 16 (μικρότερο)<br>20 x 20 (εικονίδιο XP windows)<br>24 x 24 (Γραμμή Εργαλείων)<br>32 x 32 (μικρό)<br>48 x 48 (μεσαίο)<br>64 x 64 (μεγάλο)<br>256 x 256 (τεράστιο, Vista)<br>Προσαρμογή
+PG_SIZE_SMALLEST=μικρότερο
+PG_SIZE_TOOLBAR=γραμμμή εργαλείων
+PG_SIZE_SMALL=μικρό
+PG_SIZE_MEDIUM=μεσαίο
+PG_SIZE_LARGE=μεγάλο
+PG_SIZE_HUGE_VISTA=τεράστιο, Vista
+PG_SIZE_APPLE=Apple
+PG_CUSTOM_SIZE=Προσαρμοσμένο μέγεθος
+PG_SQUARE=Τετράγωνο
+
+PG_CR=Μείωση Χρώματος
+PG_CR_ITEMS=Μαύρο και Άσπρο<br>16 χρώματα (παλέτα συστήματος)<br>256 χρώματα (προσαρμοσμένο)<br>24-bit RGB<br>Χωρίς μείωση (32-bit)
+PG_CR_BW=Μαύρο και Άσπρο
+PG_CR_16_WIN=16 χρώματα (Windows παλέτα)
+PG_CR_16_MAC=16 χρώματα (Mac παλέτα)
+PG_CR_256_ADAPT=256 χρώματα (προσαρμοσμένο)
+PG_CR_256_MAC=256 χρώματα (Mac παλέτα)
+PG_CR_24=24-bit RGB
+PG_CR_32=Χωρίς μείωση (32-bit)
+PG_ANIMATION=Στην αποθήκευση ως κινούμενα σχέδια
+PG_FRAME_RATE=Διάρκεια πλαισίου (μιλιδευτερόλεπτα)
+
+PG_CREATE_FROM_SELECTED=Δημιουργία από επιλεγμένη σελίδα
+PG_WHEN_RESIZING=Στην αλλαγή μεγέθους
+PG_STRETCH=Ανάπτυξη
+PG_CROP=Περικοπή
+PG_IMAGE_ANCHORS=Άγκυρες εικόνας
+
+; Color Picker
+TAB_HSB_MAP=HSB Χάρτης
+TAB_SWATCHES=Δείγματα
+
+; Filter dialogs
+LABEL_RED=Κόκκινο
+LABEL_GREEN=Πράσινο
+LABEL_BLUE=Μπλε
+LABEL_R=R
+LABEL_G=G
+LABEL_B=B
+LABEL_A=A
+LABEL_HUE_SHIFT=Αλλαγή απόχρωσης
+LABEL_SATURATION=Κορεσμός
+LABEL_GAMMA=Γάμα
+LABEL_BRIGHTNESS=Φωτισμός
+LABEL_TORIC=Λειτουργία δακτύλιου
+LABEL_GAUSSIAN_BLUR=Γκαουσιανό θόλωμα
+LABEL_BOX_BLUR=Θόλωμα Πλαισίου
+LABEL_MATTE_COLOR=Χρώμα ματ
+LABEL_WHITE_MATTE=Λευκό ματ
+LABEL_BLACK_MATTE=Μαύρο ματ
+LABEL_INNER_GLOW=Εσωτερική Λάμψη
+LABEL_OUTER_GLOW=Εξωτερική Λάμψη
+
+LABEL_AMOUNT=Ποσότητα
+LABEL_ANGLE_DEGREES=Γωνία (μοίρες)
+LABEL_BLUR=Θόλωμα
+LABEL_DISTANCE=Απόσταση
+LABEL_INTENSITY=Ένταση
+LABEL_OPACITY=Αδιαφάνεια
+LABEL_RADIUS=Ακτίνα
+LABEL_THRESHOLD=Μικρ. Όριο
+
+; Batch conversion dialog
+BC_FILES=Αρχεία
+BC_SETTINGS=Ρυθμίσεις
+BC_FORMAT=Μετατροπή σε
+BC_FOLDER=Φάκ. προορισμού
+BC_OPEN=Άνοιγμα μετατρεπόμενων αρχείων στο ErrorSoft Green Pixel
+BC_ICON_FORMATS=Μορφές εικονιδίων για δημιουργία
+
+; Cell grid dialog
+CG_ENABLED=Ενεργοποίηση
+CG_SIZE=Μέγεθος κελιού
+CG_SPACING=Διάκενο κελιού
+CG_OFFSET=Αντιστάθμιση
+
+; Create icon from image dialog
+CI_SELECT_FORMATS=Επιλέξτε μορφές για δημιουργία
+
+; ICL format dialog
+IF_TITLE = Επιλέξτε ICL μορφή
+
+; Language dialog
+LABEL_LANG_PACK=Πακέτο γλώσσας
+
+; Layer properties dialog
+LP_NAME=Όνομα
+LP_VISIBLE=Εμφανές
+LP_BLEND_MODE=Τρόπος μίξης
+LP_BLEND_MODE_ITEMS=Κανονικό<br>Μάσκα<br>Πίσω<br>Ξεθώριασμα<br>Μαύρισμα<br>Αύξηση<br>Χρώμα Εγγραφής<br>Γραμμή Εγγραφής<br>Σκοτεινότερο Χρώμα<br>Φωτεινό<br>Οθόνη<br>Κάλυψη Χρώματος<br>Κάλυψη Γραμμών (Πρόσθεση)<br>Φωτεινό Χρώμα<br>Επικάλυψη<br>Απαλός Φωτισμός<br>Σκληρός Φωτισμός<br>Έντονος Φωτισμός<br>Φωτισμός Γραμμών<br>Φωτισμός Καρφίτσα<br>Σκληρή Μίξη<br>Διαφορά<br>Αποκλεισμός
+LP_BM_NORMAL=Κανονικό
+LP_BM_MASK=Μάσκα
+LP_BM_BEHIND=Πίσω
+LP_BM_DISSOLVE=Ξεθώριασμα
+LP_BM_HUE=Απόχρωση
+LP_BM_HUE_SHIFT=Μετατόπιση απόχρωσης
+LP_BM_SAT=Κορεσμός
+LP_BM_DARKEN=Σκούρο
+LP_BM_MULTIPLY=Πολλαπλασιασμός
+LP_BM_COLOR_BURN=Κάψιμο χρώματος
+LP_BM_LINEAR_BURN=Γραμμικό κάψιμο
+LP_BM_DARKER_COLOR=Σκοτεινότερο
+LP_BM_LIGHTEN=Φωτεινό
+LP_BM_SCREEN=Οθιόνη
+LP_BM_COLOR_DODGE=Γραμμικό χρώμα
+LP_BM_LINEAR_DODGE=Γραμμμικός φωτισμός(προσθήκη)
+LP_BM_LIGHTER_COLOR=Φωτεινό χρώμα
+LP_BM_OVERLAY=Επικάλυψη
+LP_BM_SOFT_LIGHT=Απαλό φως
+LP_BM_HARD_LIGHT=Σκληρό φως
+LP_BM_VIVID_LIGHT=Έντονο φως
+LP_BM_LINEAR_LIGHT=Γραμμικός φωτισμός
+LP_BM_PIN_LIGHT=Φωτισμός καρφίτσα
+LP_BM_HARD_MIX=Σκληρή μίξη
+LP_BM_DIFFERENCE=Διαφορά
+LP_BM_EXCLUSION=Αποκλεισμός
+
+; Metadata dialog
+MD_TYPE=Για %s αρχεία
+MD_TITLE=Τίτλος
+MD_AUTHOR=Δημιουργός
+MD_COPYRIGHT=Δικαιώματα
+MD_COMMENTS=Σχόλια
+MD_QUALITY=Αποθήκευση σε ποιότητα
+MD_LOOP_COUNT=Βρόχος αρίθμησης (0 = άπειρο)
+
+; Preferences dialog
+PREF_MISC=Διάφορα
+PREF_ENVIRONMENT=Περιβάλλον
+PREF_INSTALL=Εγκατάσταση
+PREF_IMAGE_MAX=Μέγ. επιτρεπόμενο μέγεθος εικόνας
+PREF_PNG_ICONS=Χρήση PNG συμπίεσης σε .ICO/.CUR αρχεία
+PREF_PNG_LIMIT=Συμπίεση εικόνων με ελάχιστο μέγεθος
+PREF_AA_IMAGES=Εξομάλυνση όλων  των εικόνων
+PREF_COLORS=Χρώματα
+PREF_TRANSPARENT_HATCH=Διαφάνεια σχεδίου
+PREF_GRID2=Δευτερεύων πλέγμα
+PREF_DVM=Επισκόπηση Άνοιγμα/Αποθήκευση
+PREF_DVM_ITEMS=Εικονίδια<br>Λίστα<br>Λεπτομέρειες<br>Μικρογραφίες<br>Τετραγωνίδια
+PREF_MWA=Ενέργεια τροχού ποντικιού
+PREF_MWA_ITEMS=Καμία<br>Κύλιση<br>Μεγέθυνση
+PREF_SAVE_TOOL_SETTINGS=Αποθήκευση ρυθμίσεων μεταξύ περιόδων
+PREF_FILE_ASSOC=Συσχετίσεις αρχείων
+PREF_ADMIN=Χρειάζεται επανεκκίνηση του GreenPixel και Εκτέλεση ως Διαχειριστής για τροποποίηση των ρυθμίσεων.
+
+; Print dialog
+PRINT_COPIES=Αντίγραφα
+PRINT_ZOOM=Μεγέθυνση %
+PRINT_CAPTION=Τίτλος
+PRINT_PAGES=Εκτύπωση
+PRINT_PAGES_BUTTONS=Όλες οι σελίδες<br>Τρέχουσα σελίδα
+
+; Resource properties dialog
+RP_NAME=Όνομα
+RP_LANGUAGE=Γλώσσα
+RP_LANG_CUSTOM=Προσαρμοσμένη γλωσσική ταυτότητα
+RP_LANG_NEUTRAL=Ουδέτερη γλώσσα
+
+; Save options dialog
+SO_TITLE=Επιλογές αποθήκευσης
+SO_QUALITY=Ποιότητα
+SO_LOSSLESS=Χωρίς απώλεια
+
+; Startup screen
+ST_WELCOME=Καλωσήλθατε!
+ST_CHOOSE_ACTION=Παρακαλώ επιλέξτε μια ενέργεια για εκτέλεση
+ST_NG=Δημιουγία νέων γραφικών
+ST_NG_INFO=Δημιουργεί ένα νέο εικονίδιο, δρομέα ή κινούμενο έγγραφο
+ST_NL=Δημιουγία μιας νέας βιβλιοθήκης
+ST_NL_INFO=Δημιουργεί ένα κενό εικονίδιο βιβλιοθήκης (.ICL) ή αρχείο πόρου (.RES)
+ST_OPEN=Άνοιγμα υπάρχοντος εγγράφου
+ST_OPEN_INFO=Ανοίγει ένα εικονίδιο, δρομέα η άλλο αρχείο εικόνας από μέσα αποθήκευσης
+ST_CONVERT=Μετατροπή δέσμης αρχείων εικόνας
+ST_CONVERT_INFO=Μετατρέπει πολλαπλά αρχεία εικόνας σε εικονίδια η σε άλλες μορφές εικόνας
+ST_NONE=Να μην εκτελεστεί οποιαδήποτε ενέργεια
+ST_NONE_INFO=Κλείσιμο αυτού του παραθύρου έναρξης
+ST_RECENT_INFO=Ανοίγει ένα πρόσφατα επεξεργασμένο αρχείο από το ErrorSoft Green Pixel
+ST_SHOW=Πάντα εμφάνιση αυτού του παράθυρου στην έναρξη
+
+; Test dialog
+LABEL_MOVE_OVER_IMAGE=Μετακινήστε τον δρομέα στην παρακάτω εικόνα
+
+; Insert Text dialog
+CAPTION_INSERT_TEXT=Εισαγωγή κειμένου
+
+; Tool Behavior dialog
+TB_ANTIALIAS=Εξομάλυνση
+TB_PATTERN=Μοτίβο
+TB_SAMPLE_ALL_LAYERS=Δειγματισμός όλων των επιπέδων
+TB_BRUSH_SIZE=Μέγεθος πινέλου
+TB_BRUSH_SHAPE=Σχήμα πινέλου
+TB_BRUSH_ITEMS=Κυκλικό<br>Όξυνση<br>Κάθετος<br>ΑνάποδηΚάθετος<br>Οριζόντια<br>Κάθετα<br>Ψεκασμός
+TB_LINE_WIDTH=Πλάτος γραμμής
+TB_TOLERANCE=Ραβδί/Επαναχρωματισμός/Περιθώριο γεμίσματος (%)
+TB_CONTIGUOUS=Συνεχόμενα
+TB_SHAPE_FRAMED=Αντικείμενα πλαισίου
+TB_SHAPE_FILLED=Αντικείμενα συμπλήρωσης
+TB_EYEDROPPER_BACK=Το σταγονόμετρο θα επιστρέψει στο προηγούμενο εργαλείο
+TB_RETOUCH_MODE=Μέθοδος βελτίωσης
+TB_RETOUCH_ITEMS=Θόλωμα<br>Όξυνση<br>Κάλυψη<br>Κάψιμο<br>Απόχρωση<br>Σπόγγος
+TB_ERASER_STRENGTH=Ικανότητα γόμας (%)
+TB_G_LINEAR=Γραμμική κλίση
+TB_G_RADIAL=Ακτινοειδής κλίση
+TB_G_CONICAL=Κωνική κλίση
+TB_G_SPIRAL=Ελικοειδής κλίση
+TB_REP_NONE=Χωρίς επανάληψη
+TB_REP_SYM=Συμμετρική επανάληψη
+TB_REP_ASYM=Ασύμμετρη επανάληψη
+TB_MODE_COLOR=Μέθοδος χρώματος
+TB_MODE_TRANSPARENCY=Μέθοδος διαφάνειας
+
+; Transform Selection dialog
+XF_UNITS_ITEMS=πίξελ<br>%
+
+; Hints
+HINT_COMPACT=Συμπαγής επισκόπηση
+
+HINT_CP_FORE_COLOR=Χρώμα προσκήνιου
+HINT_CP_BACK_COLOR=Χρώμα φόντου
+HINT_CP_SWAP_COLORS=Ανταλλαγή χρωμάτων
+HINT_CP_DEFAULT=Επαναφορά προεπιλογών
+HINT_CP_TRANSPARENT=Διαφάνεια
+HINT_CP_INVERTED=Αντεστραμμένο
+HINT_CP_TOGGLE_CHOOSER = Εναλλαγή χάρτη HSB και δείγματα
+HINT_CP_SWATCHES=Αριστερό κλικ για επιλογή χρώματος, δεξί κλικ για αντικατάσταση του δείγματος με το τρέχων χρώμα
+HINT_CP_SWATCH_LOAD=Φόρτωση προκαθορισμένου δείγματος
+HINT_CP_SWATCH_SAVE=Αποθήκευση προκαθορισμένου δείγματος
+HINT_CP_RED=Κόκκινο συστατικό
+HINT_CP_GREEN=Πράσινο συστατικό
+HINT_CP_BLUE=Μπλε συστατικό
+HINT_CP_ALPHA=χρώμα άλφα (αδιαφάνεια)
+HINT_CP_HTML=HTML κώδικας
+HINT_CP_WCP=Συλλέκτης Χρώματος των Windows
+
+HINT_DOC_LB=Λίστα σελίδων (μορφές/πλαίσια εικονίδιου)
+HINT_DOC_LB_PAGE=Σελίδα %d, μέγεθος: %d x %d πίξελ
+HINT_DOC_LB_PNG=θα είναι PNG συμπιεσμένο όταν το έγγραφο αποθηκευτεί ως .ICO/.CUR
+HINT_DOC_ZOOM_MENU=Μεγέθυνση
+HINT_DOC_NODES=%d κόμβοι
+HINT_DOC_TOGGLE_PAGES=Απόκρυψη/εμφάνιση λίστας σελίδων
+
+HINT_RES_FOLDER=Παρακαλώ επιλέξτε ένα φάκελο για τα εξαγόμενα αρχεία
+
+HINT_STARTUP_HELP=Βοήθεια
+HINT_TEST_BGR_LOAD=Φόρτωση φόντου
+HINT_TEST_BGR_DEFAULT=Προεπιλεγμένο φόντο
+
+HINT_TEXT_FACE=Γραμματοσειρά
+HINT_TEXT_BOLD=Έντονη γραφή
+HINT_TEXT_ITALIC=Πλάγια γραφή
+HINT_TEXT_UNDERLINE=Υπογράμμιση
+
+HINT_TB_FRAMED=Αντικείμενα πλαισίου
+HINT_TB_FILLED=Αντικείμενα συμπλήρωσης
+HINT_TB_LINE_WIDTH=Πλάτος γραμμής
+HINT_TB_EYEDROPPER_BACK=Το σταγονόμετρο θα επιστρέψει στο προηγούμενο εργαλείο
+HINT_TB_BRUSH_SIZE=Μέγεθος πινέλου
+HINT_TB_BRUSH_SHAPE=Σχήμα πινέλου
+HINT_TB_TOLERANCE=Ραβδί/Επαναχρωματισμός/Περιθώριο γεμίσματος (%)
+HINT_TB_RETOUCH_MODE=Μέθοδος βελτίωσης
+HINT_TB_ERASER_STRENGTH=Ικανότητα γόμας (%)
+HINT_TB_G_LINEAR=Γραμμική κλίση
+HINT_TB_G_RADIAL=Ακτινοειδής κλίση
+HINT_TB_G_CONICAL=Κωνική κλίση
+HINT_TB_G_SPIRAL=Ελικοειδής κλίση
+HINT_TB_REP_NONE=Χωρίς επανάληψη
+HINT_TB_REP_SYM=Συμμετρική επανάληψη
+HINT_TB_REP_ASYM=Ασύμμετρη επανάληψη
+HINT_TB_MODE_COLOR=Μέθοδος χρώματος
+HINT_TB_MODE_TRANSPARENCY=Μέθοδος διαφάνειας
+
+; eof
