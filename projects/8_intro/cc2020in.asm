@@ -242,7 +242,7 @@ text_font equ 15616 - 256
 text_font_width equ 7
 text_string:
     byte "    3..   2..   1..   0.....................? ... .. . "
-    byte "Hello scener! You are invited to Chaos Constructions 2020 demoparty! At 22-23 August, Saint-Peterburg, Russia. "
+    byte "Hello scener! You are invited to Chaos Constructions 2020 demoparty! At 22-23 August, Saint-Petersburg, Russia. "
     byte "This is the largest Russian demoparty. At the party there will be a large screen, a lot of demosceners, "
     byte "a retro exhibition, beeeeeer, and cool demos! "
     byte "Come to us and do not forget to bring the prod with you!   "
